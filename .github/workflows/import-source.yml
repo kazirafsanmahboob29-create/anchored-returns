@@ -1,0 +1,58 @@
+name: Import research source
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and restore source files
+        run: |
+          python3 - <<'PY'
+          from hashlib import sha256
+          from pathlib import Path
+          import tarfile
+
+          archive = Path('anchored-returns-source.tar.xz')
+          expected = '5c08a2129f6ec5cc9f594f50c32fd10d4b99bb6022cc7afe99143a3f3a7f7d7e'
+          assert sha256(archive.read_bytes()).hexdigest() == expected, 'Source archive fingerprint changed'
+          root = Path.cwd().resolve()
+          restored = 0
+          with tarfile.open(archive) as source:
+              for member in source.getmembers():
+                  target = (root / member.name).resolve()
+                  assert target.is_relative_to(root), 'Archive path escapes the repository'
+                  assert member.isfile() and '.git' not in Path(member.name).parts
+                  if member.name.startswith('.github/workflows/'):
+                      continue
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(source.extractfile(member).read())
+                  target.chmod(member.mode & 0o777)
+                  restored += 1
+          Path('.gitattributes').write_text('web/vendor/** linguist-vendored\nweb/research-release/** linguist-generated\npresentation/index.html linguist-generated\nwordpress/app.js linguist-generated\nwordpress/workbench.html linguist-generated\nreports/** linguist-generated\n')
+          archive.unlink()
+          print(f'Restored {restored} verified source files.')
+          PY
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install research dependencies
+        run: python -m pip install -e '.[test]'
+      - name: Check calculations and application behavior
+        run: python -m scripts.check_calculations
+      - name: Commit the checked source tree
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- . ':!.github/workflows'
+          git commit -m 'Add checked research source and replication tools'
+          git push origin HEAD:main
