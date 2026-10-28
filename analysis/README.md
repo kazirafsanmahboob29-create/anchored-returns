@@ -1,6 +1,20 @@
 # Reproducing the empirical figures
 
-I use one validated data export for R, Stata and Python. The export joins the preserved historical fact ledger with newer entries, without creating additional passage codes. It includes 20 decisions with numeric evidence, seven company request-award pairs and three completed first-pass sections. These entered decisions belong to the expanded 23-order document cohort. The original 15-order proposal remains a separate pilot specification.
+## National panel and factor models
+
+The main study uses 533 complete observations from 2010 to 2024. Python constructs the panel and estimates the models. Base R independently recomputes 27 coefficient and clustered-standard-error pairs and produces the two main figures. Prepared Stata syntax provides the same factor specifications; native Stata execution remains unverified.
+
+```sh
+python -m src.research factors
+Rscript analysis/factors.R reports/factor-study
+python -c "from src.factor_study import package; package()"
+```
+
+Read the [factor methods](../docs/factor_study.md), [results and exports](../reports/README.md) and [reproduction guide](../docs/REPRODUCIBILITY.md) first. These numerical commands use the included inputs and do not need the original commission PDFs.
+
+## Original-order figures
+
+The separate document export joins the preserved fact ledger with newer entries without creating passage codes. The October 26 release has 22 decisions with numeric evidence, seven company request-award pairs and three completed first-pass sections within the 27-order document cohort. The [release manifest](../reports/analysis/20261026T190144611579Z/manifest.json) records the exact denominators. The original 15-order proposal remains a separate pilot specification.
 
 ## Generate the current release
 
@@ -50,11 +64,11 @@ The figures use the original dated request and operative award fields. They do n
 ./research verify-treasury
 ```
 
-The Treasury comparison downloads the official [XML feed](https://home.treasury.gov/treasury-daily-interest-rate-xml-feed) for the years needed by the matched decisions. Raw XML, parsed values and retrieval dates are preserved separately from FRED. The current comparison checks 1,440 overlapping dates and all nine decision-date observations, with no disagreements. It is a comparison of dissemination paths for nominal ten-year Treasury yields, not an independent measurement of coding reliability. After refreshing FRED, rerun `verify-treasury` before generating a new analysis release.
+The Treasury comparison downloads the official [XML feed](https://home.treasury.gov/treasury-daily-interest-rate-xml-feed) for the years needed by the matched decisions. Raw XML, parsed values and retrieval dates are preserved separately from FRED. The October 3 comparison checked 1,440 overlapping dates and nine decision-date observations with no disagreements. It compares dissemination paths for nominal ten-year Treasury yields; it does not measure coding reliability. After refreshing FRED, rerun `verify-treasury` before generating a new analysis release.
 
 The source audit permits reviewed commission, publisher, university, issuer and government endpoints, checks every saved fingerprint and runs the existing evidence validators. It excludes the synthetic software demonstrations from empirical tables. This establishes traceability and calculation integrity; interpretation, final eligibility and independent coding agreement remain separate research questions.
 
-The feeds currently end on different dates: FRED reports 5.24% for October 1, while Treasury reports 5.28% for October 2. The later Treasury value is preserved as separate source evidence; it is not inserted into DGS10. Only same-date overlap contributes to the 1,440-date comparison.
+That October 3 retrieval ended on different observation dates for the two feeds. The saved values remain separate. Only same-date overlap contributes to the 1,440-date comparison; these are archived observations, not a live quote.
 
 ## Reading the figures
 
