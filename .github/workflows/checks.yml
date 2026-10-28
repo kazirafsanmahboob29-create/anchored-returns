@@ -17,4 +17,5 @@ jobs:
         with:
           node-version: '24'
       - run: python -m pip install -e '.[test]'
+      - run: python -m scripts.check_links
       - run: python -m scripts.check_calculations
