@@ -1,0 +1,12 @@
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import worker from '../dist/server/index.js';
+const port=Number(process.env.PORT||8765);
+const base=path.resolve('dist/client'),storage=path.resolve('.runtime/objects');
+const bucket={async get(key){try{const bytes=await fs.readFile(path.join(storage,key));return {body:bytes,json:async()=>JSON.parse(bytes.toString())};}catch(error){if(error.code==='ENOENT')return null;throw error;}},async put(key,value){const name=path.join(storage,key);await fs.mkdir(path.dirname(name),{recursive:true});await fs.writeFile(name,value);},async list({prefix}){const objects=[];async function visit(dir){for(const item of await fs.readdir(dir,{withFileTypes:true}).catch(()=>[])){const name=path.join(dir,item.name);if(item.isDirectory())await visit(name);else{const key=path.relative(storage,name);if(key.startsWith(prefix))objects.push({key});}}}await visit(storage);return {objects,truncated:false};}};
+const mime={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.pdf':'application/pdf','.csv':'text/csv','.zip':'application/zip','.png':'image/png','.svg':'image/svg+xml','.wasm':'application/wasm','.bcmap':'application/octet-stream','.pfb':'application/octet-stream','.ttf':'font/ttf','.do':'text/plain','.R':'text/plain'};
+const assets={async fetch(request){const url=new URL(request.url);const target=path.resolve(base,'.'+decodeURIComponent(url.pathname));if(!target.startsWith(base+path.sep))return new Response('Not found',{status:404});try{const bytes=await fs.readFile(target);return new Response(bytes,{headers:{'Content-Type':mime[path.extname(target)]||'application/octet-stream'}});}catch{return new Response('Not found',{status:404});}}};
+const server=http.createServer(async(req,res)=>{try{const bytes=[];for await(const part of req)bytes.push(part);const request=new Request('http://127.0.0.1:'+port+req.url,{method:req.method,headers:req.headers,...(['GET','HEAD'].includes(req.method)?{}:{body:Buffer.concat(bytes)})});const response=await worker.fetch(request,{ASSETS:assets,BUCKET:bucket},{});res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));}catch{res.writeHead(500);res.end('Preview unavailable');}});
+server.listen(port,'127.0.0.1',()=>console.log('Anchored Returns hosted preview: http://127.0.0.1:'+port+'/presentation/index.html'));
+process.on('SIGINT',()=>server.close(()=>process.exit(0)));

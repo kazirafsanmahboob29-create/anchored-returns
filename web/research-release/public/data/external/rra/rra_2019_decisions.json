@@ -1,0 +1,1937 @@
+{
+  "schema_version": "1.0",
+  "source_id": "RRA-2019-ANNUAL-PUBLIC-DOCKET",
+  "pdf_sha256": "f32988713a2b272c2973077ddd6fdb02f844c70c137983fda0eb5ed2994553d9",
+  "checked_date": "2026-10-04",
+  "scope": "Complete electric and gas decision rows in original Table 5, viewer pages 40 and 41. Missing ROEs retained; LIR footnotes mark excluded riders.",
+  "precision": "Input ROEs are publisher-reported percentages. The arithmetic mean is rounded half up to two decimal places for comparison with the published benchmark series.",
+  "rows": [
+    {
+      "row_id": "RRA2019-p40-c238",
+      "service": "Electric",
+      "decision_date": "2019-01-02",
+      "company": "Appalachian Power Co.",
+      "state": "VA",
+      "roe_percent": "10.40",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 238,
+        "end_char": 311,
+        "exact_text": "01/02/19\nAppalachian Power Co.\nVA\n7.76\n10.40\n—\n2/20 Average\n7.2 B, LIR,1\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c311",
+      "service": "Electric",
+      "decision_date": "2019-01-02",
+      "company": "Monongahela Power Co.",
+      "state": "WV",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 311,
+        "end_char": 374,
+        "exact_text": "01/02/19\nMonongahela Power Co.\nWV\n—\n—\n—\n6/18 —\n-100.9 B, LIR,2\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c374",
+      "service": "Electric",
+      "decision_date": "2019-01-09",
+      "company": "Consumers Energy Co.",
+      "state": "MI",
+      "roe_percent": "10.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 374,
+        "end_char": 439,
+        "exact_text": "01/09/19\nConsumers Energy Co.\nMI\n—\n10.00\n—\n12/19 Average\n-24.0 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c439",
+      "service": "Electric",
+      "decision_date": "2019-02-21",
+      "company": "Puget Sound Energy Inc.",
+      "state": "WA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 439,
+        "end_char": 503,
+        "exact_text": "02/21/19\nPuget Sound Energy Inc.\nWA\n—\n—\n—\n6/18 Year-end\n0.0 B,3\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c503",
+      "service": "Electric",
+      "decision_date": "2019-02-27",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "9.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 503,
+        "end_char": 581,
+        "exact_text": "02/27/19\nVirginia Electric and Power Co.\nVA\n6.87\n9.20\n51.37\n3/20 —\n-4.0 LIR,4\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c581",
+      "service": "Electric",
+      "decision_date": "2019-02-27",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "9.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 581,
+        "end_char": 665,
+        "exact_text": "02/27/19\nVirginia Electric and Power Co.\nVA\n6.87\n9.20\n51.37\n3/20 Average\n38.4 LIR,5\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c665",
+      "service": "Electric",
+      "decision_date": "2019-02-27",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "10.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 665,
+        "end_char": 750,
+        "exact_text": "02/27/19\nVirginia Electric and Power Co.\nVA\n7.38\n10.20\n51.37\n3/20 Average\n-8.6 LIR,6\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c750",
+      "service": "Electric",
+      "decision_date": "2019-02-27",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "10.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 750,
+        "end_char": 835,
+        "exact_text": "02/27/19\nVirginia Electric and Power Co.\nVA\n7.38\n10.20\n51.37\n3/20 Average\n-3.5 LIR,7\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c835",
+      "service": "Electric",
+      "decision_date": "2019-02-27",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "10.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 835,
+        "end_char": 920,
+        "exact_text": "02/27/19\nVirginia Electric and Power Co.\nVA\n7.38\n10.20\n51.37\n3/20 Average\n-4.3 LIR,8\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c920",
+      "service": "Electric",
+      "decision_date": "2019-02-27",
+      "company": "Appalachian Power Co.",
+      "state": "WV",
+      "roe_percent": "9.75",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 920,
+        "end_char": 991,
+        "exact_text": "02/27/19\nAppalachian Power Co.\nWV\n7.28\n9.75\n50.16\n12/17 Average\n44.2 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c991",
+      "service": "Electric",
+      "decision_date": "2019-03-06",
+      "company": "Oklahoma Gas and Electric Co.",
+      "state": "AR",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 991,
+        "end_char": 1070,
+        "exact_text": "03/06/19\nOklahoma Gas and Electric Co.\nAR\n5.27\n—\n37.31\n3/20 Year-end\n3.3 B,*,9\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1070",
+      "service": "Electric",
+      "decision_date": "2019-03-13",
+      "company": "Atlantic City Electric Co.",
+      "state": "NJ",
+      "roe_percent": "9.60",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1070,
+        "end_char": 1150,
+        "exact_text": "03/13/19\nAtlantic City Electric Co.\nNJ\n7.08\n9.60\n49.94\n12/18 Year-end\n70.0 B, D\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1150",
+      "service": "Electric",
+      "decision_date": "2019-03-14",
+      "company": "Orange and Rockland Utilities Inc.",
+      "state": "NY",
+      "roe_percent": "9.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1150,
+        "end_char": 1240,
+        "exact_text": "03/14/19\nOrange and Rockland Utilities Inc.\nNY\n6.97\n9.00\n48.00\n12/19 Average\n13.4 B, D, Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1240",
+      "service": "Electric",
+      "decision_date": "2019-03-14",
+      "company": "Public Service Co. of Oklahoma",
+      "state": "OK",
+      "roe_percent": "9.40",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1240,
+        "end_char": 1309,
+        "exact_text": "03/14/19\nPublic Service Co. of Oklahoma\nOK\n6.97\n9.40\n—\n3/18 —\n46.0 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1309",
+      "service": "Electric",
+      "decision_date": "2019-03-22",
+      "company": "Potomac Edison Co.",
+      "state": "MD",
+      "roe_percent": "9.65",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1309,
+        "end_char": 1375,
+        "exact_text": "03/22/19\nPotomac Edison Co.\nMD\n7.15\n9.65\n52.82\n6/18 Average\n6.2 D\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1454",
+      "service": "Electric",
+      "decision_date": "2019-04-02",
+      "company": "Duke Energy Florida LLC",
+      "state": "FL",
+      "roe_percent": "10.50",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 1454,
+        "end_char": 1519,
+        "exact_text": "04/02/19\nDuke Energy Florida LLC\nFL\n—\n10.50\n—\n— —\n29.2 B, LIR,10\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1519",
+      "service": "Electric",
+      "decision_date": "2019-04-15",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "9.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 1519,
+        "end_char": 1604,
+        "exact_text": "04/15/19\nVirginia Electric and Power Co.\nVA\n6.87\n9.20\n51.37\n2/20 Average\n10.4 LIR,11\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1604",
+      "service": "Electric",
+      "decision_date": "2019-04-23",
+      "company": "Emera Maine",
+      "state": "ME",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1604,
+        "end_char": 1645,
+        "exact_text": "04/23/19\nEmera Maine\nME\n—\n—\n—\n— —\n— D,12\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1645",
+      "service": "Electric",
+      "decision_date": "2019-04-30",
+      "company": "Kentucky Utilities Co.",
+      "state": "KY",
+      "roe_percent": "9.73",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1645,
+        "end_char": 1703,
+        "exact_text": "04/30/19\nKentucky Utilities Co.\nKY\n—\n9.73\n—\n4/20 —\n55.9 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1703",
+      "service": "Electric",
+      "decision_date": "2019-04-30",
+      "company": "Louisville Gas and Electric Co.",
+      "state": "KY",
+      "roe_percent": "9.73",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1703,
+        "end_char": 1769,
+        "exact_text": "04/30/19\nLouisville Gas and Electric Co.\nKY\n—\n9.73\n—\n4/20 —\n2.1 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1769",
+      "service": "Electric",
+      "decision_date": "2019-05-01",
+      "company": "Duke Energy Carolinas LLC",
+      "state": "SC",
+      "roe_percent": "9.50",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1769,
+        "end_char": 1844,
+        "exact_text": "05/01/19\nDuke Energy Carolinas LLC\nSC\n7.16\n9.50\n53.00\n12/17 Year-end\n106.9\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1844",
+      "service": "Electric",
+      "decision_date": "2019-05-02",
+      "company": "DTE Electric Co.",
+      "state": "MI",
+      "roe_percent": "10.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 1844,
+        "end_char": 1911,
+        "exact_text": "05/02/19\nDTE Electric Co.\nMI\n5.48\n10.00\n37.94\n4/20 Average\n273.3 *\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1911",
+      "service": "Electric",
+      "decision_date": "2019-05-02",
+      "company": "Appalachian Power Co.",
+      "state": "VA",
+      "roe_percent": "9.42",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 1911,
+        "end_char": 1972,
+        "exact_text": "05/02/19\nAppalachian Power Co.\nVA\n—\n9.42\n—\n6/20 —\n0.0 LIR,13\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c1972",
+      "service": "Electric",
+      "decision_date": "2019-05-02",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "9.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 1972,
+        "end_char": 2051,
+        "exact_text": "05/02/19\nVirginia Electric and Power Co.\nVA\n6.87\n9.20\n51.37\n6/20 —\n17.9 LIR,14\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2051",
+      "service": "Electric",
+      "decision_date": "2019-05-08",
+      "company": "Duke Energy Progress LLC",
+      "state": "SC",
+      "roe_percent": "9.50",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 2051,
+        "end_char": 2124,
+        "exact_text": "05/08/19\nDuke Energy Progress LLC\nSC\n6.99\n9.50\n53.00\n12/17 Year-end\n41.5\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2124",
+      "service": "Electric",
+      "decision_date": "2019-05-14",
+      "company": "Otter Tail Power Co.",
+      "state": "SD",
+      "roe_percent": "8.75",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 2124,
+        "end_char": 2193,
+        "exact_text": "05/14/19\nOtter Tail Power Co.\nSD\n7.09\n8.75\n52.92\n12/17 Average\n4.8 I\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2193",
+      "service": "Electric",
+      "decision_date": "2019-05-16",
+      "company": "Southern California Edison Co.",
+      "state": "CA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 2193,
+        "end_char": 2268,
+        "exact_text": "05/16/19\nSouthern California Edison Co.\nCA\n7.43\n—\n—\n12/18 Average\n-523.0 Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2268",
+      "service": "Electric",
+      "decision_date": "2019-05-16",
+      "company": "Maui Electric Co. Ltd.",
+      "state": "HI",
+      "roe_percent": "9.50",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 2268,
+        "end_char": 2340,
+        "exact_text": "05/16/19\nMaui Electric Co. Ltd.\nHI\n7.43\n9.50\n57.02\n12/18 Average\n12.2 I\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2340",
+      "service": "Electric",
+      "decision_date": "2019-05-23",
+      "company": "Upper Peninsula Power Co.",
+      "state": "MI",
+      "roe_percent": "9.90",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 2340,
+        "end_char": 2410,
+        "exact_text": "05/23/19\nUpper Peninsula Power Co.\nMI\n6.91\n9.90\n—\n12/19 Average\n1.8 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2410",
+      "service": "Electric",
+      "decision_date": "2019-05-29",
+      "company": "Southern Indiana Gas and Electric Co.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 2410,
+        "end_char": 2492,
+        "exact_text": "05/29/19\nSouthern Indiana Gas and Electric Co.\nIN\n—\n—\n—\n10/18 Year-end\n4.1 LIR,15\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2492",
+      "service": "Electric",
+      "decision_date": "2019-06-12",
+      "company": "Northern Indiana Public Service Co.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 2492,
+        "end_char": 2573,
+        "exact_text": "06/12/19\nNorthern Indiana Public Service Co.\nIN\n—\n—\n—\n11/18 Year-end\n16.7 LIR,15\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2573",
+      "service": "Electric",
+      "decision_date": "2019-06-18",
+      "company": "MDU Resources Group Inc.",
+      "state": "MT",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 2573,
+        "end_char": 2635,
+        "exact_text": "06/18/19\nMDU Resources Group Inc.\nMT\n—\n—\n—\n12/17 —\n9.3 B, I,Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2707",
+      "service": "Electric",
+      "decision_date": "2019-07-03",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "10.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 2707,
+        "end_char": 2792,
+        "exact_text": "07/03/19\nVirginia Electric and Power Co.\nVA\n7.39\n10.20\n51.37\n8/20 Average\n3.1 LIR,16\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2792",
+      "service": "Electric",
+      "decision_date": "2019-07-03",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "9.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 2792,
+        "end_char": 2876,
+        "exact_text": "07/03/19\nVirginia Electric and Power Co.\nVA\n6.87\n9.20\n51.37\n8/20 Average\n1.8 LIR,17\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2876",
+      "service": "Electric",
+      "decision_date": "2019-07-30",
+      "company": "Empire District Electric Co.",
+      "state": "KS",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 2876,
+        "end_char": 2933,
+        "exact_text": "07/30/19\nEmpire District Electric Co.\nKS\n—\n—\n—\n— —\n0.0 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c2933",
+      "service": "Electric",
+      "decision_date": "2019-08-05",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "9.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 2933,
+        "end_char": 3014,
+        "exact_text": "08/05/19\nVirginia Electric and Power Co.\nVA\n6.81\n9.20\n51.17\n10/20 —\n104.3 LIR,18\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3014",
+      "service": "Electric",
+      "decision_date": "2019-08-12",
+      "company": "Potomac Electric Power Co.",
+      "state": "MD",
+      "roe_percent": "9.60",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3014,
+        "end_char": 3089,
+        "exact_text": "08/12/19\nPotomac Electric Power Co.\nMD\n7.45\n9.60\n50.46\n1/19 Average\n10.3 D\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3089",
+      "service": "Electric",
+      "decision_date": "2019-08-29",
+      "company": "Green Mountain Power Corp.",
+      "state": "VT",
+      "roe_percent": "9.06",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3089,
+        "end_char": 3164,
+        "exact_text": "08/29/19\nGreen Mountain Power Corp.\nVT\n6.85\n9.06\n49.46\n9/20 Average\n16.7 Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3164",
+      "service": "Electric",
+      "decision_date": "2019-09-04",
+      "company": "Northern States Power Co. - WI",
+      "state": "WI",
+      "roe_percent": "10.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3164,
+        "end_char": 3244,
+        "exact_text": "09/04/19\nNorthern States Power Co. - WI\nWI\n7.74\n10.00\n52.52\n12/20 Average\n0.7 Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3244",
+      "service": "Electric",
+      "decision_date": "2019-09-19",
+      "company": "Oklahoma Gas and Electric Co.",
+      "state": "OK",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3244,
+        "end_char": 3305,
+        "exact_text": "09/19/19\nOklahoma Gas and Electric Co.\nOK\n—\n—\n—\n9/18 —\n0.0 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3305",
+      "service": "Electric",
+      "decision_date": "2019-09-26",
+      "company": "San Diego Gas & Electric Co.",
+      "state": "CA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3305,
+        "end_char": 3373,
+        "exact_text": "09/26/19\nSan Diego Gas & Electric Co.\nCA\n—\n—\n—\n12/19 Average\n35.7 Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3373",
+      "service": "Electric",
+      "decision_date": "2019-09-30",
+      "company": "Massachusetts Electric Co.",
+      "state": "MA",
+      "roe_percent": "9.60",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3373,
+        "end_char": 3453,
+        "exact_text": "09/30/19\nMassachusetts Electric Co.\nMA\n7.56\n9.60\n53.49\n12/17 Year-end\n90.1 D, Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3525",
+      "service": "Electric",
+      "decision_date": "2019-10-08",
+      "company": "Duke Energy Indiana LLC",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 3525,
+        "end_char": 3594,
+        "exact_text": "10/08/19\nDuke Energy Indiana LLC\nIN\n—\n—\n—\n12/18 Year-end\n23.5 LIR,15\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3594",
+      "service": "Electric",
+      "decision_date": "2019-10-31",
+      "company": "Wisconsin Electric Power Co.",
+      "state": "WI",
+      "roe_percent": "10.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3594,
+        "end_char": 3667,
+        "exact_text": "10/31/19\nWisconsin Electric Power Co.\nWI\n7.49\n10.00\n54.46\n12/20 —\n81.3 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3667",
+      "service": "Electric",
+      "decision_date": "2019-10-31",
+      "company": "Wisconsin Public Service Corp.",
+      "state": "WI",
+      "roe_percent": "10.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3667,
+        "end_char": 3742,
+        "exact_text": "10/31/19\nWisconsin Public Service Corp.\nWI\n7.22\n10.00\n51.96\n12/20 —\n38.6 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3742",
+      "service": "Electric",
+      "decision_date": "2019-11-01",
+      "company": "Virginia Electric and Power Co.",
+      "state": "VA",
+      "roe_percent": "9.20",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 3742,
+        "end_char": 3828,
+        "exact_text": "11/01/19\nVirginia Electric and Power Co.\nVA\n6.83\n9.20\n51.17\n1/21 Average\n-18.0 LIR,19\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3828",
+      "service": "Electric",
+      "decision_date": "2019-11-07",
+      "company": "Entergy New Orleans LLC",
+      "state": "LA",
+      "roe_percent": "9.35",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3828,
+        "end_char": 3907,
+        "exact_text": "11/07/19\nEntergy New Orleans LLC\nLA\n7.09\n9.35\n50.00\n12/18 Year-end\n124.9 20,21\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3907",
+      "service": "Electric",
+      "decision_date": "2019-11-27",
+      "company": "Southern Indiana Gas and Electric Co.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 3907,
+        "end_char": 3988,
+        "exact_text": "11/27/19\nSouthern Indiana Gas and Electric Co.\nIN\n—\n—\n—\n4/19 Year-end\n7.2 LIR,15\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c3988",
+      "service": "Electric",
+      "decision_date": "2019-11-29",
+      "company": "Avista Corp.",
+      "state": "ID",
+      "roe_percent": "9.50",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 3988,
+        "end_char": 4051,
+        "exact_text": "11/29/19\nAvista Corp.\nID\n7.35\n9.50\n50.00\n12/18 Year-end\n-7.2 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4051",
+      "service": "Electric",
+      "decision_date": "2019-12-04",
+      "company": "Commonwealth Edison Co.",
+      "state": "IL",
+      "roe_percent": "8.91",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4051,
+        "end_char": 4125,
+        "exact_text": "12/04/19\nCommonwealth Edison Co.\nIL\n6.51\n8.91\n47.97\n12/18 Year-end\n-3.1 D\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4125",
+      "service": "Electric",
+      "decision_date": "2019-12-04",
+      "company": "Northern Indiana Public Service Co.",
+      "state": "IN",
+      "roe_percent": "9.75",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4125,
+        "end_char": 4216,
+        "exact_text": "12/04/19\nNorthern Indiana Public Service Co.\nIN\n6.52\n9.75\n47.86\n12/19 Year-end\n42.7 B, Z,*\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4216",
+      "service": "Electric",
+      "decision_date": "2019-12-13",
+      "company": "Entergy Arkansas LLC",
+      "state": "AR",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4216,
+        "end_char": 4287,
+        "exact_text": "12/13/19\nEntergy Arkansas LLC\nAR\n5.23\n—\n36.49\n12/20 Average\n10.1 B,*,9\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4287",
+      "service": "Electric",
+      "decision_date": "2019-12-16",
+      "company": "Ameren Illinois Co.",
+      "state": "IL",
+      "roe_percent": "8.91",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4287,
+        "end_char": 4357,
+        "exact_text": "12/16/19\nAmeren Illinois Co.\nIL\n6.71\n8.91\n50.00\n12/18 Year-end\n-3.0 D\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4357",
+      "service": "Electric",
+      "decision_date": "2019-12-17",
+      "company": "Georgia Power Co.",
+      "state": "GA",
+      "roe_percent": "10.50",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4357,
+        "end_char": 4413,
+        "exact_text": "12/17/19\nGeorgia Power Co.\nGA\n—\n10.50\n56.00\n— —\n909.0 Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4413",
+      "service": "Electric",
+      "decision_date": "2019-12-17",
+      "company": "Baltimore Gas and Electric Co.",
+      "state": "MD",
+      "roe_percent": "9.70",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4413,
+        "end_char": 4488,
+        "exact_text": "12/17/19\nBaltimore Gas and Electric Co.\nMD\n6.94\n9.70\n—\n7/19 —\n25.0 B, D,22\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4488",
+      "service": "Electric",
+      "decision_date": "2019-12-18",
+      "company": "Northern Indiana Public Service Co.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 4488,
+        "end_char": 4568,
+        "exact_text": "12/18/19\nNorthern Indiana Public Service Co.\nIN\n—\n—\n—\n6/19 Year-end\n44.8 LIR,15\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4568",
+      "service": "Electric",
+      "decision_date": "2019-12-19",
+      "company": "Pacific Gas and Electric Co.",
+      "state": "CA",
+      "roe_percent": "10.25",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4568,
+        "end_char": 4642,
+        "exact_text": "12/19/19\nPacific Gas and Electric Co.\nCA\n7.81\n10.25\n52.00\n12/20 —\n46.0 23\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4642",
+      "service": "Electric",
+      "decision_date": "2019-12-19",
+      "company": "San Diego Gas & Electric Co.",
+      "state": "CA",
+      "roe_percent": "10.20",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4642,
+        "end_char": 4713,
+        "exact_text": "12/19/19\nSan Diego Gas & Electric Co.\nCA\n7.55\n10.20\n52.00\n12/20 —\n— 23\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4713",
+      "service": "Electric",
+      "decision_date": "2019-12-19",
+      "company": "Southern California Edison Co.",
+      "state": "CA",
+      "roe_percent": "10.30",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4713,
+        "end_char": 4788,
+        "exact_text": "12/19/19\nSouthern California Edison Co.\nCA\n7.68\n10.30\n52.00\n12/20 —\n— 23.0\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4788",
+      "service": "Electric",
+      "decision_date": "2019-12-19",
+      "company": "NSTAR Electric Co.",
+      "state": "MA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4788,
+        "end_char": 4839,
+        "exact_text": "12/19/19\nNSTAR Electric Co.\nMA\n—\n—\n—\n— —\n33.6 D,24\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4839",
+      "service": "Electric",
+      "decision_date": "2019-10-29",
+      "company": "NorthWestern Corp.",
+      "state": "MT",
+      "roe_percent": "9.65",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4839,
+        "end_char": 4899,
+        "exact_text": "10/29/19\nNorthWestern Corp.\nMT\n6.92\n9.65\n49.38\n— —\n6.5 B, I\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4899",
+      "service": "Electric",
+      "decision_date": "2019-12-20",
+      "company": "Southwestern Electric Power Co.",
+      "state": "AR",
+      "roe_percent": "9.45",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4899,
+        "end_char": 4983,
+        "exact_text": "12/20/19\nSouthwestern Electric Power Co.\nAR\n4.93\n9.45\n33.71\n12/18 Year-end\n52.8 B,*\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c4983",
+      "service": "Electric",
+      "decision_date": "2019-12-24",
+      "company": "Sierra Pacific Power Co.",
+      "state": "NV",
+      "roe_percent": "9.50",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 4983,
+        "end_char": 5047,
+        "exact_text": "12/24/19\nSierra Pacific Power Co.\nNV\n6.75\n9.50\n50.92\n— —\n-5.0 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5318",
+      "service": "Gas",
+      "decision_date": "2019-01-04",
+      "company": "Baltimore Gas and Electric Co.",
+      "state": "MD",
+      "roe_percent": "9.80",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 5318,
+        "end_char": 5395,
+        "exact_text": "01/04/19\nBaltimore Gas and Electric Co.\nMD\n7.09\n9.80\n52.85\n7/18 Average\n64.9\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5395",
+      "service": "Gas",
+      "decision_date": "2019-01-08",
+      "company": "Oklahoma Natural Gas Co.",
+      "state": "OK",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 5395,
+        "end_char": 5456,
+        "exact_text": "01/08/19\nOklahoma Natural Gas Co.\nOK\n—\n—\n—\n12/17 —\n-5.9 B,24\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5456",
+      "service": "Gas",
+      "decision_date": "2019-01-18",
+      "company": "Berkshire Gas Co.",
+      "state": "MA",
+      "roe_percent": "9.70",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 5456,
+        "end_char": 5516,
+        "exact_text": "01/18/19\nBerkshire Gas Co.\nMA\n8.33\n9.70\n54.00\n12/17 —\n2.4 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5516",
+      "service": "Gas",
+      "decision_date": "2019-01-29",
+      "company": "Indiana Gas Co. Inc.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 5516,
+        "end_char": 5582,
+        "exact_text": "01/29/19\nIndiana Gas Co. Inc.\nIN\n—\n—\n—\n6/18 Year-end\n-13.1 LIR,25\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5582",
+      "service": "Gas",
+      "decision_date": "2019-01-29",
+      "company": "Southern Indiana Gas and Electric Co.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 5582,
+        "end_char": 5664,
+        "exact_text": "01/29/19\nSouthern Indiana Gas and Electric Co.\nIN\n—\n—\n—\n6/18 Year-end\n-0.8 LIR,25\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5664",
+      "service": "Gas",
+      "decision_date": "2019-02-05",
+      "company": "Kansas Gas Service Co. Inc.",
+      "state": "KS",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 5664,
+        "end_char": 5725,
+        "exact_text": "02/05/19\nKansas Gas Service Co. Inc.\nKS\n—\n—\n—\n12/17 —\n21.5 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5725",
+      "service": "Gas",
+      "decision_date": "2019-02-21",
+      "company": "Puget Sound Energy Inc.",
+      "state": "WA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 5725,
+        "end_char": 5790,
+        "exact_text": "02/21/19\nPuget Sound Energy Inc.\nWA\n—\n—\n—\n6/18 Year-end\n21.5 B,3\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5790",
+      "service": "Gas",
+      "decision_date": "2019-03-14",
+      "company": "Orange and Rockland Utilities Inc.",
+      "state": "NY",
+      "roe_percent": "9.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 5790,
+        "end_char": 5877,
+        "exact_text": "03/14/19\nOrange and Rockland Utilities Inc.\nNY\n6.97\n9.00\n48.00\n12/19 Average\n-7.5 B, Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c5877",
+      "service": "Gas",
+      "decision_date": "2019-03-27",
+      "company": "Duke Energy Kentucky Inc.",
+      "state": "KY",
+      "roe_percent": "9.70",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 5877,
+        "end_char": 5950,
+        "exact_text": "03/27/19\nDuke Energy Kentucky Inc.\nKY\n7.07\n9.70\n50.76\n3/20 Average\n7.4 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c6025",
+      "service": "Gas",
+      "decision_date": "2019-04-23",
+      "company": "Atmos Energy Corp.",
+      "state": "KS",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 6025,
+        "end_char": 6081,
+        "exact_text": "04/23/19\nAtmos Energy Corp.\nKS\n—\n—\n—\n12/18 —\n1.6 LIR,26\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c6081",
+      "service": "Gas",
+      "decision_date": "2019-04-30",
+      "company": "Delta Natural Gas Co. Inc.",
+      "state": "KY",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 40,
+        "start_char": 6081,
+        "end_char": 6152,
+        "exact_text": "04/30/19\nDelta Natural Gas Co. Inc.\nKY\n—\n—\n—\n12/18 Year-end\n2.7 LIR,27\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p40-c6152",
+      "service": "Gas",
+      "decision_date": "2019-04-30",
+      "company": "Louisville Gas and Electric Co.",
+      "state": "KY",
+      "roe_percent": "9.73",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 40,
+        "start_char": 6152,
+        "end_char": 6219,
+        "exact_text": "04/30/19\nLouisville Gas and Electric Co.\nKY\n—\n9.73\n—\n4/20 —\n18.6 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c0",
+      "service": "Gas",
+      "decision_date": "2019-05-03",
+      "company": "Missouri Gas Energy",
+      "state": "MO",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 0,
+        "end_char": 57,
+        "exact_text": "05/03/19\nMissouri Gas Energy\nMO\n—\n—\n—\n11/18 —\n6.8 LIR,28\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c57",
+      "service": "Gas",
+      "decision_date": "2019-05-03",
+      "company": "Spire Missouri Inc.",
+      "state": "MO",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 57,
+        "end_char": 114,
+        "exact_text": "05/03/19\nSpire Missouri Inc.\nMO\n—\n—\n—\n11/18 —\n6.4 LIR,28\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c114",
+      "service": "Gas",
+      "decision_date": "2019-05-07",
+      "company": "Atmos Energy Corp.",
+      "state": "KY",
+      "roe_percent": "9.65",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 114,
+        "end_char": 179,
+        "exact_text": "05/07/19\nAtmos Energy Corp.\nKY\n7.49\n9.65\n58.06\n3/20 Average\n-0.3\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c179",
+      "service": "Gas",
+      "decision_date": "2019-05-20",
+      "company": "Atmos Energy Corp.",
+      "state": "TN",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 179,
+        "end_char": 245,
+        "exact_text": "05/20/19\nAtmos Energy Corp.\nTN\n7.79\n—\n58.38\n5/20 Average\n0.0 B,29\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c245",
+      "service": "Gas",
+      "decision_date": "2019-05-21",
+      "company": "Atmos Energy Corp.",
+      "state": "TX",
+      "roe_percent": "9.80",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 245,
+        "end_char": 313,
+        "exact_text": "05/21/19\nAtmos Energy Corp.\nTX\n7.97\n9.80\n60.18\n12/17 Year-end\n2.2 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c313",
+      "service": "Gas",
+      "decision_date": "2019-06-12",
+      "company": "Columbia Gas of Virginia Inc.",
+      "state": "VA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 313,
+        "end_char": 381,
+        "exact_text": "06/12/19\nColumbia Gas of Virginia Inc.\nVA\n—\n—\n—\n12/17 —\n9.5 B, I,30\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c451",
+      "service": "Gas",
+      "decision_date": "2019-07-17",
+      "company": "New Mexico Gas Co. Inc.",
+      "state": "NM",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 451,
+        "end_char": 509,
+        "exact_text": "07/17/19\nNew Mexico Gas Co. Inc.\nNM\n—\n—\n—\n9/17 —\n2.5 B, Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c509",
+      "service": "Gas",
+      "decision_date": "2019-07-29",
+      "company": "Indiana Gas Co. Inc.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 509,
+        "end_char": 568,
+        "exact_text": "07/29/19\nIndiana Gas Co. Inc.\nIN\n—\n—\n—\n12/18 —\n10.4 LIR,25\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c568",
+      "service": "Gas",
+      "decision_date": "2019-07-29",
+      "company": "Southern Indiana Gas and Electric Co.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 568,
+        "end_char": 643,
+        "exact_text": "07/29/19\nSouthern Indiana Gas and Electric Co.\nIN\n—\n—\n—\n12/18 —\n4.1 LIR,25\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c643",
+      "service": "Gas",
+      "decision_date": "2019-08-20",
+      "company": "Oklahoma Natural Gas Co.",
+      "state": "OK",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 643,
+        "end_char": 702,
+        "exact_text": "08/20/19\nOklahoma Natural Gas Co.\nOK\n—\n—\n—\n12/18 —\n-28.2 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c702",
+      "service": "Gas",
+      "decision_date": "2019-08-21",
+      "company": "Union Electric Co.",
+      "state": "MO",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 702,
+        "end_char": 756,
+        "exact_text": "08/21/19\nUnion Electric Co.\nMO\n—\n—\n—\n6/18 —\n-1.0 B, I\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c756",
+      "service": "Gas",
+      "decision_date": "2019-08-23",
+      "company": "CenterPoint Energy Resources Corp.",
+      "state": "AR",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 756,
+        "end_char": 840,
+        "exact_text": "08/23/19\nCenterPoint Energy Resources Corp.\nAR\n4.68\n—\n32.38\n9/20 Year-end\n7.3 B,*,9\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c840",
+      "service": "Gas",
+      "decision_date": "2019-08-28",
+      "company": "Vectren Energy Delivery of Ohio Inc.",
+      "state": "OH",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 840,
+        "end_char": 923,
+        "exact_text": "08/28/19\nVectren Energy Delivery of Ohio Inc.\nOH\n7.48\n—\n—\n9/18 Date Certain\n22.7 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c923",
+      "service": "Gas",
+      "decision_date": "2019-08-29",
+      "company": "CenterPoint Energy Resources Corp.",
+      "state": "OK",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 923,
+        "end_char": 998,
+        "exact_text": "08/29/19\nCenterPoint Energy Resources Corp.\nOK\n—\n—\n—\n12/18 Year-end\n1.9 24\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c998",
+      "service": "Gas",
+      "decision_date": "2019-08-29",
+      "company": "Virginia Natural Gas Inc.",
+      "state": "VA",
+      "roe_percent": "9.50",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 998,
+        "end_char": 1076,
+        "exact_text": "08/29/19\nVirginia Natural Gas Inc.\nVA\n6.86\n9.50\n48.74\n8/20 Average\n4.9 LIR,31\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1076",
+      "service": "Gas",
+      "decision_date": "2019-09-04",
+      "company": "Northern States Power Co. - WI",
+      "state": "WI",
+      "roe_percent": "10",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1076,
+        "end_char": 1155,
+        "exact_text": "09/04/19\nNorthern States Power Co. - WI\nWI\n7.74\n10\n52.52\n12/20 Average\n1.1 B,Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1155",
+      "service": "Gas",
+      "decision_date": "2019-09-12",
+      "company": "Pacific Gas and Electric Co.",
+      "state": "CA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1155,
+        "end_char": 1223,
+        "exact_text": "09/12/19\nPacific Gas and Electric Co.\nCA\n—\n—\n—\n12/19 Average\n31.3 Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1223",
+      "service": "Gas",
+      "decision_date": "2019-09-19",
+      "company": "UGI Utilities Inc.",
+      "state": "PA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1223,
+        "end_char": 1277,
+        "exact_text": "09/19/19\nUGI Utilities Inc.\nPA\n—\n—\n—\n9/20 —\n30.0 B,32\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1277",
+      "service": "Gas",
+      "decision_date": "2019-09-24",
+      "company": "Atmos Energy Corp.",
+      "state": "KY",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 1277,
+        "end_char": 1339,
+        "exact_text": "09/24/19\nAtmos Energy Corp.\nKY\n—\n—\n—\n9/20 Year-end\n2.9 LIR,27\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1339",
+      "service": "Gas",
+      "decision_date": "2019-09-26",
+      "company": "San Diego Gas & Electric Co.",
+      "state": "CA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1339,
+        "end_char": 1407,
+        "exact_text": "09/26/19\nSan Diego Gas & Electric Co.\nCA\n—\n—\n—\n12/19 Average\n71.7 Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1407",
+      "service": "Gas",
+      "decision_date": "2019-09-26",
+      "company": "Southern California Gas Co.",
+      "state": "CA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1407,
+        "end_char": 1475,
+        "exact_text": "09/26/19\nSouthern California Gas Co.\nCA\n—\n—\n—\n12/19 Average\n314.4 Z\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1475",
+      "service": "Gas",
+      "decision_date": "2019-09-26",
+      "company": "Consumers Energy Co.",
+      "state": "MI",
+      "roe_percent": "9.90",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1475,
+        "end_char": 1545,
+        "exact_text": "09/26/19\nConsumers Energy Co.\nMI\n5.84\n9.90\n41.78\n9/20 Average\n143.5 *\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1617",
+      "service": "Gas",
+      "decision_date": "2019-10-02",
+      "company": "Northern Illinois Gas Co.",
+      "state": "IL",
+      "roe_percent": "9.73",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1617,
+        "end_char": 1690,
+        "exact_text": "10/02/19\nNorthern Illinois Gas Co.\nIL\n7.20\n9.73\n54.20\n9/20 Average\n167.7\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1690",
+      "service": "Gas",
+      "decision_date": "2019-10-03",
+      "company": "Peoples Natural Gas Co. LLC",
+      "state": "PA",
+      "roe_percent": null,
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1690,
+        "end_char": 1751,
+        "exact_text": "10/03/19\nPeoples Natural Gas Co. LLC\nPA\n—\n—\n—\n10/20 —\n59.5 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1751",
+      "service": "Gas",
+      "decision_date": "2019-10-08",
+      "company": "Avista Corp.",
+      "state": "OR",
+      "roe_percent": "9.40",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1751,
+        "end_char": 1813,
+        "exact_text": "10/08/19\nAvista Corp.\nOR\n7.24\n9.40\n50.00\n12/20 Year-end\n3.6 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1813",
+      "service": "Gas",
+      "decision_date": "2019-10-15",
+      "company": "Washington Gas Light Co.",
+      "state": "MD",
+      "roe_percent": "9.70",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1813,
+        "end_char": 1883,
+        "exact_text": "10/15/19\nWashington Gas Light Co.\nMD\n7.42\n9.70\n53.50\n3/19 —\n27.0 B,22\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1883",
+      "service": "Gas",
+      "decision_date": "2019-10-16",
+      "company": "Northern Indiana Public Service Co.",
+      "state": "IN",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 1883,
+        "end_char": 1962,
+        "exact_text": "10/16/19\nNorthern Indiana Public Service Co.\nIN\n—\n—\n—\n4/19 Year-end\n7.3 LIR,15\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c1962",
+      "service": "Gas",
+      "decision_date": "2019-10-21",
+      "company": "Northwest Natural Gas Co.",
+      "state": "WA",
+      "roe_percent": "9.40",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 1962,
+        "end_char": 2035,
+        "exact_text": "10/21/19\nNorthwest Natural Gas Co.\nWA\n7.16\n9.40\n49.00\n9/18 Average\n5.1 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2035",
+      "service": "Gas",
+      "decision_date": "2019-10-30",
+      "company": "Missouri Gas Energy",
+      "state": "MO",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 2035,
+        "end_char": 2101,
+        "exact_text": "10/30/19\nMissouri Gas Energy\nMO\n—\n—\n—\n5/19 Year-end\n4.0 B, LIR,28\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2101",
+      "service": "Gas",
+      "decision_date": "2019-10-30",
+      "company": "Spire Missouri Inc.",
+      "state": "MO",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 2101,
+        "end_char": 2167,
+        "exact_text": "10/30/19\nSpire Missouri Inc.\nMO\n—\n—\n—\n5/19 Year-end\n4.8 B, LIR,28\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2167",
+      "service": "Gas",
+      "decision_date": "2019-10-31",
+      "company": "Piedmont Natural Gas Co. Inc.",
+      "state": "NC",
+      "roe_percent": "9.70",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2167,
+        "end_char": 2247,
+        "exact_text": "10/31/19\nPiedmont Natural Gas Co. Inc.\nNC\n7.14\n9.70\n52.00\n12/18 Year-end\n82.8 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2247",
+      "service": "Gas",
+      "decision_date": "2019-10-31",
+      "company": "Wisconsin Electric Power Co.",
+      "state": "WI",
+      "roe_percent": "10.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2247,
+        "end_char": 2320,
+        "exact_text": "10/31/19\nWisconsin Electric Power Co.\nWI\n7.49\n10.00\n54.46\n12/20 —\n15.7 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2320",
+      "service": "Gas",
+      "decision_date": "2019-10-31",
+      "company": "Wisconsin Gas LLC",
+      "state": "WI",
+      "roe_percent": "10.20",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2320,
+        "end_char": 2381,
+        "exact_text": "10/31/19\nWisconsin Gas LLC\nWI\n7.32\n10.20\n52.02\n12/20 —\n1.6 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2381",
+      "service": "Gas",
+      "decision_date": "2019-10-31",
+      "company": "Wisconsin Public Service Corp.",
+      "state": "WI",
+      "roe_percent": "10.00",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2381,
+        "end_char": 2455,
+        "exact_text": "10/31/19\nWisconsin Public Service Corp.\nWI\n7.22\n10.00\n51.96\n12/20 —\n9.6 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2455",
+      "service": "Gas",
+      "decision_date": "2019-11-07",
+      "company": "Entergy New Orleans LLC",
+      "state": "LA",
+      "roe_percent": "9.35",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2455,
+        "end_char": 2533,
+        "exact_text": "11/07/19\nEntergy New Orleans LLC\nLA\n7.09\n9.35\n50.00\n12/18 Year-end\n-3.3 20,21\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2533",
+      "service": "Gas",
+      "decision_date": "2019-11-13",
+      "company": "Elizabethtown Gas Co.",
+      "state": "NJ",
+      "roe_percent": "9.60",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2533,
+        "end_char": 2604,
+        "exact_text": "11/13/19\nElizabethtown Gas Co.\nNJ\n7.13\n9.60\n51.50\n8/19 Year-end\n34.0 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2604",
+      "service": "Gas",
+      "decision_date": "2019-11-13",
+      "company": "New Jersey Natural Gas Co.",
+      "state": "NJ",
+      "roe_percent": "9.60",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2604,
+        "end_char": 2680,
+        "exact_text": "11/13/19\nNew Jersey Natural Gas Co.\nNJ\n6.95\n9.60\n54.00\n8/19 Year-end\n62.2 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2680",
+      "service": "Gas",
+      "decision_date": "2019-11-21",
+      "company": "Kansas Gas Service Co. Inc.",
+      "state": "KS",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 2680,
+        "end_char": 2751,
+        "exact_text": "11/21/19\nKansas Gas Service Co. Inc.\nKS\n—\n—\n—\n6/19 Year-end\n4.2 LIR,26\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2751",
+      "service": "Gas",
+      "decision_date": "2019-11-26",
+      "company": "Washington Gas Light Co.",
+      "state": "VA",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 2751,
+        "end_char": 2820,
+        "exact_text": "11/26/19\nWashington Gas Light Co.\nVA\n—\n—\n—\n12/20 Average\n12.4 LIR,31\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2820",
+      "service": "Gas",
+      "decision_date": "2019-12-06",
+      "company": "SEMCO Energy, Inc.",
+      "state": "MI",
+      "roe_percent": "9.87",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2820,
+        "end_char": 2879,
+        "exact_text": "12/06/19\nSEMCO Energy, Inc.\nMI\n—\n9.87\n54.00\n12/20 —\n19.9 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2879",
+      "service": "Gas",
+      "decision_date": "2019-12-06",
+      "company": "Columbia Gas of Virginia Inc.",
+      "state": "VA",
+      "roe_percent": "9.70",
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 2879,
+        "end_char": 2958,
+        "exact_text": "12/06/19\nColumbia Gas of Virginia Inc.\nVA\n6.68\n9.70\n—\n12/20 Average\n6.1 LIR,31\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c2958",
+      "service": "Gas",
+      "decision_date": "2019-12-11",
+      "company": "Black Hills Gas Distribution LLC",
+      "state": "WY",
+      "roe_percent": "9.40",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 2958,
+        "end_char": 3041,
+        "exact_text": "12/11/19\nBlack Hills Gas Distribution LLC\nWY\n6.98\n9.40\n50.23\n12/18 Year-end\n13.2 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3041",
+      "service": "Gas",
+      "decision_date": "2019-12-17",
+      "company": "Baltimore Gas and Electric Co.",
+      "state": "MD",
+      "roe_percent": "9.75",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 3041,
+        "end_char": 3110,
+        "exact_text": "12/17/19\nBaltimore Gas and Electric Co.\nMD\n6.97\n9.75\n—\n7/19 —\n54.0 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3110",
+      "service": "Gas",
+      "decision_date": "2019-12-18",
+      "company": "Interstate Power and Light Co.",
+      "state": "IA",
+      "roe_percent": "9.60",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 3110,
+        "end_char": 3190,
+        "exact_text": "12/18/19\nInterstate Power and Light Co.\nIA\n7.02\n9.60\n51.00\n12/20 Average\n11.8 B\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3190",
+      "service": "Gas",
+      "decision_date": "2019-12-18",
+      "company": "Columbia Gas of Maryland Inc.",
+      "state": "MD",
+      "roe_percent": "9.60",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 3190,
+        "end_char": 3268,
+        "exact_text": "12/18/19\nColumbia Gas of Maryland Inc.\nMD\n7.26\n9.60\n52.90\n6/19 Average\n1.0 33\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3268",
+      "service": "Gas",
+      "decision_date": "2019-12-19",
+      "company": "San Diego Gas & Electric Co.",
+      "state": "CA",
+      "roe_percent": "10.20",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 3268,
+        "end_char": 3339,
+        "exact_text": "12/19/19\nSan Diego Gas & Electric Co.\nCA\n7.55\n10.20\n52.00\n12/20 —\n— 23\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3339",
+      "service": "Gas",
+      "decision_date": "2019-12-19",
+      "company": "Southern California Gas Co.",
+      "state": "CA",
+      "roe_percent": "10.05",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 3339,
+        "end_char": 3409,
+        "exact_text": "12/19/19\nSouthern California Gas Co.\nCA\n7.30\n10.05\n52.00\n12/20 —\n— 23\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3409",
+      "service": "Gas",
+      "decision_date": "2019-12-19",
+      "company": "Atlanta Gas Light Co.",
+      "state": "GA",
+      "roe_percent": "10.25",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 3409,
+        "end_char": 3475,
+        "exact_text": "12/19/19\nAtlanta Gas Light Co.\nGA\n—\n10.25\n56.00\n7/20 Average\n65.3\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3475",
+      "service": "Gas",
+      "decision_date": "2019-12-20",
+      "company": "Columbia Gas of Kentucky Inc.",
+      "state": "KY",
+      "roe_percent": null,
+      "limited_issue_rider": true,
+      "evidence": {
+        "page": 41,
+        "start_char": 3475,
+        "end_char": 3556,
+        "exact_text": "12/20/19\nColumbia Gas of Kentucky Inc.\nKY\n7.62\n—\n52.42\n12/20 Year-end\n4.2 LIR,34\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3556",
+      "service": "Gas",
+      "decision_date": "2019-12-20",
+      "company": "Washington Gas Light Co.",
+      "state": "VA",
+      "roe_percent": "9.20",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 3556,
+        "end_char": 3630,
+        "exact_text": "12/20/19\nWashington Gas Light Co.\nVA\n7.22\n9.20\n53.48\n12/19 Average\n13.2 I\n"
+      }
+    },
+    {
+      "row_id": "RRA2019-p41-c3630",
+      "service": "Gas",
+      "decision_date": "2019-12-26",
+      "company": "Mountaineer Gas Co.",
+      "state": "WV",
+      "roe_percent": "9.75",
+      "limited_issue_rider": false,
+      "evidence": {
+        "page": 41,
+        "start_char": 3630,
+        "end_char": 3695,
+        "exact_text": "12/26/19\nMountaineer Gas Co.\nWV\n7.24\n9.75\n—\n12/18 Average\n12.4 B\n"
+      }
+    }
+  ],
+  "visual_checks": [
+    {
+      "page": 29,
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p29.png",
+      "sha256": "ec11a83961ae8a6db2125431812c6ffc1fe4d252a3512cc085e87be89a487695",
+      "reviewer": "Codex assistant",
+      "checked_date": "2026-10-04"
+    },
+    {
+      "page": 38,
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p38.png",
+      "sha256": "fdb2d2dd60576e666c5a5bc7d8fb38e8b57ec08b851a4905eeaf464f9c53a231",
+      "reviewer": "Codex assistant",
+      "checked_date": "2026-10-04"
+    },
+    {
+      "page": 39,
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p39.png",
+      "sha256": "80a0a4319b55ac1d143c24a08ca6ab2be1d014a7cac2337d31332d30d27e5aa6",
+      "reviewer": "Codex assistant",
+      "checked_date": "2026-10-04"
+    },
+    {
+      "page": 40,
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p40.png",
+      "sha256": "3d4ff80092d0da683a6086139c86dbca554bcd17dcaa9db61705bc315286c207",
+      "reviewer": "Codex assistant",
+      "checked_date": "2026-10-04"
+    },
+    {
+      "page": 41,
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p41.png",
+      "sha256": "3aa53f2ff628058255cdc86de1a7f5f56f7ae5cf0d714288eedacbf191fd9430",
+      "reviewer": "Codex assistant",
+      "checked_date": "2026-10-04"
+    }
+  ]
+}

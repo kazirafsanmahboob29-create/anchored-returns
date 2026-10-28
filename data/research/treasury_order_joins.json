@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "source_url": "https://fred.stlouisfed.org/series/DGS10",
+  "retrieved_at_utc": "2026-10-03T23:03:57.642350+00:00",
+  "observations_sha256": "f5a83145bd92c99ae60e55b636f650155534a6a6cc710ecd239875bf624690bb",
+  "n_orders": 9,
+  "matched": 9,
+  "joins": [
+    {
+      "case_id": "CAND-CT-22-08-08",
+      "event": "original_written_order",
+      "target_date": "2023-08-25",
+      "status": "matched",
+      "observation_date": "2023-08-25",
+      "gap_days": 0,
+      "observed_fraction": "0.0425",
+      "value_fraction": "0.0425"
+    },
+    {
+      "case_id": "CAND-MA-19-120",
+      "event": "original_written_order",
+      "target_date": "2020-10-30",
+      "status": "matched",
+      "observation_date": "2020-10-30",
+      "gap_days": 0,
+      "observed_fraction": "0.0088",
+      "value_fraction": "0.0088"
+    },
+    {
+      "case_id": "CAND-MA-20-120",
+      "event": "original_written_order",
+      "target_date": "2021-09-30",
+      "status": "matched",
+      "observation_date": "2021-09-30",
+      "gap_days": 0,
+      "observed_fraction": "0.0152",
+      "value_fraction": "0.0152"
+    },
+    {
+      "case_id": "CAND-MA-23-150",
+      "event": "original_written_order",
+      "target_date": "2024-09-30",
+      "status": "matched",
+      "observation_date": "2024-09-30",
+      "gap_days": 0,
+      "observed_fraction": "0.0381",
+      "value_fraction": "0.0381"
+    },
+    {
+      "case_id": "CAND-ME-2018-00194",
+      "event": "original_written_order",
+      "target_date": "2020-02-19",
+      "status": "matched",
+      "observation_date": "2020-02-19",
+      "gap_days": 0,
+      "observed_fraction": "0.0156",
+      "value_fraction": "0.0156"
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "event": "original_written_order",
+      "target_date": "2025-03-13",
+      "status": "matched",
+      "observation_date": "2025-03-13",
+      "gap_days": 0,
+      "observed_fraction": "0.0427",
+      "value_fraction": "0.0427"
+    },
+    {
+      "case_id": "CAND-NH-24-070",
+      "event": "original_written_order",
+      "target_date": "2025-07-25",
+      "status": "matched",
+      "observation_date": "2025-07-25",
+      "gap_days": 0,
+      "observed_fraction": "0.044",
+      "value_fraction": "0.044"
+    },
+    {
+      "case_id": "CAND-RI-4770-4780",
+      "event": "original_written_order",
+      "target_date": "2020-05-05",
+      "status": "matched",
+      "observation_date": "2020-05-05",
+      "gap_days": 0,
+      "observed_fraction": "0.0066",
+      "value_fraction": "0.0066"
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "event": "original_written_order",
+      "target_date": "2026-08-28",
+      "status": "matched",
+      "observation_date": "2026-08-28",
+      "gap_days": 0,
+      "observed_fraction": "0.0473",
+      "value_fraction": "0.0473"
+    }
+  ],
+  "prior_current_intervals": 0,
+  "missing_prior_dates": "Prior original decision links remain unresolved; no interval or pass-through regression is calculated."
+}

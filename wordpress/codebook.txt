@@ -1,0 +1,337 @@
+ANCHORED RETURNS
+Pilot Codebook and Project Specification
+How state utility commissions justify the return on equity they authorize
+Item
+Detail
+Version
+0.1.2 — research design broadened before any coding: three candidate anchors and two interest-rate shocks. Expect v0.2 after the first five orders.
+Date
+September 29, 2026
+Author
+Kazi Rafsan Mahboob ’29, Dartmouth College
+Status
+Pre-pilot. No orders coded yet. No findings exist.
+Companion file
+Anchored_Returns_Pilot_Coding_Sheet_v0.1.2.xlsx
+
+1. The project in plain language
+Electric and gas utilities are monopolies, so a state commission decides how much profit they are allowed to earn on the money they invest. That allowed profit rate is the return on equity, or ROE. It is paid by customers through their bills.
+In principle the ROE should track what investors actually need to earn, which moves with interest rates. In practice it barely moves. Interest rates fell for decades while allowed ROEs stayed near 10 percent, and the gap between them roughly doubled.
+Every commission explains its decision in a written order. This project reads those orders and records what each commission actually relied on to pick its number. Did it run the finance models? Or did it look at what other states awarded, what it awarded last time, and choose something close to that?
+If commissions mostly look at each other, the national average becomes a reference point that feeds on itself and can drift away from real market conditions. That is anchoring — a well-documented human decision bias — operating across an entire regulatory system. If it is happening, it costs customers money, and it should be visible in the text.
+The setting is unusually clean for studying how experts choose a number. Every order records the decision-maker’s inputs — each party’s recommended ROE — alongside the output. Three reference points could pull the award: the national average, the commission’s own prior award, and the utility’s own request. The last is the same “first offer” effect studied in negotiation and in criminal sentencing, where a prosecutor’s demand has been shown to pull judges’ sentences.
+Two interest-rate shocks sharpen the test. Rates rose steeply in 2022–2023, and they are rising again now: the 10-year Treasury yield passed 5 percent in September 2026 for the first time since 2007. If commissions reason from markets, authorized ROEs should move with those shocks. If they anchor, the ROEs should barely move.
+THE ONE-SENTENCE VERSION
+I read the written decisions in which regulators set utility profit rates, classify how they justify the number, and test whether they anchor on each other, on their own past decisions, or on the utility’s request, rather than on financial markets — using two interest-rate shocks as the test.
+2. Project specification
+2.1 Research questions and hypotheses
+
+Question
+Testable prediction
+RQ1
+What evidence do commissions cite in their own analysis when setting ROE?
+Descriptive. Measure the share of commission-analysis passages coded MKT versus PEER, OWN, and GRAD, and the share of decisions that are conclusory.
+RQ2 / H1
+Do awards sit closer to reference points than to the evidence in the record?
+H1: Awards lie closer to the contemporaneous national average than to the midpoint of party recommendations, and awards vary less across cases than recommendations do.
+RQ3 / H2
+Does benchmark-based reasoning make ROEs slower to respond to interest rates?
+H2: In orders with more PEER, OWN, or GRAD reasoning, the change in ROE since the prior order responds less to the change in Treasury yields over the same interval. The 2022–2023 and 2026 rate shocks provide the variation.
+RQ4 / H3
+Does the utility’s request pull the award, beyond what the evidence supports?
+H3: Holding staff and advocate recommendations fixed, a higher final request predicts a higher award. Mid-case revisions to the request provide within-case variation.
+The pilot addresses RQ1 and descriptive versions of RQ2 and RQ4. RQ3 requires a panel of several hundred orders and is reserved for the full study, as are formal tests of H3.
+2.2 The distinction that makes this a contribution
+Comparing to other investments is not itself a bias. It is the law. The Supreme Court’s Hope (1944) and Bluefield (1923) decisions require that an authorized return be commensurate with returns on investments of comparable risk and sufficient to attract capital. A commission that compares is doing its job.
+The question is what it compares to. Comparing a utility to the returns that investors earn on similar-risk assets is comparison to markets. Comparing a utility’s authorized ROE to other commissions’ authorized ROEs is comparison of decisions to decisions. The second is circular: if every commission benchmarks to the average of every other commission’s awards, nothing in the loop connects the average to capital markets.
+WHY THE PEER / MKT BOUNDARY IS THE MOST IMPORTANT RULE IN THIS CODEBOOK
+The expected-earnings method compares the utility to accounting returns earned by comparable companies. That is market-type evidence and is coded MKT.
+Citing the average ROE that other regulators have authorized is coded PEER.
+These can look similar in an order. Getting this boundary right is what separates this project from a general content analysis. See Rule 3.
+One caution: utilities’ earned returns are themselves shaped by past authorized ROEs, so expected-earnings evidence is partly circular too. It stays coded MKT with its method recorded, and every result will be reported twice — with expected earnings grouped as market evidence and as benchmark evidence.
+2.3 Competing explanations and how the design separates them
+A good paper anticipates the reader’s alternative explanations. These are the main ones, and the feature of the design that addresses each.
+Explanation
+What it says
+How the design distinguishes it
+Anchoring (this project)
+Commissions adjust insufficiently from salient reference points — other states’ awards and their own prior award.
+Predicts awards cluster near reference points regardless of record evidence, and weaker rate pass-through where anchor reasoning is heavy.
+Rational peer learning
+Other states’ decisions are informative, so relying on them is sensible.
+If peers were informative, the national average itself should track capital-market conditions. Test whether it does. Prior work suggests it does not.
+Legal doctrine
+Hope and Bluefield require comparison, so benchmarking is mandated.
+The PEER versus MKT distinction. The law requires comparison to comparable-risk investments, not to other awards.
+Informative requests (for H3)
+A higher request may carry real information about the utility’s risk, so following it is rational.
+Condition on staff and advocate numbers, which reflect the same record. Use mid-case revisions: if an award tracks a request the utility itself lowered, the original number was not information about risk.
+Strategic filing
+Utilities time rate cases to favorable conditions (Dunkle Werner & Jarvis).
+That mechanism operates on when cases happen. This design studies how the decision is justified, conditional on a case occurring, and controls for time since the prior order.
+Political economy
+Capture, commissioner selection, or consumer-advocate strength drives outcomes.
+Record commissioner selection (appointed or elected) and presence of a consumer advocate as case-level fields.
+Statutory mandate
+Some states direct commissions by law to stay within industry norms — Rhode Island’s statute is an example — so peer benchmarking there is compelled, not chosen.
+Record a case-level statutory_peer_mandate flag. Differences between states with and without such a mandate are a useful comparison, not a nuisance.
+Settlement opacity
+Settled cases state an ROE without reasoning.
+Main tests use fully litigated cases. Settled cases are coded separately with DEF.
+2.4 Pilot versus full study
+
+Pilot (this codebook)
+Full study
+Goal
+Show the reasoning can be measured reliably and estimate the effort per order
+Test H1 and H2
+Sample
+15 fully litigated orders, six New England states
+Several hundred orders, multiple regions, roughly two decades
+Coding
+All hand-coded by the author
+A hand-coded validation set plus LLM-assisted classification
+Analysis
+Descriptive shares, position measures, reliability statistics
+Panel regressions with state and year fixed effects, clustered by state
+Output
+Two-page memo, codebook v0.2, coded dataset
+Paper, dataset release, policy brief
+2.5 Pilot sampling rule (fixed before coding; amended in v0.1.1)
+Fixing the rule in advance prevents choosing orders that happen to support the hypothesis. It was amended once, before any coding, after checking the state docket systems. The reason is recorded in the revision log — amending a rule for a documented reason before seeing results is legitimate; amending it after is not.
+Frame: written final orders in electric and gas rate cases with an explicit ROE determination, issued 2019–2026, by the commissions of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. Open-meeting decisions without a written order are not eligible (Rule 10).
+For each state, start from the most recent fully litigated written order and work backward.
+Collect until 15 orders are reached, with at most four per state. Expect imbalance: fully contested cases are rare in some states. New Hampshire’s Consumer Advocate described the 2025 Eversource order as the first fully contested rate case resolution there in many years.
+Balance the sample across interest-rate regimes: at least five orders issued 2019–2021 (low rates) and at least five issued 2023 or later (high rates). Orders from 2022 are eligible but count toward neither quota. The coding sheet classifies each order automatically.
+Include at least two Vermont orders. Vermont utilities often operate under multi-year alternative regulation plans, so the eligible Vermont order is the one that sets the ROE or its formula (Rule 12).
+Include NH Docket DE 24-070 (Order No. 28,170, 2025) by design as the motivating case. Set sample_status to Included by design so it can be excluded in robustness checks.
+If a state has no fully litigated written order in the window, substitute its most recent settled order and set sample_status to Substitute (settled). Do not substitute from other states.
+Practise the codebook only on orders outside the frame, for example orders issued before 2019. Never practise on an order that could enter the sample.
+Record every order considered and why it was included or excluded, in the Notes field.
+2.6 Pilot success criteria
+The pilot succeeds if it answers these questions, whatever the answers turn out to be.
+Feasibility. Median minutes per order. Share of orders where the ROE section can be located and each party’s recommendation recovered.
+Reliability. Agreement on a re-coded subset reaches Cohen’s kappa of 0.70 or higher for the main codes. Codes that fall short get rewritten.
+Measurability. The position measures in the coding sheet can be computed for most orders.
+WHAT THE PILOT DOES NOT DO
+The pilot does not test whether anchoring exists. Fifteen orders cannot establish that, and presenting pilot shares as a finding would overclaim. Report them as descriptive evidence of feasibility. Not finding a pattern in the pilot is not a failure.
+3. Unit of analysis and procedure
+3.1 What to code
+Code only the part of the final order that addresses cost of equity or return on equity. It is usually a titled section. Record its page range in the coding sheet. Code nothing outside it, except that a single passage elsewhere announcing the final ROE is also coded.
+3.2 Sections within the ROE discussion
+Orders typically summarize each party’s position before stating the commission’s own analysis. Every passage must be tagged with its section, because only the commission’s own reasoning tests the hypothesis.
+Section value
+Use when
+Positions of parties
+The order is summarizing what the utility, staff, consumer advocate, or intervenors argued.
+ALJ recommendation
+The order is summarizing a hearing examiner’s or administrative law judge’s proposed decision.
+Commission analysis
+The commission is stating its own evaluation, findings, or conclusions. Signals: “we find,” “the Commission concludes,” “we are persuaded.”
+Other
+Procedural history or anything else.
+3.3 Passage segmentation
+A passage is one paragraph as printed in the order. If a paragraph contains both party summary and commission analysis, split it at the point where the commission’s voice begins and treat the parts as two passages.
+3.4 Workflow for each order
+Locate the ROE section. Record pages, order date, docket, and decision type.
+Fill every numeric field in the Cases sheet from the order itself: requested ROE, each party’s recommendation, the award, and the prior authorized ROE if the order states it.
+Read the full ROE section once without coding.
+Segment into passages. Enter each in the Passages sheet with section and page reference.
+Apply every code that fits each passage (1 or 0). Then choose one primary code and a stance.
+Set case-level fields: decisive rationale and conclusory flag.
+Record minutes spent and anything confusing in Notes. Confusion is data — it tells you which rule to rewrite.
+3.5 Stance (applies to the primary code)
+Stance
+Definition
+Relied on
+The commission adopts or uses this reasoning to reach its number.
+Considered
+The commission weighs it without clearly adopting or rejecting it.
+Rejected
+The commission explicitly discounts or declines to rely on it.
+Summarized only
+Used for passages in Positions of parties or ALJ sections.
+
+4. Reasoning codes
+Eleven codes. Codes are not mutually exclusive; apply all that fit. Examples are constructed for illustration and are not quotations from real orders.
+MKT   Market-based cost-of-equity evidence
+Field
+Rule
+Definition
+The passage discusses a model-based estimate of investors’ required return: discounted cash flow (DCF), CAPM or ECAPM, bond-yield-plus-risk-premium, expected earnings, or another estimate grounded in capital-market data. Record the method in the Method field.
+Include
+Proxy groups, growth rates, betas, Treasury or bond yields used as model inputs, and commission evaluation of a witness’s model.
+Exclude / distinguish
+Comparisons to other commissions’ authorized ROEs — code PEER. A bare Treasury yield cited only as context with no model — code under the code it supports.
+Constructed example
+“Staff’s DCF analysis of the proxy group produces a range of 8.9 to 9.6 percent, which we find to be the most reliable evidence in this record.”
+PEER   Peer-award benchmark
+Field
+Rule
+Definition
+The passage references ROEs authorized by other regulators: national or regional averages of authorized returns, specific other-state decisions, or industry compilations of rate case outcomes.
+Include
+“Recently authorized returns average X,” “within the range approved by other commissions,” references to named compilations of authorized ROEs.
+Exclude / distinguish
+Earned or market returns of comparable companies (the expected-earnings method) — code MKT. The comparator for PEER is always a regulatory decision.
+Constructed example
+“Authorized returns recently approved for electric distribution utilities nationally average approximately 9.7 percent, and we see no reason for this Company’s return to depart materially from that level.”
+OWN   Own-history benchmark
+Field
+Rule
+Definition
+The passage references this utility’s previously authorized ROE, or this commission’s own recent ROE decisions for any utility.
+Include
+“The Company’s currently authorized return,” “consistent with our decision in Docket …,” “the return we approved for [another in-state utility].”
+Exclude / distinguish
+A stated principle of limiting change without referencing a prior level — code GRAD.
+Constructed example
+“The Company’s currently authorized return of 9.3 percent, approved in its last case, remains a reasonable reference point.”
+GRAD   Gradualism or stability
+Field
+Rule
+Definition
+The passage invokes a principle favoring incremental change, continuity, predictability, or avoidance of abrupt movements in the authorized return or in rates.
+Include
+“Gradualism,” “rate shock,” “regulatory stability,” “we decline to make so large an adjustment in a single case.”
+Exclude / distinguish
+References to the prior level itself — also code OWN if present. Affordability arguments about bills — code AFF.
+Constructed example
+“Consistent with the principle of gradualism, we decline to adopt a reduction of the magnitude recommended by the Consumer Advocate.”
+LAW   Legal standard
+Field
+Rule
+Definition
+The passage invokes the governing legal standard: the Hope (1944) and Bluefield (1923) comparable-risk and capital-attraction tests, the statutory “just and reasonable” standard, or a state court precedent.
+Include
+Recitations of the standard, even boilerplate. Code alongside whatever benchmark the commission then applies.
+Exclude / distinguish
+Do not treat LAW as the rationale for the number unless the passage actually derives the number from the standard.
+Constructed example
+“Under Hope and Bluefield, the return must be commensurate with returns on investments of comparable risk and sufficient to maintain the utility’s credit.”
+CAP   Capital attraction and credit
+Field
+Rule
+Definition
+The passage relies on the utility’s ability to raise capital: credit ratings, rating-agency views, credit metrics, investor expectations, or financing needs of a capital plan.
+Include
+Downgrade risk, cash-flow metrics, size of the capital program.
+Exclude / distinguish
+Company-specific business risk not tied to financing — code RISK.
+Constructed example
+“A return below 9 percent could place downward pressure on the Company’s credit ratings at a time of significant planned capital investment.”
+RISK   Risk adjustment
+Field
+Rule
+Definition
+The passage adjusts, or considers adjusting, the return for the utility’s risk relative to comparators: regulatory mechanisms (decoupling, riders, formula rates), size, business mix, or jurisdiction.
+Include
+Arguments that mechanisms in the order reduce risk; size or flotation-cost adders.
+Exclude / distinguish
+Performance-based rewards or penalties — code PERF.
+Constructed example
+“The decoupling mechanism and capital cost trackers approved in this order reduce the Company’s risk relative to the proxy group.”
+AFF   Affordability and customer impact
+Field
+Rule
+Definition
+The passage weighs the effect of the return on customers’ bills, affordability, energy burden, or state economic conditions.
+Include
+Bill impacts, low-income customers, economic conditions, public comment on rates.
+Exclude / distinguish
+Rate-shock arguments framed as a principle of change — code GRAD as well.
+Constructed example
+“In setting the return, we are mindful of the substantial increases in customer bills and current economic conditions in the state.”
+PERF   Performance adjustment
+Field
+Rule
+Definition
+The passage raises or lowers the return to reward or penalize the utility’s management, service quality, or operational performance.
+Include
+Basis-point penalties or adders tied to performance; performance-based ratemaking incentives on ROE.
+Exclude / distinguish
+Risk-based adjustments — code RISK.
+Constructed example
+“We reduce the authorized return by 25 basis points to reflect the Company’s deficient storm response performance.”
+DEF   Deference to settlement or agreement
+Field
+Rule
+Definition
+The passage adopts an ROE because parties agreed to it, or evaluates the ROE only as part of a settlement package.
+Include
+“Within the range of reasonableness” applied to a stipulated number; approval of a settlement as a whole.
+Exclude / distinguish
+Litigated determinations where the commission independently evaluates evidence.
+Constructed example
+“The settling parties have agreed to a 9.6 percent return on equity, which we find to be within the range of reasonableness.”
+CONC   Conclusory determination
+Field
+Rule
+Definition
+The passage states the authorized ROE without linking that specific number to identified evidence, method, or benchmark.
+Include
+“Having considered the record as a whole, we find X percent reasonable,” with no connecting reasoning in the analysis.
+Exclude / distinguish
+Do not code CONC if another passage in the commission’s analysis explains why the number was chosen. Also set the case-level Conclusory flag (see rule 6).
+Constructed example
+“Having considered the record as a whole, we find that a return on equity of 9.5 percent is just and reasonable.”
+5. Decision rules for hard cases
+Code what the commission does, not what it says it does. A commission that recites CAPM results and then awards the number it awarded last time with no link to the models gets MKT with stance Considered, OWN with stance Relied on.
+Party summaries are never evidence of commission reasoning. A witness citing the national average in a Positions passage is coded PEER, Summarized only. It does not count toward the commission’s reasoning.
+The PEER test: is the comparator a decision or a market outcome? Authorized ROEs from any regulator are PEER. Earned returns, market returns, and model outputs are MKT. If unclear after rereading, code both and write the reason in Notes.
+LAW never stands alone as a rationale. If the commission recites Hope and Bluefield and then applies a benchmark, code LAW plus the benchmark, with the benchmark as primary.
+OWN and GRAD often co-occur. “We decline to move far from the current 9.3 percent” is both OWN (prior level) and GRAD (limiting change). Code both.
+Conclusory is judged across the whole analysis, not one paragraph. Set the case-level Conclusory flag to Y only if no passage in the Commission analysis section links the chosen number to specific evidence, a method, or a benchmark.
+Ranges versus points. If the commission says the reasonable range is 9.0 to 10.0 percent and picks 9.5, code the reasoning for the range, and note in Notes whether it explains the choice of point within the range. That choice is where anchoring would appear.
+Numbers come from the order, never from secondary sources. News articles and advocacy statements may be used to find orders but not to fill the numeric fields. Where the order is silent, leave the field blank.
+When a new pattern appears that no code captures, do not force it. Note it and propose a new code in the revision log. Two occurrences justify a new code.
+Written orders only. Some commissions announce decisions at an open meeting and issue the written order months later. Code only the written order. Record the open-meeting date separately.
+Base and final ROE are different numbers. If the commission sets a return and then reduces or raises it for performance, the base goes in awarded_roe and the adjustment in perf_adjustment_bp. Anchoring concerns the base determination; the final number matters for customer cost.
+Multi-year and alternative regulation plans. Code the order that sets the ROE or the formula that produces it. Mechanical annual updates under an approved formula contain no new reasoning; log their values in Notes but do not code them.
+Rehearings, remands, and appeals. Code the original final order. If a later order changes the ROE, note the change and date in Notes and leave awarded_roe as originally issued.
+6. Reliability plan
+6.1 Hand-coding reliability
+A codebook is only useful if different people, or the same person on different days, apply it the same way. Reliability is measured with Cohen’s kappa, which corrects raw agreement for agreement expected by chance. A common convention treats 0.61–0.80 as substantial and above 0.80 as almost perfect (Landis & Koch, 1977).
+Intra-coder check (solo). Ten to fourteen days after coding the first five orders, re-code them without looking at the original codes. Enter both in the Reliability sheet.
+Inter-coder check (better). Train a second coder on this codebook alone and have them code three orders independently. Disagreements show where definitions are unclear.
+Target. Kappa of 0.70 or higher on MKT, PEER, OWN, GRAD, and CONC. Any code below target gets its definition rewritten before further coding.
+6.2 LLM-assisted classification (full study, not pilot)
+Freeze the codebook at a numbered version first.
+Give the model the codebook text and passages only. Never show it the hand codes.
+Compare model codes to hand codes on a validation set. Report kappa per code, not an overall accuracy figure.
+Use the model only for codes where agreement meets the target. Hand-code the rest.
+Report all of this in the paper. Whether language models are reliable coders of regulatory reasoning is itself a useful secondary finding.
+7. Questions to raise with a mentor
+Bring these to a first meeting. They show the design has been thought through and they are the points where faculty judgment adds the most.
+Does Dartmouth have access to case-level rate case data from Regulatory Research Associates, for example through the library’s S&P subscriptions? That would supply awards and dates at scale.
+Is New England a sensible pilot frame, or too idiosyncratic given small states and formula-based ROE in Vermont?
+For H2, is measuring the change in ROE since the prior order against the change in Treasury yields over the same interval adequate, given that utilities choose when to file?
+Should the classification unit be the paragraph or the whole order?
+Would interviewing commission or consumer-advocate staff add value, and would that require IRB review?
+For H3, is conditioning on staff and advocate recommendations plus mid-case request revisions a credible way to separate request anchoring from informative requests?
+Is it worth pre-registering predictions for New England cases decided during the 2026 rate shock, and how many would make that meaningful?
+Which venue fits: an energy policy journal, a regulatory economics journal, a law and economics journal, or a policy brief first?
+8. Revision log
+Version
+Date
+Change
+0.1
+Sep 29, 2026
+Initial draft: 11 codes, 9 decision rules, sampling rule, reliability plan.
+0.1.2
+Sep 29, 2026
+Before any coding. Design broadened: RQ4/H3 on request anchoring; two interest-rate shocks as the test for H2; sample balanced across rate regimes; informative-request explanation added. Sheet adds initial request, request revision, and rate regime.
+0.1.1
+Sep 29, 2026
+Before any coding. Sampling rule amended for settlement prevalence, written-order requirement, Vermont alternative regulation, and practice orders. Rules 10–13 added. Statutory-mandate explanation and expected-earnings caution added. Sheet adds base vs. final ROE, ALJ recommendation, commission range, prior-order Treasury yield, and statutory mandate fields.
+0.2
+
+[After first five orders: record every definition that changed and why.]
+References
+Bluefield Water Works & Improvement Co. v. Public Service Commission of West Virginia, 262 U.S. 679 (1923).
+Dunkle Werner, K. & Jarvis, S. (2025). Rate of Return Regulation Revisited. Energy Institute at Haas Working Paper 329R.
+Englich, B., Mussweiler, T. & Strack, F. (2006). Playing dice with criminal sentences: The influence of irrelevant anchors on experts’ judicial decision making. Personality and Social Psychology Bulletin 32(2), 188–200.
+Federal Power Commission v. Hope Natural Gas Co., 320 U.S. 591 (1944).
+Landis, J. R. & Koch, G. G. (1977). The measurement of observer agreement for categorical data. Biometrics 33(1), 159–174.
+Rode, D. C. & Fischbeck, P. S. (2019). Regulated equity returns: A puzzle. Energy Policy 133, 110891.
+Tversky, A. & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. Science 185(4157), 1124–1131.

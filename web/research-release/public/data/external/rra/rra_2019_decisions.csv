@@ -1,0 +1,127 @@
+row_id,service,decision_date,company,state,roe_percent,limited_issue_rider,page,start_char,end_char
+RRA2019-p40-c238,Electric,2019-01-02,Appalachian Power Co.,VA,10.40,True,40,238,311
+RRA2019-p40-c311,Electric,2019-01-02,Monongahela Power Co.,WV,,True,40,311,374
+RRA2019-p40-c374,Electric,2019-01-09,Consumers Energy Co.,MI,10.00,False,40,374,439
+RRA2019-p40-c439,Electric,2019-02-21,Puget Sound Energy Inc.,WA,,False,40,439,503
+RRA2019-p40-c503,Electric,2019-02-27,Virginia Electric and Power Co.,VA,9.20,True,40,503,581
+RRA2019-p40-c581,Electric,2019-02-27,Virginia Electric and Power Co.,VA,9.20,True,40,581,665
+RRA2019-p40-c665,Electric,2019-02-27,Virginia Electric and Power Co.,VA,10.20,True,40,665,750
+RRA2019-p40-c750,Electric,2019-02-27,Virginia Electric and Power Co.,VA,10.20,True,40,750,835
+RRA2019-p40-c835,Electric,2019-02-27,Virginia Electric and Power Co.,VA,10.20,True,40,835,920
+RRA2019-p40-c920,Electric,2019-02-27,Appalachian Power Co.,WV,9.75,False,40,920,991
+RRA2019-p40-c991,Electric,2019-03-06,Oklahoma Gas and Electric Co.,AR,,False,40,991,1070
+RRA2019-p40-c1070,Electric,2019-03-13,Atlantic City Electric Co.,NJ,9.60,False,40,1070,1150
+RRA2019-p40-c1150,Electric,2019-03-14,Orange and Rockland Utilities Inc.,NY,9.00,False,40,1150,1240
+RRA2019-p40-c1240,Electric,2019-03-14,Public Service Co. of Oklahoma,OK,9.40,False,40,1240,1309
+RRA2019-p40-c1309,Electric,2019-03-22,Potomac Edison Co.,MD,9.65,False,40,1309,1375
+RRA2019-p40-c1454,Electric,2019-04-02,Duke Energy Florida LLC,FL,10.50,True,40,1454,1519
+RRA2019-p40-c1519,Electric,2019-04-15,Virginia Electric and Power Co.,VA,9.20,True,40,1519,1604
+RRA2019-p40-c1604,Electric,2019-04-23,Emera Maine,ME,,False,40,1604,1645
+RRA2019-p40-c1645,Electric,2019-04-30,Kentucky Utilities Co.,KY,9.73,False,40,1645,1703
+RRA2019-p40-c1703,Electric,2019-04-30,Louisville Gas and Electric Co.,KY,9.73,False,40,1703,1769
+RRA2019-p40-c1769,Electric,2019-05-01,Duke Energy Carolinas LLC,SC,9.50,False,40,1769,1844
+RRA2019-p40-c1844,Electric,2019-05-02,DTE Electric Co.,MI,10.00,False,40,1844,1911
+RRA2019-p40-c1911,Electric,2019-05-02,Appalachian Power Co.,VA,9.42,True,40,1911,1972
+RRA2019-p40-c1972,Electric,2019-05-02,Virginia Electric and Power Co.,VA,9.20,True,40,1972,2051
+RRA2019-p40-c2051,Electric,2019-05-08,Duke Energy Progress LLC,SC,9.50,False,40,2051,2124
+RRA2019-p40-c2124,Electric,2019-05-14,Otter Tail Power Co.,SD,8.75,False,40,2124,2193
+RRA2019-p40-c2193,Electric,2019-05-16,Southern California Edison Co.,CA,,False,40,2193,2268
+RRA2019-p40-c2268,Electric,2019-05-16,Maui Electric Co. Ltd.,HI,9.50,False,40,2268,2340
+RRA2019-p40-c2340,Electric,2019-05-23,Upper Peninsula Power Co.,MI,9.90,False,40,2340,2410
+RRA2019-p40-c2410,Electric,2019-05-29,Southern Indiana Gas and Electric Co.,IN,,True,40,2410,2492
+RRA2019-p40-c2492,Electric,2019-06-12,Northern Indiana Public Service Co.,IN,,True,40,2492,2573
+RRA2019-p40-c2573,Electric,2019-06-18,MDU Resources Group Inc.,MT,,False,40,2573,2635
+RRA2019-p40-c2707,Electric,2019-07-03,Virginia Electric and Power Co.,VA,10.20,True,40,2707,2792
+RRA2019-p40-c2792,Electric,2019-07-03,Virginia Electric and Power Co.,VA,9.20,True,40,2792,2876
+RRA2019-p40-c2876,Electric,2019-07-30,Empire District Electric Co.,KS,,False,40,2876,2933
+RRA2019-p40-c2933,Electric,2019-08-05,Virginia Electric and Power Co.,VA,9.20,True,40,2933,3014
+RRA2019-p40-c3014,Electric,2019-08-12,Potomac Electric Power Co.,MD,9.60,False,40,3014,3089
+RRA2019-p40-c3089,Electric,2019-08-29,Green Mountain Power Corp.,VT,9.06,False,40,3089,3164
+RRA2019-p40-c3164,Electric,2019-09-04,Northern States Power Co. - WI,WI,10.00,False,40,3164,3244
+RRA2019-p40-c3244,Electric,2019-09-19,Oklahoma Gas and Electric Co.,OK,,False,40,3244,3305
+RRA2019-p40-c3305,Electric,2019-09-26,San Diego Gas & Electric Co.,CA,,False,40,3305,3373
+RRA2019-p40-c3373,Electric,2019-09-30,Massachusetts Electric Co.,MA,9.60,False,40,3373,3453
+RRA2019-p40-c3525,Electric,2019-10-08,Duke Energy Indiana LLC,IN,,True,40,3525,3594
+RRA2019-p40-c3594,Electric,2019-10-31,Wisconsin Electric Power Co.,WI,10.00,False,40,3594,3667
+RRA2019-p40-c3667,Electric,2019-10-31,Wisconsin Public Service Corp.,WI,10.00,False,40,3667,3742
+RRA2019-p40-c3742,Electric,2019-11-01,Virginia Electric and Power Co.,VA,9.20,True,40,3742,3828
+RRA2019-p40-c3828,Electric,2019-11-07,Entergy New Orleans LLC,LA,9.35,False,40,3828,3907
+RRA2019-p40-c3907,Electric,2019-11-27,Southern Indiana Gas and Electric Co.,IN,,True,40,3907,3988
+RRA2019-p40-c3988,Electric,2019-11-29,Avista Corp.,ID,9.50,False,40,3988,4051
+RRA2019-p40-c4051,Electric,2019-12-04,Commonwealth Edison Co.,IL,8.91,False,40,4051,4125
+RRA2019-p40-c4125,Electric,2019-12-04,Northern Indiana Public Service Co.,IN,9.75,False,40,4125,4216
+RRA2019-p40-c4216,Electric,2019-12-13,Entergy Arkansas LLC,AR,,False,40,4216,4287
+RRA2019-p40-c4287,Electric,2019-12-16,Ameren Illinois Co.,IL,8.91,False,40,4287,4357
+RRA2019-p40-c4357,Electric,2019-12-17,Georgia Power Co.,GA,10.50,False,40,4357,4413
+RRA2019-p40-c4413,Electric,2019-12-17,Baltimore Gas and Electric Co.,MD,9.70,False,40,4413,4488
+RRA2019-p40-c4488,Electric,2019-12-18,Northern Indiana Public Service Co.,IN,,True,40,4488,4568
+RRA2019-p40-c4568,Electric,2019-12-19,Pacific Gas and Electric Co.,CA,10.25,False,40,4568,4642
+RRA2019-p40-c4642,Electric,2019-12-19,San Diego Gas & Electric Co.,CA,10.20,False,40,4642,4713
+RRA2019-p40-c4713,Electric,2019-12-19,Southern California Edison Co.,CA,10.30,False,40,4713,4788
+RRA2019-p40-c4788,Electric,2019-12-19,NSTAR Electric Co.,MA,,False,40,4788,4839
+RRA2019-p40-c4839,Electric,2019-10-29,NorthWestern Corp.,MT,9.65,False,40,4839,4899
+RRA2019-p40-c4899,Electric,2019-12-20,Southwestern Electric Power Co.,AR,9.45,False,40,4899,4983
+RRA2019-p40-c4983,Electric,2019-12-24,Sierra Pacific Power Co.,NV,9.50,False,40,4983,5047
+RRA2019-p40-c5318,Gas,2019-01-04,Baltimore Gas and Electric Co.,MD,9.80,False,40,5318,5395
+RRA2019-p40-c5395,Gas,2019-01-08,Oklahoma Natural Gas Co.,OK,,False,40,5395,5456
+RRA2019-p40-c5456,Gas,2019-01-18,Berkshire Gas Co.,MA,9.70,False,40,5456,5516
+RRA2019-p40-c5516,Gas,2019-01-29,Indiana Gas Co. Inc.,IN,,True,40,5516,5582
+RRA2019-p40-c5582,Gas,2019-01-29,Southern Indiana Gas and Electric Co.,IN,,True,40,5582,5664
+RRA2019-p40-c5664,Gas,2019-02-05,Kansas Gas Service Co. Inc.,KS,,False,40,5664,5725
+RRA2019-p40-c5725,Gas,2019-02-21,Puget Sound Energy Inc.,WA,,False,40,5725,5790
+RRA2019-p40-c5790,Gas,2019-03-14,Orange and Rockland Utilities Inc.,NY,9.00,False,40,5790,5877
+RRA2019-p40-c5877,Gas,2019-03-27,Duke Energy Kentucky Inc.,KY,9.70,False,40,5877,5950
+RRA2019-p40-c6025,Gas,2019-04-23,Atmos Energy Corp.,KS,,True,40,6025,6081
+RRA2019-p40-c6081,Gas,2019-04-30,Delta Natural Gas Co. Inc.,KY,,True,40,6081,6152
+RRA2019-p40-c6152,Gas,2019-04-30,Louisville Gas and Electric Co.,KY,9.73,False,40,6152,6219
+RRA2019-p41-c0,Gas,2019-05-03,Missouri Gas Energy,MO,,True,41,0,57
+RRA2019-p41-c57,Gas,2019-05-03,Spire Missouri Inc.,MO,,True,41,57,114
+RRA2019-p41-c114,Gas,2019-05-07,Atmos Energy Corp.,KY,9.65,False,41,114,179
+RRA2019-p41-c179,Gas,2019-05-20,Atmos Energy Corp.,TN,,False,41,179,245
+RRA2019-p41-c245,Gas,2019-05-21,Atmos Energy Corp.,TX,9.80,False,41,245,313
+RRA2019-p41-c313,Gas,2019-06-12,Columbia Gas of Virginia Inc.,VA,,False,41,313,381
+RRA2019-p41-c451,Gas,2019-07-17,New Mexico Gas Co. Inc.,NM,,False,41,451,509
+RRA2019-p41-c509,Gas,2019-07-29,Indiana Gas Co. Inc.,IN,,True,41,509,568
+RRA2019-p41-c568,Gas,2019-07-29,Southern Indiana Gas and Electric Co.,IN,,True,41,568,643
+RRA2019-p41-c643,Gas,2019-08-20,Oklahoma Natural Gas Co.,OK,,False,41,643,702
+RRA2019-p41-c702,Gas,2019-08-21,Union Electric Co.,MO,,False,41,702,756
+RRA2019-p41-c756,Gas,2019-08-23,CenterPoint Energy Resources Corp.,AR,,False,41,756,840
+RRA2019-p41-c840,Gas,2019-08-28,Vectren Energy Delivery of Ohio Inc.,OH,,False,41,840,923
+RRA2019-p41-c923,Gas,2019-08-29,CenterPoint Energy Resources Corp.,OK,,False,41,923,998
+RRA2019-p41-c998,Gas,2019-08-29,Virginia Natural Gas Inc.,VA,9.50,True,41,998,1076
+RRA2019-p41-c1076,Gas,2019-09-04,Northern States Power Co. - WI,WI,10,False,41,1076,1155
+RRA2019-p41-c1155,Gas,2019-09-12,Pacific Gas and Electric Co.,CA,,False,41,1155,1223
+RRA2019-p41-c1223,Gas,2019-09-19,UGI Utilities Inc.,PA,,False,41,1223,1277
+RRA2019-p41-c1277,Gas,2019-09-24,Atmos Energy Corp.,KY,,True,41,1277,1339
+RRA2019-p41-c1339,Gas,2019-09-26,San Diego Gas & Electric Co.,CA,,False,41,1339,1407
+RRA2019-p41-c1407,Gas,2019-09-26,Southern California Gas Co.,CA,,False,41,1407,1475
+RRA2019-p41-c1475,Gas,2019-09-26,Consumers Energy Co.,MI,9.90,False,41,1475,1545
+RRA2019-p41-c1617,Gas,2019-10-02,Northern Illinois Gas Co.,IL,9.73,False,41,1617,1690
+RRA2019-p41-c1690,Gas,2019-10-03,Peoples Natural Gas Co. LLC,PA,,False,41,1690,1751
+RRA2019-p41-c1751,Gas,2019-10-08,Avista Corp.,OR,9.40,False,41,1751,1813
+RRA2019-p41-c1813,Gas,2019-10-15,Washington Gas Light Co.,MD,9.70,False,41,1813,1883
+RRA2019-p41-c1883,Gas,2019-10-16,Northern Indiana Public Service Co.,IN,,True,41,1883,1962
+RRA2019-p41-c1962,Gas,2019-10-21,Northwest Natural Gas Co.,WA,9.40,False,41,1962,2035
+RRA2019-p41-c2035,Gas,2019-10-30,Missouri Gas Energy,MO,,True,41,2035,2101
+RRA2019-p41-c2101,Gas,2019-10-30,Spire Missouri Inc.,MO,,True,41,2101,2167
+RRA2019-p41-c2167,Gas,2019-10-31,Piedmont Natural Gas Co. Inc.,NC,9.70,False,41,2167,2247
+RRA2019-p41-c2247,Gas,2019-10-31,Wisconsin Electric Power Co.,WI,10.00,False,41,2247,2320
+RRA2019-p41-c2320,Gas,2019-10-31,Wisconsin Gas LLC,WI,10.20,False,41,2320,2381
+RRA2019-p41-c2381,Gas,2019-10-31,Wisconsin Public Service Corp.,WI,10.00,False,41,2381,2455
+RRA2019-p41-c2455,Gas,2019-11-07,Entergy New Orleans LLC,LA,9.35,False,41,2455,2533
+RRA2019-p41-c2533,Gas,2019-11-13,Elizabethtown Gas Co.,NJ,9.60,False,41,2533,2604
+RRA2019-p41-c2604,Gas,2019-11-13,New Jersey Natural Gas Co.,NJ,9.60,False,41,2604,2680
+RRA2019-p41-c2680,Gas,2019-11-21,Kansas Gas Service Co. Inc.,KS,,True,41,2680,2751
+RRA2019-p41-c2751,Gas,2019-11-26,Washington Gas Light Co.,VA,,True,41,2751,2820
+RRA2019-p41-c2820,Gas,2019-12-06,"SEMCO Energy, Inc.",MI,9.87,False,41,2820,2879
+RRA2019-p41-c2879,Gas,2019-12-06,Columbia Gas of Virginia Inc.,VA,9.70,True,41,2879,2958
+RRA2019-p41-c2958,Gas,2019-12-11,Black Hills Gas Distribution LLC,WY,9.40,False,41,2958,3041
+RRA2019-p41-c3041,Gas,2019-12-17,Baltimore Gas and Electric Co.,MD,9.75,False,41,3041,3110
+RRA2019-p41-c3110,Gas,2019-12-18,Interstate Power and Light Co.,IA,9.60,False,41,3110,3190
+RRA2019-p41-c3190,Gas,2019-12-18,Columbia Gas of Maryland Inc.,MD,9.60,False,41,3190,3268
+RRA2019-p41-c3268,Gas,2019-12-19,San Diego Gas & Electric Co.,CA,10.20,False,41,3268,3339
+RRA2019-p41-c3339,Gas,2019-12-19,Southern California Gas Co.,CA,10.05,False,41,3339,3409
+RRA2019-p41-c3409,Gas,2019-12-19,Atlanta Gas Light Co.,GA,10.25,False,41,3409,3475
+RRA2019-p41-c3475,Gas,2019-12-20,Columbia Gas of Kentucky Inc.,KY,,True,41,3475,3556
+RRA2019-p41-c3556,Gas,2019-12-20,Washington Gas Light Co.,VA,9.20,False,41,3556,3630
+RRA2019-p41-c3630,Gas,2019-12-26,Mountaineer Gas Co.,WV,9.75,False,41,3630,3695

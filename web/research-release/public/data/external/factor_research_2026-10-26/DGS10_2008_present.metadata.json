@@ -1,0 +1,29 @@
+{
+  "series_id": "DGS10",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2008-01-01",
+  "retrieved_at_utc": "2026-10-26T18:40:26.851198+00:00",
+  "http_status": 200,
+  "content_type": "application/csv",
+  "bytes": 77727,
+  "sha256": "ca303c6e3fbb6457c7167abb03fb5116e93e6015c614db15de03f7fcc4801449",
+  "headers": {
+    "Date": "Mon, 26 Oct 2026 18:40:27 GMT",
+    "Last-Modified": "Fri, 23 Oct 2026 20:16:51 GMT"
+  },
+  "schema": [
+    "observation_date",
+    "DGS10"
+  ],
+  "rows": 4907,
+  "validated_csv": true,
+  "first_row": {
+    "observation_date": "2008-01-02",
+    "DGS10": "3.91"
+  },
+  "last_row": {
+    "observation_date": "2026-10-22",
+    "DGS10": "4.96"
+  },
+  "nonmissing_rows": 4705,
+  "blank_rows": 202
+}

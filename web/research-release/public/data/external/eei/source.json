@@ -1,0 +1,21 @@
+{
+  "source_id": "EEI-RATE-REVIEW-2025-Q3",
+  "title": "EEI Rate Review 2025 Q3",
+  "publisher": "Edison Electric Institute",
+  "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues-and-Policy/Finance-And-Tax/Quarterly-Financial-Updates/2025_Q3_Rate_Review_XLSX.xlsx?hash=7A0B11A1D991CF195A7A921A218DF9D7BB130275&la=en",
+  "landing_page": "https://www.eei.org/issues-and-policy/finance-and-tax",
+  "filename": "eei_rate_review_2025_q3.xlsx",
+  "path": "data/external/eei/eei_rate_review_2025_q3.xlsx",
+  "sha256": "b901b35640b222ae8ab6df8aca7c5b04d51c38d961b72354704ec8ecc5753895",
+  "bytes": 847348,
+  "retrieved_date": "2026-10-20",
+  "source_vintage": "2025 Q3",
+  "reporting_as_of": "2025-09-30",
+  "published_date": null,
+  "publication_date_verified": false,
+  "observation_sheet": "All Rate Cases 2025Q3",
+  "source_sheet_hidden": true,
+  "coverage": "U.S. investor-owned electric utility rate reviews represented in the complete EEI workbook source table",
+  "original_publication_is_RRA_report": false,
+  "redistribution_note": "Public EEI source workbook. Underlying source rights remain with their owners. No additional license is asserted."
+}

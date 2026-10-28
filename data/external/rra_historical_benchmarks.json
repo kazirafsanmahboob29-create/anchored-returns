@@ -1,0 +1,457 @@
+{
+  "schema_version": "1.0",
+  "checked_date": "2026-10-04",
+  "records": [
+    {
+      "benchmark_id": "RRA-LEGACY-2020-H1-ELECTRIC",
+      "source_id": "RRA-2020-H1-PUBLIC-DOCKET",
+      "service": "Electric",
+      "period_start": "2020-01-01",
+      "period_end": "2020-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.47",
+      "value_fraction": "0.0947",
+      "published_date": "2020-07-22",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "evidence": {
+        "page": 6,
+        "start_char": 2985,
+        "end_char": 3016,
+        "exact_text": "General rate cases\n9.64\n9.47\n6\n",
+        "table_row": "General rate cases",
+        "table_column": "H1 2020"
+      },
+      "visual_check": {
+        "page": 6,
+        "path": "reports/pdf_qa/rra_2020_h1-table.png",
+        "sha256": "96dd5f1cf0339f3aaa35f35b3d623b5224cf6ec327f1973dbec74abcff52527d",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-02"
+      }
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2020-H1-GAS",
+      "source_id": "RRA-2020-H1-PUBLIC-DOCKET",
+      "service": "Gas",
+      "period_start": "2020-01-01",
+      "period_end": "2020-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.40",
+      "value_fraction": "0.094",
+      "published_date": "2020-07-22",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "evidence": {
+        "page": 6,
+        "start_char": 3224,
+        "end_char": 3255,
+        "exact_text": "General rate cases\n9.72\n9.40\n6\n",
+        "table_row": "General rate cases",
+        "table_column": "H1 2020"
+      },
+      "visual_check": {
+        "page": 6,
+        "path": "reports/pdf_qa/rra_2020_h1-table.png",
+        "sha256": "96dd5f1cf0339f3aaa35f35b3d623b5224cf6ec327f1973dbec74abcff52527d",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-02"
+      }
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2021-H1-ELECTRIC",
+      "source_id": "RRA-2021-H1-PUBLIC-DOCKET",
+      "service": "Electric",
+      "period_start": "2021-01-01",
+      "period_end": "2021-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.45",
+      "value_fraction": "0.0945",
+      "published_date": "2021-07-27",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "evidence": {
+        "page": 38,
+        "start_char": 2227,
+        "end_char": 2265,
+        "exact_text": "General rate cases \n9.39 \n9.45 \n9.36 \n",
+        "table_row": "General rate cases",
+        "table_column": "H1 2021"
+      },
+      "visual_check": {
+        "page": 38,
+        "path": "reports/pdf_qa/rra_2021_h1-table.png",
+        "sha256": "90728c97e5c9728b1999ba16e9f4b510ccc17ed555e8deafc674ae09de546760",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-02"
+      }
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2021-H1-GAS",
+      "source_id": "RRA-2021-H1-PUBLIC-DOCKET",
+      "service": "Gas",
+      "period_start": "2021-01-01",
+      "period_end": "2021-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.62",
+      "value_fraction": "0.0962",
+      "published_date": "2021-07-27",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "evidence": {
+        "page": 38,
+        "start_char": 2512,
+        "end_char": 2550,
+        "exact_text": "General rate cases \n9.46 \n9.62 \n9.55 \n",
+        "table_row": "General rate cases",
+        "table_column": "H1 2021"
+      },
+      "visual_check": {
+        "page": 38,
+        "path": "reports/pdf_qa/rra_2021_h1-table.png",
+        "sha256": "90728c97e5c9728b1999ba16e9f4b510ccc17ed555e8deafc674ae09de546760",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-02"
+      }
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2022-H1-ELECTRIC",
+      "source_id": "RRA-2022-H1-PUBLIC-DOCKET",
+      "service": "Electric",
+      "period_start": "2022-01-01",
+      "period_end": "2022-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.34",
+      "value_fraction": "0.0934",
+      "published_date": "2022-07-27",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "evidence": {
+        "page": 3,
+        "start_char": 864,
+        "end_char": 898,
+        "exact_text": "General rate cases\n9.39\n9.34\n9.35\n",
+        "table_row": "General rate cases",
+        "table_column": "H1 2022"
+      },
+      "visual_check": {
+        "page": 3,
+        "path": "reports/pdf_qa/rra_2022_h1-table.png",
+        "sha256": "7a388d501ba85d19aa39604bee1bbeff939c1c2ecfbfe8725377c005e7751418",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-02"
+      }
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2022-H1-GAS",
+      "source_id": "RRA-2022-H1-PUBLIC-DOCKET",
+      "service": "Gas",
+      "period_start": "2022-01-01",
+      "period_end": "2022-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.33",
+      "value_fraction": "0.0933",
+      "published_date": "2022-07-27",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "evidence": {
+        "page": 3,
+        "start_char": 1120,
+        "end_char": 1154,
+        "exact_text": "General rate cases\n9.56\n9.33\n9.48\n",
+        "table_row": "General rate cases",
+        "table_column": "H1 2022"
+      },
+      "visual_check": {
+        "page": 3,
+        "path": "reports/pdf_qa/rra_2022_h1-table.png",
+        "sha256": "7a388d501ba85d19aa39604bee1bbeff939c1c2ecfbfe8725377c005e7751418",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-02"
+      }
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2024-H1-ELECTRIC",
+      "source_id": "RRA-2024-H1-PUBLIC-DOCKET",
+      "service": "Electric",
+      "period_start": "2024-01-01",
+      "period_end": "2024-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.68",
+      "value_fraction": "0.0968",
+      "published_date": "2024-07-29",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "evidence": {
+        "page": 4,
+        "start_char": 125,
+        "end_char": 159,
+        "exact_text": "General rate cases\n9.66\n9.68\n9.67\n",
+        "table_row": "General rate cases",
+        "table_column": "H1 2024"
+      },
+      "visual_check": {
+        "page": 4,
+        "path": "reports/pdf_qa/rra_2024_h1-table.png",
+        "sha256": "40d6136ef04dbb14946154d771bad8387351ec87a0c3f556f2dd13d4a754c192",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-02"
+      }
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2024-H1-GAS",
+      "source_id": "RRA-2024-H1-PUBLIC-DOCKET",
+      "service": "Gas",
+      "period_start": "2024-01-01",
+      "period_end": "2024-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.85",
+      "value_fraction": "0.0985",
+      "published_date": "2024-07-29",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "evidence": {
+        "page": 4,
+        "start_char": 381,
+        "end_char": 415,
+        "exact_text": "General rate cases\n9.60\n9.85\n9.66\n",
+        "table_row": "General rate cases",
+        "table_column": "H1 2024"
+      },
+      "visual_check": {
+        "page": 4,
+        "path": "reports/pdf_qa/rra_2024_h1-table.png",
+        "sha256": "40d6136ef04dbb14946154d771bad8387351ec87a0c3f556f2dd13d4a754c192",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-02"
+      }
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2019-H2-ELECTRIC-RECONSTRUCTED",
+      "source_id": "RRA-2019-ANNUAL-PUBLIC-DOCKET",
+      "service": "Electric",
+      "period_start": "2019-07-01",
+      "period_end": "2019-12-31",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": null,
+      "display_percent": "9.70",
+      "value_fraction": "0.097",
+      "published_date": "2020-01-31",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "estimation_method": "case_level_reconstruction",
+      "evidence": {
+        "page": 40,
+        "start_char": 3014,
+        "end_char": 3089,
+        "exact_text": "08/12/19\nPotomac Electric Power Co.\nMD\n7.45\n9.60\n50.46\n1/19 Average\n10.3 D\n"
+      },
+      "visual_check": {
+        "page": 40,
+        "path": "reports/pdf_qa/rra_2019_reconstruction-p40.png",
+        "sha256": "3d4ff80092d0da683a6086139c86dbca554bcd17dcaa9db61705bc315286c207",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-04"
+      },
+      "reconstruction": {
+        "path": "data/external/rra/rra_2019_decisions.json",
+        "sha256": "6b8900c099618453902f725f7550d569adbaf4a730c3cb2948a1ab9aad85a65d",
+        "result": {
+          "observations": 19,
+          "sum_percent": "184.23",
+          "unrounded_mean_percent": "9.696315789473684210526315789",
+          "display_percent": "9.70",
+          "included_row_ids": [
+            "RRA2019-p40-c3014",
+            "RRA2019-p40-c3089",
+            "RRA2019-p40-c3164",
+            "RRA2019-p40-c3373",
+            "RRA2019-p40-c3594",
+            "RRA2019-p40-c3667",
+            "RRA2019-p40-c3828",
+            "RRA2019-p40-c3988",
+            "RRA2019-p40-c4051",
+            "RRA2019-p40-c4125",
+            "RRA2019-p40-c4287",
+            "RRA2019-p40-c4357",
+            "RRA2019-p40-c4413",
+            "RRA2019-p40-c4568",
+            "RRA2019-p40-c4642",
+            "RRA2019-p40-c4713",
+            "RRA2019-p40-c4839",
+            "RRA2019-p40-c4899",
+            "RRA2019-p40-c4983"
+          ]
+        }
+      },
+      "method_note": "Unweighted mean of reported ROEs for decisions dated July-December 2019. Excludes LIR rows and rows without an ROE. All annual observation counts and rounded means reconcile with original Tables 3 and 4. Display precision is two decimal places. This is a reconstructed value, not a publisher-printed H2 mean."
+    },
+    {
+      "benchmark_id": "RRA-LEGACY-2019-H2-GAS-RECONSTRUCTED",
+      "source_id": "RRA-2019-ANNUAL-PUBLIC-DOCKET",
+      "service": "Gas",
+      "period_start": "2019-07-01",
+      "period_end": "2019-12-31",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": null,
+      "display_percent": "9.75",
+      "value_fraction": "0.0975",
+      "published_date": "2020-01-31",
+      "dataset_version": "legacy_major_rate_case_coverage",
+      "estimation_method": "case_level_reconstruction",
+      "evidence": {
+        "page": 41,
+        "start_char": 1076,
+        "end_char": 1155,
+        "exact_text": "09/04/19\nNorthern States Power Co. - WI\nWI\n7.74\n10\n52.52\n12/20 Average\n1.1 B,Z\n"
+      },
+      "visual_check": {
+        "page": 41,
+        "path": "reports/pdf_qa/rra_2019_reconstruction-p41.png",
+        "sha256": "3aa53f2ff628058255cdc86de1a7f5f56f7ae5cf0d714288eedacbf191fd9430",
+        "reviewer": "Codex assistant",
+        "checked_date": "2026-10-04"
+      },
+      "reconstruction": {
+        "path": "data/external/rra/rra_2019_decisions.json",
+        "sha256": "6b8900c099618453902f725f7550d569adbaf4a730c3cb2948a1ab9aad85a65d",
+        "result": {
+          "observations": 23,
+          "sum_percent": "224.25",
+          "unrounded_mean_percent": "9.75",
+          "display_percent": "9.75",
+          "included_row_ids": [
+            "RRA2019-p41-c1076",
+            "RRA2019-p41-c1475",
+            "RRA2019-p41-c1617",
+            "RRA2019-p41-c1751",
+            "RRA2019-p41-c1813",
+            "RRA2019-p41-c1962",
+            "RRA2019-p41-c2167",
+            "RRA2019-p41-c2247",
+            "RRA2019-p41-c2320",
+            "RRA2019-p41-c2381",
+            "RRA2019-p41-c2455",
+            "RRA2019-p41-c2533",
+            "RRA2019-p41-c2604",
+            "RRA2019-p41-c2820",
+            "RRA2019-p41-c2958",
+            "RRA2019-p41-c3041",
+            "RRA2019-p41-c3110",
+            "RRA2019-p41-c3190",
+            "RRA2019-p41-c3268",
+            "RRA2019-p41-c3339",
+            "RRA2019-p41-c3409",
+            "RRA2019-p41-c3556",
+            "RRA2019-p41-c3630"
+          ]
+        }
+      },
+      "method_note": "Unweighted mean of reported ROEs for decisions dated July-December 2019. Excludes LIR rows and rows without an ROE. All annual observation counts and rounded means reconcile with original Tables 3 and 4. Display precision is two decimal places. This is a reconstructed value, not a publisher-printed H2 mean."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "RRA-2020-H1-PUBLIC-DOCKET",
+      "publisher": "S&P Global / Regulatory Research Associates",
+      "source_kind": "publisher_report_in_public_commission_docket",
+      "source_url": "https://psc.ky.gov/pscecf/2020-00060/andrea.fackler%40lge-ku.com/08142020114603/2_-_KU_Responses_to_PSC_DR2_2020_ECR_Plan.pdf",
+      "pdf_path": "data/external/rra/rra_2020_h1.pdf",
+      "pdf_sha256": "f32988713a2b272c2973077ddd6fdb02f844c70c137983fda0eb5ed2994553d9",
+      "n_pages": 45,
+      "published_date": "2020-07-22",
+      "data_compiled_date": "2020-07-20",
+      "checked_date": "2026-10-02",
+      "saved_at_utc": "2026-10-02T20:36:30.183274+00:00",
+      "notes": "The public filing reproduces the publisher report. The report vintage is retained; later revisions may differ."
+    },
+    {
+      "source_id": "RRA-2021-H1-PUBLIC-DOCKET",
+      "publisher": "S&P Global / Regulatory Research Associates",
+      "source_kind": "publisher_report_in_public_commission_docket",
+      "source_url": "https://interchange.puc.texas.gov/Documents/52195_298_1161486.PDF",
+      "pdf_path": "data/external/rra/rra_2021_h1.pdf",
+      "pdf_sha256": "af4109b3d154f6c9406c2929299d832bad360977dbf033987a2c1167a80eab9a",
+      "n_pages": 100,
+      "published_date": "2021-07-27",
+      "data_compiled_date": "2021-07-26",
+      "checked_date": "2026-10-02",
+      "saved_at_utc": "2026-10-02T20:37:37.232225+00:00",
+      "notes": "The public filing reproduces the publisher report. The report vintage is retained; later revisions may differ."
+    },
+    {
+      "source_id": "RRA-2022-H1-PUBLIC-DOCKET",
+      "publisher": "S&P Global / Regulatory Research Associates",
+      "source_kind": "publisher_report_in_public_commission_docket",
+      "source_url": "https://efis.psc.mo.gov/Document/Display/53586",
+      "pdf_path": "data/external/rra/rra_2022_h1.pdf",
+      "pdf_sha256": "ef1c098dab44fbbe4735db62a5e80f4a3a8b77c53081070917141347ce2d4229",
+      "n_pages": 12,
+      "published_date": "2022-07-27",
+      "data_compiled_date": "2022-07-22",
+      "checked_date": "2026-10-02",
+      "saved_at_utc": "2026-10-02T20:32:38.183213+00:00",
+      "notes": "The public filing reproduces the publisher report. The report vintage is retained; later revisions may differ."
+    },
+    {
+      "source_id": "RRA-2024-H1-PUBLIC-DOCKET",
+      "publisher": "S&P Global / Regulatory Research Associates",
+      "source_kind": "publisher_report_in_public_commission_docket",
+      "source_url": "https://pscdocs.utah.gov/electric/24docs/2403504/336109DPUExhbt3.14MjrEnrgyRtCsDcsns10-17-2024.pdf",
+      "pdf_path": "data/external/rra/rra_2024_h1.pdf",
+      "pdf_sha256": "65ca7eb2e3ce457804d27af0c029bb7c58ac815c57097c2d5f43f029d7fd292f",
+      "n_pages": 13,
+      "published_date": "2024-07-29",
+      "data_compiled_date": "2024-07-23",
+      "checked_date": "2026-10-02",
+      "saved_at_utc": "2026-10-02T20:32:37.687302+00:00",
+      "notes": "The public filing reproduces the publisher report. The report vintage is retained; later revisions may differ."
+    },
+    {
+      "source_id": "RRA-2019-ANNUAL-PUBLIC-DOCKET",
+      "title": "Major Rate Case Decisions, January-December 2019, Table 5",
+      "source_url": "https://psc.ky.gov/pscecf/2020-00060/andrea.fackler%40lge-ku.com/08142020114603/2_-_KU_Responses_to_PSC_DR2_2020_ECR_Plan.pdf",
+      "pdf_path": "data/external/rra/rra_2020_h1.pdf",
+      "pdf_sha256": "f32988713a2b272c2973077ddd6fdb02f844c70c137983fda0eb5ed2994553d9",
+      "n_pages": 45,
+      "published_date": "2020-01-31",
+      "data_compiled_date": "2020-01-29",
+      "report_pages": [
+        29,
+        42
+      ],
+      "source_kind": "original_publisher_report_in_official_docket",
+      "scope_note": "Original 2019 edition is attached to a later Kentucky filing. The H2 means are calculated from all individual decision rows, not printed by RRA."
+    }
+  ],
+  "unresolved_sources": [
+    {
+      "source_url": "https://psc.ky.gov/pscecf/2025-00114/kyle.j.smith124.civ%40army.mil/09232025013307/MPG_Copyright_Protected_WP_27.pdf",
+      "checked_date": "2026-10-02",
+      "pdf_path": "data/external/rra/rra_2025_h1-redacted-response.pdf",
+      "pdf_sha256": "03e93e6b816c24c2d159cf0bbedc99c6cd3475888ec4cfcf8fc7f10b80d32f26",
+      "status": "currently_redacted",
+      "n_pages": 1,
+      "reason": "The current download is a one-page confidential/removal notice. Search-engine cached text describes a former report. Cached values are not entered as verified current evidence."
+    },
+    {
+      "source_url": "https://psc.ky.gov/pscecf/2025-00113/kyle.j.smith124.civ%40army.mil/09232025010656/MPG_Copyright_Protected_WP_27.pdf",
+      "checked_date": "2026-10-02",
+      "pdf_path": "data/external/rra/rra_2025_h1_alt-redacted-response.pdf",
+      "pdf_sha256": "f98f7e0a79afc1b2986ab6ed28613a2ddf7365c6b42ef81df49790c664d42bd5",
+      "status": "currently_redacted",
+      "n_pages": 1,
+      "reason": "The current download is a one-page confidential/removal notice. Search-engine cached text describes a former report. Cached values are not entered as verified current evidence.",
+      "rechecked_date": "2026-10-03",
+      "recheck_pdf_sha256": "f98f7e0a79afc1b2986ab6ed28613a2ddf7365c6b42ef81df49790c664d42bd5",
+      "recheck_status": "same_removal_notice_no_verified_mean"
+    }
+  ],
+  "notes": [
+    "The current comparable series uses original report vintages, not a single retrospectively revised database export.",
+    "The 2026 summary remains separate because its expanded coverage version is unresolved.",
+    "No second-half averages are calculated by subtracting rounded first-half means from annual means.",
+    "The most recent complete half-year is selected before checking availability. A missing period is never replaced by an older observed period."
+  ]
+}

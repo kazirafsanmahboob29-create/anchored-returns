@@ -1,0 +1,684 @@
+{
+  "schema": "anchored-returns-regional/1",
+  "version": "0.1.5",
+  "cutoff": "2026-10-01",
+  "manifest_sha256": "9695d87ccc199b8664645556d47e1211648955e333fd6e4975788579d89be3ca",
+  "records": [
+    {
+      "case_id": "CAND-VT-18-1633",
+      "state": "VT",
+      "utility": "Green Mountain Power",
+      "docket": "18-1633-PET",
+      "order_date": "2019-05-24",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-VT-18-1633",
+      "award_bp": null,
+      "request_bp": null,
+      "source_id": "CAND-VT-18-1633",
+      "award_page": null,
+      "pdf_path": "data/research/acquisition_2026-10-01/VT-18-1633.pdf",
+      "source_url": null,
+      "pdf_sha256": null
+    },
+    {
+      "case_id": "CAND-ME-2018-00194",
+      "state": "ME",
+      "utility": "Central Maine Power",
+      "docket": "2018-00194",
+      "order_date": "2020-02-19",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-ME-2018-00194",
+      "award_bp": 825.0,
+      "request_bp": null,
+      "source_id": "CAND-ME-2018-00194",
+      "award_page": 142,
+      "pdf_path": "data/research/acquisition_2026-10-02/ME-2018-00194.pdf",
+      "source_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=105431&CaseNumber=2018-00194",
+      "pdf_sha256": "b4772e96242db02a0984c5c8bc9ab76ab92a3ae8c2997454d225ddfe276d7ea1"
+    },
+    {
+      "case_id": "CAND-ME-2019-00092-issuer-copy",
+      "state": "ME",
+      "utility": "Northern Utilities",
+      "docket": "2019-00092",
+      "order_date": "2020-03-26",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-ME-2019-00092-issuer-copy",
+      "award_bp": 948.0,
+      "request_bp": null,
+      "source_id": "CAND-ME-2019-00092-issuer-copy",
+      "award_page": 70,
+      "pdf_path": "data/research/acquisition_2026-10-01/ME-2019-00092-issuer-copy.pdf",
+      "source_url": "https://unitilcorp.gcs-web.com/static-files/c7d35168-ea5d-4e11-83de-e0f2c43be12c",
+      "pdf_sha256": "62a5f6b4c3496c083b6626ff0a4c1553b2ccfb255326e0c2698f6a1cab6a2737"
+    },
+    {
+      "case_id": "CAND-RI-4770-4780",
+      "state": "RI",
+      "utility": "Narragansett Electric and Narragansett Gas",
+      "docket": "4770/4780",
+      "order_date": "2020-05-05",
+      "services": [
+        "Electric",
+        "Gas"
+      ],
+      "stratum": "settlement",
+      "proceeding_group": "CAND-RI-4770-4780",
+      "award_bp": 927.5,
+      "request_bp": null,
+      "source_id": "CAND-RI-4770-4780",
+      "award_page": 18,
+      "pdf_path": "data/raw_orders/RI/4770-4780_2020-05-05_order_23823.pdf",
+      "source_url": "https://ripuc.ri.gov/eventsactions/docket/4770-4780-NGrid-Ord23823%20(5-5-20).pdf",
+      "pdf_sha256": "2d190deda4370df64bbb6fd9757f9bfe0ef4072d088e9839cda3e316a9a7918a"
+    },
+    {
+      "case_id": "CAND-VT-20-0431",
+      "state": "VT",
+      "utility": "Vermont Gas Systems",
+      "docket": "20-0431-TF",
+      "order_date": "2020-09-03",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-VT-20-0431",
+      "award_bp": 865.0,
+      "request_bp": null,
+      "source_id": "CAND-VT-20-0431",
+      "award_page": 4,
+      "pdf_path": "data/research/acquisition_2026-10-04/CAND-VT-20-0431.pdf",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/428026/147627",
+      "pdf_sha256": "94d8544471e813abcf2262a696b2f629cfc9192c32706c51c76894193a16f3b3"
+    },
+    {
+      "case_id": "CAND-MA-19-120",
+      "state": "MA",
+      "utility": "NSTAR Gas",
+      "docket": "19-120",
+      "order_date": "2020-10-30",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-MA-19-120",
+      "award_bp": 990.0,
+      "request_bp": 1045.0,
+      "source_id": "CAND-MA-19-120",
+      "award_page": 418,
+      "pdf_path": "data/raw_orders/MA/19-120_2020-10-30_final_order.pdf",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file//fdagajgj?/bOGR0SLKR7/ih5QIpjs32FJ0ioKRMXdZYr4j7j/42qk9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR+ZpYgt",
+      "pdf_sha256": "c2d7463df9b375cb2631ca34938ef71528890a115250c24a2362629098e8ba1d"
+    },
+    {
+      "case_id": "CAND-MA-20-120",
+      "state": "MA",
+      "utility": "Boston Gas",
+      "docket": "20-120",
+      "order_date": "2021-09-30",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-MA-20-120",
+      "award_bp": 970.0,
+      "request_bp": 1050.0,
+      "source_id": "CAND-MA-20-120",
+      "award_page": 463,
+      "pdf_path": "data/raw_orders/MA/20-120_2021-09-30_final_order.pdf",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file//gjaggggj?AFMhDNZxudKnPMmfFp4vOmFJ0ioKRMXdZYr4j7j/42qk9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR+ZpYgt",
+      "pdf_sha256": "0cfebe5324548574dbe67cf6e4ed08365716fc4e576749756ed295b654cf5a91"
+    },
+    {
+      "case_id": "CAND-VT-21-0898",
+      "state": "VT",
+      "utility": "Vermont Gas Systems",
+      "docket": "21-0898-TF",
+      "order_date": "2021-10-15",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-VT-21-0898",
+      "award_bp": null,
+      "request_bp": null,
+      "source_id": "CAND-VT-21-0898",
+      "award_page": null,
+      "pdf_path": "data/research/acquisition_2026-10-04/CAND-VT-21-0898.pdf",
+      "source_url": null,
+      "pdf_sha256": null
+    },
+    {
+      "case_id": "CAND-ME-2020-00316-Part-I",
+      "state": "ME",
+      "utility": "Versant Power",
+      "docket": "2020-00316",
+      "order_date": "2021-10-18",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-ME-2020-00316-Part-I",
+      "award_bp": 935.0,
+      "request_bp": null,
+      "source_id": "CAND-ME-2020-00316-Part-I",
+      "award_page": 4,
+      "pdf_path": "data/research/acquisition_2026-10-01/ME-2020-00316-Part-I.pdf",
+      "source_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=112424&CaseNumber=2020-00316",
+      "pdf_sha256": "1a032ff8362e7bf659afc0f81ba8001d7659f9539505ea626e154844badc6897"
+    },
+    {
+      "case_id": "CAND-VT-21-3707-2022-08-31",
+      "state": "VT",
+      "utility": "Green Mountain Power",
+      "docket": "21-3707-PET / 22-0175-TF",
+      "order_date": "2022-08-31",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-VT-21-3707-2022-08-31",
+      "award_bp": 857.0,
+      "request_bp": null,
+      "source_id": "CAND-VT-21-3707-2022-08-31",
+      "award_page": 31,
+      "pdf_path": "data/research/acquisition_2026-10-01/VT-21-3707-2022-08-31.pdf",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/608287/162697",
+      "pdf_sha256": "2e1864a9431a3afe585e7c04d9a40817b0cfaed71805c0cf7bf374c82c430d70"
+    },
+    {
+      "case_id": "CAND-MA-22-22",
+      "state": "MA",
+      "utility": "NSTAR Electric",
+      "docket": "22-22",
+      "order_date": "2022-11-30",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-MA-22-22",
+      "award_bp": 980.0,
+      "request_bp": null,
+      "source_id": "CAND-MA-22-22",
+      "award_page": 421,
+      "pdf_path": "data/research/acquisition_2026-10-02/CAND-MA-22-22.pdf",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/giabjige?TKztaIebchd2AFGMIUFzSMEmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt",
+      "pdf_sha256": "c943ecaa8d06e61bedf6de940d95d41cafa79d328e24e48338ba20f95104fd5d"
+    },
+    {
+      "case_id": "SUPP-VT-22-5085-ORDER",
+      "state": "VT",
+      "utility": "Vermont Gas Systems",
+      "docket": "22-5085-PET",
+      "order_date": "2023-08-18",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "VT-VGS-2023-plan",
+      "award_bp": null,
+      "request_bp": null,
+      "source_id": "SUPP-VT-22-5085-ORDER",
+      "award_page": null,
+      "pdf_path": "data/supporting_documents/VT/22-5085_2023-08-18_approving_order.pdf",
+      "source_url": null,
+      "pdf_sha256": null
+    },
+    {
+      "case_id": "CAND-CT-22-08-08",
+      "state": "CT",
+      "utility": "United Illuminating",
+      "docket": "22-08-08",
+      "order_date": "2023-08-25",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-CT-22-08-08",
+      "award_bp": 863.0,
+      "request_bp": 1020.0,
+      "source_id": "CAND-CT-22-08-08",
+      "award_page": 7,
+      "pdf_path": "data/raw_orders/CT/22-08-08_2023-08-25_decision.pdf",
+      "source_url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/dd7c1a0c81056b1485258a16004f1d22/$FILE/220808-082523.pdf",
+      "pdf_sha256": "3de32c1f96c301964548b45608f765d743cf89a8e412fc813d940c229965043f"
+    },
+    {
+      "case_id": "CAND-VT-23-0561",
+      "state": "VT",
+      "utility": "Vermont Gas Systems",
+      "docket": "23-0561-TF",
+      "order_date": "2023-10-23",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "VT-VGS-2023-plan",
+      "award_bp": 924.0,
+      "request_bp": null,
+      "source_id": "CAND-VT-23-0561",
+      "award_page": 9,
+      "pdf_path": "data/research/acquisition_2026-10-01/VT-23-0561.pdf",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/689870/177578",
+      "pdf_sha256": "6514df56d94cc80e0d5e66ae5d02b08d609bff6a5ade3563534b9e09a65112fe"
+    },
+    {
+      "case_id": "CAND-MA-23-80-81",
+      "state": "MA",
+      "utility": "Fitchburg Gas and Electric Light",
+      "docket": "23-80 / 23-81",
+      "order_date": "2024-06-28",
+      "services": [
+        "Electric",
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-MA-23-80-81",
+      "award_bp": 940.0,
+      "request_bp": null,
+      "source_id": "CAND-MA-23-80-81",
+      "award_page": 380,
+      "pdf_path": "data/research/acquisition_2026-10-01/MA-23-80-81.pdf",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/ifdjeibj?JXW6VfdoF5Zeu77y6K5cH2FJ0ioKRMXdZYr4j7j%2F42qk9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt",
+      "pdf_sha256": "fec5b06cfe9b0fb4469890de262ac8cf11628e21eeb1abe116c6d7b0399de2f5"
+    },
+    {
+      "case_id": "CAND-MA-23-150",
+      "state": "MA",
+      "utility": "Massachusetts Electric and Nantucket Electric",
+      "docket": "23-150",
+      "order_date": "2024-09-30",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-MA-23-150",
+      "award_bp": 935.0,
+      "request_bp": 1050.0,
+      "source_id": "CAND-MA-23-150",
+      "award_page": 494,
+      "pdf_path": "data/raw_orders/MA/23-150_2024-09-30_final_order.pdf",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/ihdfjeee?SZId0hz8UQX6SFF8vCANjMEmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt",
+      "pdf_sha256": "a7aa7c77c23955d76c0bffe5952822b4d2991a0151112c026efdec8912711f27"
+    },
+    {
+      "case_id": "CAND-CT-23-11-02-CNG",
+      "state": "CT",
+      "utility": "Connecticut Natural Gas",
+      "docket": "23-11-02",
+      "order_date": "2024-11-18",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CT-23-11-02",
+      "award_bp": 915.0,
+      "request_bp": null,
+      "source_id": "CAND-CT-23-11-02-CNG",
+      "award_page": 82,
+      "pdf_path": "data/research/acquisition_2026-10-01/CT-23-11-02-CNG.pdf",
+      "source_url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/94c3ad1e058bacbf85258bd900597466/$FILE/231102-111824(CNG).pdf",
+      "pdf_sha256": "45274d3ae9cf087328c3c8f48d3fcabe26785b37c61b9375048bde0bcfd2d3bb"
+    },
+    {
+      "case_id": "CAND-CT-23-11-02-SCG",
+      "state": "CT",
+      "utility": "Southern Connecticut Gas",
+      "docket": "23-11-02",
+      "order_date": "2024-11-18",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CT-23-11-02",
+      "award_bp": 915.0,
+      "request_bp": null,
+      "source_id": "CAND-CT-23-11-02-SCG",
+      "award_page": 91,
+      "pdf_path": "data/research/acquisition_2026-10-01/CT-23-11-02-SCG.pdf",
+      "source_url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/78dae2df8141906385258bd90059b463/$FILE/231102-111824(SCG).pdf",
+      "pdf_sha256": "20301139a81095112093a9878188805f187759725a1ca4f02221cfa1058badec"
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "state": "ME",
+      "utility": "Versant Power",
+      "docket": "2023-00336",
+      "order_date": "2025-03-13",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-ME-2023-00336",
+      "award_bp": 935.0,
+      "request_bp": 935.0,
+      "source_id": "CAND-ME-2023-00336",
+      "award_page": 30,
+      "pdf_path": "data/research/acquisition_2026-10-01/ME-2023-00336.pdf",
+      "source_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+      "pdf_sha256": "aa9908f17f4e6f5c24b1b7f775cf426126b4b19a450276fc430001d7167505f2"
+    },
+    {
+      "case_id": "CAND-NH-24-070",
+      "state": "NH",
+      "utility": "Public Service Company of New Hampshire",
+      "docket": "DE 24-070",
+      "order_date": "2025-07-25",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-NH-24-070",
+      "award_bp": 950.0,
+      "request_bp": 1030.0,
+      "source_id": "CAND-NH-24-070",
+      "award_page": 41,
+      "pdf_path": "data/raw_orders/NH/24-070_2025-07-25_order_28170.pdf",
+      "source_url": "https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+      "pdf_sha256": "7f9f1716be5c996b618956026dbd03b7f6d01f5cbd395d7a6d349af46c338640"
+    },
+    {
+      "case_id": "CAND-CT-24-10-04",
+      "state": "CT",
+      "utility": "United Illuminating",
+      "docket": "24-10-04",
+      "order_date": "2025-10-28",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-CT-24-10-04",
+      "award_bp": 925.0,
+      "request_bp": null,
+      "source_id": "CAND-CT-24-10-04",
+      "award_page": 101,
+      "pdf_path": "data/research/acquisition_2026-10-01/CT-24-10-04.pdf",
+      "source_url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/a06f0e1a639398ce85258d31004f0750/$FILE/241004-102825.pdf",
+      "pdf_sha256": "5ca2993f0f1913081d7f4e6e846ba1e81ebe1cf16f32bd5abd1b383d8728f232"
+    },
+    {
+      "case_id": "CAND-CT-24-12-01",
+      "state": "CT",
+      "utility": "Yankee Gas",
+      "docket": "24-12-01",
+      "order_date": "2025-11-05",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-CT-24-12-01",
+      "award_bp": 932.0,
+      "request_bp": null,
+      "source_id": "CAND-CT-24-12-01",
+      "award_page": 86,
+      "pdf_path": "data/research/acquisition_2026-10-01/CT-24-12-01.pdf",
+      "source_url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/0983604a7c0f208a85258d39004e4c65/$FILE/241201-110525.pdf",
+      "pdf_sha256": "e29cddde80d737aa68f5fbf32866334df02a78193fc937980f2e90a9c41564b6"
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "state": "VT",
+      "utility": "Green Mountain Power",
+      "docket": "25-1955-PET / 26-0096-TF",
+      "order_date": "2026-08-28",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "primary",
+      "proceeding_group": "CAND-VT-26-0096",
+      "award_bp": 905.0,
+      "request_bp": 994.0,
+      "source_id": "CAND-VT-26-0096",
+      "award_page": 57,
+      "pdf_path": "data/research/acquisition_2026-10-01/VT-26-0096.pdf",
+      "source_url": "https://epuc.vermont.gov?q=downloadfile/821761/209089",
+      "pdf_sha256": "79cfe1f93abafd7632f5136f221262f6c8e2e6bd38924267fa18aa61cd086068"
+    },
+    {
+      "case_id": "CAND-VT-19-1932",
+      "state": "VT",
+      "utility": "Green Mountain Power",
+      "docket": "19-1932-TF",
+      "order_date": "2019-08-29",
+      "services": [
+        "Electric"
+      ],
+      "stratum": "formula",
+      "proceeding_group": "CAND-VT-19-1932",
+      "award_bp": null,
+      "request_bp": null,
+      "source_id": "CAND-VT-19-1932",
+      "award_page": null,
+      "pdf_path": "data/research/acquisition_2026-10-01/VT-19-1932.pdf",
+      "source_url": null,
+      "pdf_sha256": null
+    },
+    {
+      "case_id": "CAND-VT-24-2137",
+      "state": "VT",
+      "utility": "Vermont Gas Systems",
+      "docket": "24-2137-TF",
+      "order_date": "2024-08-12",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "formula",
+      "proceeding_group": "CAND-VT-24-2137",
+      "award_bp": null,
+      "request_bp": null,
+      "source_id": "CAND-VT-24-2137",
+      "award_page": null,
+      "pdf_path": "data/research/acquisition_2026-10-04/CAND-VT-24-2137.pdf",
+      "source_url": null,
+      "pdf_sha256": null
+    },
+    {
+      "case_id": "CAND-VT-25-1261",
+      "state": "VT",
+      "utility": "Vermont Gas Systems",
+      "docket": "25-1261-TF",
+      "order_date": "2025-08-26",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "formula",
+      "proceeding_group": "CAND-VT-25-1261",
+      "award_bp": 962.0,
+      "request_bp": null,
+      "source_id": "CAND-VT-25-1261",
+      "award_page": 3,
+      "pdf_path": "data/research/acquisition_2026-10-04/CAND-VT-25-1261.pdf",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/776011/205193",
+      "pdf_sha256": "b56f93a19bdc6ef746839ca0861f03312b2b92ca8acc7a15dc1efdd30af11358"
+    },
+    {
+      "case_id": "CAND-VT-26-1298",
+      "state": "VT",
+      "utility": "Vermont Gas Systems",
+      "docket": "26-1298-TF",
+      "order_date": "2026-08-07",
+      "services": [
+        "Gas"
+      ],
+      "stratum": "formula",
+      "proceeding_group": "CAND-VT-26-1298",
+      "award_bp": 963.0,
+      "request_bp": null,
+      "source_id": "CAND-VT-26-1298",
+      "award_page": 3,
+      "pdf_path": "data/research/acquisition_2026-10-04/CAND-VT-26-1298.pdf",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/820033/211478",
+      "pdf_sha256": "d79f8315ef05a05c992195b757b7d9575034497e2e327708d966ed83827c982c"
+    }
+  ],
+  "primary": [
+    {
+      "state": "CT",
+      "orders": 5,
+      "awards": 5,
+      "missing": 0,
+      "proceedings": 4,
+      "median_bp": 915.0,
+      "mean_bp": 910.0,
+      "min_bp": 863.0,
+      "max_bp": 932.0,
+      "early": 0,
+      "later": 5
+    },
+    {
+      "state": "MA",
+      "orders": 5,
+      "awards": 5,
+      "missing": 0,
+      "proceedings": 5,
+      "median_bp": 970.0,
+      "mean_bp": 963.0,
+      "min_bp": 935.0,
+      "max_bp": 990.0,
+      "early": 2,
+      "later": 2
+    },
+    {
+      "state": "ME",
+      "orders": 4,
+      "awards": 4,
+      "missing": 0,
+      "proceedings": 4,
+      "median_bp": 935.0,
+      "mean_bp": 910.75,
+      "min_bp": 825.0,
+      "max_bp": 948.0,
+      "early": 3,
+      "later": 1
+    },
+    {
+      "state": "NH",
+      "orders": 1,
+      "awards": 1,
+      "missing": 0,
+      "proceedings": 1,
+      "median_bp": 950.0,
+      "mean_bp": 950.0,
+      "min_bp": 950.0,
+      "max_bp": 950.0,
+      "early": 0,
+      "later": 1
+    },
+    {
+      "state": "RI",
+      "orders": 0,
+      "awards": 0,
+      "missing": 0,
+      "proceedings": 0,
+      "median_bp": null,
+      "mean_bp": null,
+      "min_bp": null,
+      "max_bp": null,
+      "early": 0,
+      "later": 0
+    },
+    {
+      "state": "VT",
+      "orders": 7,
+      "awards": 4,
+      "missing": 3,
+      "proceedings": 6,
+      "median_bp": 885.0,
+      "mean_bp": 887.75,
+      "min_bp": 857.0,
+      "max_bp": 924.0,
+      "early": 3,
+      "later": 3
+    }
+  ],
+  "all": [
+    {
+      "state": "CT",
+      "orders": 5,
+      "awards": 5,
+      "missing": 0,
+      "proceedings": 4,
+      "median_bp": 915.0,
+      "mean_bp": 910.0,
+      "min_bp": 863.0,
+      "max_bp": 932.0,
+      "early": 0,
+      "later": 5
+    },
+    {
+      "state": "MA",
+      "orders": 5,
+      "awards": 5,
+      "missing": 0,
+      "proceedings": 5,
+      "median_bp": 970.0,
+      "mean_bp": 963.0,
+      "min_bp": 935.0,
+      "max_bp": 990.0,
+      "early": 2,
+      "later": 2
+    },
+    {
+      "state": "ME",
+      "orders": 4,
+      "awards": 4,
+      "missing": 0,
+      "proceedings": 4,
+      "median_bp": 935.0,
+      "mean_bp": 910.75,
+      "min_bp": 825.0,
+      "max_bp": 948.0,
+      "early": 3,
+      "later": 1
+    },
+    {
+      "state": "NH",
+      "orders": 1,
+      "awards": 1,
+      "missing": 0,
+      "proceedings": 1,
+      "median_bp": 950.0,
+      "mean_bp": 950.0,
+      "min_bp": 950.0,
+      "max_bp": 950.0,
+      "early": 0,
+      "later": 1
+    },
+    {
+      "state": "RI",
+      "orders": 1,
+      "awards": 1,
+      "missing": 0,
+      "proceedings": 1,
+      "median_bp": 927.5,
+      "mean_bp": 927.5,
+      "min_bp": 927.5,
+      "max_bp": 927.5,
+      "early": 1,
+      "later": 0
+    },
+    {
+      "state": "VT",
+      "orders": 11,
+      "awards": 6,
+      "missing": 5,
+      "proceedings": 10,
+      "median_bp": 914.5,
+      "mean_bp": 912.6666666666666,
+      "min_bp": 857.0,
+      "max_bp": 963.0,
+      "early": 4,
+      "later": 6
+    }
+  ],
+  "note": "Bounded original-document cohort. State summaries are descriptive, not estimates of jurisdiction effects. Joint-service orders remain one document; settlements and formula implementations are optional and separately identified."
+}

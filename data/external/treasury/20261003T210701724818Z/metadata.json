@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "provider": "Federal Reserve Bank of St. Louis",
+  "series": "DGS10",
+  "underlying_source": "Federal Reserve Board H.15",
+  "series_url": "https://fred.stlouisfed.org/series/DGS10",
+  "transport": "csv",
+  "request_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2010-01-01&coed=2026-10-03",
+  "requested_start": "2010-01-01",
+  "requested_end": "2026-10-03",
+  "retrieved_at_utc": "2026-10-03T21:07:01.724818+00:00",
+  "vintage_kind": "retrieval_snapshot_not_point_in_time_history",
+  "first_observation": "2010-01-04",
+  "last_observation": "2026-10-01",
+  "latest_nonmissing": {
+    "date": "2026-10-01",
+    "printed_percent": "5.24",
+    "value_fraction": "0.0524"
+  },
+  "rows": 4369,
+  "missing": 179,
+  "raw_path": "data/external/treasury/20261003T210701724818Z/raw.csv",
+  "raw_sha256": "9f53694f4d3365fb820c6e2af49b1714c0bb8809818dec9395efd26777f4ce83",
+  "observations_path": "data/external/treasury/20261003T210701724818Z/observations.json",
+  "observations_sha256": "f5a83145bd92c99ae60e55b636f650155534a6a6cc710ecd239875bf624690bb",
+  "notes": "Daily percent converted with Decimal to fraction. Historical values may be revised by FRED; this is a retrieval vintage, not information known at each order date."
+}

@@ -1,0 +1,12 @@
+{
+  "packet_id": "three-orders-2026-10-02",
+  "packet_path": "data/research/reliability/three-orders-2026-10-02/rater/packet.json",
+  "packet_sha256": "f25d6adc8628beff4184bb13d6dd95efe368582295c18c714eb0fe995854a141",
+  "baseline_path": "data/research/reliability_baselines/three-orders-2026-10-02.json",
+  "baseline_sha256": "8cd4817fca6db8ecdcc3f3d170859f69903c5852d421b01144b501049702786e",
+  "ledger_sha256": "a7be22f5cfc5c1ab4090e007446a6f9013cbbdcb820a06cbce364a2ffa02ea3c",
+  "ledger_path": "data/research/reliability_baselines/three-orders-2026-10-02.ledger.json",
+  "units": 67,
+  "orders": 3,
+  "frozen_at_utc": "2026-10-02T23:56:23.936841+00:00"
+}

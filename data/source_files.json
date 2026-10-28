@@ -1,0 +1,960 @@
+{
+  "version": "0.2.0",
+  "files": [
+    {
+      "path": "data/practice_orders/MA/17-05_2017-11-30_final_order.pdf",
+      "sha256": "263ddfe8e49bc0bfcfa82684136a3aff9029aff0d572fd510fcbdeb271383d91",
+      "url": "https://www.mass.gov/files/documents/2018/01/26/17-05_Final_Order_Revenue_Requirement_11-30-17.pdf"
+    },
+    {
+      "path": "data/raw_orders/MA/23-150_2024-09-30_final_order.pdf",
+      "sha256": "a7aa7c77c23955d76c0bffe5952822b4d2991a0151112c026efdec8912711f27",
+      "url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/ihdfjeee?SZId0hz8UQX6SFF8vCANjMEmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt"
+    },
+    {
+      "path": "data/raw_orders/CT/22-08-08_2023-08-25_decision.pdf",
+      "sha256": "3de32c1f96c301964548b45608f765d743cf89a8e412fc813d940c229965043f",
+      "url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/dd7c1a0c81056b1485258a16004f1d22/$FILE/220808-082523.pdf"
+    },
+    {
+      "path": "data/raw_orders/RI/4770-4780_2020-05-05_order_23823.pdf",
+      "sha256": "2d190deda4370df64bbb6fd9757f9bfe0ef4072d088e9839cda3e316a9a7918a",
+      "url": "https://ripuc.ri.gov/eventsactions/docket/4770-4780-NGrid-Ord23823%20(5-5-20).pdf"
+    },
+    {
+      "path": "literature/Rode_Fischbeck_2019_Regulated_equity_returns.pdf",
+      "sha256": "9037170c196a4d45f682664a08239383f3421cf7dc80d35e47778e91ef1d39d9",
+      "url": "https://docs.cpuc.ca.gov/PublishedDocs/SupDoc/A2503010%3BA2503011%3BA2503012%3BA2503013/8376/574980326.pdf"
+    },
+    {
+      "path": "literature/Dunkle_Werner_Jarvis_2026_Rate_of_return_regulation_revisited.pdf",
+      "sha256": "edc0b9541d81d7e06a667299d74f585ae6abed4fed7aa0c4e5301a661530d987",
+      "url": "https://researchonline.lse.ac.uk/id/eprint/138375/1/1-s2.0-S0047272726000903-main.pdf"
+    },
+    {
+      "path": "data/raw_orders/MA/19-120_2020-10-30_final_order.pdf",
+      "sha256": "c2d7463df9b375cb2631ca34938ef71528890a115250c24a2362629098e8ba1d",
+      "url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file//fdagajgj?/bOGR0SLKR7/ih5QIpjs32FJ0ioKRMXdZYr4j7j/42qk9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR+ZpYgt"
+    },
+    {
+      "path": "data/raw_orders/MA/20-120_2021-09-30_final_order.pdf",
+      "sha256": "0cfebe5324548574dbe67cf6e4ed08365716fc4e576749756ed295b654cf5a91",
+      "url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file//gjaggggj?AFMhDNZxudKnPMmfFp4vOmFJ0ioKRMXdZYr4j7j/42qk9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR+ZpYgt"
+    },
+    {
+      "path": "data/supporting_documents/MA/19-120-A_2021-07-30.pdf",
+      "sha256": "f8d2927d9dec51840f9d217d8e44788ad62f2d392e0cc201f5a8e68e59c71d31",
+      "url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file//fijgfcbe?hTBM/ZNlAKbuXYNhqBYz08EmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR+ZpYgt"
+    },
+    {
+      "path": "data/supporting_documents/RRA/H1-2025_removal_notice.pdf",
+      "sha256": "03e93e6b816c24c2d159cf0bbedc99c6cd3475888ec4cfcf8fc7f10b80d32f26",
+      "url": "https://psc.ky.gov/pscecf/2025-00114/kyle.j.smith124.civ%40army.mil/09232025013307/MPG_Copyright_Protected_WP_27.pdf"
+    },
+    {
+      "path": "data/supporting_documents/VT/VGS_2023-10-26_compliance_plan.pdf",
+      "sha256": "69359c73fe5cd2a965b27bb37127908f9a0602b1c895b7831cab97ecd382c907",
+      "url": "https://puc.vermont.gov/sites/psbnew/files/documents/vgs-approved-alternative-regulation-plan-compliance-filing-10-26-23.pdf"
+    },
+    {
+      "path": "data/raw_orders/NH/24-070_2025-07-25_order_28170.pdf",
+      "sha256": "7f9f1716be5c996b618956026dbd03b7f6d01f5cbd395d7a6d349af46c338640",
+      "url": "https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815"
+    },
+    {
+      "path": "data/supporting_documents/NH/24-070_2025-12-31_order_28201.pdf",
+      "sha256": "40972028d45e5a4f7a988f3c06540fa22872c32718328cfbf003a88f24375d31",
+      "url": "https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=0eb3520d-e22b-4360-af42-915d9aed5c4f"
+    },
+    {
+      "path": "data/supporting_documents/VT/22-5085_2023-08-18_approving_order.pdf",
+      "sha256": "c6c357c19bec73666d9c60ae8548bdc4e3d5949fe977dbb4daf0c6180c69de0d",
+      "url": "https://puc.vermont.gov/sites/psbnew/files/documents/22-5085-pet-order-approving-vgs-alt-reg-plan.pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/CT-23-11-02-CNG.pdf",
+      "sha256": "45274d3ae9cf087328c3c8f48d3fcabe26785b37c61b9375048bde0bcfd2d3bb",
+      "url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/94c3ad1e058bacbf85258bd900597466/$FILE/231102-111824(CNG).pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/CT-23-11-02-SCG.pdf",
+      "sha256": "20301139a81095112093a9878188805f187759725a1ca4f02221cfa1058badec",
+      "url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/78dae2df8141906385258bd90059b463/$FILE/231102-111824(SCG).pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/CT-24-10-04.pdf",
+      "sha256": "5ca2993f0f1913081d7f4e6e846ba1e81ebe1cf16f32bd5abd1b383d8728f232",
+      "url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/a06f0e1a639398ce85258d31004f0750/$FILE/241004-102825.pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/CT-24-12-01.pdf",
+      "sha256": "e29cddde80d737aa68f5fbf32866334df02a78193fc937980f2e90a9c41564b6",
+      "url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/0983604a7c0f208a85258d39004e4c65/$FILE/241201-110525.pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/MA-23-80-81.pdf",
+      "sha256": "fec5b06cfe9b0fb4469890de262ac8cf11628e21eeb1abe116c6d7b0399de2f5",
+      "url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/ifdjeibj?JXW6VfdoF5Zeu77y6K5cH2FJ0ioKRMXdZYr4j7j%2F42qk9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/ME-2019-00092-issuer-copy.pdf",
+      "sha256": "62a5f6b4c3496c083b6626ff0a4c1553b2ccfb255326e0c2698f6a1cab6a2737",
+      "url": "https://unitilcorp.gcs-web.com/static-files/c7d35168-ea5d-4e11-83de-e0f2c43be12c"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/ME-2020-00316-Part-I.pdf",
+      "sha256": "1a032ff8362e7bf659afc0f81ba8001d7659f9539505ea626e154844badc6897",
+      "url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=112424&CaseNumber=2020-00316"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/ME-2020-00316-Part-II.pdf",
+      "sha256": "c4208f5dc16be02959718f35dd118642a146127c2022ade3f8412390ed2198c6",
+      "url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=112568&CaseNumber=2020-00316"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/ME-2023-00336.pdf",
+      "sha256": "aa9908f17f4e6f5c24b1b7f775cf426126b4b19a450276fc430001d7167505f2",
+      "url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-18-1633-correction.pdf",
+      "sha256": "32f7055ed1fdc7837db2949c335c0e017f245e44d207b37b4a9e4964903b27df",
+      "url": "https://epuc.vermont.gov?q=downloadfile/354278/132296"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-18-1633.pdf",
+      "sha256": "71842fb3036e7acffdb309f049c97d7722b8244147a04a3c96516cecdcbdbcb5",
+      "url": "https://epuc.vermont.gov?q=downloadfile/353553/132296"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-19-1932.pdf",
+      "sha256": "fff9045a02d3c3cc1b3523db3614fd6b5e78ee7daf9051457bfa11ef43b10934",
+      "url": "https://epuc.vermont.gov?q=downloadfile/374502/141368"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-19-2932.pdf",
+      "sha256": "31cdf60f80a01b57b26b14ad99377a3a711c8904af2ebed95a5ace59c4c148c6",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/372590/143372"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-19-3529.pdf",
+      "sha256": "18d490450fd9f05ffd5dc8cee545a21c0c120de7d288bd95346e263b5e63ebc9",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/501251/144534"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-21-3707-2022-08-31.pdf",
+      "sha256": "2e1864a9431a3afe585e7c04d9a40817b0cfaed71805c0cf7bf374c82c430d70",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/608287/162697"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-23-0561.pdf",
+      "sha256": "6514df56d94cc80e0d5e66ae5d02b08d609bff6a5ade3563534b9e09a65112fe",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/689870/177578"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-26-0096-compliance-2026-09-30.pdf",
+      "sha256": "ca68f94c65a405f3f657da55a5261efa0cc637a144a0402043269056290dc6b8",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/824826/209089"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-01/VT-26-0096.pdf",
+      "sha256": "79cfe1f93abafd7632f5136f221262f6c8e2e6bd38924267fa18aa61cd086068",
+      "url": "https://epuc.vermont.gov?q=downloadfile/821761/209089"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-02/CAND-MA-22-22.pdf",
+      "sha256": "c943ecaa8d06e61bedf6de940d95d41cafa79d328e24e48338ba20f95104fd5d",
+      "url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/giabjige?TKztaIebchd2AFGMIUFzSMEmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-02/SUPP-RI-25-45-GE-2026-08-21-MINUTES.pdf",
+      "sha256": "cd3d59ac07c0fe0573fcf56b17ebaceaf861b19deb5546197a9b13806c71083b",
+      "url": "https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Dkt.%20No.%2025-45-GE%20Draft%20Minutes%20(8-21-26)%20(RIE%20Rate%20Case-HH).pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-02/SUPP-RI-25-45-GE-2025-11-26-APPLICATION.pdf",
+      "sha256": "0f2dbc809350f92e820728b685a7e6d2c47188e946b83a9d2c0d636616ced518",
+      "url": "https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2025-11/25-45-GE%2011-26-2025%20Letter%20re%20Application%20for%20Approval%20of%20a%20Change%20in%20Electric%20and%20Gas%20Base%20Distribution%20Rates%20(stamped%20copy)%20W%20Attachments_0.pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-02/ME-2018-00194.pdf",
+      "sha256": "b4772e96242db02a0984c5c8bc9ab76ab92a3ae8c2997454d225ddfe276d7ea1",
+      "url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=105431&CaseNumber=2018-00194"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-03/CAND-RI-4975.pdf",
+      "sha256": "31ab392fb16e674a9a353dceac54ed87f230760a365a17ee62893518b817b4d3",
+      "url": "https://ripuc.ri.gov/eventsactions/docket/4975-BIUD-Ord23873%20%288-4-2020%29.pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-03/CAND-RI-24-14-EL.pdf",
+      "sha256": "44a4c1d36b875d782ea394c04e34d559d4af45b692fcc5a6be1e4c00782b6956",
+      "url": "https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2025-01/Pascoag%20Utility%20District%2024-14-EL%20Rate%20Case%20Ord25225%201-6-25-%20Final%20w-Appendix.pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-03/CAND-RI-5134.pdf",
+      "sha256": "111508c5771294f935dc9bab732849db23387df433df281c4cb629928e497ed2",
+      "url": "https://ripuc.ri.gov/eventsactions/docket/5134-PascoagUtility%20Ord24315%20(2-21-22).pdf"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-04/CAND-VT-21-0898.pdf",
+      "sha256": "c9033959104dd1920135c2222f60709f3e5479bc6b75d9eb5ea563dd3df7df9b",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/526599/156869"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-04/CAND-VT-20-0431.pdf",
+      "sha256": "94d8544471e813abcf2262a696b2f629cfc9192c32706c51c76894193a16f3b3",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/428026/147627"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-04/CAND-VT-24-2137.pdf",
+      "sha256": "c70f0317cc5212a86bb8a6204b3f794636954bdde859cf1a5e858b19e3d70e0a",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/729415/199394"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-04/CAND-VT-25-1261.pdf",
+      "sha256": "b56f93a19bdc6ef746839ca0861f03312b2b92ca8acc7a15dc1efdd30af11358",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/776011/205193"
+    },
+    {
+      "path": "data/research/acquisition_2026-10-04/CAND-VT-26-1298.pdf",
+      "sha256": "d79f8315ef05a05c992195b757b7d9575034497e2e327708d966ed83827c982c",
+      "url": "https://epuc.vermont.gov/?q=downloadfile/820033/211478"
+    },
+    {
+      "path": "data/external/rra/rra_2020_h1.pdf",
+      "sha256": "f32988713a2b272c2973077ddd6fdb02f844c70c137983fda0eb5ed2994553d9",
+      "url": "https://psc.ky.gov/pscecf/2020-00060/andrea.fackler%40lge-ku.com/08142020114603/2_-_KU_Responses_to_PSC_DR2_2020_ECR_Plan.pdf"
+    },
+    {
+      "path": "data/external/rra/rra_2021_h1.pdf",
+      "sha256": "af4109b3d154f6c9406c2929299d832bad360977dbf033987a2c1167a80eab9a",
+      "url": "https://interchange.puc.texas.gov/Documents/52195_298_1161486.PDF"
+    },
+    {
+      "path": "data/external/rra/rra_2022_h1.pdf",
+      "sha256": "ef1c098dab44fbbe4735db62a5e80f4a3a8b77c53081070917141347ce2d4229",
+      "url": "https://efis.psc.mo.gov/Document/Display/53586"
+    },
+    {
+      "path": "data/external/rra/rra_2024_h1.pdf",
+      "sha256": "65ca7eb2e3ce457804d27af0c029bb7c58ac815c57097c2d5f43f029d7fd292f",
+      "url": "https://pscdocs.utah.gov/electric/24docs/2403504/336109DPUExhbt3.14MjrEnrgyRtCsDcsns10-17-2024.pdf"
+    },
+    {
+      "path": "data/external/rra/rra_2025_h1-redacted-response.pdf",
+      "sha256": "03e93e6b816c24c2d159cf0bbedc99c6cd3475888ec4cfcf8fc7f10b80d32f26",
+      "url": "https://psc.ky.gov/pscecf/2025-00114/kyle.j.smith124.civ%40army.mil/09232025013307/MPG_Copyright_Protected_WP_27.pdf"
+    },
+    {
+      "path": "data/external/rra/rra_2025_h1_alt-redacted-response.pdf",
+      "sha256": "f98f7e0a79afc1b2986ab6ed28613a2ddf7365c6b42ef81df49790c664d42bd5",
+      "url": "https://psc.ky.gov/pscecf/2025-00113/kyle.j.smith124.civ%40army.mil/09232025010656/MPG_Copyright_Protected_WP_27.pdf"
+    },
+    {
+      "path": "data/research/source_search_2026-10-03/rra_2023_full_year.pdf",
+      "sha256": "6611a35ab317e578f94c609703651ef5a25616edd3d75fd8d5eed2f39e387541",
+      "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BE0BB678E-0000-C614-BDAA-347BCE9EA944%7D"
+    },
+    {
+      "path": "data/research/source_search_2026-10-03/rra_2024_full_year.pdf",
+      "sha256": "087abd7d3a2477d53acf5ec50eb81b5ead410f6b5831f52743e706b53242fbb5",
+      "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B4092A397-0000-C23E-BF14-E2B2CBF012A7%7D"
+    },
+    {
+      "path": "data/research/source_search_2026-10-03/rra_2026_remand.pdf",
+      "sha256": "59de63dd9806f7689c7eb18cfc3006d29212205ca2abb6f3ad09fadfe351dbaa",
+      "url": "https://pscdocs.utah.gov/electric/24docs/2403504/346077DPUExhbt1S%26PGlblMjrEnrgyRtCsRprt7-9-2026.pdf"
+    },
+    {
+      "path": "reports/pdf_qa/rra_2020_h1-table.png",
+      "sha256": "96dd5f1cf0339f3aaa35f35b3d623b5224cf6ec327f1973dbec74abcff52527d",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/practice-page-001.png",
+      "sha256": "d02a3d6108fc273906c841cb34107be156e0447628632471ffbac44373da71ba",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p40.png",
+      "sha256": "3d4ff80092d0da683a6086139c86dbca554bcd17dcaa9db61705bc315286c207",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/CAND-VT-20-0431-p4.png",
+      "sha256": "f6beffd86c66fb9ad9bd67296e23917f32390a69eed5dd48765c371c1078c954",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/CAND-VT-21-0898-p11.png",
+      "sha256": "4ad485fc2b64482803895e8fda9ac6b09dac058b6d96b514c6b37e6c1bfa26a5",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p41.png",
+      "sha256": "3aa53f2ff628058255cdc86de1a7f5f56f7ae5cf0d714288eedacbf191fd9430",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/CAND-VT-20-0431-p1.png",
+      "sha256": "e8d99b959389c7238dd6f327389b4c6dc0c3e742caa48f3fe72a9b9cc30dd55f",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rra_2021_h1-table.png",
+      "sha256": "90728c97e5c9728b1999ba16e9f4b510ccc17ed555e8deafc674ae09de546760",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/practice-page-670.png",
+      "sha256": "560ab2d7de57db7a7aeeac9c5ba5dd4210582c4dc96c27dcc06fcdc753a7e9f3",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/ri-page-041.png",
+      "sha256": "02df7bd2ca469f387835f6b1f2c148a1c08d60d646b6978f56000f3a1eadcf4a",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/CAND-VT-21-0898-p1.png",
+      "sha256": "f19d629edfb48cf381246c0fcff5fb0057d71716cd7e6b498e996839148dc271",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/SUPP-RI-25-45-GE-2025-11-26-APPLICATION.png",
+      "sha256": "f8e846f1fe1607ac5e7f77f64dc45def54413b75c9b41aecc4c2ff8de9ae3133",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/practice-page-700.png",
+      "sha256": "204721e8a0ea356150d9768847791493636351baf66f6293b25df059d58b6153",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/ME-2018-00194-p90.png",
+      "sha256": "3c56d72c273b106702ad2ffb39e7fcbcb4c1a774b0ca53d862605785fba72c30",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p29.png",
+      "sha256": "ec11a83961ae8a6db2125431812c6ffc1fe4d252a3512cc085e87be89a487695",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/ME-2018-00194-p142.png",
+      "sha256": "fc9762baa3b497b3569120b8f438fefe8c7c2efc5a4df1d630ec9eaa93eefed4",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/CAND-VT-21-0898-p8.png",
+      "sha256": "5aa5c2675c04cf932c20e75680c32d51af53f843f7d21258949d86522d6b490f",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/ri-page-065.png",
+      "sha256": "921a24b3a2e1ff432e4c7916d43578ca03ef25c54e7331eb44dedf356cb8230c",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p38.png",
+      "sha256": "fdb2d2dd60576e666c5a5bc7d8fb38e8b57ec08b851a4905eeaf464f9c53a231",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rode-page-002.png",
+      "sha256": "ca440eaeab45cfed3c53d6bb5c7836e819faaf76368f85d9a9a5324b9b7733ce",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/SUPP-RI-25-45-GE-2026-08-21-MINUTES.png",
+      "sha256": "919e20f1d1433001181fdc9600ba04225fe156f2f65b63e9887e3843d25064ca",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/CAND-VT-24-2137-p2.png",
+      "sha256": "aa283d42544dcf0f2f7d07f8bf31ce8fd508aeabccf4359f8018ee289918b3ef",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rra_2019_reconstruction-p39.png",
+      "sha256": "80a0a4319b55ac1d143c24a08ca6ab2be1d014a7cac2337d31332d30d27e5aa6",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/ME-2018-00194-p1.png",
+      "sha256": "cd2b3469033044dd248ebf69dfcdb9934665b3db5bda78218f39803348dd63cd",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rra_2024_h1-table.png",
+      "sha256": "40d6136ef04dbb14946154d771bad8387351ec87a0c3f556f2dd13d4a754c192",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/ME-2018-00194-p123.png",
+      "sha256": "3b88d815fe18c4036926253ee6b09f719ee0a2ec6624137a0a7bc14dcb86cceb",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/CAND-VT-25-1261-p3.png",
+      "sha256": "78adbeac011649aa08a33234e666a7a77cfb1e5c378259bfbf14dbe7acf57308",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/rra_2022_h1-table.png",
+      "sha256": "7a388d501ba85d19aa39604bee1bbeff939c1c2ecfbfe8725377c005e7751418",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/CAND-VT-26-1298-p3.png",
+      "sha256": "f1d65a0dc55f4ee1e834b6906648229944a19d4c8e2d388b992f08af46b2abd0",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/practice-page-742.png",
+      "sha256": "c27f059c636416214fa7c57c7b80264310ef84411274262b004922a3d2e26938",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/practice-page-743.png",
+      "sha256": "771b35c0780f80314ca73676f7645ef662bba4369131c258d714e1f9b7b7e877",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/screening_2026-10-03/CAND-RI-4975-p9.png",
+      "sha256": "92760e717f68ffe2f3b2d8404699ef969ba1ed2bfc161681fbeaa0a45d5980b8",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/screening_2026-10-03/CAND-RI-24-14-EL-p11.png",
+      "sha256": "b412e1bb2a380748591a20cfc35f40d01560af951e77bd9649c937cac0fe6e9d",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/screening_2026-10-03/CAND-RI-4975-p2.png",
+      "sha256": "176a5ee4152c54c6c1c80cada253641d2ceaebee282af4b60636ea3e3a2b8174",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/screening_2026-10-03/CAND-RI-24-14-EL-p5.png",
+      "sha256": "0858acb48541165dec5239c5e9a47d3acbbf6bddc5e9dca397a0d99c65c93b29",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-13.png",
+      "sha256": "4379d8f53fd0d87ed77d3247fd3e1c8bd73d9444419233e2a0127aec34591848",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-12.png",
+      "sha256": "16b7a6b8d6a9ebdb306cbe83bff46f860b8dc9ca69a4498566f533e2c9b5d430",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/MA-22-22-cover.png",
+      "sha256": "043a7f7761105656d561f795c3a3afb85ce098381bd7222be03c87627204b599",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-3.png",
+      "sha256": "7bc8ea8363c7f07243aaad5813520b223312aba4b3aa30d34bc09cad0559e9cc",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-57.png",
+      "sha256": "1460b821cfae0590698001929a49b7c148318e61606951668ada28045d2906b9",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-56.png",
+      "sha256": "08dc597cd8cc811863eb354579d5c671a671e1a8b146c78b32323a520047e0b0",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-54.png",
+      "sha256": "c43ccb427a34b35daa93070d3d7e4a88f47e1016b9b9fabc09120c8657168ccd",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-55.png",
+      "sha256": "03f69c035296b848a24232607455062e1a9df20ad03784737e25c04c63778ad4",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-52.png",
+      "sha256": "87302d8a8e377fc65e015d043c832b7c367561a4aabe537e9165849555a6de7b",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-02/VT-26-0096-53.png",
+      "sha256": "ad5926bf77a4560507aae3dc19e6c3dd646c4976742c93c82b3aa7afda17c05e",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m8/demo-1.png",
+      "sha256": "8fbfeaa6e76570a442488b1863fe15d5ed17fef8de0e72d2233d62deb1d57ae3",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m8/demo-2.png",
+      "sha256": "5f779e1ecfd0548a47a4c3e8e42df3a35056ff43fc8fb339c532b087a9885329",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m8/practice-2.png",
+      "sha256": "7feeb34b1d7296fc968b023d9e030ce68837e64b49479b8985049589b09b97b3",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m8/practice-1.png",
+      "sha256": "bbb41ec494bcb496b834f2a692b41986148b8a4b8c07ef142129b8e600327ea7",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m6/practice-before.png",
+      "sha256": "5a3ea11fd8e3991387388b57e5d131d056d8eb767059cdcccb9cb81bfb438517",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m6/practice-after.png",
+      "sha256": "d30be56a2d074098c28f14fc21307bf68cbb5affd5b13f30a21b40f33f66396c",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m7/before.png",
+      "sha256": "3bf0e7c5c02fdf8c0d863754dfee9811ffb4a88464a151721da28c6ae8c92a25",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m7/after.png",
+      "sha256": "2ab4a222ebf9f1099eb7a9fe72c1832524f244c48ed55cd214d3c17246452bf8",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-30.png",
+      "sha256": "8ce92be957479f774d9d0db5e4008dcf46f83417af3391fc48f253c143792496",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/VT-compliance-1.png",
+      "sha256": "ce1ffd04d41bb71802b6f7da8b1d8db380b096550cda9460fe56a4787840b05c",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-57.png",
+      "sha256": "9bf790f6062524345b2e586cb3fde0ef46bbd4e41b5e06c4278ee5c802f171d9",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-56.png",
+      "sha256": "26ac54cc7e5721e85553e0b72617c06f54618b31452dfe7a6d9098ac986951be",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/NH-outside-award-02.png",
+      "sha256": "f3d3b04874173027a2056cf79f3494bc0658946481e91f37d407824faaa431a0",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-55.png",
+      "sha256": "8eac3718517e1c3fffc96f54aad8f0952ec2f761f21cde6dd54c1e95a57d2007",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-29.png",
+      "sha256": "7f0b4094f7e80d99f87b0b871239a58f9c5c808f2da4498920316ef88a89b569",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-28.png",
+      "sha256": "bc40b4fe502ed72543b1f30b6755ac7bdf3a5967153ad1a28a76dfbbe8a2c445",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/NH-24-070-40.png",
+      "sha256": "8d0c45a005e672c0cefdad22a6ba0189b7a218aa0c189372d24b4074600cf973",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/NH-24-070-41.png",
+      "sha256": "0154fb554942f60abee1763d4b27e1f9a7edcc3d49577065589dfc42b1f766a8",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/NH-24-070-43.png",
+      "sha256": "1a03afd5a07397b6e394be39c06492d39dffaf0401ad976534f44972c6189bb6",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/empirical-2026-10-01/NH-24-070-42.png",
+      "sha256": "e1388b3798bdac07b93a5f364301bd259208416a4c1a38ea8e8386c1fcfb82ad",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-rehearing-p43.png",
+      "sha256": "a235c4e7d43e258dd9596a1521cf22d15c2b57537d214fd5fb962f02c8480f52",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA23-p19.png",
+      "sha256": "383611f6915a410428c9a0498aec3618bf96ae2c9c1eca22924462ecb4331dc8",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/CT-p7.png",
+      "sha256": "47274f0063e0ac3f58a3d6477164cb875dd2ea05cae703af78327fc884e5cfec",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-rehearing-p1.png",
+      "sha256": "2f3fbf104a357258b90d8799965e228d3f04c1dd6f05ba96b8119e632772b72f",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-rehearing-p45.png",
+      "sha256": "c292bc441f06751ec8d1a7a68f02eae5c663f4c58ce0edf71158260196c80baf",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-p10.png",
+      "sha256": "8d4719901ec1cb17201b4bd1ff453affd2d32f195c3dcb81ef86ab60889872b8",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/CT-checked-pages.png",
+      "sha256": "39510b5ddd62f6c6803a5aa6b603a34951ca16fb487a69225d94cec84c7253b4",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/RI-checked-pages.png",
+      "sha256": "6ced99e510a9a5fc917747d7954d842c7d8a16926e9f5bda9c7afc44ba0fb212",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/VT-p1.png",
+      "sha256": "4fcb12c17f6260becda6b82e8da730cf6d12d6b43a5b99c07cf2ff80436b4bce",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA20-checked-pages.png",
+      "sha256": "24915b4f073e41da2e87efb9f269e7d98d16999b354f44eefa3f6c03ec3f10bc",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA19-p418.png",
+      "sha256": "bcf703208f4447af2879cc424dd1de6525d3fdf378074c03da686d3192ad30b5",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/VT-p16.png",
+      "sha256": "affc6ecea0b278e881f82e546656fa9a4feaff88156c6e41e6c34ff97a654140",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/RI-p18.png",
+      "sha256": "dafc83633f9dfea8bb7c9663be62c3f6258c8ecd9c22149b6c0d5d70e19f6a7e",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA23-checked-pages.png",
+      "sha256": "72212c0cd447d807abf69b66af69a435dfe5295ccb5ee121de297f9f5e85a39c",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-p1.png",
+      "sha256": "c305d03043b4c99209799b133e842a3c6f9c3137ec6b99ce4430f9a136300eb7",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-p41.png",
+      "sha256": "3cfbdeb2558bfd37073fe7666d1210082720c179e824e4cbcbce9144e5ad32db",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-p43.png",
+      "sha256": "55fcac3466f1fc326eed39cf39cd0bc9addc3648d78c0d8cfd106717d9638563",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-p42.png",
+      "sha256": "a8dca963ee875c82396202b23bce9d148f68e7f1225128b11c79cf719c0537ea",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA20-p463.png",
+      "sha256": "88c51cbba9cd3df351ac9753933580a8179d9721461b8b4c7d1686182b500b2e",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA19-p365.png",
+      "sha256": "d5b633bb7d8c050648c7c976ee46f31e5fc7f35383fe3a7bc5f4dd0b1ffa0e84",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA19-p364.png",
+      "sha256": "96d6437e030d88ba70123b23602420e5f70d38165d4b15f36413cab4ea69b20f",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/VT-p26.png",
+      "sha256": "ae2be1e41f843b96d6375953a55d35b04fff3d0c6f7e4d1fcd23a69ee45c1452",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA23-p452.png",
+      "sha256": "8be575e5312e4711c94ae98476d100726895245bbac78efa930aacbbb538e91a",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA20-p399.png",
+      "sha256": "07892253cb79a06a1515a4616fa1e94d140645e6e43153904251d61ad46e0ab9",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/CT-p97.png",
+      "sha256": "a33cd76d1cc465ccd63c1f5406af3ab29e470cd508e57796b9bb3fb42fcc530e",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA23-p494.png",
+      "sha256": "d56843996af66ada7c6ece3013fec7f668dace91125cacf272b12368dc246207",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA20-p404.png",
+      "sha256": "7086febe0df7a7b03c20873be30e523607f6cd407325433430a4a3b0d156a94a",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/NH-p18.png",
+      "sha256": "376755fea92521aececedf24c1065ef3b343b724fc6d7ae5c5fef3cd9519ba6f",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/MA19-checked-pages.png",
+      "sha256": "d6e88b9a9ceb2671ebe07edd79c6f0a63ed5b5a89bb9ae14468dd2695762586d",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/CT-p9.png",
+      "sha256": "4ba8d5975c278ea18845348e66b339a14c64960a51f82c3deb9e6eced772f1a7",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m5/VT-p9.png",
+      "sha256": "ea444bf2fe1bf33afc23ed574861e9026b07cca94b83b2c899a3a4cbb955cc76",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-03/python_benchmark_coverage.png",
+      "sha256": "1e3860e6bde2a309ca75390cf044c2f90047bbceb8b538435da34f131c6c6adc",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-03/r_evidence_stances.png",
+      "sha256": "d095a9811d29bc825850b2ed2074d1e62b98d60d09c4daf7feddee10ace555cf",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-03/python_treasury_context.png",
+      "sha256": "c6755052043b5a3eb360ed97fd7ab70cdbea9ceed64768eba2581b4105ea57c2",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-03/r_request_award.png",
+      "sha256": "aa51a7eb0b288ec4f820870a3a96aa1b507cbbc311c6589964bb6f60208fe6ce",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-03/r_verified_benchmarks.png",
+      "sha256": "de30e1e32de8c768e4ddfca1b6bc6c00ef655c03d9ce3b603a09dc65cc1988d4",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-04/python_treasury_context-p1.png",
+      "sha256": "554c484e0b05ad3e5cb16aa246d8582f969e4ae063182994de0fd281aa1efbce",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-04/r_evidence_stances-p1.png",
+      "sha256": "1425cc78e5c10b1e104dc6c46876a4716454256444800ba8d4693e2d22aae1f1",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-04/python_benchmark_coverage-p1.png",
+      "sha256": "6b3e48af7f422f2650ac8add2846413b6b0010532a1584aec70f593accaf9d40",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-04/r_request_award-p1.png",
+      "sha256": "11d40235e24d48c2a8c97bb34b6b634c284743bcd83121300f91f92ce0dc41a0",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/analysis_2026-10-04/r_verified_benchmarks-p1.png",
+      "sha256": "283d2ef1806dfe778afe594d63b45fb153d8850fec09fdc4d06e09ea3e865174",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/MA19-363.png",
+      "sha256": "26c18c3d12eb68e0f0e02b249be79aeb9f8e57835fd31ad2645c98a8f209d1ab",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/MA20-457.png",
+      "sha256": "67d5920b71e12c8922cb0b95ab0c29ae9c4fb7ccaef6cfc426a12af3da9acf8b",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/practice-670.png",
+      "sha256": "4fa4ace605df0d33145e08e1e62e36751e125b57fe40bf64779d8644a85da78b",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/practice-739.png",
+      "sha256": "827c29d61bf3ae4a14b8b6b9fe17c9a67d971174517ca155d842b2c513f9b29c",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/practice-671.png",
+      "sha256": "15bf861ec29c9c53743ce559cbdd627f9c71da9551dedefe9a14b8ed301e49ba",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/practice-672.png",
+      "sha256": "6cb371f945b9959e4e817d0390b8d4c417cbc69ab30fe5d7053afc93d174de8d",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/practice-723.png",
+      "sha256": "fb14425952147f935c71f3ac6677be2255783860d1a916078cea3d4635d924df",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/practice-722.png",
+      "sha256": "d4f5f99f64de12a099b0d554cfb06d88277d1367639799acf4ad37222ff5c3b7",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/MA20-399.png",
+      "sha256": "15a8e38e0898f8188248376c92b0facbff4053b6a0ce0fd77665a5880a0f7438",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/MA20-1.png",
+      "sha256": "9d0b1dbe1c915fabea7e43cf5bd73d1f11ef443e4b656504b59aab725169ef62",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/practice-740.png",
+      "sha256": "6b8102793232c4d2247dd4f302e7f01db9378c18defa0c43a7796fd059a7b06e",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/MA19-418.png",
+      "sha256": "7bfe6866ff0343a5c375590073e073bce59db986cea8ba124f0a5388c2f8ddf5",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/practice-742.png",
+      "sha256": "dae868662f1be24fb06374be8c02e7cfa9bd8fba5bcb4aaa59975ebfa30df0bf",
+      "url": null
+    },
+    {
+      "path": "reports/pdf_qa/m4/MA19-1.png",
+      "sha256": "37aaf0eca7b24a844b3d6502ec34ab6877b61a3d4f06e25f3cca45eeb21cbb82",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-VT-21-3707-2022-08-31-31.png",
+      "sha256": "9caf2af668be909df709343048bfed1ebb57a0ebaae3e510787a8ca1fb21e860",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-VT-23-0561-9.png",
+      "sha256": "2c0458359400974681e46f4eae37534acfea7c8b64d3e65ce98d44e58a60aa78",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-CT-23-11-02-SCG-91.png",
+      "sha256": "38e75e245d7edc771f8db26e02c568f8630d78d0025cf386ddc52cc1434c28d9",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-CT-23-11-02-CNG-82.png",
+      "sha256": "3b460e1a9baba65726dca826cef5aca87c967fb1193872ef2cf62d514cffd17f",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-CT-24-10-04-101.png",
+      "sha256": "9f79d84b5d3839badb92682e53dacd6d4b590aea8a3ff8f4d32a3180f0d382d5",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-MA-23-80-81-380.png",
+      "sha256": "45cb9995bdfbe8cef5aecf2e9ce08aa624f17c0842ddf53c25a5454e66f60c8a",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-MA-22-22-421.png",
+      "sha256": "876c4228f70dd45099d64e5c503e1a8a29d308dcf6f9fee368f18d9632c54fd7",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-CT-24-12-01-86.png",
+      "sha256": "1bb0fe0092d5b0afb8280edaf2eae180010325725fbc534c7798faa8a303ff96",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-VT-20-0431-4.png",
+      "sha256": "53ed5a09f841d0fb765d5f83c9269991771f9f0f1be52aa143d9471c60fb6e9b",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-ME-2019-00092-issuer-copy-70.png",
+      "sha256": "8811118d9ebb7ee55ff6cf65b6ef623d6fdb6e948828c02600a8d7f90d051a88",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-06/CAND-ME-2020-00316-Part-I-4.png",
+      "sha256": "a2c24ee956fe2fab4a1532d36e4e817b4a32bdeed98715426dd609c945939d2b",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-21/CAND-VT-26-1298-3.png",
+      "sha256": "38bc0e7b5dcf6b3ae535dcb737ab7e7cd62d3345272cef3fa87022a115905cb6",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-21/CAND-VT-26-1298-1.png",
+      "sha256": "4610d9f44a85e6e72e5c74bdde613c7a4da64a66917dcc90d95b4d930df9c5c4",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-21/CAND-VT-26-1298-5.png",
+      "sha256": "2db032272ec7b314661d4c15c4ba9dca56f5787512ecb6a54afdfe67ef2af29c",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-21/CAND-VT-25-1261-1.png",
+      "sha256": "c03200fe0c947c2745c6b999a8483a9480103cd25fdca058aef948ec8a56515c",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-21/CAND-VT-25-1261-3.png",
+      "sha256": "f4f0a606042bd35b0fcf92fd9356e7982f528b5e9b10eadda028e6cd13f8d9ba",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-21/CAND-VT-25-1261-4.png",
+      "sha256": "b0d369067d377b761da92ad63a1589d7af9e2ce304c79c311e3a0ade17cdb944",
+      "url": null
+    },
+    {
+      "path": "reports/cohort_qa_2026-10-21/CAND-VT-25-1261-5.png",
+      "sha256": "240f8a801a08ca3c07d5ca789de8d9a5f99ea47bb4b61870a776735472692893",
+      "url": null
+    }
+  ]
+}

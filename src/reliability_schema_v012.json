@@ -1,0 +1,45 @@
+{
+  "version": "0.1.2",
+  "template_sha256": "95c7da49994fc09d16791e38b2956aca28efd38394ca4c921008ef8160e85cc0",
+  "headers": [
+    "passage_id",
+    "code",
+    "coding_A",
+    "coding_B",
+    null,
+    "code",
+    "n_pairs",
+    "both_1",
+    "both_0",
+    "A_yes",
+    "B_yes",
+    "observed_agree",
+    "expected_agree",
+    "kappa",
+    "meets_0.70"
+  ],
+  "codes": [
+    "MKT",
+    "PEER",
+    "OWN",
+    "GRAD",
+    "LAW",
+    "CAP",
+    "RISK",
+    "AFF",
+    "PERF",
+    "DEF",
+    "CONC"
+  ],
+  "formulas": {
+    "G2": "=COUNTIFS($B$2:$B$601,F2,$C$2:$C$601,\"<>\",$D$2:$D$601,\"<>\")",
+    "H2": "=COUNTIFS($B$2:$B$601,F2,$C$2:$C$601,1,$D$2:$D$601,1)",
+    "I2": "=COUNTIFS($B$2:$B$601,F2,$C$2:$C$601,0,$D$2:$D$601,0)",
+    "J2": "=COUNTIFS($B$2:$B$601,F2,$C$2:$C$601,1,$D$2:$D$601,\"<>\")",
+    "K2": "=COUNTIFS($B$2:$B$601,F2,$D$2:$D$601,1,$C$2:$C$601,\"<>\")",
+    "L2": "=IF(G2=0,\"\",(H2+I2)/G2)",
+    "M2": "=IF(G2=0,\"\",(J2/G2)*(K2/G2)+(1-J2/G2)*(1-K2/G2))",
+    "N2": "=IF(OR(G2=0,M2=1),\"\",(L2-M2)/(1-M2))",
+    "O2": "=IF(N2=\"\",\"\",IF(N2>=0.7,\"Yes\",\"Rewrite\"))"
+  }
+}

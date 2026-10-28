@@ -1,0 +1,1283 @@
+{
+  "packet_id": "three-orders-2026-10-02",
+  "packet_sha256": "f25d6adc8628beff4184bb13d6dd95efe368582295c18c714eb0fe995854a141",
+  "ledger_sha256": "a7be22f5cfc5c1ab4090e007446a6f9013cbbdcb820a06cbce364a2ffa02ea3c",
+  "coder": "Codex assistant",
+  "rater_kind": "assistant",
+  "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+  "reference_ratings": [
+    {
+      "unit_id": "R001",
+      "passage_id": "CAND-VT-26-0096:U037",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R002",
+      "passage_id": "CAND-VT-26-0096:U013",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R003",
+      "passage_id": "CAND-VT-26-0096:U043",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R004",
+      "passage_id": "CAND-NH-24-070:U008",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R005",
+      "passage_id": "CAND-NH-24-070:U005",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 1,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R006",
+      "passage_id": "CAND-NH-24-070:U011",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R007",
+      "passage_id": "CAND-VT-26-0096:U016",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 1,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R008",
+      "passage_id": "CAND-ME-2023-00336:U005",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R009",
+      "passage_id": "CAND-ME-2023-00336:U003",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R010",
+      "passage_id": "CAND-ME-2023-00336:U001",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R011",
+      "passage_id": "CAND-VT-26-0096:U036",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R012",
+      "passage_id": "CAND-VT-26-0096:U026",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 1,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R013",
+      "passage_id": "CAND-VT-26-0096:U008",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R014",
+      "passage_id": "CAND-VT-26-0096:U009",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 1,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R015",
+      "passage_id": "CAND-VT-26-0096:U006",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R016",
+      "passage_id": "CAND-NH-24-070:U003",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R017",
+      "passage_id": "CAND-VT-26-0096:U022",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R018",
+      "passage_id": "CAND-VT-26-0096:U004",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 1,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 1,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R019",
+      "passage_id": "CAND-VT-26-0096:U007",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R020",
+      "passage_id": "CAND-VT-26-0096:U035",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R021",
+      "passage_id": "CAND-VT-26-0096:U030",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 1,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R022",
+      "passage_id": "CAND-VT-26-0096:U019",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R023",
+      "passage_id": "CAND-ME-2023-00336:U008",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 1,
+        "PEER": 1,
+        "OWN": 0,
+        "GRAD": 1,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 1,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R024",
+      "passage_id": "CAND-VT-26-0096:U005",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 1,
+        "LAW": 0,
+        "CAP": 1,
+        "RISK": 1,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R025",
+      "passage_id": "CAND-VT-26-0096:U010",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R026",
+      "passage_id": "CAND-NH-24-070:U010",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R027",
+      "passage_id": "CAND-VT-26-0096:U001",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R028",
+      "passage_id": "CAND-VT-26-0096:U045",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R029",
+      "passage_id": "CAND-VT-26-0096:U023",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R030",
+      "passage_id": "CAND-VT-26-0096:U029",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 1,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R031",
+      "passage_id": "CAND-VT-26-0096:U046",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R032",
+      "passage_id": "CAND-VT-26-0096:U021",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R033",
+      "passage_id": "CAND-VT-26-0096:U031",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 1,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 1,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R034",
+      "passage_id": "CAND-VT-26-0096:U002",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R035",
+      "passage_id": "CAND-ME-2023-00336:U009",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R036",
+      "passage_id": "CAND-VT-26-0096:U017",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R037",
+      "passage_id": "CAND-VT-26-0096:U011",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 1,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R038",
+      "passage_id": "CAND-VT-26-0096:U040",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R039",
+      "passage_id": "CAND-VT-26-0096:U024",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R040",
+      "passage_id": "CAND-NH-24-070:U009",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R041",
+      "passage_id": "CAND-VT-26-0096:U028",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 1,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R042",
+      "passage_id": "CAND-NH-24-070:U004",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R043",
+      "passage_id": "CAND-NH-24-070:U012",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R044",
+      "passage_id": "CAND-NH-24-070:U002",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R045",
+      "passage_id": "CAND-ME-2023-00336:U007",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R046",
+      "passage_id": "CAND-VT-26-0096:U020",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R047",
+      "passage_id": "CAND-NH-24-070:U007",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R048",
+      "passage_id": "CAND-VT-26-0096:U033",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R049",
+      "passage_id": "CAND-VT-26-0096:U014",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R050",
+      "passage_id": "CAND-ME-2023-00336:U002",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 1,
+        "GRAD": 1,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R051",
+      "passage_id": "CAND-VT-26-0096:U044",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R052",
+      "passage_id": "CAND-NH-24-070:U001",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R053",
+      "passage_id": "CAND-VT-26-0096:U003",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 1,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R054",
+      "passage_id": "CAND-ME-2023-00336:U004",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R055",
+      "passage_id": "CAND-ME-2023-00336:U006",
+      "case_id": "CAND-ME-2023-00336",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R056",
+      "passage_id": "CAND-VT-26-0096:U018",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R057",
+      "passage_id": "CAND-VT-26-0096:U015",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R058",
+      "passage_id": "CAND-NH-24-070:U006",
+      "case_id": "CAND-NH-24-070",
+      "codes": {
+        "MKT": 1,
+        "PEER": 1,
+        "OWN": 1,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-01"
+    },
+    {
+      "unit_id": "R059",
+      "passage_id": "CAND-VT-26-0096:U039",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R060",
+      "passage_id": "CAND-VT-26-0096:U041",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R061",
+      "passage_id": "CAND-VT-26-0096:U042",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R062",
+      "passage_id": "CAND-VT-26-0096:U038",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R063",
+      "passage_id": "CAND-VT-26-0096:U012",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R064",
+      "passage_id": "CAND-VT-26-0096:U032",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 1,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R065",
+      "passage_id": "CAND-VT-26-0096:U025",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 1,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R066",
+      "passage_id": "CAND-VT-26-0096:U034",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    },
+    {
+      "unit_id": "R067",
+      "passage_id": "CAND-VT-26-0096:U027",
+      "case_id": "CAND-VT-26-0096",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 1,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "coding_date": "2026-10-02"
+    }
+  ]
+}

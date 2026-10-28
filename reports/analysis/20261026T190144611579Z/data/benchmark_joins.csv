@@ -1,0 +1,18 @@
+case_id,state,utility,service,order_date,period_start,period_end,status,benchmark_pct,benchmark_id,estimation_method,available_at_order
+CAND-VT-26-0096,VT,Green Mountain Power,Electric,2026-08-28,2026-01-01,2026-06-30,missing_exact_comparable_half_year,,,,
+CAND-CT-24-12-01,CT,Yankee Gas,Gas,2025-11-05,2025-01-01,2025-06-30,missing_exact_comparable_half_year,,,,
+CAND-CT-24-10-04,CT,United Illuminating,Electric,2025-10-28,2025-01-01,2025-06-30,missing_exact_comparable_half_year,,,,
+CAND-NH-24-070,NH,Public Service Company of New Hampshire,Electric,2025-07-25,2025-01-01,2025-06-30,missing_exact_comparable_half_year,,,,
+CAND-ME-2023-00336,ME,Versant Power,Electric,2025-03-13,2024-07-01,2024-12-31,missing_exact_comparable_half_year,,,,
+CAND-CT-23-11-02-CNG,CT,Connecticut Natural Gas,Gas,2024-11-18,2024-01-01,2024-06-30,matched,9.85,RRA-LEGACY-2024-H1-GAS,publisher_reported,1
+CAND-CT-23-11-02-SCG,CT,Southern Connecticut Gas,Gas,2024-11-18,2024-01-01,2024-06-30,matched,9.85,RRA-LEGACY-2024-H1-GAS,publisher_reported,1
+CAND-MA-23-150,MA,Massachusetts Electric and Nantucket Electric,Electric,2024-09-30,2024-01-01,2024-06-30,matched,9.68,RRA-LEGACY-2024-H1-ELECTRIC,publisher_reported,1
+CAND-MA-23-80-81,MA,Fitchburg Gas and Electric Light,Electric,2024-06-28,2023-07-01,2023-12-31,missing_exact_comparable_half_year,,,,
+CAND-MA-23-80-81,MA,Fitchburg Gas and Electric Light,Gas,2024-06-28,2023-07-01,2023-12-31,missing_exact_comparable_half_year,,,,
+CAND-VT-23-0561,VT,Vermont Gas Systems,Gas,2023-10-23,2023-01-01,2023-06-30,missing_exact_comparable_half_year,,,,
+CAND-ME-2020-00316-Part-I,ME,Versant Power,Electric,2021-10-18,2021-01-01,2021-06-30,matched,9.45,RRA-LEGACY-2021-H1-ELECTRIC,publisher_reported,1
+CAND-VT-21-0898,VT,Vermont Gas Systems,Gas,2021-10-15,2021-01-01,2021-06-30,matched,9.62,RRA-LEGACY-2021-H1-GAS,publisher_reported,1
+CAND-MA-20-120,MA,Boston Gas,Gas,2021-09-30,2021-01-01,2021-06-30,matched,9.62,RRA-LEGACY-2021-H1-GAS,publisher_reported,1
+CAND-MA-19-120,MA,NSTAR Gas,Gas,2020-10-30,2020-01-01,2020-06-30,matched,9.4,RRA-LEGACY-2020-H1-GAS,publisher_reported,1
+CAND-RI-4770-4780,RI,Narragansett Electric and Narragansett Gas,Electric,2020-05-05,2019-07-01,2019-12-31,matched,9.7,RRA-LEGACY-2019-H2-ELECTRIC-RECONSTRUCTED,case_level_reconstruction,1
+CAND-RI-4770-4780,RI,Narragansett Electric and Narragansett Gas,Gas,2020-05-05,2019-07-01,2019-12-31,matched,9.75,RRA-LEGACY-2019-H2-GAS-RECONSTRUCTED,case_level_reconstruction,1

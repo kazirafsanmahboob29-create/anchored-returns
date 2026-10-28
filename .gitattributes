@@ -1,0 +1,6 @@
+web/vendor/** linguist-vendored
+web/research-release/** linguist-generated
+presentation/index.html linguist-generated
+wordpress/app.js linguist-generated
+wordpress/workbench.html linguist-generated
+reports/** linguist-generated

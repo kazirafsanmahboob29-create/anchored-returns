@@ -1,0 +1,2 @@
+case_id,state,docket,file_path,source_url,download_date,sha256,n_pages
+PRACTICE-MA-17-05,MA,17-05,data/practice_orders/MA/17-05_2017-11-30_final_order.pdf,https://www.mass.gov/files/documents/2018/01/26/17-05_Final_Order_Revenue_Requirement_11-30-17.pdf,2026-09-29,263ddfe8e49bc0bfcfa82684136a3aff9029aff0d572fd510fcbdeb271383d91,814

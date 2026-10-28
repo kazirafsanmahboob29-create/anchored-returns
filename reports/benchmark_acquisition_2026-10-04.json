@@ -1,0 +1,107 @@
+{
+  "checked_date": "2026-10-04",
+  "status": "one_required_half_year_reconstructed_five_unresolved",
+  "required_period_closed": "2019-H2",
+  "new_comparable_values": {
+    "Electric": "9.70",
+    "Gas": "9.75"
+  },
+  "reconstruction_source": "data/external/rra/rra_2020_h1.pdf",
+  "reconstruction_rows": "data/external/rra/rra_2019_decisions.json",
+  "remaining_required_half_years": [
+    "2023-H1",
+    "2023-H2",
+    "2024-H2",
+    "2025-H1",
+    "2026-H1"
+  ],
+  "sources_reviewed": [
+    {
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/wis-commission-staff-endorses-electric-gas-rate-increases-for-northern-states",
+      "source_role": "original_publisher_public_article",
+      "publication_date": "2025-08-22",
+      "read_method": "web tool rendered article",
+      "finding": "H1 2025 all-case means: electric 9.68% (23 determinations), gas 9.72% (15). Rider-excluded means not separately provided.",
+      "admitted_to_comparable_registry": false
+    },
+    {
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/average-gas-roe-edges-down-as-electric-holds-firm-in-h1-2026",
+      "source_role": "original_publisher_public_article",
+      "publication_date": "2026-09-03",
+      "read_method": "web tool rendered article; qualified values already preserved separately",
+      "finding": "Public non-rider electric 9.79% and gas 9.64%; dataset version is not assigned to each headline mean. Full report and supplement link to licensed service.",
+      "admitted_to_comparable_registry": false
+    },
+    {
+      "url": "https://psc.utah.gov/2025/03/14/docket-no-25-057-06/",
+      "source_role": "official_docket_with_witness_workpapers",
+      "read_method": "original docket links; downloaded Coleman and FEA exhibit archives; read-only workbook inspection",
+      "finding": "Coleman nine-sheet workbook and FEA PDF exhibits include attributed figures and risk-premium workpapers, rather than a verified complete original half-year table.",
+      "admitted_to_comparable_registry": false
+    },
+    {
+      "url": "https://mi-psc.my.site.com/sfc/servlet.shepherd/version/download/0688y000009zc1OAAQ",
+      "source_role": "official_filing_search_copy",
+      "read_method": "public web text and saved 64-page PDF; PDF has no native searchable text",
+      "finding": "Witness testimony/appendices do not establish a verified complete original H1 2023 table. This search copy is preserved outside the benchmark registry.",
+      "admitted_to_comparable_registry": false
+    }
+  ],
+  "preserved_search_metadata": [
+    {
+      "metadata_path": "data/research/source_search_2026-10-04/michigan_u21389_megginson_2023.pdf.json",
+      "metadata_sha256": "4f6a4e42e946a2d92c8ccfd1c1a6213f99968593ac4bbcb987ec2ac022efc28a",
+      "url": "https://mi-psc.my.site.com/sfc/servlet.shepherd/version/download/0688y000009zc1OAAQ",
+      "registered_as_exact_benchmark": false
+    },
+    {
+      "metadata_path": "data/research/source_search_2026-10-04/ri_25_45_ge_page.json",
+      "metadata_sha256": "01655f8805e9a191d4e6d2cf4a638edf0b9cfdf90e6e0c869819abee9ca3a37b",
+      "url": "https://ripuc.ri.gov/Docket-25-45-GE",
+      "registered_as_exact_benchmark": false
+    },
+    {
+      "metadata_path": "data/research/source_search_2026-10-04/ri_docket_inventory.json",
+      "metadata_sha256": "8a10040f1049424fb4acaae07e82b62672728431dca4fcb78a9796ef62c47bab",
+      "url": "https://ripuc.ri.gov/events-and-actions/commission-dockets",
+      "registered_as_exact_benchmark": false
+    },
+    {
+      "metadata_path": "data/research/source_search_2026-10-04/rra_2025_michigan.json",
+      "metadata_sha256": "896e380c92f037a5e36ed034a8533584d9799e5cc37d6590b16911ba1f96ec83",
+      "url": "https://mi-psc.my.site.com/sfc/servlet.shepherd/version/download/068cs00001DddhRAAR",
+      "registered_as_exact_benchmark": false
+    },
+    {
+      "metadata_path": "data/research/source_search_2026-10-04/utah_coleman.json",
+      "metadata_sha256": "bccea786354d0349fa23465d08d80c19c08c778d339cd5f9288e0993eedfdc1f",
+      "url": "https://pscdocs.utah.gov/gas/25docs/2505706/341204DPUExhbts2.012.098-26-2025.zip",
+      "registered_as_exact_benchmark": false
+    },
+    {
+      "metadata_path": "data/research/source_search_2026-10-04/utah_gorman.json",
+      "metadata_sha256": "db5de8ed0389f453e9ceff2d21c7a9cbf4cd4a88c8d25912cc68e45df525ec0b",
+      "url": "https://pscdocs.utah.gov/gas/25docs/2505706/341185FEAExhbts1.011.198-26-2025.zip",
+      "registered_as_exact_benchmark": false
+    },
+    {
+      "metadata_path": "data/research/source_search_2026-10-04/vt_gas_search_page1.json",
+      "metadata_sha256": "5c1b526b53470cb773ad07e279991a350323964839c713050db3f0f5afd63212",
+      "url": "https://epuc.vermont.gov/?q=node/101",
+      "registered_as_exact_benchmark": false
+    },
+    {
+      "metadata_path": "data/research/source_search_2026-10-04/vt_gas_search_page2.json",
+      "metadata_sha256": "07e496c99cb75c1013a66219d9e0177623f12d72ff81ca600c08a805e22fe037",
+      "url": "https://epuc.vermont.gov/?q=node/101/2",
+      "registered_as_exact_benchmark": false
+    }
+  ],
+  "earlier_search_evidence": "reports/research_audit_2026-10-03.md",
+  "access": {
+    "licensed_rra": false,
+    "outreach_sent": false,
+    "purchases": false
+  },
+  "rules": "Annual, trailing-year, subgroup and rider-undefined means are not substituted; redacted documents are not reconstructed from cached search text."
+}

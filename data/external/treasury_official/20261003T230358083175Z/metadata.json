@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "provider": "U.S. Department of the Treasury",
+  "variable": "Daily Treasury Par Yield Curve Rates, BC_10YEAR",
+  "documentation_url": "https://home.treasury.gov/treasury-daily-interest-rate-xml-feed",
+  "retrieved_at_utc": "2026-10-03T23:03:58.083175+00:00",
+  "vintage_kind": "retrieval_snapshot_not_point_in_time_history",
+  "checked_date": "2026-10-03",
+  "sources": [
+    {
+      "year": 2020,
+      "request_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2020",
+      "raw_path": "data/external/treasury_official/20261003T230358083175Z/2020.xml",
+      "raw_sha256": "34bb7ef4a817fee7b7c2ad989648b6831c059c169c1b3d05ed46bfbd0d75e89b",
+      "rows": 251
+    },
+    {
+      "year": 2021,
+      "request_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2021",
+      "raw_path": "data/external/treasury_official/20261003T230358083175Z/2021.xml",
+      "raw_sha256": "6e7d6a83085038a33ead7489a3401f5c0b18fc8c4222e845afed988698fe7800",
+      "rows": 251
+    },
+    {
+      "year": 2023,
+      "request_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2023",
+      "raw_path": "data/external/treasury_official/20261003T230358083175Z/2023.xml",
+      "raw_sha256": "fdb31b5209ba3728a8adbdf9b502b8accbb53b9699ad59a407abcac07e45b4e8",
+      "rows": 250
+    },
+    {
+      "year": 2024,
+      "request_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2024",
+      "raw_path": "data/external/treasury_official/20261003T230358083175Z/2024.xml",
+      "raw_sha256": "855ba319c8f4d021c55e8a3ed8f5ff0f6efb47932ffd4e45272654f411a41a66",
+      "rows": 250
+    },
+    {
+      "year": 2025,
+      "request_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2025",
+      "raw_path": "data/external/treasury_official/20261003T230358083175Z/2025.xml",
+      "raw_sha256": "512e7f1190682e1a3f0d2c1cf1680a741bb051df95d05080227cb874f149fd19",
+      "rows": 249
+    },
+    {
+      "year": 2026,
+      "request_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "raw_path": "data/external/treasury_official/20261003T230358083175Z/2026.xml",
+      "raw_sha256": "b03a0a9d334d99d766746b129e3c1eed88e75b70a8777a97856e064ebb606e52",
+      "rows": 190
+    }
+  ],
+  "observations_path": "data/external/treasury_official/20261003T230358083175Z/observations.json",
+  "observations_sha256": "a494f3f9c1b9ec6f70d2bec47c41f71a6e355567d67ffc6ee6d037fc4dc48e23",
+  "fred_raw_sha256": "9f53694f4d3365fb820c6e2af49b1714c0bb8809818dec9395efd26777f4ce83",
+  "fred_observations_sha256": "f5a83145bd92c99ae60e55b636f650155534a6a6cc710ecd239875bf624690bb",
+  "overlapping_dates": 1440,
+  "equal": 1440,
+  "disagreements": [],
+  "missing_value_dates": 0,
+  "order_checks": [
+    {
+      "case_id": "CAND-CT-22-08-08",
+      "target_date": "2023-08-25",
+      "observation_date": "2023-08-25",
+      "comparison": {
+        "date": "2023-08-25",
+        "fred_fraction": "0.0425",
+        "treasury_fraction": "0.0425",
+        "treasury_minus_fred_bp": "0.0000",
+        "status": "equal"
+      }
+    },
+    {
+      "case_id": "CAND-MA-19-120",
+      "target_date": "2020-10-30",
+      "observation_date": "2020-10-30",
+      "comparison": {
+        "date": "2020-10-30",
+        "fred_fraction": "0.0088",
+        "treasury_fraction": "0.0088",
+        "treasury_minus_fred_bp": "0.0000",
+        "status": "equal"
+      }
+    },
+    {
+      "case_id": "CAND-MA-20-120",
+      "target_date": "2021-09-30",
+      "observation_date": "2021-09-30",
+      "comparison": {
+        "date": "2021-09-30",
+        "fred_fraction": "0.0152",
+        "treasury_fraction": "0.0152",
+        "treasury_minus_fred_bp": "0.0000",
+        "status": "equal"
+      }
+    },
+    {
+      "case_id": "CAND-MA-23-150",
+      "target_date": "2024-09-30",
+      "observation_date": "2024-09-30",
+      "comparison": {
+        "date": "2024-09-30",
+        "fred_fraction": "0.0381",
+        "treasury_fraction": "0.0381",
+        "treasury_minus_fred_bp": "0.0000",
+        "status": "equal"
+      }
+    },
+    {
+      "case_id": "CAND-ME-2018-00194",
+      "target_date": "2020-02-19",
+      "observation_date": "2020-02-19",
+      "comparison": {
+        "date": "2020-02-19",
+        "fred_fraction": "0.0156",
+        "treasury_fraction": "0.0156",
+        "treasury_minus_fred_bp": "0.0000",
+        "status": "equal"
+      }
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "target_date": "2025-03-13",
+      "observation_date": "2025-03-13",
+      "comparison": {
+        "date": "2025-03-13",
+        "fred_fraction": "0.0427",
+        "treasury_fraction": "0.0427",
+        "treasury_minus_fred_bp": "0.0000",
+        "status": "equal"
+      }
+    },
+    {
+      "case_id": "CAND-NH-24-070",
+      "target_date": "2025-07-25",
+      "observation_date": "2025-07-25",
+      "comparison": {
+        "date": "2025-07-25",
+        "fred_fraction": "0.044",
+        "treasury_fraction": "0.044",
+        "treasury_minus_fred_bp": "0.000",
+        "status": "equal"
+      }
+    },
+    {
+      "case_id": "CAND-RI-4770-4780",
+      "target_date": "2020-05-05",
+      "observation_date": "2020-05-05",
+      "comparison": {
+        "date": "2020-05-05",
+        "fred_fraction": "0.0066",
+        "treasury_fraction": "0.0066",
+        "treasury_minus_fred_bp": "0.0000",
+        "status": "equal"
+      }
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "target_date": "2026-08-28",
+      "observation_date": "2026-08-28",
+      "comparison": {
+        "date": "2026-08-28",
+        "fred_fraction": "0.0473",
+        "treasury_fraction": "0.0473",
+        "treasury_minus_fred_bp": "0.0000",
+        "status": "equal"
+      }
+    }
+  ],
+  "notes": "Separate official dissemination paths for nominal ten-year yields. Agreement is a data check, not independent coding reliability or historical real-time availability. Disagreements are retained; neither source overwrites the other."
+}
