@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "date": "2026-10-02",
+    "printed_percent": "5.28",
+    "value_fraction": "0.0528"
+  },
+  "equal": 1440,
+  "overlapping_dates": 1440,
+  "missing": 0,
+  "disagreements": []
+}

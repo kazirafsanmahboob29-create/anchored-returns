@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "checked_date": "2026-10-03",
+  "sources": [
+    {
+      "source_id": "RRA-2023-FULL-YEAR",
+      "title": "RRA: January-December 2023",
+      "period": "2023 annual",
+      "source_kind": "publisher_report_in_public_commission_docket",
+      "source_url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BE0BB678E-0000-C614-BDAA-347BCE9EA944%7D",
+      "pdf_path": "data/research/source_search_2026-10-03/rra_2023_full_year.pdf",
+      "pdf_sha256": "6611a35ab317e578f94c609703651ef5a25616edd3d75fd8d5eed2f39e387541",
+      "n_pages": 32,
+      "retrieved_at_utc": "2026-10-03T22:05:38.458689+00:00",
+      "page": 7,
+      "status": "context_only",
+      "note": "Annual report, not a separate H1 or H2 series. No annual value is substituted for a half-year benchmark."
+    },
+    {
+      "source_id": "RRA-2024-FULL-YEAR",
+      "title": "RRA: January-December 2024",
+      "period": "2024 annual",
+      "source_kind": "publisher_report_in_public_commission_docket",
+      "source_url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B4092A397-0000-C23E-BF14-E2B2CBF012A7%7D",
+      "pdf_path": "data/research/source_search_2026-10-03/rra_2024_full_year.pdf",
+      "pdf_sha256": "087abd7d3a2477d53acf5ec50eb81b5ead410f6b5831f52743e706b53242fbb5",
+      "n_pages": 38,
+      "retrieved_at_utc": "2026-10-03T22:41:02.715915+00:00",
+      "page": 3,
+      "status": "context_only",
+      "note": "Annual report with explicit rider-excluded annual categories. It does not establish an exact H2 2024 mean."
+    },
+    {
+      "source_id": "RRA-2026-REMAND",
+      "title": "RRA: January-March 2026, June 2026 edition",
+      "period": "2026 Q1",
+      "source_kind": "publisher_report_in_public_commission_docket",
+      "source_url": "https://pscdocs.utah.gov/electric/24docs/2403504/346077DPUExhbt1S%26PGlblMjrEnrgyRtCsRprt7-9-2026.pdf",
+      "pdf_path": "data/research/source_search_2026-10-03/rra_2026_remand.pdf",
+      "pdf_sha256": "59de63dd9806f7689c7eb18cfc3006d29212205ca2abb6f3ad09fadfe351dbaa",
+      "n_pages": 13,
+      "retrieved_at_utc": "2026-10-03T22:41:00.267002+00:00",
+      "page": 4,
+      "status": "context_only",
+      "note": "Page 4 documents added formula-plan and Pennsylvania quarterly observations. The enhanced dataset is backfilled from 2020 and still incomplete before 2020. No enhanced mean is joined to the legacy series without a coverage bridge."
+    }
+  ]
+}

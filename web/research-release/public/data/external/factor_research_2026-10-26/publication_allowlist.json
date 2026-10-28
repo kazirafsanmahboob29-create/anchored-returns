@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-26",
+  "publication_rule": "Default deny. Only the four histories and metadata enumerated here are approved factor-data inputs for this release. Source credits below must accompany displayed data or results.",
+  "intended_use": "Noncommercial academic research and portfolio presentation, subject to source terms.",
+  "allowed_data_files": [
+    {
+      "path": "data/external/factor_research_2026-10-26/DGS10_2008_present.csv",
+      "sha256": "ca303c6e3fbb6457c7167abb03fb5116e93e6015c614db15de03f7fcc4801449",
+      "bytes": 77727
+    },
+    {
+      "path": "data/external/factor_research_2026-10-26/DGS10_2008_present.metadata.json",
+      "sha256": "e1ccfec5ea5185f7d92d7c297fdc7df2edf8d032a1384f7f4eb4fbc46b665702",
+      "bytes": 748
+    },
+    {
+      "path": "data/external/factor_research_2026-10-26/T10Y3M_2008_present.csv",
+      "sha256": "c9cf830c54da4da76b97a1f10a2db298fe1f845f96bafde6dbf37f26cfcd5e43",
+      "bytes": 78482
+    },
+    {
+      "path": "data/external/factor_research_2026-10-26/T10Y3M_2008_present.metadata.json",
+      "sha256": "cbec13c93a96e776fa79ef4a3f7adda722087ffb85e30aae5ce9c3ab27cf0abd",
+      "bytes": 753
+    },
+    {
+      "path": "data/external/factor_research_2026-10-26/STLFSI4_2008_present.csv",
+      "sha256": "afcce8f5a71cd3dcf9285b8088bac135eb3b107aa437efcb100099ef4688ece2",
+      "bytes": 18348
+    },
+    {
+      "path": "data/external/factor_research_2026-10-26/STLFSI4_2008_present.metadata.json",
+      "sha256": "ddfb744903181b1a54f7ace43e34aba41e31da6c57ff407fc66d52c5c8119641",
+      "bytes": 759
+    },
+    {
+      "path": "data/external/factor_research_2026-10-26/CPIAUCNS_2008_present.csv",
+      "sha256": "451ae1dc667ca3d69e8a2d030b340dd3bcf92a32f72a5ad31b933182b226aa0e",
+      "bytes": 4294
+    },
+    {
+      "path": "data/external/factor_research_2026-10-26/CPIAUCNS_2008_present.metadata.json",
+      "sha256": "fc74822fd101f32c8f2bf468215cd965afaf72c716866fe6e426feaaca2da243",
+      "bytes": 764
+    }
+  ],
+  "allowed_documentation_files": [
+    "docs/factor_source_review_2026-10-26.md",
+    "data/external/factor_research_2026-10-26/publication_allowlist.json"
+  ],
+  "excluded": "All other research-folder files, including restricted_moodys, exploratory HTML, capped-window duplicates, optional state series, CPIAUCSL and BLS raw JSON, are excluded from this publication allowlist. Exclusion here is a release-scope decision and does not assert that all excluded sources are restricted.",
+  "source_credits": [
+    {
+      "series_id": "DGS10",
+      "citation": "Board of Governors of the Federal Reserve System (US), Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an Investment Basis [DGS10], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/DGS10, October 26, 2026.",
+      "rights_label": "Public Domain: Citation Requested",
+      "rights_url": "https://fred.stlouisfed.org/legal/",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2008-01-01",
+      "notes": "Attribution does not imply endorsement by the Federal Reserve or BLS."
+    },
+    {
+      "series_id": "T10Y3M",
+      "citation": "Federal Reserve Bank of St. Louis, 10-Year Treasury Constant Maturity Minus 3-Month Treasury Constant Maturity [T10Y3M], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/T10Y3M, October 26, 2026.",
+      "rights_label": "Copyrighted: Citation Required",
+      "rights_url": "https://fred.stlouisfed.org/legal/",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y3M&cosd=2008-01-01",
+      "notes": "Attribution does not imply endorsement by the Federal Reserve or BLS."
+    },
+    {
+      "series_id": "STLFSI4",
+      "citation": "Federal Reserve Bank of St. Louis, St. Louis Fed Financial Stress Index [STLFSI4], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/STLFSI4, October 26, 2026.",
+      "rights_label": "Copyrighted: Citation Required",
+      "rights_url": "https://fred.stlouisfed.org/legal/",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=STLFSI4&cosd=2008-01-01",
+      "notes": "Attribution does not imply endorsement by the Federal Reserve or BLS."
+    },
+    {
+      "series_id": "CPIAUCNS",
+      "citation": "U.S. Bureau of Labor Statistics, Consumer Price Index for All Urban Consumers: All Items in U.S. City Average [CPIAUCNS], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/CPIAUCNS, October 26, 2026.",
+      "rights_label": "Public Domain: Citation Requested",
+      "rights_url": "https://fred.stlouisfed.org/legal/",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCNS&cosd=2008-01-01",
+      "notes": "Attribution does not imply endorsement by the Federal Reserve or BLS."
+    }
+  ],
+  "presentation_label": "Current historical vintage retrieved October 26, 2026. Conservative observation lags do not establish an as-known historical panel.",
+  "bls_cpi_validation": {
+    "series_id": "CUUR0000SA0",
+    "fred_series_id": "CPIAUCNS",
+    "start_reference_month": "2010-01",
+    "end_reference_month": "2025-09",
+    "exact_monthly_matches": 189,
+    "mismatches": 0,
+    "interpretation": "Agreement between current BLS API and FRED retrieval routes for the same underlying series, not an independent measurement.",
+    "bls_api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+    "raw_source_files_research_only": [
+      "data/external/factor_research_2026-10-26/bls_cpi_laus_2008_2017.json",
+      "data/external/factor_research_2026-10-26/bls_cpi_laus_2018_2026.json"
+    ]
+  }
+}

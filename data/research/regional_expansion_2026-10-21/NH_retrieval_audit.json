@@ -1,0 +1,89 @@
+{
+  "as_of": "2026-10-21",
+  "new_original_pdfs_retrieved": 0,
+  "duplicate_screen": {
+    "existing_docket": "DE 24-070",
+    "original_order": "28,170",
+    "original_date": "2025-07-25",
+    "subsequent_order": "28,201",
+    "subsequent_date": "2025-12-31",
+    "excluded_as_duplicate": true
+  },
+  "retrieval_status": "HTTP 403 from PUC legacy paths and Virtual File Room, NH DOE, Liberty issuer and Unitil issuer. SEC complete original-order HTML reproduction readable through web tool; direct HTTP returned 403. No failed HTML response is represented as a PDF.",
+  "verified_leads": [
+    {
+      "docket": "DE 19-057",
+      "utility": "Public Service Company of New Hampshire d/b/a Eversource Energy",
+      "order_number": "26,433",
+      "written_date": "2020-12-15",
+      "procedure": "approval_of_settlement",
+      "original_url_observed": "https://www.puc.nh.gov/Regulatory/Docketbk/2019/19-057/ORDERS/19-057_2020-12-15_ORDER_26433.PDF",
+      "retrieval_status": "403; original PDF bytes not preserved; numerical award and request not admitted"
+    },
+    {
+      "docket": "DE 19-064",
+      "utility": "Liberty Utilities (Granite State Electric) Corp. d/b/a Liberty Utilities",
+      "order_number": "26,376",
+      "written_date": "2020-06-30",
+      "procedure": "approval_of_settlement",
+      "official_docket_url": "https://www.puc.nh.gov/Regulatory/Docketbk/2019/19-064.html",
+      "evidence": "Existing DE 24-070 original page 42 jointly references this order and order 28,135 with 9.1% ROE and 7.708% WACC. Do not independently assign these values without the originals.",
+      "retrieval_status": "No original PDF retrieved"
+    },
+    {
+      "docket": "DE 21-030",
+      "utility": "Unitil Energy Systems, Inc.",
+      "order_number": "26,623",
+      "written_date": "2022-05-03",
+      "procedure": "approval_of_settlement_in_part",
+      "official_docket_url": "https://www.puc.nh.gov/Regulatory/Docketbk/2021/21-030.html",
+      "sec_original_order_reproduction": "https://www.sec.gov/Archives/edgar/data/755001/000119312522154072/d344598dex991.htm",
+      "issuer_filing_pdf_url": "https://investors.unitil.com/static-files/cf9c8064-dac9-43ff-9ad4-db8035920412",
+      "sec_reproduction_printed_pages": {
+        "6": "Settlement table: common equity 52.00%, cost 9.20%; debt 48.00%, cost 5.49%; weighted total 7.42%.",
+        "21": "Commission analysis describes 9.2% ROE and notional 52% equity / 48% debt.",
+        "22": "Commission finds capital structure, overall rate of return and ROE reasonable; recent equity returns approved by Commission as reasonable but not definitive indication.",
+        "23": "Approves settlement with regard to base distribution rates; effective service June 1, 2022."
+      },
+      "roe_award_pct_sec_reproduction": 9.2,
+      "roe_request_pct": null,
+      "initial_request_roe_missing": true,
+      "subsequent_order": {
+        "order_number": "26,625",
+        "written_date": "2022-05-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/755001/000119312522154072/d344598dex992.htm",
+        "effect": "Clarifies revenue increase from 6326330 to 5883395 because AMP was not approved. Not a new rate case."
+      },
+      "retrieval_status": "Readable complete SEC HTML reproduction via web tool, but direct SEC HTML and issuer PDF bytes returned 403. Do not claim PDF verification or hash."
+    },
+    {
+      "docket": "DE 23-039",
+      "utility": "Liberty Utilities (Granite State Electric) Corp. d/b/a Liberty",
+      "order_number": "28,135",
+      "written_date": "2025-04-24",
+      "procedure": "settlement_follow_up_order_needs_original_verification",
+      "official_docket_url": "https://www.puc.nh.gov/VirtualFileRoom/Docket.aspx?DocketNumber=DE+23-039",
+      "evidence": "Later Commission original DE 24-070 page 42 cites order/date; issuer tariff independently identifies order/date. March 25, 2025 approval and April 24 written follow-up require careful event-date distinction.",
+      "retrieval_status": "No original PDF retrieved"
+    },
+    {
+      "docket": "DG 20-105",
+      "utility": "Liberty Utilities (EnergyNorth Natural Gas) Corp. d/b/a Liberty",
+      "order_number": "26,505",
+      "written_date": "2021-07-30",
+      "procedure": "approval_of_settlement_subject_to_conditions",
+      "official_docket_url": "https://www.puc.nh.gov/Regulatory/Docketbk/2020/20-105.html",
+      "date_caveat": "A later 2023 notice says July 20 in one citation; multiple original later filings refer July 30. First-page original still needed.",
+      "award_caveat": "Later DOE filing attributes 9.3% ROE; do not admit it as original-order verified until PDF acquired.",
+      "retrieval_status": "No original PDF retrieved"
+    },
+    {
+      "docket": "DE 25-025",
+      "utility": "Unitil Energy Systems, Inc.",
+      "possible_written_date": "2026-04-27",
+      "procedure": "settlement_lead_needs_original_verification",
+      "official_docket_url": "https://www.puc.nh.gov/VirtualFileRoom/Docket.aspx?DocketNumber=DE+25-025",
+      "retrieval_status": "No original PDF retrieved"
+    }
+  ]
+}

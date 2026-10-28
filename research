@@ -1,0 +1,17 @@
+#!/bin/sh
+# Prefer the active environment, then project-local environments.
+PROJECT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+cd "$PROJECT_DIR" || exit 1
+export MPLCONFIGDIR="${MPLCONFIGDIR:-$PROJECT_DIR/.cache/matplotlib}"
+export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$PROJECT_DIR/.cache}"
+mkdir -p "$MPLCONFIGDIR" "$XDG_CACHE_HOME" || exit 1
+if [ -n "$VIRTUAL_ENV" ] && [ -x "$VIRTUAL_ENV/bin/python" ]; then
+  RESEARCH_PYTHON="$VIRTUAL_ENV/bin/python"
+elif [ -x "$PROJECT_DIR/.venv/bin/python" ]; then
+  RESEARCH_PYTHON="$PROJECT_DIR/.venv/bin/python"
+elif [ -x "$PROJECT_DIR/.conda/envs/anchored-returns/bin/python" ]; then
+  RESEARCH_PYTHON="$PROJECT_DIR/.conda/envs/anchored-returns/bin/python"
+else
+  RESEARCH_PYTHON=python3
+fi
+exec "$RESEARCH_PYTHON" -m src.research "$@"

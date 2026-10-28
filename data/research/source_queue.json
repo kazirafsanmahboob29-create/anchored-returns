@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "source_id": "CAND-MA-22-22",
+      "state": "MA",
+      "docket": "22-22",
+      "order_date": "2022-11-30",
+      "title": "NSTAR Electric final distribution rate order",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/giabjige?TKztaIebchd2AFGMIUFzSMEmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt",
+      "landing_url": "https://www.mass.gov/info-details/rate-cases-electric-companies",
+      "link_checked_date": "2026-10-02",
+      "reviewed_redirect_hosts": [
+        "d3i1pf1zzeh4ol.cloudfront.net"
+      ],
+      "discovery_notes": "Official electric rate-case index links this PDF as D.P.U. 22-22. DPU 2022 annual report identifies the written date. Acquisition does not certify eligibility."
+    },
+    {
+      "source_id": "SUPP-RI-25-45-GE-2026-08-21-MINUTES",
+      "state": "RI",
+      "docket": "25-45-GE; 25-33-GE",
+      "order_date": "",
+      "event_date": "2026-08-21",
+      "title": "Rhode Island Energy: draft open-meeting minutes",
+      "source_url": "https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Dkt.%20No.%2025-45-GE%20Draft%20Minutes%20(8-21-26)%20(RIE%20Rate%20Case-HH).pdf",
+      "source_kind": "official_draft_minutes",
+      "role": "Draft minutes of commission votes; supporting procedural evidence. These minutes do not substitute for a final written reasoned order.",
+      "landing_url": "https://ripuc.ri.gov/Docket-25-45-GE",
+      "link_checked_date": "2026-10-02",
+      "review_status": "supporting_only",
+      "discovery_notes": "Linked by the official docket page, checked October 2, 2026. Document identity and chronology inspected separately from sample eligibility."
+    },
+    {
+      "source_id": "SUPP-RI-25-45-GE-2025-11-26-APPLICATION",
+      "state": "RI",
+      "docket": "25-45-GE",
+      "order_date": "",
+      "event_date": "2025-11-26",
+      "title": "Rhode Island Energy: original application transmittal and attachments",
+      "source_url": "https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2025-11/25-45-GE%2011-26-2025%20Letter%20re%20Application%20for%20Approval%20of%20a%20Change%20in%20Electric%20and%20Gas%20Base%20Distribution%20Rates%20(stamped%20copy)%20W%20Attachments_0.pdf",
+      "source_kind": "official_docket_filing",
+      "role": "Utility application transmittal and attachments filed November 26, 2025. This establishes filing chronology and is party evidence, not a commission award.",
+      "landing_url": "https://ripuc.ri.gov/Docket-25-45-GE",
+      "link_checked_date": "2026-10-02",
+      "review_status": "supporting_only",
+      "discovery_notes": "Linked by the official docket page, checked October 2, 2026. Document identity and chronology inspected separately from sample eligibility."
+    },
+    {
+      "source_id": "CAND-NH-19-057",
+      "state": "NH",
+      "docket": "DE 19-057",
+      "order_date": "2020-12-15",
+      "title": "Public Service Company of New Hampshire: Order 26,433 approving settlement and permanent rates",
+      "source_url": "https://www.puc.nh.gov/Regulatory/Docketbk/2019/19-057/ORDERS/19-057_2020-12-15_ORDER_26433.PDF",
+      "landing_url": "https://www.puc.nh.gov/VirtualFileRoom/Docket.aspx?DocketNumber=DE%2019-057",
+      "link_checked_date": "2026-10-03",
+      "discovery_notes": "Official PDF endpoint returned by the public web search. Cover extraction identifies docket, written date and settlement approval. Web open failed; saved bytes and procedural eligibility remain unverified until acquisition."
+    },
+    {
+      "source_id": "CAND-RI-4975",
+      "state": "RI",
+      "docket": "4975",
+      "order_date": "2020-08-04",
+      "title": "Block Island Utility District: Report and Order 23873",
+      "source_url": "https://ripuc.ri.gov/eventsactions/docket/4975-BIUD-Ord23873%20%288-4-2020%29.pdf",
+      "landing_url": "https://ripuc.ri.gov/eventsactions/docket/4975page.html",
+      "link_checked_date": "2026-10-03",
+      "discovery_notes": "Official docket link inspected. The PDF itself gives written Order 23873 on August 4, 2020; the docket link caption incorrectly says 23875. Read PDF, not caption, for order identity. Procedural screen pending saved-byte review."
+    },
+    {
+      "source_id": "CAND-RI-24-14-EL",
+      "state": "RI",
+      "docket": "24-14-EL",
+      "order_date": "2025-01-06",
+      "title": "Pascoag Utility District: Rate Case Order 25225",
+      "source_url": "https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2025-01/Pascoag%20Utility%20District%2024-14-EL%20Rate%20Case%20Ord25225%201-6-25-%20Final%20w-Appendix.pdf",
+      "landing_url": "https://ripuc.ri.gov/Docket-24-14-EL",
+      "link_checked_date": "2026-10-03",
+      "discovery_notes": "Original commission PDF linked by the official docket page. Acquisition does not establish an explicit ROE determination or eligibility."
+    },
+    {
+      "source_id": "CAND-RI-5134",
+      "state": "RI",
+      "docket": "5134",
+      "order_date": "2022-01-21",
+      "title": "Pascoag Utility District: Report and Order 24315",
+      "source_url": "https://ripuc.ri.gov/eventsactions/docket/5134-PascoagUtility%20Ord24315%20(2-21-22).pdf",
+      "landing_url": "https://ripuc.ri.gov/eventsactions/docket/5134page.html",
+      "link_checked_date": "2026-10-03",
+      "discovery_notes": "Official docket link inspected. Original written date is January 21, 2022 on PDF page 14; the filename and link caption say February 21. Original date governs. Municipal funding and procedural eligibility screened separately."
+    },
+    {
+      "source_id": "CAND-VT-21-0898",
+      "state": "VT",
+      "docket": "21-0898-TF",
+      "order_date": "2021-10-15",
+      "title": "Vermont Gas Systems: original tariff approval order",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/526599/156869",
+      "landing_url": "https://epuc.vermont.gov/?q=node/64/156869",
+      "link_checked_date": "2026-10-04",
+      "discovery_notes": "Official Search Orders returned 11 records for the case. October 15, 2021 Order Approving Tariff is marked Final Order; January 14, 2022 is a later compliance order. Original eligibility needs saved-byte review."
+    },
+    {
+      "source_id": "CAND-VT-26-1298",
+      "state": "VT",
+      "docket": "26-1298-TF",
+      "order_date": "2026-08-07",
+      "title": "Order Approving Annual Base Rate Filing",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/820033/211478",
+      "landing_url": "https://epuc.vermont.gov/?q=node/64/211478",
+      "link_checked_date": "2026-10-04",
+      "discovery_notes": "Observed in public final-order search for Gas, written dates January 1, 2019 through October 1, 2026. Eligibility remains pending original review."
+    },
+    {
+      "source_id": "CAND-VT-25-1261",
+      "state": "VT",
+      "docket": "25-1261-TF",
+      "order_date": "2025-08-26",
+      "title": "Order Approving Annual Base Rate Filing",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/776011/205193",
+      "landing_url": "https://epuc.vermont.gov/?q=node/64/205193",
+      "link_checked_date": "2026-10-04",
+      "discovery_notes": "Observed in public final-order search for Gas, written dates January 1, 2019 through October 1, 2026. Eligibility remains pending original review."
+    },
+    {
+      "source_id": "CAND-VT-24-2137",
+      "state": "VT",
+      "docket": "24-2137-TF",
+      "order_date": "2024-08-12",
+      "title": "Order Approving Annual Base Rate Filing",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/729415/199394",
+      "landing_url": "https://epuc.vermont.gov/?q=node/64/199394",
+      "link_checked_date": "2026-10-04",
+      "discovery_notes": "Observed in public final-order search for Gas, written dates January 1, 2019 through October 1, 2026. Eligibility remains pending original review."
+    },
+    {
+      "source_id": "CAND-VT-20-0431",
+      "state": "VT",
+      "docket": "20-0431-TF",
+      "order_date": "2020-09-03",
+      "title": "Final Order Authorizing No Change In Rates and Use of System Expansion and Reliability Funds",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/428026/147627",
+      "landing_url": "https://epuc.vermont.gov/?q=node/64/147627",
+      "link_checked_date": "2026-10-04",
+      "discovery_notes": "Observed in public final-order search for Gas, written dates January 1, 2019 through October 1, 2026. Eligibility remains pending original review."
+    }
+  ]
+}

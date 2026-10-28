@@ -1,0 +1,21 @@
+{
+  "schema": "anchored-returns-factor-artifacts/1",
+  "r_validation": "27 coefficients and two-way clustered standard errors match within 1e-7",
+  "stata": "Native syntax supplied, execution unverified",
+  "files": {
+    "coefficients.csv": "2de94ccc7a7970ccdd421f2bc849aacb7350f2bbe620d397376b440f186a8412",
+    "changes.csv": "85da8880005c1612a44ec9a36c85537d7318a26afaa59ed6369f60c77270c4e2",
+    "study.json": "079b317edc2f8f11a974b40edf328cf78fd7285b850ee78b985515564635ca7c",
+    "macro.json": "912f973aaf1db5ee6002a305b67f1fa1f03118008fea3dabbace0e569fa28e46",
+    "r-crosscheck.csv": "40257bf326e2f6927b559a098b82d062ebafad02eb4589deac3f1e7454fae3d4",
+    "correlations.csv": "4172706a7c77b78936d8e77a541b36fd7b956118d85ee1d17ea06e54dd54140b",
+    "panel.csv": "a1b4a27dc90d9a9f26b6ba60226baec380234ad1df5cdd92cc7ae6961cf596b9",
+    "holdout.csv": "1e306539020cde8813de50a0c75d4528d13dca9437df99cee8bf2d66c5d7a58c",
+    "persistence.png": "ec2f37bc5756bb36ce8ef9f8b85c22cbdb196ecc63ee0f45dd374e4748880f20",
+    "estimation.csv": "ff40155ba5e8e3b3b0e8e4ec25ca72e98b1e13300fae0b8ed0b0cef49cfcd0ad",
+    "r-correlations.csv": "5d6ec22ffe6a0d0cc772b7458f45694476efd1195c8b0d1b01d3706f6a348d3f",
+    "bls-cache.json": "8794ae25953aeea73a319d8933e6c13b88e3745a490d1a38f92700ccb2fc7213",
+    "panel.dta": "941451e2e6111bb0fc6d577f7a2d64f4092772ff55b92c1430d5b293951e04f2",
+    "coefficients.png": "44889dd25fc10e35e0308e576ba93ee09f51250e1671691affcc8b4682b78b5d"
+  }
+}

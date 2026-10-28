@@ -1,0 +1,4 @@
+code,orders,commission_units,reliance_units,pooled_pct,equal_order_pct
+MKT,3,45,5,11.1111111111,17.8451178451
+PEER,3,45,0,0,0
+OWN,3,45,1,2.22222222222,3.7037037037

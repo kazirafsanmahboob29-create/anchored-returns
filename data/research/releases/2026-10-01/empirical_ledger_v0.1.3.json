@@ -1,0 +1,1615 @@
+{
+  "schema_version": "1.0",
+  "release": "0.1.3",
+  "frame_cutoff": "2026-10-01",
+  "coding_date": "2026-10-01",
+  "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+  "coder": "Codex assistant",
+  "coding_origin": "assistant_assisted",
+  "independent_reliability": "not_measured",
+  "sample_status": "not_finalized",
+  "sources": [
+    {
+      "source_id": "CAND-NH-24-070",
+      "pdf_path": "data/raw_orders/NH/24-070_2025-07-25_order_28170.pdf",
+      "pdf_sha256": "7f9f1716be5c996b618956026dbd03b7f6d01f5cbd395d7a6d349af46c338640",
+      "text_path": "data/text/CAND-NH-24-070.json",
+      "text_sha256": "2e569282e4bfcd254d518b1e658f597789e91f03150ab428abb0030ede5c5d8f",
+      "source_url": "https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+      "n_pages": 81
+    },
+    {
+      "source_id": "CAND-ME-2023-00336",
+      "pdf_path": "data/research/acquisition_2026-10-01/ME-2023-00336.pdf",
+      "pdf_sha256": "aa9908f17f4e6f5c24b1b7f775cf426126b4b19a450276fc430001d7167505f2",
+      "text_path": "data/empirical_text/CAND-ME-2023-00336.json",
+      "text_sha256": "314a2caf906b8b600d4917e52ebbea3d965b6c4012165940e6069e13eb425c90",
+      "source_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+      "n_pages": 56
+    },
+    {
+      "source_id": "CAND-VT-26-0096",
+      "pdf_path": "data/research/acquisition_2026-10-01/VT-26-0096.pdf",
+      "pdf_sha256": "79cfe1f93abafd7632f5136f221262f6c8e2e6bd38924267fa18aa61cd086068",
+      "text_path": "data/empirical_text/CAND-VT-26-0096.json",
+      "text_sha256": "92c6d90dbc460c75669b4309881ee54a7e3c9f5a4f720fc01e66fda444490808",
+      "source_url": "https://epuc.vermont.gov?q=downloadfile/821761/209089",
+      "n_pages": 61
+    },
+    {
+      "source_id": "SUPPORT-VT-26-0096-compliance-2026-09-30",
+      "pdf_path": "data/research/acquisition_2026-10-01/VT-26-0096-compliance-2026-09-30.pdf",
+      "pdf_sha256": "ca68f94c65a405f3f657da55a5261efa0cc637a144a0402043269056290dc6b8",
+      "text_path": "data/empirical_text/SUPPORT-VT-26-0096-compliance-2026-09-30.json",
+      "text_sha256": "9eed803203d5a89033278b77e48fe5f2e7ae1e5133ac165bb7fa3d49159f692a",
+      "source_url": "https://epuc.vermont.gov/?q=downloadfile/824826/209089",
+      "n_pages": 3
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "CAND-NH-24-070",
+      "state": "NH",
+      "docket": "DE 24-070",
+      "utility": "Eversource New Hampshire",
+      "service": "Electric",
+      "order_date": "2025-07-25",
+      "decision_type": "Fully litigated",
+      "eligibility_status": "eligible_included_by_design",
+      "source_ids": [
+        "CAND-NH-24-070"
+      ],
+      "coding_status": "first_pass_complete",
+      "reviewed_scopes": [
+        {
+          "page": 10,
+          "start_char": 780,
+          "end_char": 1847,
+          "exact_text": "For its proposed capital structure and Return on Equity (ROE)\\Weighted \nAverage Cost of Capital (WACC) proposals, the Company relied on the testimony of its \nconsultant, Mr. Vincent Rea. Mr. Rea developed a recommendation, adopted by \nEversource and presented to the Commission for its approval, for an ROE (cost of \ncommon equity) for the Company of 10.80 percent, based on a “reasonable range” of \n10.30 to 11.30 percent. Mr. Rea developed his cost of equity recommendation by \nreferring to the Discounted Cash Flow model approach, a Capital Asset Pricing Model, \nan Empirical Capital Asset Pricing Model, and a Risk Premium Model. The Company \nstated that it elected to seek an ROE of 10.30 percent, elaborating that “…the \nCompany has elected to propose a cost of equity in this proceeding of 10.30 percent, \nwhich falls at the lower-end of the range of reasonableness…[t]he Company’s proposed \nROE in this proceeding represents a conservative estimate of its cost of equity in the \ncurrent capital markets environment, and should, therefore, be approved by the \n",
+          "source_id": "CAND-NH-24-070"
+        },
+        {
+          "page": 11,
+          "start_char": 0,
+          "end_char": 849,
+          "exact_text": "DE 24-070 \n- 11 - \n \n \n \nCommission.” Docket Tab #284 at 39; Hearing Exhibit 9 at Bates Pages 19,350; \n19,363; 19,375; 19,389 through 19,390. \n \nMr. Rea also evaluated the reasonableness of the Company’s proposed capital \nstructure by comparing it to the capital structure ratios of the “electric utility proxy \ngroup,” comprised of a group of publicly traded utility companies with risk \ncharacteristics similar to the Company, based on permanent capitalization, which \nexcludes short-term debt. Hearing Exhibit 9, Bates Page 19,386. On this basis, the \nCompany proposed a rate-setting capital structure consisting of 53.85 percent \ncommon equity and 46.15 percent long-term debt, which produces a WACC figure of \n7.44 percent applied to the Company’s proposed rate case accounting. Hearing Exhibit \n9, at Bates Pages 19,385 through 19,386; 19,303.",
+          "source_id": "CAND-NH-24-070"
+        },
+        {
+          "page": 40,
+          "start_char": 130,
+          "end_char": 2259,
+          "exact_text": "In considering the question of ROE9, the Commission must assess whether the \nROE that is set as a rate of return for used and useful investments by the Company is \nsufficient to assure investor confidence in the financial soundness of the utility, and \nenough to maintain and support its credit so that it will be able to raise the funding \nnecessary to improve and expand its service to customers. New England Tel. & Tel. Co. \nv. State, 104 N.H. 229, 234 (1962). The Commission must also set this reasonable rate \nof return while giving appropriately due recognition to the competing interests of the \nCompany and its investors on the one hand, and of the customers who pay the rates \nestablished on the other, in keeping with the Commission’s role as arbiter. The \nCommission should set a rate sufficient to yield a return comparable “to that generally \nmade at the same time and in the same general part of the country on investments in \nother business undertakings which are attended by corresponding risks and \nuncertainties.” Appeal of Conservation Law Foundation of New England, Inc., 127 N.H. \n606, 635-636 (1986), citing Bluefield Co. v. Pub. Serv. Comm., 262 U.S. 679, 692 \n(1923), and New England Tel. & Tel. Co., 104 N.H. at 234 (other citations omitted); RSA \n363:17-a. On the other hand, the actual needs of the Company do not control what \nthe Commission may do when it sets the rate of return and the other variables that \ndetermine allowable revenue. The Commission may set the “sufficient” rate of return \nby reference to a capital structure that it finds appropriate, rather than the actual \ncapital structure of the Company. Appeal of Conservation Law Foundation, 127 N.H. at \n \n9 The Commission acknowledges the parties’ citations to the federal Hope and Bluefield standards as \nrelating to ROE, but insofar as the New Hampshire Constitution is at least as protective of the Company’s \nconstitutional rights against takings as the U.S. Constitution, see State v. Ball, 124 N.H. 226, 231-234 \n(1983), the Commission shall rely on New Hampshire legal standards and precedent in rendering its \ndecisions here. \n",
+          "source_id": "CAND-NH-24-070"
+        },
+        {
+          "page": 41,
+          "start_char": 0,
+          "end_char": 2025,
+          "exact_text": "DE 24-070 \n- 41 - \n \n \n \n635-636, citing New England Tel. & Tel. Co., 104 N.H. at 236 (other citations omitted). \nThe Commission has authority to set the rate of return by reference to appropriate, as \ndistinguished from actual, capital structure because the object of the process is to \nstrike a fair balance between recognizing the interests of the customer and those of the \ninvestor. Appeal of Conservation Law Foundation, 127 N.H. at 636, citing Power \nComm’n v. Hope Gas Co., 320 U.S. 591, 603 (1944) and Chicopee Mfg. Co. v. Public \nService Co., 98 N.H. 5, 11 (1953). The Commission can allow a rate of return in excess \nof the utility’s cost of capital (cost of money); how much more than the cost of capital \n“shall be allowed” for a rate of return to a public utility depends upon the \nCommission’s determination as to what is a just and reasonable return. Chicopee Mfg. \nCo., 98 N.H. at 12-13, citing New England Tel. & Tel. Co. v. State, 95 N.H. 353, 361 \n(1949). Thus, it is realistic to stress the role that the Commission’s judgment must \nplay in setting a sufficient and reasonable rate of return for the Company. Appeal of \nConservation Law Foundation, 127 N.H. at 636, citing Bluefield Co. v. Pub. Serv. \nComm., 262 U.S. at 692 (other citations omitted). \n \nIn this case, having reviewed the record before us, and the arguments of the \nparties related thereto on these issues, we find the recommendations of Dr. Woolridge, \nsubmitted on behalf of the DOE, Hearing Exhibit 16, as augmented by his oral \ntestimony, compelling, and hereby adopt them concerning the ROE figure of 9.50 \npercent, the recommended capital ratio of 50 percent debt to 50 percent Common \nEquity, and the resultant weighted average cost of capital figure for Eversource of 6.80 \npercent. See Hearing Exhibit 16 at Bates Page 11. Dr. Woolridge is a subject-matter \nexpert on ROE that has contributed analyses to several Commission rate proceedings. \nSee, e.g., Docket No. DE 19-057, Hearing Exhibit 36; see also Hearing Exhibit 16 at \n",
+          "source_id": "CAND-NH-24-070"
+        },
+        {
+          "page": 42,
+          "start_char": 0,
+          "end_char": 1983,
+          "exact_text": "DE 24-070 \n- 42 - \n \n \n \nBates Pages 137-138. We are persuaded by Dr. Woolridge’s testimony and analysis, \nincluding his critiques of the Company’s witnesses, and find that his \nrecommendations for the Company’s return on equity, capital ratio, and weighted \naverage cost of capital will result in just and reasonable rates. Dr. Woolridge presents \nhis recommendations as a fair compromise between the needs of the Company for a \ncapital-attractive rate of return, the need to ameliorate financial risks associated with \ndebt, and associated costs, Hearing Exhibit 16 at Bates Page 38-41, and the interests \nof customers in avoiding rate shock. As presented, Dr. Woolridge’s proxy analyses, \noffer a reasonable approach that conforms with the New Hampshire legal standards \ngoverning comparability of earnings, and we adopt them. Appeal of Conservation Law \nFoundation of New England, Inc., 127 N.H. 606, 635-636 (1986), citing Bluefield Co. v. \nPub. Serv. Comm., 262 U.S. 679, 692 (1923), and New England Tel. & Tel. Co., 104 \nN.H. at 234. \n \nAs shown in the graphic presented in Ms. Perry’s testimony, filed on behalf of \nWal-Mart, Inc., Hearing Exhibit 34 at Bates Page 13, the 9.5 percent ROE level is well \nwithin the range of comparability among investor-owned utilities in the Northeastern \nUnited States. Furthermore, this ROE is in line with that approved by the Commission \nrecently for Eversource’s New Hampshire investor-owned utility peers: Unitil Electric \nSystems, Inc. (Order No. 26,623 (May 3, 2022); 9.2 percent ROE, 7.42 percent WACC); \nand Liberty Utilities (Granite State Electric) d/b/a Liberty (Order No. 28,135 (April 24, \n2025), and Order No. 26,376 (June 30, 2020); 9.1 percent ROE, 7.708 WACC).  \n \nWe find that a 9.5 percent ROE is comparable to the returns on equity enjoyed \nby the Company’s peers, and will allow the Company to attract capital investment; the \n50-50 capital-to-debt ratio will serve to control debt-incurred financial risk and serves \n",
+          "source_id": "CAND-NH-24-070"
+        },
+        {
+          "page": 43,
+          "start_char": 0,
+          "end_char": 1501,
+          "exact_text": "DE 24-070 \n- 43 - \n \n \n \nto reduce the financial burden on Eversource’s customers, as compared with the \nCompany’s original proposals. After considering all the evidence presented in this \ncase, we find that the DOE’s recommended ROE, capital-to-debt ratio, and resulting \nWACC calculation for the Company are just and reasonable and produce just and \nreasonable rates. We therefore ADOPT and INCORPORATE into our alternative \nregulation of the Company’s distribution rates the DOE’s recommendations for the \nCompany’s ROE, capital-to-debt ratio, and resulting WACC calculation.  \n \nIn doing so, we are not persuaded by the OCA’s argument and expert testimony, \nHearing Exhibits 22 and 24, that a much lower 8.13 percent ROE would still allow the \nCompany to realize a reasonable return or continue to attract investment capital. \nInstead, we find that the OCA proposed ROE was neither just nor reasonable, nor \nwould it result in just and reasonable rates. Thus, we REJECT OCA’s proposed ROE in \nfavor of the DOE’s recommended ROE. \n \nLikewise, we did not find the Company’s arguments in favor of the 10.3 ROE \nproposal persuasive. The Company’s use of non-regulated companies in its proxy \nanalysis, as criticized by Dr. Woolridge, did not give the Commission confidence \nregarding the reasonableness of its analysis, nor do we accept the Company’s over-\noptimistic growth forecasts, and over-stated market risk premiums, applied in Mr. \nRea’s analyses. See Hearing Exhibit 16 at Bates Pages 94-136.",
+          "source_id": "CAND-NH-24-070"
+        },
+        {
+          "page": 2,
+          "start_char": 2011,
+          "end_char": 2535,
+          "exact_text": "4 The ESM credits customers with a 75% share of ROE beyond a 25-basis point threshold (.25%) on the \nauthorized ROE (9.5%). Thus, Eversource will return 75% of ROE in excess of 9.75%. The ROE is \ncalculated with the full year prior, with the first opportunity for a return beginning August 1, 2026, based \non the full year prior 2025. The impact of this adjustment would be excluded in calculating the \nsubsequent year’s return, in effect, this is an annual one-time adjustment each year if the Company’s \nROE exceeds 9.75%.",
+          "source_id": "CAND-NH-24-070"
+        }
+      ],
+      "excluded_spans": [
+        {
+          "page": 11,
+          "start_char": 0,
+          "end_char": 17,
+          "exact_text": "DE 24-070 \n- 11 -",
+          "source_id": "CAND-NH-24-070",
+          "reason": "Repeated docket/page header, not a paragraph"
+        },
+        {
+          "page": 41,
+          "start_char": 0,
+          "end_char": 17,
+          "exact_text": "DE 24-070 \n- 41 -",
+          "source_id": "CAND-NH-24-070",
+          "reason": "Repeated docket/page header, not a paragraph"
+        },
+        {
+          "page": 42,
+          "start_char": 0,
+          "end_char": 17,
+          "exact_text": "DE 24-070 \n- 42 -",
+          "source_id": "CAND-NH-24-070",
+          "reason": "Repeated docket/page header, not a paragraph"
+        },
+        {
+          "page": 43,
+          "start_char": 0,
+          "end_char": 17,
+          "exact_text": "DE 24-070 \n- 43 -",
+          "source_id": "CAND-NH-24-070",
+          "reason": "Repeated docket/page header, not a paragraph"
+        }
+      ],
+      "decisive_rationale": "MKT",
+      "conclusory": false,
+      "reasoning_notes": "The Commission adopts DOE proxy analysis, supports its result with its own prior utility awards and capital-attraction judgments, and rejects the company and OCA alternatives. Market methods are not identified in its adoption paragraph. Perry graphic comparator remains ambiguous; MKT/PEER both flagged under Rule 3. Later rehearing is a separate event."
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "state": "ME",
+      "docket": "2023-00336",
+      "utility": "Versant Power",
+      "service": "Electric",
+      "order_date": "2025-03-13",
+      "decision_type": "Fully litigated",
+      "eligibility_status": "eligible_candidate",
+      "source_ids": [
+        "CAND-ME-2023-00336"
+      ],
+      "coding_status": "first_pass_complete",
+      "reviewed_scopes": [
+        {
+          "page": 28,
+          "start_char": 621,
+          "end_char": 2336,
+          "exact_text": "C. \nCost of Capital and Capital Structure  \n \nExpert testimony offered by Versant’s expert consultant, Staff’s expert consultant, \nand the OPA’s expert recommended a range of returns on equity (ROE) and different \ncapital structures. The Commission concludes that a ROE of 9.35% and a capital \nstructure consisting of 3.35% short-term debt, 46.62% long-term debt, 0.03% preferred \nstock, and 50.00% common equity will provide Versant’s investors the opportunity to \nearn a fair return on their investment. \n \n1. \nVersant’s Proposal \n \nNotwithstanding that John Trogonoski, Versant’s ROE expert, recommends \nincreasing the ROE to a range from 10.33% to 10.78%, Versant proposes to maintain its \nallowed ROE of 9.35% to help mitigate the impact of the rate increase on customers. \nReply Brief at 38. Versant, however, proposes to change the percentage of equity \nincluded in its capital structure from 49% to 50% (Exhibit RR-2), which it states more \naccurately reflects Versant’s actual capital structure, as Versant’s actual equity \npercentage has been approximately 51% during 2022 and 2023. Versant claims that its \nactual earned ROE has been lower than its allowed ROE for the last several years as \nshown in Versant’s 2022 annual report to the Commission, with Versant earning only \n3.50% in 2022. See Versant Rev. Req. Test. at 10-11; see also Versant Brief at 41. \nVersant argues that a ROE below 9.35% would not be reasonable and would result in \nunjust and unreasonable rates. Versant Brief at 39. \n \nIn its Reply Brief, Versant repeats its agreement with and recommendation of \nStaff’s expert that the Commission approve a capital structure of 50% equity and a ROE \nof 9.35%. Versant Reply Brief at 40; 42.",
+          "source_id": "CAND-ME-2023-00336"
+        },
+        {
+          "page": 29,
+          "start_char": 0,
+          "end_char": 3040,
+          "exact_text": "Order  \n \n                                      27                        Docket No. 2023-00336 \n \n \n \n2. \nParties’ Positions \n \nThe OPA recommends that the Commission use a two-stage discounted cash \nflow (DCF) in calculating Versant’s cost of equity in this proceeding as presented by its \ncost of capital expert witness, Mr. Houck. Mr. Houck recommends reliance on this model \neven though the Commission traditionally uses the constant growth model, also known \nas a single stage, DCF modeling approach in determining the allowed cost of equity for \nMaine utilities in general rate proceedings. Mr. Houck contends that the single stage \nmodel tends to overstate a utility’s cost of equity due to upward biases extrapolating \nearnings growth that are embedded in that methodology. Consequently, the OPA \nsuggests that the Commission recognize those issues and adopt Mr. Houck’s estimate \nof Versant’s cost of equity of 9.09%. June 15, 2024 Houck Test. at 24:1-8; OPA Brief at \n15, 18. \n \nThe OPA further recommends that the Commission use the capital structure of \nENMAX in calculating Versant’s overall cost of capital, reducing the common equity \ncomponent of Versant’s capital structure for ratemaking purposes from around 50% to \naround 47%. Additionally, the OPA suggests that such an adjustment is needed because \nENMAX used a significant amount of debt to purchase Versant’s equity.35  \n \n3. \nStaff’s Position \n \nDr. Randall Woolridge, Staff’s expert, recommends in his surrebuttal testimony, a \n9.15% ROE (see Reply B.A. at 11) in conjunction with a 50% capitalization ratio for \ncommon equity. Reply B.A, Ex. 2 at 31. However, at the December Hearing, Dr. \nWoolridge acknowledged that, given changes in the capital markets, if he were to make \na recommendation on that day, he would return to his original recommendation of \n9.35% ROE on common equity. Dec. 19, 2024 Hr’g Tr. at 30:14-21; see also B.A., Ex. 2 \nat 5:3.  \n \n \n \n35 Specifically, as described in the Versant’s response to OPA-002-015, two of the four \nseries of debt used to acquire Versant Power remain outstanding: (1) a $300 million \nbond series due 2025, and (2) a $250 million bond series due 2029. Since a significant \nportion of Versant Power’s common equity remains financed with debt held at the parent \nlevel, the OPA contends that it would be unreasonable to allow Versant to be granted an \nequity return on a source of funds that is not true equity and posits that it could be \nargued that Versant should be limited to receiving a return on this portion of its equity at \na rate equal to that which ENMAX pays as interest on the relevant debt. Accordingly, the \nOPA proposes a more modest adjustment, in which the capital structure of Versant’s \nparent company, ENMAX (i.e., 47.18% common equity, .03% preferred stock, and \n52.79% long-term debt) (Houck Test. at 20:15 (June 14, 2024)) would be used in \ncalculating Versant’s overall cost of capital for this proceeding, i.e., 6.48%. See OPA \nBrief at 18, 19; June 14, 2024 Houck Test. at 20:15, 25:3. \n",
+          "source_id": "CAND-ME-2023-00336"
+        },
+        {
+          "page": 30,
+          "start_char": 0,
+          "end_char": 1558,
+          "exact_text": "Order  \n \n                                      28                        Docket No. 2023-00336 \n \n \n \n4. \nDecision \n \nThe Commission accepts Versant’s proposed 9.35% ROE along with a capital \nstructure that comprises a 50% equity component. A 9.35% allowed ROE is sufficient to \nprovide Versant’s investors the opportunity to earn a fair return on their investment. It is \nalso lower than the average ROE approved by regulators for electric utilities in 2024 of \n9.68% and of distribution only electric utilities in 2024 of 9.53%. Reply B.A., Ex. 2 at 5. \nThe Commission declines to modify its practice of primarily relying on the constant \ngrowth DCF model for determining the allowed ROE. See Emera Maine, Request for \nApproval of Proposed Rate Increase, Docket No. 2017-00198, Order at 43 (June 28, \n2018) (discussing why the Commission has long relied primarily on the DCF model and \nin that case relying specifically on the constant growth DCF model).  Although reliance \non a different model as proposed by the OPA would produce a lower ROE, the \nCommission believes in general there is value to maintaining a consistent approach to \nits ROE methodology. The Commission notes, however, that this decision does not limit \nany potential ROE adjustment that could be ordered following a study of Versant’s \nmanagement efficiency in a separate docket.   \n \nAccordingly, using a 50% equity component with a 9.35% ROE results in an \nafter-tax weighted average cost of capital of 6.84%, as set forth in Figure 8 below.   \n \nFigure 8: Approved Cost of Capital",
+          "source_id": "CAND-ME-2023-00336"
+        }
+      ],
+      "excluded_spans": [
+        {
+          "page": 28,
+          "start_char": 621,
+          "end_char": 662,
+          "exact_text": "C. \nCost of Capital and Capital Structure",
+          "source_id": "CAND-ME-2023-00336",
+          "reason": "Section heading"
+        },
+        {
+          "page": 28,
+          "start_char": 1130,
+          "end_char": 1152,
+          "exact_text": "1. \nVersant’s Proposal",
+          "source_id": "CAND-ME-2023-00336",
+          "reason": "Subsection heading"
+        },
+        {
+          "page": 29,
+          "start_char": 0,
+          "end_char": 95,
+          "exact_text": "Order  \n \n                                      27                        Docket No. 2023-00336",
+          "source_id": "CAND-ME-2023-00336",
+          "reason": "Repeated docket/page header"
+        },
+        {
+          "page": 30,
+          "start_char": 0,
+          "end_char": 95,
+          "exact_text": "Order  \n \n                                      28                        Docket No. 2023-00336",
+          "source_id": "CAND-ME-2023-00336",
+          "reason": "Repeated docket/page header"
+        },
+        {
+          "page": 29,
+          "start_char": 103,
+          "end_char": 125,
+          "exact_text": "2. \nParties’ Positions",
+          "source_id": "CAND-ME-2023-00336",
+          "reason": "Subsection heading"
+        },
+        {
+          "page": 29,
+          "start_char": 1398,
+          "end_char": 1418,
+          "exact_text": "3. \nStaff’s Position",
+          "source_id": "CAND-ME-2023-00336",
+          "reason": "Subsection heading"
+        },
+        {
+          "page": 30,
+          "start_char": 103,
+          "end_char": 115,
+          "exact_text": "4. \nDecision",
+          "source_id": "CAND-ME-2023-00336",
+          "reason": "Subsection heading"
+        },
+        {
+          "page": 30,
+          "start_char": 1524,
+          "end_char": 1558,
+          "exact_text": "Figure 8: Approved Cost of Capital",
+          "source_id": "CAND-ME-2023-00336",
+          "reason": "Figure caption; image table checked separately for numeric evidence"
+        }
+      ],
+      "decisive_rationale": "MKT",
+      "conclusory": false,
+      "reasoning_notes": "The Commission accepts the company request, retains constant-growth DCF and values methodological continuity; national authorized-return averages support the result. A cited prior decision establishes a model rule, not an OWN award comparison. The exact selected point is not derived from a displayed model calculation."
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "state": "VT",
+      "docket": "25-1955-PET / 26-0096-TF",
+      "utility": "Green Mountain Power",
+      "service": "Electric",
+      "order_date": "2026-08-28",
+      "decision_type": "Fully litigated",
+      "eligibility_status": "eligible_candidate",
+      "source_ids": [
+        "CAND-VT-26-0096",
+        "SUPPORT-VT-26-0096-compliance-2026-09-30"
+      ],
+      "coding_status": "not_started",
+      "reviewed_scopes": [],
+      "excluded_spans": [],
+      "decisive_rationale": null,
+      "conclusory": null,
+      "reasoning_notes": "Joint plan and rate-case decision is one observation. Operative award is 9.05% on pp.57–58; introduction says 9.04%. September 30 compliance order explicitly implements 9.05%. Preserve discrepancy rather than silently editing source text."
+    }
+  ],
+  "passages": [
+    {
+      "passage_id": "CAND-NH-24-070:U001",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "paragraph",
+      "section": "Positions of parties",
+      "spans": [
+        {
+          "page": 10,
+          "start_char": 780,
+          "end_char": 1847,
+          "exact_text": "For its proposed capital structure and Return on Equity (ROE)\\Weighted \nAverage Cost of Capital (WACC) proposals, the Company relied on the testimony of its \nconsultant, Mr. Vincent Rea. Mr. Rea developed a recommendation, adopted by \nEversource and presented to the Commission for its approval, for an ROE (cost of \ncommon equity) for the Company of 10.80 percent, based on a “reasonable range” of \n10.30 to 11.30 percent. Mr. Rea developed his cost of equity recommendation by \nreferring to the Discounted Cash Flow model approach, a Capital Asset Pricing Model, \nan Empirical Capital Asset Pricing Model, and a Risk Premium Model. The Company \nstated that it elected to seek an ROE of 10.30 percent, elaborating that “…the \nCompany has elected to propose a cost of equity in this proceeding of 10.30 percent, \nwhich falls at the lower-end of the range of reasonableness…[t]he Company’s proposed \nROE in this proceeding represents a conservative estimate of its cost of equity in the \ncurrent capital markets environment, and should, therefore, be approved by the \n"
+        },
+        {
+          "page": 11,
+          "start_char": 25,
+          "end_char": 141,
+          "exact_text": "Commission.” Docket Tab #284 at 39; Hearing Exhibit 9 at Bates Pages 19,350; \n19,363; 19,375; 19,389 through 19,390."
+        }
+      ],
+      "text": "For its proposed capital structure and Return on Equity (ROE)\\Weighted \nAverage Cost of Capital (WACC) proposals, the Company relied on the testimony of its \nconsultant, Mr. Vincent Rea. Mr. Rea developed a recommendation, adopted by \nEversource and presented to the Commission for its approval, for an ROE (cost of \ncommon equity) for the Company of 10.80 percent, based on a “reasonable range” of \n10.30 to 11.30 percent. Mr. Rea developed his cost of equity recommendation by \nreferring to the Discounted Cash Flow model approach, a Capital Asset Pricing Model, \nan Empirical Capital Asset Pricing Model, and a Risk Premium Model. The Company \nstated that it elected to seek an ROE of 10.30 percent, elaborating that “…the \nCompany has elected to propose a cost of equity in this proceeding of 10.30 percent, \nwhich falls at the lower-end of the range of reasonableness…[t]he Company’s proposed \nROE in this proceeding represents a conservative estimate of its cost of equity in the \ncurrent capital markets environment, and should, therefore, be approved by the \n\nCommission.” Docket Tab #284 at 39; Hearing Exhibit 9 at Bates Pages 19,350; \n19,363; 19,375; 19,389 through 19,390.",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "MKT": "Summarized only"
+      },
+      "primary_code": "MKT",
+      "method": "Multiple",
+      "notes": "Company expert models and witness range are summarized. Company request 10.30 differs from witness recommendation 10.80; neither establishes an initial filing request."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U002",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "paragraph",
+      "section": "Positions of parties",
+      "spans": [
+        {
+          "page": 11,
+          "start_char": 145,
+          "end_char": 849,
+          "exact_text": "Mr. Rea also evaluated the reasonableness of the Company’s proposed capital \nstructure by comparing it to the capital structure ratios of the “electric utility proxy \ngroup,” comprised of a group of publicly traded utility companies with risk \ncharacteristics similar to the Company, based on permanent capitalization, which \nexcludes short-term debt. Hearing Exhibit 9, Bates Page 19,386. On this basis, the \nCompany proposed a rate-setting capital structure consisting of 53.85 percent \ncommon equity and 46.15 percent long-term debt, which produces a WACC figure of \n7.44 percent applied to the Company’s proposed rate case accounting. Hearing Exhibit \n9, at Bates Pages 19,385 through 19,386; 19,303."
+        }
+      ],
+      "text": "Mr. Rea also evaluated the reasonableness of the Company’s proposed capital \nstructure by comparing it to the capital structure ratios of the “electric utility proxy \ngroup,” comprised of a group of publicly traded utility companies with risk \ncharacteristics similar to the Company, based on permanent capitalization, which \nexcludes short-term debt. Hearing Exhibit 9, Bates Page 19,386. On this basis, the \nCompany proposed a rate-setting capital structure consisting of 53.85 percent \ncommon equity and 46.15 percent long-term debt, which produces a WACC figure of \n7.44 percent applied to the Company’s proposed rate case accounting. Hearing Exhibit \n9, at Bates Pages 19,385 through 19,386; 19,303.",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "MKT": "Summarized only"
+      },
+      "primary_code": "MKT",
+      "method": "Unspecified",
+      "notes": "Proxy-group capitalization comparison supports proposed WACC. Retain as MKT proxy evidence with unspecified equity method; capital-structure comparison alone does not establish an ROE risk adjustment."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U003",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 40,
+          "start_char": 130,
+          "end_char": 1825,
+          "exact_text": "In considering the question of ROE9, the Commission must assess whether the \nROE that is set as a rate of return for used and useful investments by the Company is \nsufficient to assure investor confidence in the financial soundness of the utility, and \nenough to maintain and support its credit so that it will be able to raise the funding \nnecessary to improve and expand its service to customers. New England Tel. & Tel. Co. \nv. State, 104 N.H. 229, 234 (1962). The Commission must also set this reasonable rate \nof return while giving appropriately due recognition to the competing interests of the \nCompany and its investors on the one hand, and of the customers who pay the rates \nestablished on the other, in keeping with the Commission’s role as arbiter. The \nCommission should set a rate sufficient to yield a return comparable “to that generally \nmade at the same time and in the same general part of the country on investments in \nother business undertakings which are attended by corresponding risks and \nuncertainties.” Appeal of Conservation Law Foundation of New England, Inc., 127 N.H. \n606, 635-636 (1986), citing Bluefield Co. v. Pub. Serv. Comm., 262 U.S. 679, 692 \n(1923), and New England Tel. & Tel. Co., 104 N.H. at 234 (other citations omitted); RSA \n363:17-a. On the other hand, the actual needs of the Company do not control what \nthe Commission may do when it sets the rate of return and the other variables that \ndetermine allowable revenue. The Commission may set the “sufficient” rate of return \nby reference to a capital structure that it finds appropriate, rather than the actual \ncapital structure of the Company. Appeal of Conservation Law Foundation, 127 N.H. at"
+        },
+        {
+          "page": 41,
+          "start_char": 25,
+          "end_char": 1272,
+          "exact_text": "635-636, citing New England Tel. & Tel. Co., 104 N.H. at 236 (other citations omitted). \nThe Commission has authority to set the rate of return by reference to appropriate, as \ndistinguished from actual, capital structure because the object of the process is to \nstrike a fair balance between recognizing the interests of the customer and those of the \ninvestor. Appeal of Conservation Law Foundation, 127 N.H. at 636, citing Power \nComm’n v. Hope Gas Co., 320 U.S. 591, 603 (1944) and Chicopee Mfg. Co. v. Public \nService Co., 98 N.H. 5, 11 (1953). The Commission can allow a rate of return in excess \nof the utility’s cost of capital (cost of money); how much more than the cost of capital \n“shall be allowed” for a rate of return to a public utility depends upon the \nCommission’s determination as to what is a just and reasonable return. Chicopee Mfg. \nCo., 98 N.H. at 12-13, citing New England Tel. & Tel. Co. v. State, 95 N.H. 353, 361 \n(1949). Thus, it is realistic to stress the role that the Commission’s judgment must \nplay in setting a sufficient and reasonable rate of return for the Company. Appeal of \nConservation Law Foundation, 127 N.H. at 636, citing Bluefield Co. v. Pub. Serv. \nComm., 262 U.S. at 692 (other citations omitted)."
+        }
+      ],
+      "text": "In considering the question of ROE9, the Commission must assess whether the \nROE that is set as a rate of return for used and useful investments by the Company is \nsufficient to assure investor confidence in the financial soundness of the utility, and \nenough to maintain and support its credit so that it will be able to raise the funding \nnecessary to improve and expand its service to customers. New England Tel. & Tel. Co. \nv. State, 104 N.H. 229, 234 (1962). The Commission must also set this reasonable rate \nof return while giving appropriately due recognition to the competing interests of the \nCompany and its investors on the one hand, and of the customers who pay the rates \nestablished on the other, in keeping with the Commission’s role as arbiter. The \nCommission should set a rate sufficient to yield a return comparable “to that generally \nmade at the same time and in the same general part of the country on investments in \nother business undertakings which are attended by corresponding risks and \nuncertainties.” Appeal of Conservation Law Foundation of New England, Inc., 127 N.H. \n606, 635-636 (1986), citing Bluefield Co. v. Pub. Serv. Comm., 262 U.S. 679, 692 \n(1923), and New England Tel. & Tel. Co., 104 N.H. at 234 (other citations omitted); RSA \n363:17-a. On the other hand, the actual needs of the Company do not control what \nthe Commission may do when it sets the rate of return and the other variables that \ndetermine allowable revenue. The Commission may set the “sufficient” rate of return \nby reference to a capital structure that it finds appropriate, rather than the actual \ncapital structure of the Company. Appeal of Conservation Law Foundation, 127 N.H. at\n635-636, citing New England Tel. & Tel. Co., 104 N.H. at 236 (other citations omitted). \nThe Commission has authority to set the rate of return by reference to appropriate, as \ndistinguished from actual, capital structure because the object of the process is to \nstrike a fair balance between recognizing the interests of the customer and those of the \ninvestor. Appeal of Conservation Law Foundation, 127 N.H. at 636, citing Power \nComm’n v. Hope Gas Co., 320 U.S. 591, 603 (1944) and Chicopee Mfg. Co. v. Public \nService Co., 98 N.H. 5, 11 (1953). The Commission can allow a rate of return in excess \nof the utility’s cost of capital (cost of money); how much more than the cost of capital \n“shall be allowed” for a rate of return to a public utility depends upon the \nCommission’s determination as to what is a just and reasonable return. Chicopee Mfg. \nCo., 98 N.H. at 12-13, citing New England Tel. & Tel. Co. v. State, 95 N.H. 353, 361 \n(1949). Thus, it is realistic to stress the role that the Commission’s judgment must \nplay in setting a sufficient and reasonable rate of return for the Company. Appeal of \nConservation Law Foundation, 127 N.H. at 636, citing Bluefield Co. v. Pub. Serv. \nComm., 262 U.S. at 692 (other citations omitted).",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "LAW": "Relied on",
+        "CAP": "Relied on"
+      },
+      "primary_code": "LAW",
+      "method": "n.a.",
+      "notes": "Legal standard and capital-attraction duties. Generic customer/investor balance is not a bill-impact claim; comparable-risk legal recitation is not a company-specific RISK adjustment. LAW describes the standard, not the decisive number."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U004",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "footnote",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 40,
+          "start_char": 1829,
+          "end_char": 2257,
+          "exact_text": "9 The Commission acknowledges the parties’ citations to the federal Hope and Bluefield standards as \nrelating to ROE, but insofar as the New Hampshire Constitution is at least as protective of the Company’s \nconstitutional rights against takings as the U.S. Constitution, see State v. Ball, 124 N.H. 226, 231-234 \n(1983), the Commission shall rely on New Hampshire legal standards and precedent in rendering its \ndecisions here."
+        }
+      ],
+      "text": "9 The Commission acknowledges the parties’ citations to the federal Hope and Bluefield standards as \nrelating to ROE, but insofar as the New Hampshire Constitution is at least as protective of the Company’s \nconstitutional rights against takings as the U.S. Constitution, see State v. Ball, 124 N.H. 226, 231-234 \n(1983), the Commission shall rely on New Hampshire legal standards and precedent in rendering its \ndecisions here.",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "LAW": "Relied on"
+      },
+      "primary_code": "LAW",
+      "method": "n.a.",
+      "notes": "Footnote separately establishes reliance on New Hampshire legal standards; it is not an own-award benchmark."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U005",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 41,
+          "start_char": 1276,
+          "end_char": 2023,
+          "exact_text": "In this case, having reviewed the record before us, and the arguments of the \nparties related thereto on these issues, we find the recommendations of Dr. Woolridge, \nsubmitted on behalf of the DOE, Hearing Exhibit 16, as augmented by his oral \ntestimony, compelling, and hereby adopt them concerning the ROE figure of 9.50 \npercent, the recommended capital ratio of 50 percent debt to 50 percent Common \nEquity, and the resultant weighted average cost of capital figure for Eversource of 6.80 \npercent. See Hearing Exhibit 16 at Bates Page 11. Dr. Woolridge is a subject-matter \nexpert on ROE that has contributed analyses to several Commission rate proceedings. \nSee, e.g., Docket No. DE 19-057, Hearing Exhibit 36; see also Hearing Exhibit 16 at"
+        },
+        {
+          "page": 42,
+          "start_char": 25,
+          "end_char": 1040,
+          "exact_text": "Bates Pages 137-138. We are persuaded by Dr. Woolridge’s testimony and analysis, \nincluding his critiques of the Company’s witnesses, and find that his \nrecommendations for the Company’s return on equity, capital ratio, and weighted \naverage cost of capital will result in just and reasonable rates. Dr. Woolridge presents \nhis recommendations as a fair compromise between the needs of the Company for a \ncapital-attractive rate of return, the need to ameliorate financial risks associated with \ndebt, and associated costs, Hearing Exhibit 16 at Bates Page 38-41, and the interests \nof customers in avoiding rate shock. As presented, Dr. Woolridge’s proxy analyses, \noffer a reasonable approach that conforms with the New Hampshire legal standards \ngoverning comparability of earnings, and we adopt them. Appeal of Conservation Law \nFoundation of New England, Inc., 127 N.H. 606, 635-636 (1986), citing Bluefield Co. v. \nPub. Serv. Comm., 262 U.S. 679, 692 (1923), and New England Tel. & Tel. Co., 104 \nN.H. at 234."
+        }
+      ],
+      "text": "In this case, having reviewed the record before us, and the arguments of the \nparties related thereto on these issues, we find the recommendations of Dr. Woolridge, \nsubmitted on behalf of the DOE, Hearing Exhibit 16, as augmented by his oral \ntestimony, compelling, and hereby adopt them concerning the ROE figure of 9.50 \npercent, the recommended capital ratio of 50 percent debt to 50 percent Common \nEquity, and the resultant weighted average cost of capital figure for Eversource of 6.80 \npercent. See Hearing Exhibit 16 at Bates Page 11. Dr. Woolridge is a subject-matter \nexpert on ROE that has contributed analyses to several Commission rate proceedings. \nSee, e.g., Docket No. DE 19-057, Hearing Exhibit 36; see also Hearing Exhibit 16 at\nBates Pages 137-138. We are persuaded by Dr. Woolridge’s testimony and analysis, \nincluding his critiques of the Company’s witnesses, and find that his \nrecommendations for the Company’s return on equity, capital ratio, and weighted \naverage cost of capital will result in just and reasonable rates. Dr. Woolridge presents \nhis recommendations as a fair compromise between the needs of the Company for a \ncapital-attractive rate of return, the need to ameliorate financial risks associated with \ndebt, and associated costs, Hearing Exhibit 16 at Bates Page 38-41, and the interests \nof customers in avoiding rate shock. As presented, Dr. Woolridge’s proxy analyses, \noffer a reasonable approach that conforms with the New Hampshire legal standards \ngoverning comparability of earnings, and we adopt them. Appeal of Conservation Law \nFoundation of New England, Inc., 127 N.H. 606, 635-636 (1986), citing Bluefield Co. v. \nPub. Serv. Comm., 262 U.S. 679, 692 (1923), and New England Tel. & Tel. Co., 104 \nN.H. at 234.",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 1,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "MKT": "Relied on",
+        "CAP": "Relied on",
+        "GRAD": "Relied on",
+        "AFF": "Relied on",
+        "LAW": "Relied on"
+      },
+      "primary_code": "MKT",
+      "method": "Unspecified",
+      "notes": "Adopts DOE proxy analyses and 9.50; financing and avoidance of customer rate shock support adoption. Earlier docket citation concerns expert credentials, so OWN is zero. Financial leverage discussion alone is not relative-comparator RISK."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U006",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 42,
+          "start_char": 1044,
+          "end_char": 1721,
+          "exact_text": "As shown in the graphic presented in Ms. Perry’s testimony, filed on behalf of \nWal-Mart, Inc., Hearing Exhibit 34 at Bates Page 13, the 9.5 percent ROE level is well \nwithin the range of comparability among investor-owned utilities in the Northeastern \nUnited States. Furthermore, this ROE is in line with that approved by the Commission \nrecently for Eversource’s New Hampshire investor-owned utility peers: Unitil Electric \nSystems, Inc. (Order No. 26,623 (May 3, 2022); 9.2 percent ROE, 7.42 percent WACC); \nand Liberty Utilities (Granite State Electric) d/b/a Liberty (Order No. 28,135 (April 24, \n2025), and Order No. 26,376 (June 30, 2020); 9.1 percent ROE, 7.708 WACC)."
+        }
+      ],
+      "text": "As shown in the graphic presented in Ms. Perry’s testimony, filed on behalf of \nWal-Mart, Inc., Hearing Exhibit 34 at Bates Page 13, the 9.5 percent ROE level is well \nwithin the range of comparability among investor-owned utilities in the Northeastern \nUnited States. Furthermore, this ROE is in line with that approved by the Commission \nrecently for Eversource’s New Hampshire investor-owned utility peers: Unitil Electric \nSystems, Inc. (Order No. 26,623 (May 3, 2022); 9.2 percent ROE, 7.42 percent WACC); \nand Liberty Utilities (Granite State Electric) d/b/a Liberty (Order No. 28,135 (April 24, \n2025), and Order No. 26,376 (June 30, 2020); 9.1 percent ROE, 7.708 WACC).",
+      "codes": {
+        "MKT": 1,
+        "PEER": 1,
+        "OWN": 1,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "OWN": "Relied on",
+        "MKT": "Considered",
+        "PEER": "Considered"
+      },
+      "primary_code": "OWN",
+      "method": "Unspecified",
+      "notes": "Named awards are this commission’s own decisions. The northeastern graphic is not reproduced in the order; comparator is unclear, so Rule 3 requires both MKT and PEER with ambiguity recorded. Official cited exhibit retrieval failed; do not assert that it shows authorized or earned returns."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U007",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 42,
+          "start_char": 1726,
+          "end_char": 1981,
+          "exact_text": "We find that a 9.5 percent ROE is comparable to the returns on equity enjoyed \nby the Company’s peers, and will allow the Company to attract capital investment; the \n50-50 capital-to-debt ratio will serve to control debt-incurred financial risk and serves"
+        },
+        {
+          "page": 43,
+          "start_char": 25,
+          "end_char": 578,
+          "exact_text": "to reduce the financial burden on Eversource’s customers, as compared with the \nCompany’s original proposals. After considering all the evidence presented in this \ncase, we find that the DOE’s recommended ROE, capital-to-debt ratio, and resulting \nWACC calculation for the Company are just and reasonable and produce just and \nreasonable rates. We therefore ADOPT and INCORPORATE into our alternative \nregulation of the Company’s distribution rates the DOE’s recommendations for the \nCompany’s ROE, capital-to-debt ratio, and resulting WACC calculation."
+        }
+      ],
+      "text": "We find that a 9.5 percent ROE is comparable to the returns on equity enjoyed \nby the Company’s peers, and will allow the Company to attract capital investment; the \n50-50 capital-to-debt ratio will serve to control debt-incurred financial risk and serves\nto reduce the financial burden on Eversource’s customers, as compared with the \nCompany’s original proposals. After considering all the evidence presented in this \ncase, we find that the DOE’s recommended ROE, capital-to-debt ratio, and resulting \nWACC calculation for the Company are just and reasonable and produce just and \nreasonable rates. We therefore ADOPT and INCORPORATE into our alternative \nregulation of the Company’s distribution rates the DOE’s recommendations for the \nCompany’s ROE, capital-to-debt ratio, and resulting WACC calculation.",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "CAP": "Relied on",
+        "LAW": "Relied on",
+        "AFF": "Relied on"
+      },
+      "primary_code": "CAP",
+      "method": "n.a.",
+      "notes": "Capital attraction and customer burden support adoption. Peer-return reference is generic within this paragraph; explicit own-history evidence is captured in U006. The whole analysis links the point to specific evidence, so CONC is zero."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U008",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 43,
+          "start_char": 583,
+          "end_char": 1032,
+          "exact_text": "In doing so, we are not persuaded by the OCA’s argument and expert testimony, \nHearing Exhibits 22 and 24, that a much lower 8.13 percent ROE would still allow the \nCompany to realize a reasonable return or continue to attract investment capital. \nInstead, we find that the OCA proposed ROE was neither just nor reasonable, nor \nwould it result in just and reasonable rates. Thus, we REJECT OCA’s proposed ROE in \nfavor of the DOE’s recommended ROE."
+        }
+      ],
+      "text": "In doing so, we are not persuaded by the OCA’s argument and expert testimony, \nHearing Exhibits 22 and 24, that a much lower 8.13 percent ROE would still allow the \nCompany to realize a reasonable return or continue to attract investment capital. \nInstead, we find that the OCA proposed ROE was neither just nor reasonable, nor \nwould it result in just and reasonable rates. Thus, we REJECT OCA’s proposed ROE in \nfavor of the DOE’s recommended ROE.",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 1,
+        "CAP": 1,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "CAP": "Rejected",
+        "LAW": "Relied on"
+      },
+      "primary_code": "CAP",
+      "method": "n.a.",
+      "notes": "Rejects OCA claim that 8.13 permits capital attraction. Rejection of that claim is separate from reliance on the legal standard; secondary stance is retained."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U009",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 43,
+          "start_char": 1036,
+          "end_char": 1501,
+          "exact_text": "Likewise, we did not find the Company’s arguments in favor of the 10.3 ROE \nproposal persuasive. The Company’s use of non-regulated companies in its proxy \nanalysis, as criticized by Dr. Woolridge, did not give the Commission confidence \nregarding the reasonableness of its analysis, nor do we accept the Company’s over-\noptimistic growth forecasts, and over-stated market risk premiums, applied in Mr. \nRea’s analyses. See Hearing Exhibit 16 at Bates Pages 94-136."
+        }
+      ],
+      "text": "Likewise, we did not find the Company’s arguments in favor of the 10.3 ROE \nproposal persuasive. The Company’s use of non-regulated companies in its proxy \nanalysis, as criticized by Dr. Woolridge, did not give the Commission confidence \nregarding the reasonableness of its analysis, nor do we accept the Company’s over-\noptimistic growth forecasts, and over-stated market risk premiums, applied in Mr. \nRea’s analyses. See Hearing Exhibit 16 at Bates Pages 94-136.",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "MKT": "Rejected"
+      },
+      "primary_code": "MKT",
+      "method": "Multiple",
+      "notes": "Rejects company proxy composition, growth forecasts and market risk premiums. No inference of settlement deference from adoption of DOE evidence."
+    },
+    {
+      "passage_id": "CAND-NH-24-070:U010",
+      "case_id": "CAND-NH-24-070",
+      "source_id": "CAND-NH-24-070",
+      "unit_type": "footnote",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 2,
+          "start_char": 2011,
+          "end_char": 2535,
+          "exact_text": "4 The ESM credits customers with a 75% share of ROE beyond a 25-basis point threshold (.25%) on the \nauthorized ROE (9.5%). Thus, Eversource will return 75% of ROE in excess of 9.75%. The ROE is \ncalculated with the full year prior, with the first opportunity for a return beginning August 1, 2026, based \non the full year prior 2025. The impact of this adjustment would be excluded in calculating the \nsubsequent year’s return, in effect, this is an annual one-time adjustment each year if the Company’s \nROE exceeds 9.75%."
+        }
+      ],
+      "text": "4 The ESM credits customers with a 75% share of ROE beyond a 25-basis point threshold (.25%) on the \nauthorized ROE (9.5%). Thus, Eversource will return 75% of ROE in excess of 9.75%. The ROE is \ncalculated with the full year prior, with the first opportunity for a return beginning August 1, 2026, based \non the full year prior 2025. The impact of this adjustment would be excluded in calculating the \nsubsequent year’s return, in effect, this is an annual one-time adjustment each year if the Company’s \nROE exceeds 9.75%.",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {},
+      "primary_code": null,
+      "method": "n.a.",
+      "notes": "Single award announcement outside the focused discussion. Earnings sharing threshold is not a performance penalty or a cost-of-equity model. The explained award elsewhere makes CONC zero."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U001",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 28,
+          "start_char": 667,
+          "end_char": 1126,
+          "exact_text": "Expert testimony offered by Versant’s expert consultant, Staff’s expert consultant, \nand the OPA’s expert recommended a range of returns on equity (ROE) and different \ncapital structures. The Commission concludes that a ROE of 9.35% and a capital \nstructure consisting of 3.35% short-term debt, 46.62% long-term debt, 0.03% preferred \nstock, and 50.00% common equity will provide Versant’s investors the opportunity to \nearn a fair return on their investment."
+        }
+      ],
+      "text": "Expert testimony offered by Versant’s expert consultant, Staff’s expert consultant, \nand the OPA’s expert recommended a range of returns on equity (ROE) and different \ncapital structures. The Commission concludes that a ROE of 9.35% and a capital \nstructure consisting of 3.35% short-term debt, 46.62% long-term debt, 0.03% preferred \nstock, and 50.00% common equity will provide Versant’s investors the opportunity to \nearn a fair return on their investment.",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {},
+      "primary_code": null,
+      "method": "n.a.",
+      "notes": "Opening award/capital-structure announcement; detailed reasoning follows. Generic fair-return language is not a specified legal standard or capital-raising claim. No CONC across the full analysis."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U002",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "paragraph",
+      "section": "Positions of parties",
+      "spans": [
+        {
+          "page": 28,
+          "start_char": 1156,
+          "end_char": 2126,
+          "exact_text": "Notwithstanding that John Trogonoski, Versant’s ROE expert, recommends \nincreasing the ROE to a range from 10.33% to 10.78%, Versant proposes to maintain its \nallowed ROE of 9.35% to help mitigate the impact of the rate increase on customers. \nReply Brief at 38. Versant, however, proposes to change the percentage of equity \nincluded in its capital structure from 49% to 50% (Exhibit RR-2), which it states more \naccurately reflects Versant’s actual capital structure, as Versant’s actual equity \npercentage has been approximately 51% during 2022 and 2023. Versant claims that its \nactual earned ROE has been lower than its allowed ROE for the last several years as \nshown in Versant’s 2022 annual report to the Commission, with Versant earning only \n3.50% in 2022. See Versant Rev. Req. Test. at 10-11; see also Versant Brief at 41. \nVersant argues that a ROE below 9.35% would not be reasonable and would result in \nunjust and unreasonable rates. Versant Brief at 39."
+        }
+      ],
+      "text": "Notwithstanding that John Trogonoski, Versant’s ROE expert, recommends \nincreasing the ROE to a range from 10.33% to 10.78%, Versant proposes to maintain its \nallowed ROE of 9.35% to help mitigate the impact of the rate increase on customers. \nReply Brief at 38. Versant, however, proposes to change the percentage of equity \nincluded in its capital structure from 49% to 50% (Exhibit RR-2), which it states more \naccurately reflects Versant’s actual capital structure, as Versant’s actual equity \npercentage has been approximately 51% during 2022 and 2023. Versant claims that its \nactual earned ROE has been lower than its allowed ROE for the last several years as \nshown in Versant’s 2022 annual report to the Commission, with Versant earning only \n3.50% in 2022. See Versant Rev. Req. Test. at 10-11; see also Versant Brief at 41. \nVersant argues that a ROE below 9.35% would not be reasonable and would result in \nunjust and unreasonable rates. Versant Brief at 39.",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 1,
+        "GRAD": 1,
+        "LAW": 1,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 1,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "MKT": "Summarized only",
+        "OWN": "Summarized only",
+        "GRAD": "Summarized only",
+        "AFF": "Summarized only",
+        "LAW": "Summarized only"
+      },
+      "primary_code": "OWN",
+      "method": "Unspecified",
+      "notes": "Witness range is cost-of-equity evidence; company retains its prior allowed return to mitigate bill effects. Earned 2022 return is the company’s own outcome, not an expected-earnings proxy model. Just-and-reasonable language adds LAW."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U003",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "paragraph",
+      "section": "Positions of parties",
+      "spans": [
+        {
+          "page": 28,
+          "start_char": 2130,
+          "end_char": 2336,
+          "exact_text": "In its Reply Brief, Versant repeats its agreement with and recommendation of \nStaff’s expert that the Commission approve a capital structure of 50% equity and a ROE \nof 9.35%. Versant Reply Brief at 40; 42."
+        }
+      ],
+      "text": "In its Reply Brief, Versant repeats its agreement with and recommendation of \nStaff’s expert that the Commission approve a capital structure of 50% equity and a ROE \nof 9.35%. Versant Reply Brief at 40; 42.",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {},
+      "primary_code": null,
+      "method": "n.a.",
+      "notes": "Repeats a company recommendation and agreement with staff without discussing a model or adopting a settlement. A recommendation alone is not DEF."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U004",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "paragraph",
+      "section": "Positions of parties",
+      "spans": [
+        {
+          "page": 29,
+          "start_char": 129,
+          "end_char": 986,
+          "exact_text": "The OPA recommends that the Commission use a two-stage discounted cash \nflow (DCF) in calculating Versant’s cost of equity in this proceeding as presented by its \ncost of capital expert witness, Mr. Houck. Mr. Houck recommends reliance on this model \neven though the Commission traditionally uses the constant growth model, also known \nas a single stage, DCF modeling approach in determining the allowed cost of equity for \nMaine utilities in general rate proceedings. Mr. Houck contends that the single stage \nmodel tends to overstate a utility’s cost of equity due to upward biases extrapolating \nearnings growth that are embedded in that methodology. Consequently, the OPA \nsuggests that the Commission recognize those issues and adopt Mr. Houck’s estimate \nof Versant’s cost of equity of 9.09%. June 15, 2024 Houck Test. at 24:1-8; OPA Brief at \n15, 18."
+        }
+      ],
+      "text": "The OPA recommends that the Commission use a two-stage discounted cash \nflow (DCF) in calculating Versant’s cost of equity in this proceeding as presented by its \ncost of capital expert witness, Mr. Houck. Mr. Houck recommends reliance on this model \neven though the Commission traditionally uses the constant growth model, also known \nas a single stage, DCF modeling approach in determining the allowed cost of equity for \nMaine utilities in general rate proceedings. Mr. Houck contends that the single stage \nmodel tends to overstate a utility’s cost of equity due to upward biases extrapolating \nearnings growth that are embedded in that methodology. Consequently, the OPA \nsuggests that the Commission recognize those issues and adopt Mr. Houck’s estimate \nof Versant’s cost of equity of 9.09%. June 15, 2024 Houck Test. at 24:1-8; OPA Brief at \n15, 18.",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "MKT": "Summarized only"
+      },
+      "primary_code": "MKT",
+      "method": "DCF",
+      "notes": "OPA challenges single-stage growth assumptions and recommends two-stage DCF at 9.09. Commission model history is not an own authorized-award comparison."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U005",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "paragraph",
+      "section": "Positions of parties",
+      "spans": [
+        {
+          "page": 29,
+          "start_char": 990,
+          "end_char": 1393,
+          "exact_text": "The OPA further recommends that the Commission use the capital structure of \nENMAX in calculating Versant’s overall cost of capital, reducing the common equity \ncomponent of Versant’s capital structure for ratemaking purposes from around 50% to \naround 47%. Additionally, the OPA suggests that such an adjustment is needed because \nENMAX used a significant amount of debt to purchase Versant’s equity.35"
+        }
+      ],
+      "text": "The OPA further recommends that the Commission use the capital structure of \nENMAX in calculating Versant’s overall cost of capital, reducing the common equity \ncomponent of Versant’s capital structure for ratemaking purposes from around 50% to \naround 47%. Additionally, the OPA suggests that such an adjustment is needed because \nENMAX used a significant amount of debt to purchase Versant’s equity.35",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {},
+      "primary_code": null,
+      "method": "n.a.",
+      "notes": "Parent leverage and capital-structure proposal do not estimate required equity return or compare business risk to peers. Retain this structural paragraph with all codes zero instead of forcing a label."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U006",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "paragraph",
+      "section": "Positions of parties",
+      "spans": [
+        {
+          "page": 29,
+          "start_char": 1422,
+          "end_char": 1929,
+          "exact_text": "Dr. Randall Woolridge, Staff’s expert, recommends in his surrebuttal testimony, a \n9.15% ROE (see Reply B.A. at 11) in conjunction with a 50% capitalization ratio for \ncommon equity. Reply B.A, Ex. 2 at 31. However, at the December Hearing, Dr. \nWoolridge acknowledged that, given changes in the capital markets, if he were to make \na recommendation on that day, he would return to his original recommendation of \n9.35% ROE on common equity. Dec. 19, 2024 Hr’g Tr. at 30:14-21; see also B.A., Ex. 2 \nat 5:3."
+        }
+      ],
+      "text": "Dr. Randall Woolridge, Staff’s expert, recommends in his surrebuttal testimony, a \n9.15% ROE (see Reply B.A. at 11) in conjunction with a 50% capitalization ratio for \ncommon equity. Reply B.A, Ex. 2 at 31. However, at the December Hearing, Dr. \nWoolridge acknowledged that, given changes in the capital markets, if he were to make \na recommendation on that day, he would return to his original recommendation of \n9.35% ROE on common equity. Dec. 19, 2024 Hr’g Tr. at 30:14-21; see also B.A., Ex. 2 \nat 5:3.",
+      "codes": {
+        "MKT": 1,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "MKT": "Summarized only"
+      },
+      "primary_code": "MKT",
+      "method": "Unspecified",
+      "notes": "Expert changes required-return recommendation in response to capital-market conditions; no model is named in this paragraph. Preserve 9.15 written and 9.35 hearing recommendations separately."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U007",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "footnote",
+      "section": "Positions of parties",
+      "spans": [
+        {
+          "page": 29,
+          "start_char": 1938,
+          "end_char": 3038,
+          "exact_text": "35 Specifically, as described in the Versant’s response to OPA-002-015, two of the four \nseries of debt used to acquire Versant Power remain outstanding: (1) a $300 million \nbond series due 2025, and (2) a $250 million bond series due 2029. Since a significant \nportion of Versant Power’s common equity remains financed with debt held at the parent \nlevel, the OPA contends that it would be unreasonable to allow Versant to be granted an \nequity return on a source of funds that is not true equity and posits that it could be \nargued that Versant should be limited to receiving a return on this portion of its equity at \na rate equal to that which ENMAX pays as interest on the relevant debt. Accordingly, the \nOPA proposes a more modest adjustment, in which the capital structure of Versant’s \nparent company, ENMAX (i.e., 47.18% common equity, .03% preferred stock, and \n52.79% long-term debt) (Houck Test. at 20:15 (June 14, 2024)) would be used in \ncalculating Versant’s overall cost of capital for this proceeding, i.e., 6.48%. See OPA \nBrief at 18, 19; June 14, 2024 Houck Test. at 20:15, 25:3."
+        }
+      ],
+      "text": "35 Specifically, as described in the Versant’s response to OPA-002-015, two of the four \nseries of debt used to acquire Versant Power remain outstanding: (1) a $300 million \nbond series due 2025, and (2) a $250 million bond series due 2029. Since a significant \nportion of Versant Power’s common equity remains financed with debt held at the parent \nlevel, the OPA contends that it would be unreasonable to allow Versant to be granted an \nequity return on a source of funds that is not true equity and posits that it could be \nargued that Versant should be limited to receiving a return on this portion of its equity at \na rate equal to that which ENMAX pays as interest on the relevant debt. Accordingly, the \nOPA proposes a more modest adjustment, in which the capital structure of Versant’s \nparent company, ENMAX (i.e., 47.18% common equity, .03% preferred stock, and \n52.79% long-term debt) (Houck Test. at 20:15 (June 14, 2024)) would be used in \ncalculating Versant’s overall cost of capital for this proceeding, i.e., 6.48%. See OPA \nBrief at 18, 19; June 14, 2024 Houck Test. at 20:15, 25:3.",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {},
+      "primary_code": null,
+      "method": "n.a.",
+      "notes": "Double-leverage footnote elaborates the capital-structure weighting objection; no cost-of-equity model or company-relative-risk adjustment is specified."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U008",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 30,
+          "start_char": 119,
+          "end_char": 1354,
+          "exact_text": "The Commission accepts Versant’s proposed 9.35% ROE along with a capital \nstructure that comprises a 50% equity component. A 9.35% allowed ROE is sufficient to \nprovide Versant’s investors the opportunity to earn a fair return on their investment. It is \nalso lower than the average ROE approved by regulators for electric utilities in 2024 of \n9.68% and of distribution only electric utilities in 2024 of 9.53%. Reply B.A., Ex. 2 at 5. \nThe Commission declines to modify its practice of primarily relying on the constant \ngrowth DCF model for determining the allowed ROE. See Emera Maine, Request for \nApproval of Proposed Rate Increase, Docket No. 2017-00198, Order at 43 (June 28, \n2018) (discussing why the Commission has long relied primarily on the DCF model and \nin that case relying specifically on the constant growth DCF model).  Although reliance \non a different model as proposed by the OPA would produce a lower ROE, the \nCommission believes in general there is value to maintaining a consistent approach to \nits ROE methodology. The Commission notes, however, that this decision does not limit \nany potential ROE adjustment that could be ordered following a study of Versant’s \nmanagement efficiency in a separate docket."
+        }
+      ],
+      "text": "The Commission accepts Versant’s proposed 9.35% ROE along with a capital \nstructure that comprises a 50% equity component. A 9.35% allowed ROE is sufficient to \nprovide Versant’s investors the opportunity to earn a fair return on their investment. It is \nalso lower than the average ROE approved by regulators for electric utilities in 2024 of \n9.68% and of distribution only electric utilities in 2024 of 9.53%. Reply B.A., Ex. 2 at 5. \nThe Commission declines to modify its practice of primarily relying on the constant \ngrowth DCF model for determining the allowed ROE. See Emera Maine, Request for \nApproval of Proposed Rate Increase, Docket No. 2017-00198, Order at 43 (June 28, \n2018) (discussing why the Commission has long relied primarily on the DCF model and \nin that case relying specifically on the constant growth DCF model).  Although reliance \non a different model as proposed by the OPA would produce a lower ROE, the \nCommission believes in general there is value to maintaining a consistent approach to \nits ROE methodology. The Commission notes, however, that this decision does not limit \nany potential ROE adjustment that could be ordered following a study of Versant’s \nmanagement efficiency in a separate docket.",
+      "codes": {
+        "MKT": 1,
+        "PEER": 1,
+        "OWN": 0,
+        "GRAD": 1,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 1,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {
+        "MKT": "Relied on",
+        "PEER": "Considered",
+        "GRAD": "Relied on",
+        "PERF": "Considered"
+      },
+      "primary_code": "MKT",
+      "method": "DCF",
+      "notes": "Keeps constant-growth DCF and methodological continuity. Annual authorized-return averages are a comparison, not the required half-year analytical benchmark. Prior case is a model precedent, not OWN. PERF records a prospective management-linked adjustment; no current penalty is established. Alternative DCF rejection is described in notes because a code has one stance per unit."
+    },
+    {
+      "passage_id": "CAND-ME-2023-00336:U009",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "unit_type": "paragraph",
+      "section": "Commission analysis",
+      "spans": [
+        {
+          "page": 30,
+          "start_char": 1360,
+          "end_char": 1518,
+          "exact_text": "Accordingly, using a 50% equity component with a 9.35% ROE results in an \nafter-tax weighted average cost of capital of 6.84%, as set forth in Figure 8 below."
+        }
+      ],
+      "text": "Accordingly, using a 50% equity component with a 9.35% ROE results in an \nafter-tax weighted average cost of capital of 6.84%, as set forth in Figure 8 below.",
+      "codes": {
+        "MKT": 0,
+        "PEER": 0,
+        "OWN": 0,
+        "GRAD": 0,
+        "LAW": 0,
+        "CAP": 0,
+        "RISK": 0,
+        "AFF": 0,
+        "PERF": 0,
+        "DEF": 0,
+        "CONC": 0
+      },
+      "stances": {},
+      "primary_code": null,
+      "method": "n.a.",
+      "notes": "Arithmetic WACC consequence of the award; no additional reasoning code. The figure is numerical evidence, not a paragraph."
+    }
+  ],
+  "numeric_facts": [
+    {
+      "fact_id": "CAND-ME-2023-00336:awarded_roe",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "awarded_roe",
+      "printed_value": "9.35",
+      "printed_unit": "percent",
+      "value_fraction": "0.0935",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 30,
+          "start_char": 119,
+          "end_char": 366,
+          "exact_text": "The Commission accepts Versant’s proposed 9.35% ROE along with a capital \nstructure that comprises a 50% equity component. A 9.35% allowed ROE is sufficient to \nprovide Versant’s investors the opportunity to earn a fair return on their investment."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-30.png",
+        "page": 30,
+        "sha256": "8ce92be957479f774d9d0db5e4008dcf46f83417af3391fc48f253c143792496",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Original written award; current tariff is not certified."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:company_requested_roe",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "company_requested_roe",
+      "printed_value": "9.35",
+      "printed_unit": "percent",
+      "value_fraction": "0.0935",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 28,
+          "start_char": 1156,
+          "end_char": 1398,
+          "exact_text": "Notwithstanding that John Trogonoski, Versant’s ROE expert, recommends \nincreasing the ROE to a range from 10.33% to 10.78%, Versant proposes to maintain its \nallowed ROE of 9.35% to help mitigate the impact of the rate increase on customers."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-28.png",
+        "page": 28,
+        "sha256": "bc40b4fe502ed72543b1f30b6755ac7bdf3a5967153ad1a28a76dfbbe8a2c445",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Company request differs from expert model range. Initial filing chronology remains unresolved."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:utility_witness_range_low",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "utility_witness_range_low",
+      "printed_value": "10.33",
+      "printed_unit": "percent",
+      "value_fraction": "0.1033",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 28,
+          "start_char": 1156,
+          "end_char": 1398,
+          "exact_text": "Notwithstanding that John Trogonoski, Versant’s ROE expert, recommends \nincreasing the ROE to a range from 10.33% to 10.78%, Versant proposes to maintain its \nallowed ROE of 9.35% to help mitigate the impact of the rate increase on customers."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-28.png",
+        "page": 28,
+        "sha256": "bc40b4fe502ed72543b1f30b6755ac7bdf3a5967153ad1a28a76dfbbe8a2c445",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Lower bound of expert range; not company request."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:utility_witness_range_high",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "utility_witness_range_high",
+      "printed_value": "10.78",
+      "printed_unit": "percent",
+      "value_fraction": "0.1078",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 28,
+          "start_char": 1156,
+          "end_char": 1398,
+          "exact_text": "Notwithstanding that John Trogonoski, Versant’s ROE expert, recommends \nincreasing the ROE to a range from 10.33% to 10.78%, Versant proposes to maintain its \nallowed ROE of 9.35% to help mitigate the impact of the rate increase on customers."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-28.png",
+        "page": 28,
+        "sha256": "bc40b4fe502ed72543b1f30b6755ac7bdf3a5967153ad1a28a76dfbbe8a2c445",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Upper bound of expert range; not a point recommendation."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:prior_authorized_roe_stated",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "prior_authorized_roe_stated",
+      "printed_value": "9.35",
+      "printed_unit": "percent",
+      "value_fraction": "0.0935",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 28,
+          "start_char": 1156,
+          "end_char": 1398,
+          "exact_text": "Notwithstanding that John Trogonoski, Versant’s ROE expert, recommends \nincreasing the ROE to a range from 10.33% to 10.78%, Versant proposes to maintain its \nallowed ROE of 9.35% to help mitigate the impact of the rate increase on customers."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-28.png",
+        "page": 28,
+        "sha256": "bc40b4fe502ed72543b1f30b6755ac7bdf3a5967153ad1a28a76dfbbe8a2c445",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Order states currently allowed return; corresponding prior original decision date still requires verification."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:consumer_advocate_recommended_roe",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "consumer_advocate_recommended_roe",
+      "printed_value": "9.09",
+      "printed_unit": "percent",
+      "value_fraction": "0.0909",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 29,
+          "start_char": 783,
+          "end_char": 986,
+          "exact_text": "Consequently, the OPA \nsuggests that the Commission recognize those issues and adopt Mr. Houck’s estimate \nof Versant’s cost of equity of 9.09%. June 15, 2024 Houck Test. at 24:1-8; OPA Brief at \n15, 18."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-29.png",
+        "page": 29,
+        "sha256": "7f0b4094f7e80d99f87b0b871239a58f9c5c808f2da4498920316ef88a89b569",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "OPA two-stage DCF recommendation, not award."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:staff_surrebuttal_recommended_roe",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "staff_surrebuttal_recommended_roe",
+      "printed_value": "9.15",
+      "printed_unit": "percent",
+      "value_fraction": "0.0915",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 29,
+          "start_char": 1422,
+          "end_char": 1628,
+          "exact_text": "Dr. Randall Woolridge, Staff’s expert, recommends in his surrebuttal testimony, a \n9.15% ROE (see Reply B.A. at 11) in conjunction with a 50% capitalization ratio for \ncommon equity. Reply B.A, Ex. 2 at 31."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-29.png",
+        "page": 29,
+        "sha256": "7f0b4094f7e80d99f87b0b871239a58f9c5c808f2da4498920316ef88a89b569",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Written surrebuttal recommendation, subsequently updated at hearing."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:staff_hearing_recommended_roe",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "staff_hearing_recommended_roe",
+      "printed_value": "9.35",
+      "printed_unit": "percent",
+      "value_fraction": "0.0935",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 29,
+          "start_char": 1629,
+          "end_char": 1929,
+          "exact_text": "However, at the December Hearing, Dr. \nWoolridge acknowledged that, given changes in the capital markets, if he were to make \na recommendation on that day, he would return to his original recommendation of \n9.35% ROE on common equity. Dec. 19, 2024 Hr’g Tr. at 30:14-21; see also B.A., Ex. 2 \nat 5:3."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-29.png",
+        "page": 29,
+        "sha256": "7f0b4094f7e80d99f87b0b871239a58f9c5c808f2da4498920316ef88a89b569",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "December 19, 2024 hearing recommendation reported in original final order."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:common_equity_fraction",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "common_equity_fraction",
+      "printed_value": "50",
+      "printed_unit": "percent",
+      "value_fraction": "0.5",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 30,
+          "start_char": 119,
+          "end_char": 366,
+          "exact_text": "The Commission accepts Versant’s proposed 9.35% ROE along with a capital \nstructure that comprises a 50% equity component. A 9.35% allowed ROE is sufficient to \nprovide Versant’s investors the opportunity to earn a fair return on their investment."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-30.png",
+        "page": 30,
+        "sha256": "8ce92be957479f774d9d0db5e4008dcf46f83417af3391fc48f253c143792496",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Capitalization share; 0.50 fraction, not equity return."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:after_tax_wacc",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "after_tax_wacc",
+      "printed_value": "6.84",
+      "printed_unit": "percent",
+      "value_fraction": "0.0684",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 30,
+          "start_char": 1360,
+          "end_char": 1518,
+          "exact_text": "Accordingly, using a 50% equity component with a 9.35% ROE results in an \nafter-tax weighted average cost of capital of 6.84%, as set forth in Figure 8 below."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-30.png",
+        "page": 30,
+        "sha256": "8ce92be957479f774d9d0db5e4008dcf46f83417af3391fc48f253c143792496",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "After-tax WACC; visually agrees with Figure 8."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:cited_2024_electric_authorized_average",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "cited_2024_electric_authorized_average",
+      "printed_value": "9.68",
+      "printed_unit": "percent",
+      "value_fraction": "0.0968",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 30,
+          "start_char": 367,
+          "end_char": 555,
+          "exact_text": "It is \nalso lower than the average ROE approved by regulators for electric utilities in 2024 of \n9.68% and of distribution only electric utilities in 2024 of 9.53%. Reply B.A., Ex. 2 at 5."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-30.png",
+        "page": 30,
+        "sha256": "8ce92be957479f774d9d0db5e4008dcf46f83417af3391fc48f253c143792496",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Record-cited annual average; not the required half-year benchmark."
+    },
+    {
+      "fact_id": "CAND-ME-2023-00336:cited_2024_distribution_authorized_average",
+      "case_id": "CAND-ME-2023-00336",
+      "source_id": "CAND-ME-2023-00336",
+      "field": "cited_2024_distribution_authorized_average",
+      "printed_value": "9.53",
+      "printed_unit": "percent",
+      "value_fraction": "0.0953",
+      "relation": "equal",
+      "event_date": "2025-03-13",
+      "spans": [
+        {
+          "page": 30,
+          "start_char": 367,
+          "end_char": 555,
+          "exact_text": "It is \nalso lower than the average ROE approved by regulators for electric utilities in 2024 of \n9.68% and of distribution only electric utilities in 2024 of 9.53%. Reply B.A., Ex. 2 at 5."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/ME-2023-00336-30.png",
+        "page": 30,
+        "sha256": "8ce92be957479f774d9d0db5e4008dcf46f83417af3391fc48f253c143792496",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Record-cited annual distribution-only average; do not substitute for contemporaneous completed half-year."
+    },
+    {
+      "fact_id": "CAND-VT-26-0096:awarded_roe",
+      "case_id": "CAND-VT-26-0096",
+      "source_id": "CAND-VT-26-0096",
+      "field": "awarded_roe",
+      "printed_value": "9.05",
+      "printed_unit": "percent",
+      "value_fraction": "0.0905",
+      "relation": "equal",
+      "event_date": "2026-08-28",
+      "spans": [
+        {
+          "page": 57,
+          "start_char": 51,
+          "end_char": 474,
+          "exact_text": "On the whole, despite our reservations with portions of the Department’s testimony, we \nfind that the Department presented a more persuasive assessment of GMP’s overall financial risk \nwhile operating under the MYRP.  We are not, however, prepared to adopt the Department’s \nproposed 8.91% ROE.  Instead, we will set the authorized ROE at 9.05%.  This value, which is \n14 basis points above the Department’s recommendation,"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-57.png",
+        "page": 57,
+        "sha256": "9bf790f6062524345b2e586cb3fde0ef46bbd4e41b5e06c4278ee5c802f171d9",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Operative award in detailed analysis/directives; p.3 inconsistent 9.04 is retained as discrepancy. September 30 compliance order confirms 9.05."
+    },
+    {
+      "fact_id": "CAND-VT-26-0096:company_requested_roe",
+      "case_id": "CAND-VT-26-0096",
+      "source_id": "CAND-VT-26-0096",
+      "field": "company_requested_roe",
+      "printed_value": "9.94",
+      "printed_unit": "percent",
+      "value_fraction": "0.0994",
+      "relation": "equal",
+      "event_date": "2026-08-28",
+      "spans": [
+        {
+          "page": 55,
+          "start_char": 49,
+          "end_char": 219,
+          "exact_text": "business risk profile, GMP’s witness concluded that a fair ROE would be 10.50%.  Nevertheless, \nGMP proposes to maintain its currently authorized ROE of 9.94% for FY27.64"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-55.png",
+        "page": 55,
+        "sha256": "8eac3718517e1c3fffc96f54aad8f0952ec2f761f21cde6dd54c1e95a57d2007",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Company proposal to retain current return; not the expert 10.50 estimate."
+    },
+    {
+      "fact_id": "CAND-VT-26-0096:prior_authorized_roe_stated",
+      "case_id": "CAND-VT-26-0096",
+      "source_id": "CAND-VT-26-0096",
+      "field": "prior_authorized_roe_stated",
+      "printed_value": "9.94",
+      "printed_unit": "percent",
+      "value_fraction": "0.0994",
+      "relation": "equal",
+      "event_date": "2026-08-28",
+      "spans": [
+        {
+          "page": 55,
+          "start_char": 49,
+          "end_char": 219,
+          "exact_text": "business risk profile, GMP’s witness concluded that a fair ROE would be 10.50%.  Nevertheless, \nGMP proposes to maintain its currently authorized ROE of 9.94% for FY27.64"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-55.png",
+        "page": 55,
+        "sha256": "8eac3718517e1c3fffc96f54aad8f0952ec2f761f21cde6dd54c1e95a57d2007",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Stated current return; not yet matched to a prior original decision date."
+    },
+    {
+      "fact_id": "CAND-VT-26-0096:utility_witness_recommended_roe",
+      "case_id": "CAND-VT-26-0096",
+      "source_id": "CAND-VT-26-0096",
+      "field": "utility_witness_recommended_roe",
+      "printed_value": "10.50",
+      "printed_unit": "percent",
+      "value_fraction": "0.105",
+      "relation": "equal",
+      "event_date": "2026-08-28",
+      "spans": [
+        {
+          "page": 55,
+          "start_char": 49,
+          "end_char": 219,
+          "exact_text": "business risk profile, GMP’s witness concluded that a fair ROE would be 10.50%.  Nevertheless, \nGMP proposes to maintain its currently authorized ROE of 9.94% for FY27.64"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-55.png",
+        "page": 55,
+        "sha256": "8eac3718517e1c3fffc96f54aad8f0952ec2f761f21cde6dd54c1e95a57d2007",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Expert recommendation distinguished from company request."
+    },
+    {
+      "fact_id": "CAND-VT-26-0096:department_recommended_roe",
+      "case_id": "CAND-VT-26-0096",
+      "source_id": "CAND-VT-26-0096",
+      "field": "department_recommended_roe",
+      "printed_value": "8.91",
+      "printed_unit": "percent",
+      "value_fraction": "0.0891",
+      "relation": "equal",
+      "event_date": "2026-08-28",
+      "spans": [
+        {
+          "page": 55,
+          "start_char": 221,
+          "end_char": 504,
+          "exact_text": "In contrast, the Department recommends that we set GMP’s authorized ROE at 8.91%.  \nThe Department states that this recommendation, which amounts to a 103-basis-point reduction \nto GMP’s proposal, would lower GMP’s proposed cost of service by approximately $15.5 \nmillion or 1.73%.65"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-55.png",
+        "page": 55,
+        "sha256": "8eac3718517e1c3fffc96f54aad8f0952ec2f761f21cde6dd54c1e95a57d2007",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Department recommendation, not awarded ROE."
+    },
+    {
+      "fact_id": "CAND-VT-26-0096:department_range_low",
+      "case_id": "CAND-VT-26-0096",
+      "source_id": "CAND-VT-26-0096",
+      "field": "department_range_low",
+      "printed_value": "8.07",
+      "printed_unit": "percent",
+      "value_fraction": "0.0807",
+      "relation": "equal",
+      "event_date": "2026-08-28",
+      "spans": [
+        {
+          "page": 55,
+          "start_char": 506,
+          "end_char": 672,
+          "exact_text": "To develop this recommendation, the Department calculated a “zone of \nreasonableness” for GMP’s ROE that ranged from 8.07% on the low end to 9.75% at the high \nend.66"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-55.png",
+        "page": 55,
+        "sha256": "8eac3718517e1c3fffc96f54aad8f0952ec2f761f21cde6dd54c1e95a57d2007",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Low bound of department zone, not commission-adopted range."
+    },
+    {
+      "fact_id": "CAND-VT-26-0096:department_range_high",
+      "case_id": "CAND-VT-26-0096",
+      "source_id": "CAND-VT-26-0096",
+      "field": "department_range_high",
+      "printed_value": "9.75",
+      "printed_unit": "percent",
+      "value_fraction": "0.0975",
+      "relation": "equal",
+      "event_date": "2026-08-28",
+      "spans": [
+        {
+          "page": 55,
+          "start_char": 506,
+          "end_char": 672,
+          "exact_text": "To develop this recommendation, the Department calculated a “zone of \nreasonableness” for GMP’s ROE that ranged from 8.07% on the low end to 9.75% at the high \nend.66"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/VT-26-0096-55.png",
+        "page": 55,
+        "sha256": "8eac3718517e1c3fffc96f54aad8f0952ec2f761f21cde6dd54c1e95a57d2007",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "High bound of department zone, not a party point recommendation."
+    },
+    {
+      "fact_id": "CAND-VT-26-0096:compliance_confirmed_roe",
+      "case_id": "CAND-VT-26-0096",
+      "source_id": "SUPPORT-VT-26-0096-compliance-2026-09-30",
+      "field": "compliance_confirmed_roe",
+      "printed_value": "9.05",
+      "printed_unit": "percent",
+      "value_fraction": "0.0905",
+      "relation": "equal",
+      "event_date": "2026-09-30",
+      "spans": [
+        {
+          "page": 1,
+          "start_char": 694,
+          "end_char": 948,
+          "exact_text": "On September 4, 2026, GMP filed a revised cost of service for Fiscal Year 2027 \n(“FY27”) resulting in a final rate increase of 5.51% after implementing the Commission’s \nauthorized return on equity of 9.05% and adjusting the resilience spending for FY27."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/pdf_qa/empirical-2026-10-01/VT-compliance-1.png",
+        "page": 1,
+        "sha256": "ce1ffd04d41bb71802b6f7da8b1d8db380b096550cda9460fe56a4787840b05c",
+        "checked_date": "2026-10-01",
+        "reviewer": "Codex assistant"
+      },
+      "notes": "Separate September 30 compliance event confirms implementation; not a second sampled observation."
+    }
+  ],
+  "missing_fields": [
+    {
+      "case_id": "CAND-NH-24-070",
+      "field": "initial_requested_roe",
+      "status": "unresolved",
+      "reason": "Initial filing chronology has not been matched to the stated request."
+    },
+    {
+      "case_id": "CAND-NH-24-070",
+      "field": "prior_order_date",
+      "status": "unresolved",
+      "reason": "Prior original written order and its award have not been linked."
+    },
+    {
+      "case_id": "CAND-NH-24-070",
+      "field": "national_half_year_benchmark",
+      "status": "unresolved",
+      "reason": "Exact service-matched completed-half-year series has not been acquired; annual record averages are not substitutes."
+    },
+    {
+      "case_id": "CAND-NH-24-070",
+      "field": "performance_adjustment",
+      "status": "unresolved",
+      "reason": "No explicit current adjustment entered; absence of a passage is not evidence of zero."
+    },
+    {
+      "case_id": "CAND-NH-24-070",
+      "field": "independent_reliability",
+      "status": "not_measured",
+      "reason": "No genuinely separate paired ratings exist."
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "field": "initial_requested_roe",
+      "status": "unresolved",
+      "reason": "Initial filing chronology has not been matched to the stated request."
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "field": "prior_order_date",
+      "status": "unresolved",
+      "reason": "Prior original written order and its award have not been linked."
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "field": "national_half_year_benchmark",
+      "status": "unresolved",
+      "reason": "Exact service-matched completed-half-year series has not been acquired; annual record averages are not substitutes."
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "field": "performance_adjustment",
+      "status": "unresolved",
+      "reason": "No explicit current adjustment entered; absence of a passage is not evidence of zero."
+    },
+    {
+      "case_id": "CAND-ME-2023-00336",
+      "field": "independent_reliability",
+      "status": "not_measured",
+      "reason": "No genuinely separate paired ratings exist."
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "field": "initial_requested_roe",
+      "status": "unresolved",
+      "reason": "Initial filing chronology has not been matched to the stated request."
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "field": "prior_order_date",
+      "status": "unresolved",
+      "reason": "Prior original written order and its award have not been linked."
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "field": "national_half_year_benchmark",
+      "status": "unresolved",
+      "reason": "Exact service-matched completed-half-year series has not been acquired; annual record averages are not substitutes."
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "field": "performance_adjustment",
+      "status": "unresolved",
+      "reason": "No explicit current adjustment entered; absence of a passage is not evidence of zero."
+    },
+    {
+      "case_id": "CAND-VT-26-0096",
+      "field": "independent_reliability",
+      "status": "not_measured",
+      "reason": "No genuinely separate paired ratings exist."
+    }
+  ],
+  "limitations": [
+    "Candidate coding does not determine sample inclusion.",
+    "First-pass labels need reliability measurement before claims of validated classification.",
+    "Zero-code structural paragraphs are supported in this ledger; the frozen v0.1.2 workbook cannot represent them.",
+    "Only the three named cases have new empirical records; remaining acquisitions are pending review."
+  ]
+}

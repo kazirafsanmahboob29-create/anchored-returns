@@ -1,0 +1,1154 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "three-orders-2026-10-02",
+  "packet_sha256": "f25d6adc8628beff4184bb13d6dd95efe368582295c18c714eb0fe995854a141",
+  "rater": {
+    "identity": "",
+    "kind": "human",
+    "started_at_utc": null,
+    "completed_at_utc": null,
+    "did_not_consult_reference_labels": null,
+    "notes": ""
+  },
+  "ratings": [
+    {
+      "unit_id": "R001",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R002",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R003",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R004",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R005",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R006",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R007",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R008",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R009",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R010",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R011",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R012",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R013",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R014",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R015",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R016",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R017",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R018",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R019",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R020",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R021",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R022",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R023",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R024",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R025",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R026",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R027",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R028",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R029",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R030",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R031",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R032",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R033",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R034",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R035",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R036",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R037",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R038",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R039",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R040",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R041",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R042",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R043",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R044",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R045",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R046",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R047",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R048",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R049",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R050",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R051",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R052",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R053",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R054",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R055",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R056",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R057",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R058",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R059",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R060",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R061",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R062",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R063",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R064",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R065",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R066",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    },
+    {
+      "unit_id": "R067",
+      "codes": {
+        "MKT": null,
+        "PEER": null,
+        "OWN": null,
+        "GRAD": null,
+        "LAW": null,
+        "CAP": null,
+        "RISK": null,
+        "AFF": null,
+        "PERF": null,
+        "DEF": null,
+        "CONC": null
+      },
+      "notes": ""
+    }
+  ]
+}

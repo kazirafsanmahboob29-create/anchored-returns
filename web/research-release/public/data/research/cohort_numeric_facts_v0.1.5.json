@@ -1,0 +1,325 @@
+{
+  "version": "0.1.5",
+  "date": "2026-10-21",
+  "verification_method": "Native PDF text, exact offsets, source fingerprints and rendered-page inspection. This is an additional source check, not independent coding reliability.",
+  "facts": [
+    {
+      "fact_id": "COHORT-CAND-CT-23-11-02-CNG-AWARD",
+      "case_id": "CAND-CT-23-11-02-CNG",
+      "source_id": "CAND-CT-23-11-02-CNG",
+      "field": "awarded_roe_after_performance_reductions",
+      "value": "9.15",
+      "unit": "percent",
+      "event_date": "2024-11-18",
+      "pdf_sha256": "45274d3ae9cf087328c3c8f48d3fcabe26785b37c61b9375048bde0bcfd2d3bb",
+      "spans": [
+        {
+          "page": 82,
+          "start_char": 2848,
+          "end_char": 2928,
+          "exact_text": "Accounting for the 5 basis point \nreduction, the Authority approves a 9.15% ROE."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-CT-23-11-02-CNG-82.png",
+        "sha256": "3b460e1a9baba65726dca826cef5aca87c967fb1193872ef2cf62d514cffd17f",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. Award includes the stated performance reduction."
+    },
+    {
+      "fact_id": "COHORT-CAND-CT-23-11-02-SCG-AWARD",
+      "case_id": "CAND-CT-23-11-02-SCG",
+      "source_id": "CAND-CT-23-11-02-SCG",
+      "field": "awarded_roe_after_performance_reductions",
+      "value": "9.15",
+      "unit": "percent",
+      "event_date": "2024-11-18",
+      "pdf_sha256": "20301139a81095112093a9878188805f187759725a1ca4f02221cfa1058badec",
+      "spans": [
+        {
+          "page": 91,
+          "start_char": 2853,
+          "end_char": 2933,
+          "exact_text": "Accounting for the 5 basis point \nreduction, the Authority approves a 9.15% ROE."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-CT-23-11-02-SCG-91.png",
+        "sha256": "38e75e245d7edc771f8db26e02c568f8630d78d0025cf386ddc52cc1434c28d9",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. Award includes the stated performance reduction."
+    },
+    {
+      "fact_id": "COHORT-CAND-CT-24-10-04-AWARD",
+      "case_id": "CAND-CT-24-10-04",
+      "source_id": "CAND-CT-24-10-04",
+      "field": "awarded_roe_after_performance_reductions",
+      "value": "9.25",
+      "unit": "percent",
+      "event_date": "2025-10-28",
+      "pdf_sha256": "5ca2993f0f1913081d7f4e6e846ba1e81ebe1cf16f32bd5abd1b383d8728f232",
+      "spans": [
+        {
+          "page": 101,
+          "start_char": 1840,
+          "end_char": 2287,
+          "exact_text": "Based on the above, the Authority concludes that a cumulative twenty (20) basis \npoint reduction to the Company\u2019s ROE is warranted to account for instances where UI \nfailed to provide expert, efficient, and prudent management of its franchise; to set rates \ncommensurate with the level of service the ratepayers are receiving; and to incentivize \nthe Company to do better.  Accordingly, the Authority adjusts UI\u2019s allowed ROE from \n9.45% to 9.25%."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-CT-24-10-04-101.png",
+        "sha256": "9f79d84b5d3839badb92682e53dacd6d4b590aea8a3ff8f4d32a3180f0d382d5",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. Award includes the stated performance reduction."
+    },
+    {
+      "fact_id": "COHORT-CAND-CT-24-12-01-AWARD",
+      "case_id": "CAND-CT-24-12-01",
+      "source_id": "CAND-CT-24-12-01",
+      "field": "awarded_roe_after_performance_reductions",
+      "value": "9.32",
+      "unit": "percent",
+      "event_date": "2025-11-05",
+      "pdf_sha256": "e29cddde80d737aa68f5fbf32866334df02a78193fc937980f2e90a9c41564b6",
+      "spans": [
+        {
+          "page": 86,
+          "start_char": 1718,
+          "end_char": 1799,
+          "exact_text": "Accounting for the 16 basis point \nreduction, the Authority approves a 9.32% ROE."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-CT-24-12-01-86.png",
+        "sha256": "1bb0fe0092d5b0afb8280edaf2eae180010325725fbc534c7798faa8a303ff96",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. Award includes the stated performance reduction."
+    },
+    {
+      "fact_id": "COHORT-CAND-MA-23-80-81-AWARD",
+      "case_id": "CAND-MA-23-80-81",
+      "source_id": "CAND-MA-23-80-81",
+      "field": "awarded_roe",
+      "value": "9.40",
+      "unit": "percent",
+      "event_date": "2024-06-28",
+      "pdf_sha256": "fec5b06cfe9b0fb4469890de262ac8cf11628e21eeb1abe116c6d7b0399de2f5",
+      "spans": [
+        {
+          "page": 380,
+          "start_char": 1606,
+          "end_char": 1881,
+          "exact_text": "Based on a review of the evidence presented in this case, the arguments of the parties, \nand the considerations set forth above, the Department finds that an authorized ROE of \n9.40 percent is within a reasonable range of cost of equity rates that will preserve the Company\u2019s"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-MA-23-80-81-380.png",
+        "sha256": "45cb9995bdfbe8cef5aecf2e9ce08aa624f17c0842ddf53c25a5454e66f60c8a",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. "
+    },
+    {
+      "fact_id": "COHORT-CAND-MA-22-22-AWARD",
+      "case_id": "CAND-MA-22-22",
+      "source_id": "CAND-MA-22-22",
+      "field": "awarded_roe",
+      "value": "9.80",
+      "unit": "percent",
+      "event_date": "2022-11-30",
+      "pdf_sha256": "c943ecaa8d06e61bedf6de940d95d41cafa79d328e24e48338ba20f95104fd5d",
+      "spans": [
+        {
+          "page": 421,
+          "start_char": 1292,
+          "end_char": 1555,
+          "exact_text": "Based on a review of the evidence presented in this case, the arguments of the parties, \nand the considerations set forth above, the Department finds that an authorized ROE of \n9.80 percent is within a reasonable range of rates that will preserve NSTAR Electric\u2019s"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-MA-22-22-421.png",
+        "sha256": "876c4228f70dd45099d64e5c503e1a8a29d308dcf6f9fee368f18d9632c54fd7",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. "
+    },
+    {
+      "fact_id": "COHORT-CAND-ME-2019-00092-issuer-copy-AWARD",
+      "case_id": "CAND-ME-2019-00092-issuer-copy",
+      "source_id": "CAND-ME-2019-00092-issuer-copy",
+      "field": "awarded_roe",
+      "value": "9.48",
+      "unit": "percent",
+      "event_date": "2020-03-26",
+      "pdf_sha256": "62a5f6b4c3496c083b6626ff0a4c1553b2ccfb255326e0c2698f6a1cab6a2737",
+      "spans": [
+        {
+          "page": 70,
+          "start_char": 1906,
+          "end_char": 2167,
+          "exact_text": "As Northern noted in its exceptions, it is appropriate to include an\nupward adjustment to account for flotation costs and no party contested the calculation of an eight-basis-point adjustment for flotation costs. Thus, we\nwill increase the allowed ROE to 9.48%."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-ME-2019-00092-issuer-copy-70.png",
+        "sha256": "8811118d9ebb7ee55ff6cf65b6ef623d6fdb6e948828c02600a8d7f90d051a88",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. "
+    },
+    {
+      "fact_id": "COHORT-CAND-ME-2020-00316-Part-I-AWARD",
+      "case_id": "CAND-ME-2020-00316-Part-I",
+      "source_id": "CAND-ME-2020-00316-Part-I",
+      "field": "awarded_roe",
+      "value": "9.35",
+      "unit": "percent",
+      "event_date": "2021-10-18",
+      "pdf_sha256": "1a032ff8362e7bf659afc0f81ba8001d7659f9539505ea626e154844badc6897",
+      "spans": [
+        {
+          "page": 4,
+          "start_char": 42,
+          "end_char": 557,
+          "exact_text": "9.35%, and Staff\u2019s analysis supported the ROE proposed by the Company. ROE Dir. at \n68; Griffing Surr. at 5; BA at 21. The parties also agree that short-term debt should \nrepresent 4.46% of the capital structure and preferred stock should represent 0.04% of \nthe capital structure at a cost of 7.00%. ROE Dir. at 67; OPA Br. at 12; BA at 9. The \nCommission accepts the lack of dispute and approves the apparent agreement of the \nparties on these components of the WACC calculation as a just and reasonable \noutcome."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-ME-2020-00316-Part-I-4.png",
+        "sha256": "a2c24ee956fe2fab4a1532d36e4e817b4a32bdeed98715426dd609c945939d2b",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. "
+    },
+    {
+      "fact_id": "COHORT-CAND-VT-21-3707-2022-08-31-AWARD",
+      "case_id": "CAND-VT-21-3707-2022-08-31",
+      "source_id": "CAND-VT-21-3707-2022-08-31",
+      "field": "awarded_roe",
+      "value": "8.57",
+      "unit": "percent",
+      "event_date": "2022-08-31",
+      "pdf_sha256": "2e1864a9431a3afe585e7c04d9a40817b0cfaed71805c0cf7bf374c82c430d70",
+      "spans": [
+        {
+          "page": 31,
+          "start_char": 924,
+          "end_char": 1139,
+          "exact_text": "Given these \nfacts, our substantial discretion in setting ROE rates, and the testimony submitted by parties on \nthis issue, we find that an annualized ROE rate of 8.57% for FY23 is reasonable and should be \nadopted."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-VT-21-3707-2022-08-31-31.png",
+        "sha256": "9caf2af668be909df709343048bfed1ebb57a0ebaae3e510787a8ca1fb21e860",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. "
+    },
+    {
+      "fact_id": "COHORT-CAND-VT-20-0431-AWARD",
+      "case_id": "CAND-VT-20-0431",
+      "source_id": "CAND-VT-20-0431",
+      "field": "awarded_roe",
+      "value": "8.65",
+      "unit": "percent",
+      "event_date": "2020-09-03",
+      "pdf_sha256": "94d8544471e813abcf2262a696b2f629cfc9192c32706c51c76894193a16f3b3",
+      "spans": [
+        {
+          "page": 4,
+          "start_char": 680,
+          "end_char": 967,
+          "exact_text": "The most significant change in Vermont Gas\u2019s proposed cost of service was a reduction \nin its proposed return on equity from 9.2% to 8.65%.  We find this ROE to be reasonable given \ncurrent financial circumstances and given the fact that the Department agrees with the new \nproposed ROE."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-VT-20-0431-4.png",
+        "sha256": "53ed5a09f841d0fb765d5f83c9269991771f9f0f1be52aa143d9471c60fb6e9b",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. "
+    },
+    {
+      "fact_id": "COHORT-CAND-VT-23-0561-AWARD",
+      "case_id": "CAND-VT-23-0561",
+      "source_id": "CAND-VT-23-0561",
+      "field": "awarded_roe",
+      "value": "9.24",
+      "unit": "percent",
+      "event_date": "2023-10-23",
+      "pdf_sha256": "6514df56d94cc80e0d5e66ae5d02b08d609bff6a5ade3563534b9e09a65112fe",
+      "spans": [
+        {
+          "page": 9,
+          "start_char": 326,
+          "end_char": 567,
+          "exact_text": "The parties agree on most elements of Vermont Gas\u2019s cost of service, including the \nCompany\u2019s capital structure and a return on equity of 9.24%.  We approve those aspects of the \ncost of service upon which the parties have reached agreement."
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-06/CAND-VT-23-0561-9.png",
+        "sha256": "2c0458359400974681e46f4eae37534acfea7c8b64d3e65ce98d44e58a60aa78",
+        "checked_date": "2026-10-06"
+      },
+      "notes": "Original written decision. "
+    },
+    {
+      "fact_id": "COHORT-CAND-VT-25-1261-FORMULA-ROE",
+      "case_id": "CAND-VT-25-1261",
+      "source_id": "CAND-VT-25-1261",
+      "field": "formula_implemented_roe",
+      "value": "9.62",
+      "unit": "percent",
+      "event_date": "2025-08-26",
+      "pdf_sha256": "b56f93a19bdc6ef746839ca0861f03312b2b92ca8acc7a15dc1efdd30af11358",
+      "spans": [
+        {
+          "page": 3,
+          "start_char": 1823,
+          "end_char": 2001,
+          "exact_text": "\u2022 -0.12% of the change is based on formulaic adjustments to VGS\u2019s authorized return on \nequity (cost to finance rate base).  The return on equity decreases from 9.66% to 9.62%. \n"
+        },
+        {
+          "page": 4,
+          "start_char": 156,
+          "end_char": 356,
+          "exact_text": "After a detailed review of VGS\u2019s proposed base rate adjustment and supporting \ndocumentation within the context of the Plan, we also conclude that the proposed increase should \ntake effect as filed.  "
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-21/CAND-VT-25-1261-3.png",
+        "sha256": "f4f0a606042bd35b0fcf92fd9356e7982f528b5e9b10eadda028e6cd13f8d9ba",
+        "checked_date": "2026-10-21"
+      },
+      "notes": "Annual formula implementation approved as filed, not a new contested cost-of-equity determination. The approved base-rate percentage is a separate quantity."
+    },
+    {
+      "fact_id": "COHORT-CAND-VT-26-1298-FORMULA-ROE",
+      "case_id": "CAND-VT-26-1298",
+      "source_id": "CAND-VT-26-1298",
+      "field": "formula_implemented_roe",
+      "value": "9.63",
+      "unit": "percent",
+      "event_date": "2026-08-07",
+      "pdf_sha256": "d79f8315ef05a05c992195b757b7d9575034497e2e327708d966ed83827c982c",
+      "spans": [
+        {
+          "page": 3,
+          "start_char": 729,
+          "end_char": 878,
+          "exact_text": "\u2022 A 0.02% increase based on the formulaic adjustment to VGS\u2019s authorized rate of return \non equity, which resulted in a change from 9.62% to 9.63%; \n"
+        }
+      ],
+      "visual_check": {
+        "path": "reports/cohort_qa_2026-10-21/CAND-VT-26-1298-3.png",
+        "sha256": "38bc0e7b5dcf6b3ae535dcb737ab7e7cd62d3345272cef3fa87022a115905cb6",
+        "checked_date": "2026-10-21"
+      },
+      "notes": "Annual formula implementation approved as filed, not a new contested cost-of-equity determination. The approved base-rate percentage is a separate quantity."
+    }
+  ]
+}

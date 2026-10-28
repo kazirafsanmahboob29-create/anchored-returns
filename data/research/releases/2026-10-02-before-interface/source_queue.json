@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "source_id": "CAND-MA-22-22",
+      "state": "MA",
+      "docket": "22-22",
+      "order_date": "2022-11-30",
+      "title": "NSTAR Electric final distribution rate order",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/giabjige?TKztaIebchd2AFGMIUFzSMEmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt",
+      "landing_url": "https://www.mass.gov/info-details/rate-cases-electric-companies",
+      "link_checked_date": "2026-10-02",
+      "reviewed_redirect_hosts": ["d3i1pf1zzeh4ol.cloudfront.net"],
+      "discovery_notes": "Official electric rate-case index links this PDF as D.P.U. 22-22. DPU 2022 annual report identifies the written date. Acquisition does not certify eligibility."
+    }
+  ]
+}

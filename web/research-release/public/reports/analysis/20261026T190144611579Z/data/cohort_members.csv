@@ -1,0 +1,28 @@
+case_id,state,utility,docket,order_date,stratum,proceeding_group,services,eligibility,award_pct,request_pct
+CAND-VT-18-1633,VT,Green Mountain Power,18-1633-PET,2019-05-24,primary,CAND-VT-18-1633,Electric,eligible_formula_setting,,
+CAND-ME-2018-00194,ME,Central Maine Power,2018-00194,2020-02-19,primary,CAND-ME-2018-00194,Electric,eligible_contested_roe,8.25,
+CAND-ME-2019-00092-issuer-copy,ME,Northern Utilities,2019-00092,2020-03-26,primary,CAND-ME-2019-00092-issuer-copy,Gas,eligible_contested_roe,9.48,
+CAND-RI-4770-4780,RI,Narragansett Electric and Narragansett Gas,4770/4780,2020-05-05,settlement,CAND-RI-4770-4780,Electric;Gas,conditional_settled_substitute,9.275,
+CAND-VT-20-0431,VT,Vermont Gas Systems,20-0431-TF,2020-09-03,primary,CAND-VT-20-0431,Gas,eligible_uncontested_roe_on_record,8.65,
+CAND-MA-19-120,MA,NSTAR Gas,19-120,2020-10-30,primary,CAND-MA-19-120,Gas,eligible_contested_roe,9.9,10.45
+CAND-MA-20-120,MA,Boston Gas,20-120,2021-09-30,primary,CAND-MA-20-120,Gas,eligible_contested_roe,9.7,10.5
+CAND-VT-21-0898,VT,Vermont Gas Systems,21-0898-TF,2021-10-15,primary,CAND-VT-21-0898,Gas,eligible_uncontested_roe_on_record,,
+CAND-ME-2020-00316-Part-I,ME,Versant Power,2020-00316,2021-10-18,primary,CAND-ME-2020-00316-Part-I,Electric,eligible_uncontested_roe_on_record,9.35,
+CAND-VT-21-3707-2022-08-31,VT,Green Mountain Power,21-3707-PET / 22-0175-TF,2022-08-31,primary,CAND-VT-21-3707-2022-08-31,Electric,eligible_uncontested_roe_on_record,8.57,
+CAND-MA-22-22,MA,NSTAR Electric,22-22,2022-11-30,primary,CAND-MA-22-22,Electric,eligible_contested_roe,9.8,
+SUPP-VT-22-5085-ORDER,VT,Vermont Gas Systems,22-5085-PET,2023-08-18,primary,VT-VGS-2023-plan,Gas,eligible_formula_setting,,
+CAND-CT-22-08-08,CT,United Illuminating,22-08-08,2023-08-25,primary,CAND-CT-22-08-08,Electric,eligible_contested_roe,8.63,10.2
+CAND-VT-23-0561,VT,Vermont Gas Systems,23-0561-TF,2023-10-23,primary,VT-VGS-2023-plan,Gas,eligible_uncontested_roe_on_record,9.24,
+CAND-MA-23-80-81,MA,Fitchburg Gas and Electric Light,23-80 / 23-81,2024-06-28,primary,CAND-MA-23-80-81,Electric;Gas,eligible_contested_roe,9.4,
+CAND-MA-23-150,MA,Massachusetts Electric and Nantucket Electric,23-150,2024-09-30,primary,CAND-MA-23-150,Electric,eligible_contested_roe,9.35,10.5
+CAND-CT-23-11-02-CNG,CT,Connecticut Natural Gas,23-11-02,2024-11-18,primary,CT-23-11-02,Gas,eligible_contested_roe,9.15,
+CAND-CT-23-11-02-SCG,CT,Southern Connecticut Gas,23-11-02,2024-11-18,primary,CT-23-11-02,Gas,eligible_contested_roe,9.15,
+CAND-ME-2023-00336,ME,Versant Power,2023-00336,2025-03-13,primary,CAND-ME-2023-00336,Electric,eligible_contested_roe,9.35,9.35
+CAND-NH-24-070,NH,Public Service Company of New Hampshire,DE 24-070,2025-07-25,primary,CAND-NH-24-070,Electric,eligible_included_by_design,9.5,10.3
+CAND-CT-24-10-04,CT,United Illuminating,24-10-04,2025-10-28,primary,CAND-CT-24-10-04,Electric,eligible_contested_roe,9.25,
+CAND-CT-24-12-01,CT,Yankee Gas,24-12-01,2025-11-05,primary,CAND-CT-24-12-01,Gas,eligible_contested_roe,9.32,
+CAND-VT-26-0096,VT,Green Mountain Power,25-1955-PET / 26-0096-TF,2026-08-28,primary,CAND-VT-26-0096,Electric,eligible_contested_roe,9.05,9.94
+CAND-VT-19-1932,VT,Green Mountain Power,19-1932-TF,2019-08-29,formula,CAND-VT-19-1932,Electric,excluded_formula_implementation,,
+CAND-VT-24-2137,VT,Vermont Gas Systems,24-2137-TF,2024-08-12,formula,CAND-VT-24-2137,Gas,excluded_formula_implementation,,
+CAND-VT-25-1261,VT,Vermont Gas Systems,25-1261-TF,2025-08-26,formula,CAND-VT-25-1261,Gas,excluded_formula_implementation,9.62,
+CAND-VT-26-1298,VT,Vermont Gas Systems,26-1298-TF,2026-08-07,formula,CAND-VT-26-1298,Gas,excluded_formula_implementation,9.63,

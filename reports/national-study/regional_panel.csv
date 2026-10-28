@@ -1,0 +1,58 @@
+id,source_row,state,utility,docket,case_type,authorized_date,requested_date,year,award_bp,request_bp,treasury_bp,treasury_date,treasury_gap_days
+EEI-1155,1155,Rhode Island,The Narragansett Electric Co.,D-4065,Distribution,2010-02-09,2009-06-01,2010,980,1160,367,2010-02-09,0
+EEI-1128,1128,New Hampshire,Public Service Co. NH,D-DE-09-035,Distribution,2010-06-28,2009-06-30,2010,967,1050,305,2010-06-28,0
+EEI-1126,1126,Connecticut,The CT Light & Power Co,D-09-12-05,Distribution,2010-06-30,2010-01-08,2010,940,1050,297,2010-06-30,0
+EEI-1079,1079,Massachusetts,Western Massachusetts Electric,DPU 10-70,Distribution,2011-01-31,2010-07-16,2011,960,1050,342,2011-01-31,0
+EEI-1068,1068,New Hampshire,Unitil Energy Systems Inc.,D-DE 10-055,Distribution,2011-04-26,2010-04-15,2011,967,1070,334,2011-04-26,0
+EEI-1056,1056,Massachusetts,Fitchburg Gas & Electric Light,DPU 11-01,Distribution,2011-08-01,2011-01-14,2011,920,1070,277,2011-08-01,0
+EEI-967,967,Rhode Island,The Narragansett Electric Co.,D-4323 (electric),Distribution,2012-12-20,2012-04-27,2012,950,1075,181,2012-12-20,0
+EEI-927,927,Connecticut,The United Illuminating Co.,D-13-01-19,Distribution,2013-08-14,2013-02-15,2013,915,1025,271,2013-08-14,0
+EEI-888,888,New Hampshire,Liberty Utilities Granite St,D-DE-13-063,Distribution,2014-03-17,2013-03-29,2014,955,1050,270,2014-03-17,0
+EEI-882,882,Massachusetts,Fitchburg Gas & Electric Light,DPU 13-90,Distribution,2014-05-30,2013-07-15,2014,970,1025,248,2014-05-30,0
+EEI-880,880,Maine,Versant Power,D-2013-00443,Distribution,2014-06-30,2013-12-06,2014,955,1020,253,2014-06-30,0
+EEI-874,874,Maine,Central Maine Power Co.,D-2013-00168,Distribution,2014-07-29,2013-05-01,2014,945,1015,247,2014-07-29,0
+EEI-870,870,Vermont,Green Mountain Power Corp.,"D-8190, 8191",Vertically Integrated,2014-08-25,2013-12-20,2014,960,1000,239,2014-08-25,0
+EEI-848,848,Connecticut,The CT Light & Power Co,D-14-05-06,Distribution,2014-12-17,2014-06-09,2014,917,1020,214,2014-12-17,0
+EEI-774,774,Massachusetts,Fitchburg Gas & Electric Light,DPU 15-80,Distribution,2016-04-29,2015-06-16,2016,980,1025,183,2016-04-29,0
+EEI-753,753,Massachusetts,Massachusetts Electric Co.,DPU-15-155,Distribution,2016-09-30,2015-11-06,2016,990,1050,160,2016-09-30,0
+EEI-737,737,Connecticut,The United Illuminating Co.,D-16-06-04,Distribution,2016-12-14,2016-07-01,2016,910,992,254,2016-12-14,0
+EEI-734,734,Maine,Versant Power,D-2015-00360,Distribution,2016-12-19,2016-03-21,2016,900,1025,254,2016-12-19,0
+EEI-699,699,New Hampshire,Liberty Utilities Granite St,D-DE-16-383,Distribution,2017-04-12,2016-04-29,2017,940,1030,228,2017-04-12,0
+EEI-697,697,New Hampshire,Unitil Energy Systems Inc.,D-DE-16-384,Distribution,2017-04-20,2016-04-29,2017,950,1030,224,2017-04-20,0
+EEI-661,661,Massachusetts,NSTAR Electric Co.,DPU 17-05 (NSTAR),Distribution,2017-11-30,2017-01-17,2017,1000,1050,242,2017-11-30,0
+EEI-662,662,Massachusetts,Western Massachusetts Electric,DPU 17-05 (WMECO),Distribution,2017-11-30,2017-01-17,2017,1000,1050,242,2017-11-30,0
+EEI-650,650,Vermont,Green Mountain Power Corp.,C-17-3112-INV,Vertically Integrated,2017-12-21,2017-04-14,2017,910,950,248,2017-12-21,0
+EEI-628,628,Connecticut,The CT Light & Power Co,D-17-10-46,Distribution,2018-04-18,2017-11-22,2018,925,1050,287,2018-04-18,0
+EEI-614,614,Maine,Versant Power,D-2017-00198,Distribution,2018-06-28,2017-10-02,2018,935,950,284,2018-06-28,0
+EEI-606,606,Rhode Island,The Narragansett Electric Co.,D-4770 (electric),Distribution,2018-08-24,2017-11-27,2018,928,1010,282,2018-08-24,0
+EEI-578,578,Vermont,Green Mountain Power Corp.,C-18-0974-TF,Vertically Integrated,2018-12-21,2018-04-13,2018,930,930,279,2018-12-21,0
+EEI-577,577,Massachusetts,NSTAR Electric Co.,DPU 18-101,Distribution,2018-12-27,2018-09-19,2018,,,277,2018-12-27,0
+EEI-558,558,Maine,Versant Power,D-2019-00019,Distribution,2019-04-23,2019-03-22,2019,,1030,257,2019-04-23,0
+EEI-538,538,Vermont,Green Mountain Power Corp.,C-19-1932-TF,Vertically Integrated,2019-08-29,2019-06-13,2019,906,916,150,2019-08-29,0
+EEI-534,534,Massachusetts,Massachusetts Electric Co.,DPU-18-150,Distribution,2019-09-30,2018-11-15,2019,960,1050,168,2019-09-30,0
+EEI-519,519,Massachusetts,NSTAR Electric Co.,DPU 19-115,Distribution,2019-12-19,2019-09-16,2019,,,192,2019-12-19,0
+EEI-499,499,Maine,Central Maine Power Co.,D-2018-00194,Distribution,2020-02-19,2018-10-15,2020,825,1000,156,2020-02-19,0
+EEI-486,486,Massachusetts,Fitchburg Gas & Electric Light,DPU 19-130,Distribution,2020-04-17,2019-12-17,2020,970,1050,65,2020-04-17,0
+EEI-477,477,New Hampshire,Liberty Utilities Granite St,D-DE-19-064,Distribution,2020-06-30,2019-04-30,2020,910,1000,66,2020-06-30,0
+EEI-470,470,Vermont,Green Mountain Power Corp.,20-1407-TF,Vertically Integrated,2020-08-27,2020-06-01,2020,820,820,74,2020-08-27,0
+EEI-466,466,Massachusetts,Massachusetts Electric Co.,DPU-20-68,Distribution,2020-09-23,2020-06-15,2020,,,68,2020-09-23,0
+EEI-448,448,New Hampshire,Public Service Co. NH,D-DE-19-057,Distribution,2020-12-15,2019-05-28,2020,930,1040,92,2020-12-15,0
+EEI-440,440,Massachusetts,NSTAR Electric Co.,DPU 20-96,Distribution,2020-12-30,2020-09-15,2020,,,93,2020-12-30,0
+EEI-396,396,Vermont,Green Mountain Power Corp.,21-1963-TF,Vertically Integrated,2021-08-31,2021-06-01,2021,857,857,130,2021-08-31,0
+EEI-391,391,Massachusetts,Massachusetts Electric Co.,DPU 21-74,Distribution,2021-09-08,2021-06-15,2021,,,135,2021-09-08,0
+EEI-382,382,Maine,Versant Power,D-2020-00316,Distribution,2021-10-28,2021-01-19,2021,935,935,157,2021-10-28,0
+EEI-361,361,Massachusetts,NSTAR Electric Co.,DPU 21-106,Distribution,2021-12-22,2021-09-15,2021,,,146,2021-12-22,0
+EEI-336,336,New Hampshire,Unitil Energy Systems Inc.,D-DE-21-030,Distribution,2022-05-12,2021-04-02,2022,920,1000,284,2022-05-12,0
+EEI-317,317,Vermont,Green Mountain Power Corp.,C-22-0175-TF,Vertically Integrated,2022-08-31,2022-01-18,2022,857,857,315,2022-08-31,0
+EEI-313,313,Massachusetts,Massachusetts Electric Co.,DPU 22-73,Distribution,2022-09-26,2022-06-17,2022,,,388,2022-09-26,0
+EEI-295,295,Massachusetts,NSTAR Electric Co.,DPU 22-22,Distribution,2022-11-30,2022-01-14,2022,980,1050,368,2022-11-30,0
+EEI-250,250,Maine,Versant Power,D-2022-00255,Distribution,2023-05-31,2022-10-03,2023,935,935,364,2023-05-31,0
+EEI-246,246,Maine,Central Maine Power Co.,D-2022-00152,Distribution,2023-06-06,2022-08-11,2023,935,1020,370,2023-06-06,0
+EEI-233,233,Vermont,Green Mountain Power Corp.,C-23-1852-TF,Vertically Integrated,2023-08-23,2023-06-01,2023,958,958,419,2023-08-23,0
+EEI-232,232,Connecticut,The United Illuminating Co.,D-22-08-08,Distribution,2023-08-25,2022-09-09,2023,863,1020,425,2023-08-25,0
+EEI-223,223,Massachusetts,Massachusetts Electric Co.,DPU 23-55,Distribution,2023-09-28,2023-06-15,2023,,,459,2023-09-28,0
+EEI-187,187,Massachusetts,NSTAR Electric Co.,DPU 23-92,Distribution,2023-12-26,2023-09-15,2023,,,389,2023-12-26,0
+EEI-155,155,Massachusetts,Fitchburg Gas & Electric Light,DPU 23-80,Distribution,2024-06-28,2023-08-17,2024,940,1050,436,2024-06-28,0
+EEI-143,143,Vermont,Green Mountain Power Corp.,C-24-1709-TF,Vertically Integrated,2024-08-26,2024-05-31,2024,997,997,382,2024-08-26,0
+EEI-135,135,Massachusetts,Massachusetts Electric Co.,DPU 23-150,Distribution,2024-09-30,2023-11-16,2024,935,1050,381,2024-09-30,0
+EEI-99,99,Massachusetts,NSTAR Electric Co.,DPU 24-137,Distribution,2024-12-23,2024-09-16,2024,,,459,2024-12-23,0

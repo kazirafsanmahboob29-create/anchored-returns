@@ -1,0 +1,10 @@
+case_id,utility,state,order_date,observation_date,status,gap_days,yield_pct,award_pct,award_kind,spread_bp
+CAND-CT-22-08-08,United Illuminating,CT,2023-08-25,2023-08-25,matched,0,4.25,8.63,commission_determined,438
+CAND-MA-19-120,NSTAR Gas,MA,2020-10-30,2020-10-30,matched,0,0.88,9.9,commission_determined,902
+CAND-MA-20-120,Boston Gas,MA,2021-09-30,2021-09-30,matched,0,1.52,9.7,commission_determined,818
+CAND-MA-23-150,Massachusetts Electric and Nantucket Electric,MA,2024-09-30,2024-09-30,matched,0,3.81,9.35,commission_determined,554
+CAND-ME-2018-00194,Central Maine Power,ME,2020-02-19,2020-02-19,matched,0,1.56,8.25,commission_determined,669
+CAND-ME-2023-00336,Versant Power,ME,2025-03-13,2025-03-13,matched,0,4.27,9.35,commission_determined,508
+CAND-NH-24-070,Eversource New Hampshire,NH,2025-07-25,2025-07-25,matched,0,4.4,9.5,commission_determined,510
+CAND-RI-4770-4780,Narragansett Electric and Narragansett Gas,RI,2020-05-05,2020-05-05,matched,0,0.66,9.275,approved_settlement,861.5
+CAND-VT-26-0096,Green Mountain Power,VT,2026-08-28,2026-08-28,matched,0,4.73,9.05,commission_determined,432

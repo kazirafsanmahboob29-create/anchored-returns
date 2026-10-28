@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the cohort version and input fingerprints when using these research tools or data."
+title: "Anchored Returns: Market Conditions and Persistence in Authorized Utility Returns"
+authors:
+  - family-names: Mahboob
+    given-names: Kazi Rafsan
+version: 0.2.1
+date-released: 2026-10-27
+url: "https://kazirafsanmahboob.host.dartmouth.edu/research/anchored-returns/"
+type: software

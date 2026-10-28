@@ -1,0 +1,29 @@
+{
+  "series_id": "CPIAUCNS",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCNS&cosd=2008-01-01",
+  "retrieved_at_utc": "2026-10-26T18:40:26.851539+00:00",
+  "http_status": 200,
+  "content_type": "application/csv",
+  "bytes": 4294,
+  "sha256": "451ae1dc667ca3d69e8a2d030b340dd3bcf92a32f72a5ad31b933182b226aa0e",
+  "headers": {
+    "Date": "Mon, 26 Oct 2026 18:40:27 GMT",
+    "Last-Modified": "Wed, 14 Oct 2026 13:08:29 GMT"
+  },
+  "schema": [
+    "observation_date",
+    "CPIAUCNS"
+  ],
+  "rows": 225,
+  "validated_csv": true,
+  "first_row": {
+    "observation_date": "2008-01-01",
+    "CPIAUCNS": "211.080"
+  },
+  "last_row": {
+    "observation_date": "2026-09-01",
+    "CPIAUCNS": "336.940"
+  },
+  "nonmissing_rows": 224,
+  "blank_rows": 1
+}

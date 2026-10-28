@@ -1,0 +1,37 @@
+{
+  "base": "https://journeys.dartmouth.edu/kazirafsanmahboob29/",
+  "author": "Kazi Rafsan Mahboob",
+  "email": "kazi.rafsan.mahboob.29@dartmouth.edu",
+  "profiles": {
+    "linkedin": "https://www.linkedin.com/in/kazirafsanmahboob/",
+    "github": "https://github.com/kazirafsanmahboob29-create",
+    "goodreads": "https://www.goodreads.com/user/show/206014582-kazi-rafsan",
+    "scholar": null
+  },
+  "pages": {
+    "home": 844,
+    "projects": 764,
+    "article": 761,
+    "coursework": 767,
+    "papers": 846,
+    "github": 848,
+    "goodreads": 850,
+    "scholar": 852,
+    "photography": 854,
+    "about": 4,
+    "code": 769
+  },
+  "urls": {
+    "home": "https://journeys.dartmouth.edu/kazirafsanmahboob29/",
+    "projects": "https://journeys.dartmouth.edu/kazirafsanmahboob29/projects/",
+    "article": "https://journeys.dartmouth.edu/kazirafsanmahboob29/market-conditions-and-persistence-in-authorized-utility-returns/",
+    "coursework": "https://journeys.dartmouth.edu/kazirafsanmahboob29/coursework/",
+    "papers": "https://journeys.dartmouth.edu/kazirafsanmahboob29/papers/",
+    "github": "https://journeys.dartmouth.edu/kazirafsanmahboob29/github/",
+    "goodreads": "https://journeys.dartmouth.edu/kazirafsanmahboob29/goodreads/",
+    "scholar": "https://journeys.dartmouth.edu/kazirafsanmahboob29/google-scholar/",
+    "photography": "https://journeys.dartmouth.edu/kazirafsanmahboob29/photography/",
+    "about": "https://journeys.dartmouth.edu/kazirafsanmahboob29/home/",
+    "code": "https://journeys.dartmouth.edu/kazirafsanmahboob29/anchored-returns/"
+  }
+}

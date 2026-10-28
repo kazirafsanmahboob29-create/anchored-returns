@@ -1,0 +1,436 @@
+{
+  "schema_version": "1.0",
+  "data_kind": "real_source_records",
+  "created_at_utc": "2026-10-04T17:13:44.525483+00:00",
+  "sample_status": "provisional_feasible",
+  "final_sample_orders": 0,
+  "entered_orders": 9,
+  "request_award_pairs": 7,
+  "coded_orders": 3,
+  "commission_units": 45,
+  "source_records": 59,
+  "source_audit": "reviewed_endpoints_saved_bytes_and_upstream_evidence_checks_passed",
+  "input_sha256": {
+    "data/research/empirical_ledger_v0.1.3.json": "a7be22f5cfc5c1ab4090e007446a6f9013cbbdcb820a06cbce364a2ffa02ea3c",
+    "data/research/source_catalog.json": "7dcc2ffe272294d53cafb187168936d264ee5b48c52a5b03c958f09aa65097ba",
+    "data/research/assistant_verified_case_facts.json": "9c07b481f1fe9fc9013ea42be363fff04f110da8389c4e7c0c020e9267313085",
+    "data/research/sample_screening.json": "aa52243c682d766ca9a223b86a62d54bdef104d93df9bd0d137cdbd5c8514d6c",
+    "data/external/rra_historical_benchmarks.json": "19f41f55474c48091b3c49ccadd9381bb0d1c9ed643390c3639b427c6be16a64",
+    "data/external/rra/rra_2019_decisions.json": "6b8900c099618453902f725f7550d569adbaf4a730c3cb2948a1ab9aad85a65d",
+    "data/research/reliability/three-orders-2026-10-02/manifest.json": "c78bbd9b0957effead4d4d41877731e3972020b82a569c17647e68162b8ce196",
+    "data/external/treasury/latest.json": "5d72a248acc146d1c34700ea2415bdd3ee957c2d317609db36507b54bd1bff5b",
+    "data/research/treasury_order_joins.json": "23c8e593190521af7d42b89a2dc6bbf36ec85d0edf6d2b9668de80bafec60431",
+    "data/external/rra_context_sources.json": "bd8b152615c1c0254d795b065108a1c628162285ad0a3e35ef0cb70c0031dce9",
+    "data/external/treasury_official/latest.json": "a6c14a589c1954baed81e1ed8225374fff3a53c5ccd396d9acd7597dcb1649b8"
+  },
+  "script_sha256": {
+    "figures.R": "997af008423363afba64be6beeabc252bfb7046ce86de964e30cc6b7508cab2c",
+    "figures.do": "aa74a36647a9e9e44d8b5f68bef27a3c997e94271a8a0826c66f3868dcefa105"
+  },
+  "code_sha256": {
+    "src/research_analysis.py": "b253a22443f8043fd6b9e26d37720b088b818b5cd968092c6dcdbf221a3c6b80",
+    "src/research_insights.py": "a096a438c5b95131e598ff190001bd1436e230e80f2a512c5141b497db91b274",
+    "src/research_overview.py": "807e3e2f87689432f50e10a9127e0af6107a6ca533a21a0a5096316f436700d0",
+    "src/research_audit.py": "5930cd5033b3fab6c1122589971748ff88dee2c0c3552eabddf1094bd2e56818",
+    "src/treasury_crosscheck.py": "4f05e87e6eb60038d19e87cff4264b667ea132c8996a2ca1d01f29b2e7aecdd8",
+    "src/research_benchmarks.py": "6b50be2406200f46d37346f57ccb14d0b94edc8084d08c181e5176f48420d356",
+    "src/rra_reconstruction.py": "6298e5b5f5d7914b0c8ccc3a8b3ffc85115715629fa70f6ec49fb362f8ee171d"
+  },
+  "tables": {
+    "outcomes": {
+      "rows": 9,
+      "columns": [
+        "case_id",
+        "utility",
+        "state",
+        "docket",
+        "order_date",
+        "award_kind",
+        "proposed",
+        "final_sample",
+        "gap_bp",
+        "request_pct",
+        "request_page",
+        "request_field",
+        "request_url",
+        "request_sha256",
+        "award_pct",
+        "award_page",
+        "award_field",
+        "award_url",
+        "award_sha256",
+        "pair_status"
+      ],
+      "csv_sha256": "3079c0e53859b458822b549a57189f33c50eb7f8a4f7c42a92be29525a1638ee",
+      "dta_sha256": "95de0b708bbb6146bdce8484a4401ab457600b1f4145f59c8aca1b1f0d5f39a8",
+      "stata_roundtrip": "passed"
+    },
+    "coding": {
+      "rows": 9,
+      "columns": [
+        "case_id",
+        "utility",
+        "state",
+        "code",
+        "denominator",
+        "relied",
+        "considered",
+        "rejected",
+        "absent",
+        "relied_pct",
+        "considered_pct",
+        "rejected_pct",
+        "absent_pct"
+      ],
+      "csv_sha256": "50576947da4adcf10965ddf9d4e50c8cec671cb8497664b942a68afaa4a2f0e3",
+      "dta_sha256": "92858bc57b3a9caec1207d337682748ed72b876856f3eef2f393a2b340272a45",
+      "stata_roundtrip": "passed"
+    },
+    "commission_units": {
+      "rows": 135,
+      "columns": [
+        "case_id",
+        "passage_id",
+        "unit_type",
+        "code",
+        "present",
+        "stance",
+        "pages",
+        "source_url",
+        "pdf_sha256"
+      ],
+      "csv_sha256": "12b41734b24cb69525b076eee010c389cc973b3857c9ba8d97e04d6dad1b430a",
+      "dta_sha256": "968fcf4fa5a2353f929b98510da2ceeceebc8e5a6be772ecb9e98051f1c19cf0",
+      "stata_roundtrip": "passed"
+    },
+    "benchmarks": {
+      "rows": 10,
+      "columns": [
+        "benchmark_id",
+        "service",
+        "period_start",
+        "period_end",
+        "published_date",
+        "mean_pct",
+        "dataset_version",
+        "estimation_method",
+        "riders_excluded",
+        "source_url",
+        "source_page",
+        "pdf_sha256"
+      ],
+      "csv_sha256": "99413054c3c1e10d4a2097be544e4eac2474c9bc99643e96bbb6bb8cfac4b731",
+      "dta_sha256": "5d993f7416e6c5a772442ebc47e1dd6c0188c702c19db4c741bf91d3d1cdef88",
+      "stata_roundtrip": "passed"
+    },
+    "benchmark_joins": {
+      "rows": 17,
+      "columns": [
+        "case_id",
+        "state",
+        "utility",
+        "service",
+        "order_date",
+        "period_start",
+        "period_end",
+        "status",
+        "benchmark_pct",
+        "benchmark_id",
+        "estimation_method",
+        "available_at_order"
+      ],
+      "csv_sha256": "29be575f71ed42d3c76db40fd2c165491413630b70707dc55e8e1c154276ab48",
+      "dta_sha256": "4c0fdde7c63c59ef5948518bb556ffe43adbfda7e90e4f23923a72688800bde7",
+      "stata_roundtrip": "passed"
+    },
+    "treasury_daily": {
+      "rows": 2023,
+      "columns": [
+        "observation_date",
+        "yield_pct"
+      ],
+      "csv_sha256": "5b68dc305819e126459aba71cc8a71727c06481132745d856c1c34f33e1b3379",
+      "dta_sha256": "be83d3769dd290d5616f9933aab61ff9db6091835cf1c6d67b8558fdca9a90b3",
+      "stata_roundtrip": "passed"
+    },
+    "treasury_orders": {
+      "rows": 9,
+      "columns": [
+        "case_id",
+        "utility",
+        "state",
+        "order_date",
+        "observation_date",
+        "status",
+        "gap_days",
+        "yield_pct",
+        "award_pct",
+        "award_kind",
+        "spread_bp"
+      ],
+      "csv_sha256": "f75b0556b4a9d66c1fe932d3cf9bfcdd3ca4cbd63987e40aad373db07c7ba7ca",
+      "dta_sha256": "047171c6d27619091c10897fd748b23bcd836e6020b50225a00b1dd74e6a056b",
+      "stata_roundtrip": "passed"
+    },
+    "request_gap_sensitivity": {
+      "rows": 7,
+      "columns": [
+        "omitted_case_id",
+        "remaining_pairs",
+        "median_bp"
+      ],
+      "csv_sha256": "b94b26d548f437da10bdef59bea034835550722ff836df8e1aad5053804d2567",
+      "dta_sha256": "83db657242917169d5b6635ad3fe1d15ad3fca241475e06b6d10b51b784bc1cb",
+      "stata_roundtrip": "passed"
+    },
+    "reliance_weighting": {
+      "rows": 3,
+      "columns": [
+        "code",
+        "orders",
+        "commission_units",
+        "reliance_units",
+        "pooled_pct",
+        "equal_order_pct"
+      ],
+      "csv_sha256": "d9657802bfc3f7513580c2e89006693f4b4395afcc6018c7030cf7f8510c2b9e",
+      "dta_sha256": "deef7114ac109c6d6f08138ce84906ce9f402391c0c67cb0c5521ca989c6b382",
+      "stata_roundtrip": "passed"
+    },
+    "benchmark_comparisons": {
+      "rows": 5,
+      "columns": [
+        "case_id",
+        "service",
+        "award_pct",
+        "award_kind",
+        "comparison_basis",
+        "timing_note",
+        "benchmark_id",
+        "benchmark_pct",
+        "published_at_decision",
+        "award_minus_benchmark_bp"
+      ],
+      "csv_sha256": "f3f3f995e4bb8a8e69dad6b19eecac654a96be7aadea3d22d48b73fe8f054665",
+      "dta_sha256": "67ec0625b9a27c39bbf69ff148047ac833222800af31ad1802b6c07c17a593db",
+      "stata_roundtrip": "passed"
+    },
+    "benchmark_decisions": {
+      "rows": 126,
+      "columns": [
+        "row_id",
+        "source_id",
+        "service",
+        "decision_date",
+        "company",
+        "state",
+        "roe_pct",
+        "limited_issue_rider",
+        "included_h2",
+        "source_page",
+        "start_char",
+        "end_char",
+        "pdf_sha256"
+      ],
+      "csv_sha256": "02ac946622bd78f076a4c794c6f0580fd6fca6bedbc31db087d4e13e8eecd4eb",
+      "dta_sha256": "cb1141dea5c06d55f678156c1d1eda048f9b7767e033b806d27f1f178e9963d1",
+      "stata_roundtrip": "passed"
+    },
+    "sources": {
+      "rows": 59,
+      "columns": [
+        "source_id",
+        "kind",
+        "url",
+        "local_path",
+        "sha256",
+        "host",
+        "check"
+      ],
+      "csv_sha256": "27be1339d14bfb59dc24db615ca62f3daf16df637e47162a90092d0cd89d1280",
+      "dta_sha256": "162e662f46ebe4916b8af53d451c0a3e9d95aaf98d134f027659b040fb910176",
+      "stata_roundtrip": "passed"
+    }
+  },
+  "r": {
+    "status": "executed_and_numeric_crosscheck_passed",
+    "executable": "/usr/local/bin/Rscript",
+    "version": "R version 4.5.1 (2025-06-13)",
+    "pairs_checked": 7
+  },
+  "stata": {
+    "status": "prepared_not_executed",
+    "reason": "No licensed Stata runtime was located.",
+    "version": "Stata 14.2 or later; Unicode DTA format 118",
+    "datasets": "All .dta files round-tripped through pandas; native Stata execution is pending."
+  },
+  "treasury_crosscheck": {
+    "retrieved_at_utc": "2026-10-03T23:03:58.083175+00:00",
+    "overlapping_dates": 1440,
+    "equal": 1440,
+    "missing_value_dates": 0,
+    "disagreements": [],
+    "order_checks": [
+      {
+        "case_id": "CAND-CT-22-08-08",
+        "target_date": "2023-08-25",
+        "observation_date": "2023-08-25",
+        "comparison": {
+          "date": "2023-08-25",
+          "fred_fraction": "0.0425",
+          "treasury_fraction": "0.0425",
+          "treasury_minus_fred_bp": "0.0000",
+          "status": "equal"
+        }
+      },
+      {
+        "case_id": "CAND-MA-19-120",
+        "target_date": "2020-10-30",
+        "observation_date": "2020-10-30",
+        "comparison": {
+          "date": "2020-10-30",
+          "fred_fraction": "0.0088",
+          "treasury_fraction": "0.0088",
+          "treasury_minus_fred_bp": "0.0000",
+          "status": "equal"
+        }
+      },
+      {
+        "case_id": "CAND-MA-20-120",
+        "target_date": "2021-09-30",
+        "observation_date": "2021-09-30",
+        "comparison": {
+          "date": "2021-09-30",
+          "fred_fraction": "0.0152",
+          "treasury_fraction": "0.0152",
+          "treasury_minus_fred_bp": "0.0000",
+          "status": "equal"
+        }
+      },
+      {
+        "case_id": "CAND-MA-23-150",
+        "target_date": "2024-09-30",
+        "observation_date": "2024-09-30",
+        "comparison": {
+          "date": "2024-09-30",
+          "fred_fraction": "0.0381",
+          "treasury_fraction": "0.0381",
+          "treasury_minus_fred_bp": "0.0000",
+          "status": "equal"
+        }
+      },
+      {
+        "case_id": "CAND-ME-2018-00194",
+        "target_date": "2020-02-19",
+        "observation_date": "2020-02-19",
+        "comparison": {
+          "date": "2020-02-19",
+          "fred_fraction": "0.0156",
+          "treasury_fraction": "0.0156",
+          "treasury_minus_fred_bp": "0.0000",
+          "status": "equal"
+        }
+      },
+      {
+        "case_id": "CAND-ME-2023-00336",
+        "target_date": "2025-03-13",
+        "observation_date": "2025-03-13",
+        "comparison": {
+          "date": "2025-03-13",
+          "fred_fraction": "0.0427",
+          "treasury_fraction": "0.0427",
+          "treasury_minus_fred_bp": "0.0000",
+          "status": "equal"
+        }
+      },
+      {
+        "case_id": "CAND-NH-24-070",
+        "target_date": "2025-07-25",
+        "observation_date": "2025-07-25",
+        "comparison": {
+          "date": "2025-07-25",
+          "fred_fraction": "0.044",
+          "treasury_fraction": "0.044",
+          "treasury_minus_fred_bp": "0.000",
+          "status": "equal"
+        }
+      },
+      {
+        "case_id": "CAND-RI-4770-4780",
+        "target_date": "2020-05-05",
+        "observation_date": "2020-05-05",
+        "comparison": {
+          "date": "2020-05-05",
+          "fred_fraction": "0.0066",
+          "treasury_fraction": "0.0066",
+          "treasury_minus_fred_bp": "0.0000",
+          "status": "equal"
+        }
+      },
+      {
+        "case_id": "CAND-VT-26-0096",
+        "target_date": "2026-08-28",
+        "observation_date": "2026-08-28",
+        "comparison": {
+          "date": "2026-08-28",
+          "fred_fraction": "0.0473",
+          "treasury_fraction": "0.0473",
+          "treasury_minus_fred_bp": "0.0000",
+          "status": "equal"
+        }
+      }
+    ],
+    "latest_nonmissing": {
+      "date": "2026-10-02",
+      "printed_percent": "5.28",
+      "value_fraction": "0.0528"
+    }
+  },
+  "limits": [
+    "These records are not the finalized 15-order sample.",
+    "The coded stances are first-pass interpretations; independent reliability is unmeasured.",
+    "Counts refer to text units, not independent decisions. Codes can co-occur.",
+    "Request differences are descriptive and do not identify a causal mechanism."
+  ],
+  "output_path": "reports/analysis/20261004T171341322186Z",
+  "file_sha256": {
+    "r_run.log": "956666c6b97740feae21ddb0a773335e594a42c9465914bd6d06e310a896c949",
+    "python/benchmark_coverage.svg": "bef036e526fb54946b089ef57afe28e49fb9de576f0991b7a12465b4a9ebf094",
+    "python/benchmark_coverage.png": "df931125b67fa8ff1342b39135e3542c6749c4647b0d37823cc27c25048e1967",
+    "python/benchmark_coverage.pdf": "2c1d5b1bc6674996c33d829f59f2eeab7464a85bb31328b5a12e6a23d38aa147",
+    "python/treasury_context.png": "3d613261435cf01a67e15da0f486bf60309917de4ef08366f3ba95970ec1f258",
+    "python/treasury_context.pdf": "733aadcb7b7a4c665b4dec55e2652b46913480704a4c342787dd92a6fdf1bb6c",
+    "python/treasury_context.svg": "a7f41d034da0f13b15345939d365f75aff539c8bc132e52bfc48c13997b2da2a",
+    "r/verified_benchmarks.pdf": "c4da62e7ee533aedf1594e8cd794919f5c37ff6ecadf67c46aa7dbc851d2873d",
+    "r/verified_benchmarks.png": "f50889f41c90478882fd84463d273a3146140f2439f76443c25cee74fd7e354c",
+    "r/checks.csv": "e331a949bcf9321d2a1278493a548d3dad78f1bd59038d1b85c099d29a7e7d8c",
+    "r/request_award.pdf": "be1cbe78fe2ef4b8df680b311b75367af44d2d6c656ebeef0526b78266ba22ea",
+    "r/request_award.png": "d82a5e49567dcb11cb1f29a581674b4472b8fd991d672cde66c9e326c94f66a7",
+    "r/evidence_stances.pdf": "00f364a6dea08937e9576c7260b10ebda7895a04f0c01e0b72f90eaad0c888c5",
+    "r/evidence_stances.png": "f528f7b7992b6cc919b4857d1444a5b058198488fe5efa7f26a2c5d64d41abab",
+    "data/benchmarks.dta": "5d993f7416e6c5a772442ebc47e1dd6c0188c702c19db4c741bf91d3d1cdef88",
+    "data/request_gap_sensitivity.csv": "b94b26d548f437da10bdef59bea034835550722ff836df8e1aad5053804d2567",
+    "data/treasury_daily.csv": "5b68dc305819e126459aba71cc8a71727c06481132745d856c1c34f33e1b3379",
+    "data/benchmark_comparisons.csv": "f3f3f995e4bb8a8e69dad6b19eecac654a96be7aadea3d22d48b73fe8f054665",
+    "data/coding.csv": "50576947da4adcf10965ddf9d4e50c8cec671cb8497664b942a68afaa4a2f0e3",
+    "data/reliance_weighting.csv": "d9657802bfc3f7513580c2e89006693f4b4395afcc6018c7030cf7f8510c2b9e",
+    "data/outcomes.dta": "95de0b708bbb6146bdce8484a4401ab457600b1f4145f59c8aca1b1f0d5f39a8",
+    "data/benchmark_joins.dta": "4c0fdde7c63c59ef5948518bb556ffe43adbfda7e90e4f23923a72688800bde7",
+    "data/commission_units.csv": "12b41734b24cb69525b076eee010c389cc973b3857c9ba8d97e04d6dad1b430a",
+    "data/benchmark_decisions.dta": "cb1141dea5c06d55f678156c1d1eda048f9b7767e033b806d27f1f178e9963d1",
+    "data/treasury_orders.dta": "047171c6d27619091c10897fd748b23bcd836e6020b50225a00b1dd74e6a056b",
+    "data/sources.dta": "162e662f46ebe4916b8af53d451c0a3e9d95aaf98d134f027659b040fb910176",
+    "data/coding.dta": "92858bc57b3a9caec1207d337682748ed72b876856f3eef2f393a2b340272a45",
+    "data/reliance_weighting.dta": "deef7114ac109c6d6f08138ce84906ce9f402391c0c67cb0c5521ca989c6b382",
+    "data/benchmarks.csv": "99413054c3c1e10d4a2097be544e4eac2474c9bc99643e96bbb6bb8cfac4b731",
+    "data/request_gap_sensitivity.dta": "83db657242917169d5b6635ad3fe1d15ad3fca241475e06b6d10b51b784bc1cb",
+    "data/treasury_daily.dta": "be83d3769dd290d5616f9933aab61ff9db6091835cf1c6d67b8558fdca9a90b3",
+    "data/benchmark_comparisons.dta": "67ec0625b9a27c39bbf69ff148047ac833222800af31ad1802b6c07c17a593db",
+    "data/outcomes.csv": "3079c0e53859b458822b549a57189f33c50eb7f8a4f7c42a92be29525a1638ee",
+    "data/benchmark_joins.csv": "29be575f71ed42d3c76db40fd2c165491413630b70707dc55e8e1c154276ab48",
+    "data/commission_units.dta": "968fcf4fa5a2353f929b98510da2ceeceebc8e5a6be772ecb9e98051f1c19cf0",
+    "data/benchmark_decisions.csv": "02ac946622bd78f076a4c794c6f0580fd6fca6bedbc31db087d4e13e8eecd4eb",
+    "data/treasury_orders.csv": "f75b0556b4a9d66c1fe932d3cf9bfcdd3ca4cbd63987e40aad373db07c7ba7ca",
+    "data/sources.csv": "27be1339d14bfb59dc24db615ca62f3daf16df637e47162a90092d0cd89d1280"
+  }
+}

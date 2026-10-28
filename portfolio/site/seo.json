@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "Kazi Rafsan Mahboob | Dartmouth Portfolio",
+    "description": "Kazi Rafsan Mahboob is a Dartmouth College student from Dhaka. Explore research in utility regulation, technical projects, coursework and writing."
+  },
+  "projects": {
+    "title": "Research and Projects | Kazi Rafsan Mahboob",
+    "description": "Research and technical projects by Kazi Rafsan Mahboob, including an empirical study of authorized utility returns using Python, R and regulatory records."
+  },
+  "article": {
+    "title": "Utility Returns: Market Conditions and Persistence | Kazi Rafsan Mahboob",
+    "description": "A study of 533 utility rate-case observations examines market conditions, previous awards and authorized returns, with model results, figures and source data."
+  },
+  "coursework": {
+    "title": "Dartmouth Coursework | Kazi Rafsan Mahboob",
+    "description": "Selected coursework and essays by Kazi Rafsan Mahboob at Dartmouth College, including economics, language and writing."
+  },
+  "papers": {
+    "title": "Papers and Research Notes | Kazi Rafsan Mahboob",
+    "description": "Research notes and selected writing by Kazi Rafsan Mahboob, including Market Conditions and Persistence in Authorized Utility Returns."
+  },
+  "github": {
+    "title": "Code and Replication | Kazi Rafsan Mahboob",
+    "description": "Download Anchored Returns source code and study data, read replication instructions, and visit Kazi Rafsan Mahboob’s GitHub profile."
+  },
+  "goodreads": {
+    "title": "Books and Reading | Kazi Rafsan Mahboob",
+    "description": "Kazi Rafsan Mahboob’s Goodreads profile and a place for future reading notes.",
+    "noindex": true
+  },
+  "scholar": {
+    "title": "Publications and Citations | Kazi Rafsan Mahboob",
+    "description": "Current research and papers by Kazi Rafsan Mahboob. A Google Scholar profile has not yet been set up.",
+    "noindex": true
+  },
+  "photography": {
+    "title": "Photography | Kazi Rafsan Mahboob",
+    "description": "A place for photographs and notes by Kazi Rafsan Mahboob. No photographs have been posted yet.",
+    "noindex": true
+  },
+  "about": {
+    "title": "About Kazi Rafsan Mahboob | Dartmouth College",
+    "description": "About Kazi Rafsan Mahboob, a Dartmouth College student from Dhaka with interests in mathematics, economics and decision-making."
+  },
+  "code": {
+    "title": "Anchored Returns: Code and Research | Kazi Rafsan Mahboob",
+    "description": "Find the Anchored Returns research article, source code, tools and reproducible study files.",
+    "noindex": true
+  }
+}

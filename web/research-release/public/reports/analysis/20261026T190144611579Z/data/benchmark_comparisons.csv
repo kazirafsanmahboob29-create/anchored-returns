@@ -1,0 +1,9 @@
+case_id,service,award_pct,award_kind,comparison_basis,timing_note,benchmark_id,benchmark_pct,published_at_decision,award_minus_benchmark_bp
+CAND-CT-23-11-02-CNG,Gas,9.15,commission_determined,original_written_date,,RRA-LEGACY-2024-H1-GAS,9.85,1,-70
+CAND-CT-23-11-02-SCG,Gas,9.15,commission_determined,original_written_date,,RRA-LEGACY-2024-H1-GAS,9.85,1,-70
+CAND-MA-23-150,Electric,9.35,commission_determined,original_written_date,,RRA-LEGACY-2024-H1-ELECTRIC,9.68,1,-33
+CAND-ME-2020-00316-Part-I,Electric,9.35,commission_determined,original_written_date,,RRA-LEGACY-2021-H1-ELECTRIC,9.45,1,-10
+CAND-MA-20-120,Gas,9.7,commission_determined,original_written_date,,RRA-LEGACY-2021-H1-GAS,9.62,1,8
+CAND-MA-19-120,Gas,9.9,commission_determined,original_written_date,,RRA-LEGACY-2020-H1-GAS,9.4,1,50
+CAND-RI-4770-4780,Electric,9.275,approved_settlement,original_written_date,Approved settlement. Publication by the written report date does not establish availability when the return was agreed.,RRA-LEGACY-2019-H2-ELECTRIC-RECONSTRUCTED,9.7,1,-42.5
+CAND-RI-4770-4780,Gas,9.275,approved_settlement,original_written_date,Approved settlement. Publication by the written report date does not establish availability when the return was agreed.,RRA-LEGACY-2019-H2-GAS-RECONSTRUCTED,9.75,1,-47.5

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "benchmark_id": "RRA-PUBLIC-2026-H1-ELECTRIC",
+      "service": "Electric",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.79",
+      "value_fraction": "0.0979",
+      "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/average-gas-roe-edges-down-as-electric-holds-firm-in-h1-2026",
+      "publisher": "S&P Global / Regulatory Research Associates",
+      "published_date": "2026-09-03",
+      "checked_date": "2026-10-02",
+      "retrieval_method": "Read public publisher webpage with web research tool; direct programmatic GET returned HTTP 403",
+      "evidence_locator": "Paragraph beginning There were five limited-issue rider cases",
+      "dataset_version": "unresolved_public_summary_distinguishes_legacy_and_enhanced_in_full_report",
+      "analytical_status": "pending_dataset_version_confirmation"
+    },
+    {
+      "benchmark_id": "RRA-PUBLIC-2026-H1-GAS",
+      "service": "Gas",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "statistic": "mean_authorized_roe",
+      "riders_excluded": true,
+      "printed_percent": "9.64",
+      "value_fraction": "0.0964",
+      "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/average-gas-roe-edges-down-as-electric-holds-firm-in-h1-2026",
+      "publisher": "S&P Global / Regulatory Research Associates",
+      "published_date": "2026-09-03",
+      "checked_date": "2026-10-02",
+      "retrieval_method": "Read public publisher webpage with web research tool; direct programmatic GET returned HTTP 403",
+      "evidence_locator": "Paragraph beginning Excluding rider cases",
+      "dataset_version": "unresolved_public_summary_distinguishes_legacy_and_enhanced_in_full_report",
+      "analytical_status": "pending_dataset_version_confirmation"
+    }
+  ],
+  "api_access": "not_connected",
+  "licensed_export_access": "unverified",
+  "notes": [
+    "Public summary values are kept separately from the completed comparable benchmark series.",
+    "RRA expanded coverage in early 2026, including formula-plan decisions; the public narrative does not identify the version for each headline mean.",
+    "The report was published after the Vermont August 28 order. These values would be retrospective benchmarks, not information available to that decision-maker.",
+    "Do not substitute annual or trailing-year averages for a missing half-year."
+  ]
+}
