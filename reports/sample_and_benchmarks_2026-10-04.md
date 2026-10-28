@@ -45,7 +45,7 @@ Before selecting H2, the parser reconciles all four annual controls with origina
 
 These are calculated half-year means, not means printed by the publisher. Decimal arithmetic rounds half up to two percentage decimals for compatibility with the reported series. The raw result and included row IDs remain in the registry. This approach can create up to 0.5 basis point of rounding difference. No rounded annual average was subtracted from a first-half average.
 
-The [original saved report](../data/external/rra/rra_2020_h1.pdf#page=40), [complete JSON evidence](../data/external/rra/rra_2019_decisions.json) and [raw decision table](../data/external/rra/rra_2019_decisions.csv) permit reproduction. Tests reject an omitted row, changed ROE, changed rider classification and an unsupported period. The research bundle also includes all 126 rows in CSV and Stata format.
+The [original saved report](https://psc.ky.gov/pscecf/2020-00060/andrea.fackler%40lge-ku.com/08142020114603/2_-_KU_Responses_to_PSC_DR2_2020_ECR_Plan.pdf#page=40), [complete JSON evidence](../data/external/rra/rra_2019_decisions.json) and [raw decision table](../data/external/rra/rra_2019_decisions.csv) permit reproduction. Tests reject an omitted row, changed ROE, changed rider classification and an unsupported period. The research bundle also includes all 126 rows in CSV and Stata format.
 
 ## Remaining exact benchmark periods
 
