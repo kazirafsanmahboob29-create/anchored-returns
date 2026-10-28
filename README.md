@@ -1,12 +1,14 @@
 # Anchored Returns
 
-### Market Conditions and Persistence in Authorized Utility Returns
+Market Conditions and Persistence in Authorized Utility Returns
 
-**Kazi Rafsan Mahboob · Dartmouth College · Independent research, 2026**
+Kazi Rafsan Mahboob · Dartmouth College · 2026
+
+[![Research checks](https://github.com/kazirafsanmahboob29-create/anchored-returns/actions/workflows/checks.yml/badge.svg)](https://github.com/kazirafsanmahboob29-create/anchored-returns/actions/workflows/checks.yml)
 
 State commissions set the return on equity a regulated utility can earn through its rates. I built this project to examine how those awards relate to financial conditions and how much information is already contained in a utility's previous award.
 
-[Research paper](https://kazirafsanmahboob.host.dartmouth.edu/research/anchored-returns/) · [Interactive workbench](https://kazirafsanmahboob.host.dartmouth.edu/tools/anchored-returns/) · [Portfolio](https://kazirafsanmahboob.host.dartmouth.edu/)
+[Research article](https://kazirafsanmahboob.host.dartmouth.edu/research/anchored-returns/) · [Interactive workbench](https://kazirafsanmahboob.host.dartmouth.edu/tools/anchored-returns/) · [Documentation](docs/README.md) · [Portfolio](https://kazirafsanmahboob.host.dartmouth.edu/)
 
 ## Main results
 
@@ -85,16 +87,16 @@ Source files, acquisition dates and SHA-256 hashes are documented in the [source
 
 | Path | Contents |
 |---|---|
-| `src/` | Python data processing, models, source validation and command-line tools |
-| `analysis/` | R and Stata replication scripts |
-| `data/` | Dated input tables, metadata, exact excerpts and coding records |
-| `reports/` | Preserved results, figures and cross-checks |
-| `presentation/` | Local research interface and browser calculations |
-| `tests/` | Numerical, evidence, connector and import/export checks |
-| `docs/` | Methods, definitions, source rights and usage notes |
-| `wordpress/`, `web/` | Portable browser bundle and optional server adapters |
+| [src/](src/) | Python data processing, models, source validation and command-line tools |
+| [analysis/](analysis/README.md) | R and Stata replication scripts |
+| [data/](data/) | Dated input tables, metadata, exact excerpts and coding records |
+| [reports/](reports/README.md) | Preserved results, figures and cross-checks |
+| [presentation/](presentation/) | Local research interface and browser calculations |
+| [tests/](tests/) | Numerical, evidence, connector and import/export checks |
+| [docs/](docs/README.md) | Methods, definitions, source rights and usage notes |
+| [wordpress/](wordpress/), [web/](web/README.md) | Portable browser bundle and optional server adapters |
 
-The separate `academic-portfolio` repository contains the current WordPress theme. Older publication fragments in `portfolio/` are retained for the previous site's build and are not the current theme.
+The WordPress portfolio theme is maintained outside this repository. `portfolio/` contains earlier publication fragments, and `web/research-release/` is a preserved service export. Neither is the starting point for a new analysis. See the [architecture guide](docs/ARCHITECTURE.md) for the active components.
 
 ## Research record
 
