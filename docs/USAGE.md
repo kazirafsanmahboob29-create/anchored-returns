@@ -23,15 +23,15 @@ Refresh Treasury sources retrieves the connected public FRED and Treasury feeds.
 ## Run the local tools
 
 ```sh
-./research serve
+python -m src.research serve --snapshot
 ./research status
 ./research check
 ./research overview
 ./research analyze
 ```
 
-The local service prints its address. The hosted edition provides the same research records with a browser PDF reader and durable market retrievals. [Reproduction instructions](REPRODUCIBILITY.md) describe environment setup, original-source restoration, R and Stata materials and verification limits.
+The snapshot command starts the included release without original PDFs. The other evidence commands require restored sources. The local service prints its address. The optional Worker edition adds a PDF reader and stored market retrievals; those server features require a configured deployment. [Reproduction instructions](REPRODUCIBILITY.md) describe setup, source restoration, R and Stata materials and verification limits.
 
 ## Dartmouth portfolio
 
-The public [WordPress portfolio](https://journeys.dartmouth.edu/kazirafsanmahboob29/) hosts the article, models, comparisons, original-order library, numeric fact search and coding worksheet. The model tool can retrieve Treasury and BLS histories directly. Financial stress stays at the archived vintage. Exports include their source dates; the paper remains fixed. See [deployment details](dartmouth_portfolio.md).
+The current [portfolio](https://kazirafsanmahboob.host.dartmouth.edu/) presents the [research article](https://kazirafsanmahboob.host.dartmouth.edu/research/anchored-returns/). Its separate [workbench](https://kazirafsanmahboob.host.dartmouth.edu/tools/anchored-returns/) provides models, comparisons, the order library and a coding worksheet. The model tool can retrieve Treasury and BLS histories directly. Financial stress stays at the archived vintage. Exports include their source dates; the paper remains fixed. See [publication details](dartmouth_portfolio.md).

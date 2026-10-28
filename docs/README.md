@@ -7,6 +7,8 @@
 - [Data dictionary](DATA_DICTIONARY.md): variables, units and missing-value rules.
 - [Source inventory](data_sources.md): data providers, original records and access status.
 - [Architecture](ARCHITECTURE.md): the Python, browser and service components.
+- [Using the workbench](USAGE.md): selections, models, evidence and exports.
+- [Published files](../reports/README.md): results and dated release manifests.
 
 ## Research methods
 
@@ -21,4 +23,8 @@
 
 The empirical and cohort protocols describe decisions made at earlier stages of the project. They retain the original sample targets, coding provenance and date cutoffs. A historical target should not be read as the size or completion status of the current study. Use the root README and the corresponding report manifest for current coverage.
 
-Earlier WordPress deployment notes describe the Journeys publication. The current portfolio runs on Dartmouth hosting; its theme is in the separate `academic-portfolio` repository. Original order links hosted on Journeys are still valid source locations.
+The [publication guide](dartmouth_portfolio.md) distinguishes the current Dartmouth portfolio from earlier Journeys page fragments. The portfolio theme is maintained outside this research repository. Some original documents still use their recorded Journeys media URLs.
+
+## Check documentation links
+
+Run `python -m scripts.check_links` from the repository root. It checks relative Markdown links, images and heading fragments in the maintained documentation. CI runs this check on every push and pull request. Network checks are explicit: `python -m scripts.check_links --external --output /tmp/anchored-returns-links.json`. A blocked request is reported separately from a missing page. API examples and local server addresses are not public-page health checks. `--include-export` also inspects the copied documentation in the frozen service export; its historical paths are outside the maintained documentation check.

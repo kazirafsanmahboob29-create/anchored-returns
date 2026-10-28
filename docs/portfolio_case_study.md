@@ -6,4 +6,4 @@ I investigate how authorized utility returns relate to financial conditions and 
 
 The previous-award correlation is 0.793. Market associations change substantially with state and year controls. Later-case prediction improves strongly when prior awards are included, but only slightly over the prior-award baseline. These conditional results motivate the original-order investigation without claiming causal identification.
 
-The complete portfolio text and native R figures are prepared in `portfolio/`. See `docs/dartmouth_portfolio.md` for the verified WordPress hosting boundary and access requirements.
+The [published article](https://kazirafsanmahboob.host.dartmouth.edu/research/anchored-returns/) presents the findings. Native R figures and calculation records are in [reports/factor-study](../reports/factor-study/). Earlier publication fragments remain in `portfolio/`; they are not the current WordPress theme. The [publication guide](dartmouth_portfolio.md) describes the hosting arrangement.

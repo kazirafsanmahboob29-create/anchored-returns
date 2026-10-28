@@ -74,4 +74,4 @@ The client and server build does not need hosting-account metadata. The host sup
 
 ## Publication source
 
-`wordpress/` holds the portable research application bundle. `portfolio/` retains the previous publication fragments. The current Dartmouth WordPress theme is maintained separately in `academic-portfolio`. Updating a repository does not automatically publish changes to WordPress.
+`wordpress/` holds the portable research application bundle. `portfolio/` retains the previous publication fragments. The current Dartmouth WordPress theme is maintained outside this repository. Updating GitHub does not automatically publish changes to WordPress. See the [publication guide](dartmouth_portfolio.md).
