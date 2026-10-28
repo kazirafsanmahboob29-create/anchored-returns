@@ -1,12 +1,12 @@
-# Documentation guide
+# Documentation
 
 ## Start here
 
 - [Reproduction](REPRODUCIBILITY.md): installation, the included snapshot, numerical rebuilds and source restoration.
 - [Factor study](factor_study.md): the main panel, estimates, prediction comparison and limits of interpretation.
+- [Project hierarchy](ARCHITECTURE.md): the input, analysis, output and interface layers.
 - [Data dictionary](DATA_DICTIONARY.md): variables, units and missing-value rules.
 - [Source inventory](data_sources.md): data providers, original records and access status.
-- [Architecture](ARCHITECTURE.md): the Python, browser and service components.
 - [Using the workbench](USAGE.md): selections, models, evidence and exports.
 - [Published files](../reports/README.md): results and dated release manifests.
 
