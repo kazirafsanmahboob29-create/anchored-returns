@@ -1,4 +1,4 @@
-"""Read-only audit of the saved pilot inputs and M1–M8 outputs; print JSON.
+"""Read-only audit of the original development workspace and M1–M8 outputs.
 
 Run from the repository root: python -m scripts.audit_project [--pdfinfo /path/to/pdfinfo]
 This checks reproducibility and file integrity, not eligibility or research conclusions.
@@ -46,9 +46,15 @@ def read_json(path):
 
 
 def audit(pdfinfo=None):
+    archive_path = ROOT.parent / "Energy Research Project.zip"
+    require(
+        archive_path.is_file() and (ROOT / "reports/source_inventory.json").is_file(),
+        "The legacy audit requires the original development workspace and its parent "
+        "Energy Research Project.zip. For a restored public clone, use research check --full.",
+    )
     checked = {}
     originals = []
-    with zipfile.ZipFile(ROOT.parent / "Energy Research Project.zip") as archive:
+    with zipfile.ZipFile(archive_path) as archive:
         for line in (ROOT / "project_docs/SHA256SUMS").read_text().splitlines():
             expected, name = line.split("  ", 1)
             path = ROOT / "project_docs" / name
