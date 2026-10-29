@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.2 · October 28, 2026
+
+- Added a paired evaluation of the fixed 2020-2024 predictions, including clustered uncertainty, annual and case-type comparisons, weighting and influence checks.
+- Added source-identity guards, artifact fingerprints and a native R cross-check of 12 prediction-evaluation quantities.
+- Added a separate R job to continuous integration and a `make prediction` entry point.
+- Expanded the README and results index with the new evidence.
+- Fixed full evidence validation in a restored clone. Empirical paths now resolve from the project root; the original development audit is an explicit `--legacy` option.
+
+The October 26 estimation sample, fitted models, original predictions and research records are unchanged. The prediction evaluation is a post hoc extension, not a new prospective forecast.
+
 ## 0.2.1 · October 27, 2026
 
 - Added snapshot startup for a clone without the original PDF archive.
