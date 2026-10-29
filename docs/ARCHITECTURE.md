@@ -9,6 +9,8 @@ flowchart TD
     A[Preserved inputs] --> B[Python validation and analysis]
     B --> C[Estimation tables and model outputs]
     C --> D[R replication and numerical checks]
+    C --> H[Fixed-prediction evaluation]
+    H --> D
     C --> E[Browser calculation checks]
     D --> F[Checked tables, figures and manifests]
     E --> F
@@ -25,11 +27,14 @@ A live economic refresh creates a separate calculation with its own source dates
 | Entry point | Responsibility |
 |---|---|
 | [src/factor_study.py](../src/factor_study.py) | Panel construction, dated predictors, regressions, uncertainty and later-case evaluation |
+| [src/prediction_audit.py](../src/prediction_audit.py) | Paired errors, uncertainty, annual stability and weighting checks for the saved predictions |
 | [src/national_study.py](../src/national_study.py) | National period comparisons |
 | [src/eei_benchmarks.py](../src/eei_benchmarks.py) | EEI normalization and half-year reconstruction |
 | [analysis/factors.R](../analysis/factors.R) | Independent coefficient and covariance calculations; main figures |
+| [analysis/prediction_audit.R](../analysis/prediction_audit.R) | Independent loss, covariance and prediction-figure calculations |
 | [analysis/factors.do](../analysis/factors.do) | Prepared Stata implementation |
 | [reports/factor-study](../reports/factor-study/) | Published numerical outputs and fingerprints |
+| [reports/prediction-audit](../reports/prediction-audit/) | Separate evaluation tables, figures and fingerprints |
 
 The [methods](factor_study.md) explain the estimation sample and specification choices. The [results index](../reports/README.md) identifies the saved tables.
 
@@ -60,6 +65,7 @@ The frozen `web/research-release/` export is retained for reproducibility. It co
 
 - `python -m scripts.check_links` checks maintained documentation paths and anchors.
 - `python -m scripts.check_calculations` runs the source-independent Python and JavaScript checks.
+- `python -m src.prediction_audit --check` verifies and recomputes the saved prediction evaluation.
 - R checks selected numerical estimates against Python using the same preserved inputs.
 - Full document checks require restored original PDFs and review files.
 

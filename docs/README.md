@@ -4,11 +4,13 @@
 
 - [Reproduction](REPRODUCIBILITY.md): installation, the included snapshot, numerical rebuilds and source restoration.
 - [Factor study](factor_study.md): the main panel, estimates, prediction comparison and limits of interpretation.
+- [Prediction evaluation](prediction_evaluation.md): paired errors, uncertainty, annual stability and baseline comparisons.
 - [Project hierarchy](ARCHITECTURE.md): the input, analysis, output and interface layers.
 - [Data dictionary](DATA_DICTIONARY.md): variables, units and missing-value rules.
 - [Source inventory](data_sources.md): data providers, original records and access status.
 - [Using the workbench](USAGE.md): selections, models, evidence and exports.
 - [Published files](../reports/README.md): results and dated release manifests.
+- [October 28 audit](audit_2026-10-28.md): validation results, portability fixes and unresolved research checks.
 
 ## Research methods
 
