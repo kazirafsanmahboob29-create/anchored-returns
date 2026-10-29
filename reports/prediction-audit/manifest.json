@@ -1,0 +1,27 @@
+{
+  "schema": "anchored-returns-prediction-audit/1",
+  "r_validation": "12 checks matched within 1e-8",
+  "inputs": {
+    "reports/factor-study/artifact-manifest.json": "8e56a6935c7f1042fadd661fed1f2c305a11db2fe8c91de8ce2e72a63912f991",
+    "reports/factor-study/study.json": "54a8c682834dcbcb52fdf61ffbee078ec1361d68066d499f04591a5c2f98e04c",
+    "reports/factor-study/holdout.csv": "1e306539020cde8813de50a0c75d4528d13dca9437df99cee8bf2d66c5d7a58c",
+    "reports/factor-study/estimation.csv": "ff40155ba5e8e3b3b0e8e4ec25ca72e98b1e13300fae0b8ed0b0cef49cfcd0ad",
+    "src/prediction_audit.py": "5e3db04ae0e871ae935b3c2b930d5a897b73bc9d4658827a82b65b6ed61705f9",
+    "analysis/prediction_audit.R": "74b5d4978622d3fb0cecc2f68b73a073e20d90910b32c6bfda60f335661b88d6",
+    "docs/prediction_evaluation.md": "cd5377223ff3bd6c1d6093da033c957c962e81882887cbbbed9a1f2b58fbe2a5"
+  },
+  "outputs": {
+    "README.md": "777d29766962ccc3ebe2ee8b53d17751c83be2bddb45e29c76fce5e630fc0bd0",
+    "annual.csv": "b047cd46d19cb4602ec0fa1a7d1018c3282d2b674da4c2f985ab85ca4c6a6586",
+    "case_types.csv": "51e59919003090da7376601ed33bdd6113f48f05d7d59b99313690801d58e0c2",
+    "comparisons.csv": "276aa78f9633ee80fd0cf2433bd0cdddbf0e5cbf3f57c55109cd1ebdc851b2cb",
+    "leave_one_state_out.csv": "dc0875668d9b516e7c0b7819870c880a2d270f8dd95daa0cff16c286a9ca8694",
+    "metrics.csv": "1a3f17de8b0deee19eeba81f5d5e7df7cb7334e6dad77edef59a42cdea874818",
+    "paired_predictions.csv": "682027b349c4115d3874ec05f8878a06a39443e24ce8ae15d91169e57723a92b",
+    "prediction-evaluation.png": "f7c62f1202da53bd0b0d107c4229a9531dc61022713b69038abeb4600cc7f7d0",
+    "python_checks.csv": "fdbd286b2531b410b918ec8e29bd737767b2709c5861b5f7b8e33e9e961e8cbf",
+    "r-crosscheck.csv": "dc46fe23bafd85e7d2861bf4d274139dd2b0d0e230076649060e793ea737933f",
+    "r-prediction-errors.png": "9765ccfe7395d6ea713867f2e322bd21222c332f17c0d38794b4cd1997e0c8b5",
+    "summary.json": "347b6a52ac6b1673244fffc3281c4c3103e6c52c43403ed8aeaad78ea1646b87"
+  }
+}
