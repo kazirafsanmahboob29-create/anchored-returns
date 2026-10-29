@@ -120,10 +120,11 @@ def _manifest_target(path: Path, pdf: Path) -> Path:
     return resolved
 
 
-def read_manifest(path: Path) -> list[dict[str, str]]:
+def read_manifest(path: Path, *, root: Path | None = None) -> list[dict[str, str]]:
     """Read an existing manifest only if its schema and all rows validate.
 
     A missing manifest is empty, but an existing empty or corrupt file is an error.
+    Restored releases may supply a root for portable, repository-relative paths.
     """
     if not path.exists():
         return []
@@ -140,7 +141,11 @@ def read_manifest(path: Path) -> list[dict[str, str]]:
                         raise ManifestError("incorrect number of columns")
                     _validate_metadata(row)
                     if not Path(row["file_path"]).is_absolute():
-                        raise ManifestError("file_path must be absolute")
+                        if root is None:
+                            raise ManifestError("file_path must be absolute")
+                        base = Path(root).resolve()
+                        if not (base / row["file_path"]).resolve().is_relative_to(base):
+                            raise ManifestError("relative file_path escapes the project root")
                     if not re.fullmatch(r"[0-9a-f]{64}", row["sha256"]):
                         raise ManifestError("sha256 must be 64 lowercase hexadecimal characters")
                     if not re.fullmatch(r"[1-9][0-9]*", row["n_pages"]):

@@ -28,6 +28,17 @@ The first command reads the included EEI workbook and dated Treasury observation
 
 Keep the fixed input vintage when reproducing the paper. A new API retrieval is a different run and should be saved separately. These historical series contain later revisions; observation-date lags do not reconstruct the information available to a commission in real time.
 
+## Evaluate the saved predictions
+
+```sh
+python -m src.prediction_audit
+Rscript analysis/prediction_audit.R reports/prediction-audit
+python -m src.prediction_audit --verify-r
+python -m src.prediction_audit --check
+```
+
+This separate extension checks the fixed later-case predictions without refitting models. It preserves the original study and writes paired errors, clustered intervals, annual and case-type tables, influence checks and figures under `reports/prediction-audit/`. The [method note](prediction_evaluation.md) describes the post hoc design and the 12 native R checks. `make prediction` runs the first three commands.
+
 ## Calculation and application checks
 
 ```sh
@@ -57,6 +68,8 @@ python -m pytest -q
 ```
 
 The full suite checks PDF fingerprints, excerpts, rendered-evidence records and historical artifacts, so it is intentionally more demanding than CI. Original PDFs and review images are not part of the Git upload. Source restoration does not create independent ratings or resolve missing benchmark periods.
+
+`check --full` also extracts every page in the empirical manifest again and compares its text with the saved extraction. Paths are resolved from the repository, so the check works from other working directories after installation. The older `check --legacy` option is reserved for the original development workspace. It requires the parent `Energy Research Project.zip`, early milestone reports and their locked environment; those are separate from the public source archive.
 
 After restoring evidence, omit `--snapshot` to rebuild the document explorer when starting the local server.
 

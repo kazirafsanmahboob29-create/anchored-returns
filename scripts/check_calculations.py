@@ -12,6 +12,8 @@ PYTHON_TESTS = (
     "test_eei_benchmarks.py",
     "test_national_study.py",
     "test_factor_study.py",
+    "test_prediction_audit.py",
+    "test_research_checks.py",
     "test_wordpress.py",
     "test_research_reliability.py",
     "test_research_server.py",

@@ -1,0 +1,3 @@
+reference,candidate,n,states,quarters,improvement_bp,se_bp,low_bp,high_bp,variance_status,candidate_wins,reference_wins,ties
+previous_award,with_prior,188,42,20,0.9088493836749608,1.4286351725369444,-1.8912241015446165,3.708922868894538,positive,86,102,0
+market_case,with_prior,188,42,20,29.78164271242107,3.9382543040407514,22.062806114541342,37.5004793103008,positive,156,32,0

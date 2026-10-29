@@ -16,6 +16,10 @@
 | [coefficients.png](factor-study/coefficients.png) | Estimates under alternative specifications |
 | [artifact-manifest.json](factor-study/artifact-manifest.json) | Output fingerprints and packaging record |
 
+## Prediction evaluation
+
+The [paired evaluation](prediction-audit/README.md) extends the fixed 2020-2024 predictions with clustered uncertainty, annual and case-type results, equal-utility weighting and leave-one-state-out checks. Its [manifest](prediction-audit/manifest.json) records separate inputs and outputs. It leaves the October 26 numerical study unchanged.
+
 ## Original-order analysis
 
 [analysis/latest.json](analysis/latest.json) points to the current document-analysis manifest. Its tables and figures have their own denominators. The document cohort and completed passage codes are not the national estimation panel.

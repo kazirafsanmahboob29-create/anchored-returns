@@ -22,7 +22,7 @@ An authorized return is the return on equity a commission allows a utility to ea
 
 **2. The interest-rate relationship changes with the specification.** In the pooled market-and-case model, a one-percentage-point higher Treasury yield is associated with a 15.8-basis-point higher allowed return. With state and year controls, that estimate is **-0.3 basis points**, with a 95% interval of -4.8 to 4.2. Year controls absorb much of the common movement in national rates. The pooled association therefore cannot be read as a stable rate-response estimate.
 
-**3. A previous-award rule is a strong prediction baseline.** The model with a prior award predicts later cases much better than the market-and-case model. It improves only slightly on simply carrying forward the previous award: **23.3 versus 24.2 basis points** of mean absolute error.
+**3. A previous-award rule is a strong prediction baseline.** The model with a prior award predicts later cases much better than the market-and-case model. It improves only slightly on simply carrying forward the previous award: **23.3 versus 24.2 basis points** of mean absolute error. A new paired evaluation puts that 0.91-basis-point gain in an approximate 95% interval of **-1.89 to 3.71**, conditional on the fitted models.
 
 ![Current and previous authorized returns in the estimation sample](reports/factor-study/persistence.png)
 
@@ -39,7 +39,9 @@ I fit the models on 345 observations from 2010 to 2019 and evaluate them on 188 
 | Market and case variables | 53.1 bp |
 | Model including previous award | 23.3 bp |
 
-The model improves on the previous-award rule by **0.9 basis points**. This is a retrospective evaluation using revised historical economic data. It is not a forecast produced in 2019 or a causal test of regulatory precedent.
+The model improves on the previous-award rule by **0.91 basis points**, with substantial uncertainty. Adding prior awards to the market-and-case model reduces error by **56.1%**, but the augmented model is worse than the previous-award rule in 2022. The [paired evaluation](reports/prediction-audit/README.md) reports annual results, clustered intervals and weighting checks. This is retrospective evaluation with revised historical inputs, not a forecast issued in 2019.
+
+![Annual prediction errors and uncertainty in the incremental gain](reports/prediction-audit/prediction-evaluation.png)
 
 ## How the analysis works
 
@@ -56,6 +58,7 @@ The [analysis plan](docs/factor_analysis_plan_v0.1.0.md), [data dictionary](docs
 anchored-returns/
 ├── src/                    Python analysis, validation and command-line tools
 │   ├── factor_study.py     Main panel, regressions and prediction checks
+│   ├── prediction_audit.py Paired errors, uncertainty and stability checks
 │   ├── national_study.py   National period comparisons
 │   └── research_*.py       Original-order evidence, selection and coding tools
 ├── analysis/               R and Stata replication scripts
@@ -64,6 +67,7 @@ anchored-returns/
 │   └── research/           Cohort, facts, coding records and dated protocols
 ├── reports/                Calculated results and figures
 │   ├── factor-study/       Main estimation tables, R checks and figures
+│   ├── prediction-audit/   Paired evaluation, diagnostics and R checks
 │   └── analysis/           Dated original-order analysis releases
 ├── presentation/           Local browser interface
 ├── tests/                  Statistical, source, connector and interface checks
@@ -98,11 +102,12 @@ On Windows, activate with `.venv\Scripts\activate` before running the same Pytho
 python -m src.research national
 python -m src.research factors
 Rscript analysis/factors.R reports/factor-study
+python -m src.prediction_audit --check
 python -m scripts.check_links
 python -m scripts.check_calculations
 ```
 
-R independently checks 27 coefficient and clustered-standard-error pairs. Prepared Stata scripts are included; native Stata execution remains unverified. GitHub Actions runs the documentation and source-independent Python/JavaScript checks. See the [reproduction guide](docs/REPRODUCIBILITY.md) for complete evidence validation.
+R independently checks 27 coefficient and clustered-standard-error pairs and 12 prediction-evaluation quantities. Prepared Stata scripts are included; native Stata execution remains unverified. GitHub Actions runs the documentation, Python/JavaScript checks and native R replication. See the [reproduction guide](docs/REPRODUCIBILITY.md) for complete evidence validation and the [release audit](docs/audit_2026-10-28.md) for the latest results.
 
 ## Data coverage
 

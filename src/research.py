@@ -59,8 +59,53 @@ def status(root=ROOT):
     )
 
 
-def check(root=ROOT, *, full=False):
-    root = Path(root)
+def verify_native_text(root, sources):
+    """Compare saved page text with the registered PDFs, relative to the project."""
+    import hashlib
+    import pymupdf
+    from .manifest import read_manifest
+
+    root = Path(root).resolve()
+    catalog = {s["source_id"]: s for s in sources}
+    pages_checked = 0
+    manifest_path = root / "data/empirical_manifest.csv"
+    require(manifest_path.is_file(), "Empirical manifest is missing")
+    for record in read_manifest(manifest_path, root=root):
+        source = catalog[record["case_id"]]
+        pdf_path = (root / record["file_path"]).resolve()
+        require(
+            record["sha256"] == source["pdf_sha256"]
+            and int(record["n_pages"]) == source["n_pages"]
+            and pdf_path == (root / source["pdf_path"]).resolve()
+            and all(
+                record[key] == source[key]
+                for key in ("state", "docket", "source_url", "download_date")
+            ),
+            "Empirical manifest differs from catalog",
+        )
+        require(
+            hashlib.sha256(pdf_path.read_bytes()).hexdigest() == source["pdf_sha256"],
+            "Empirical PDF fingerprint changed",
+        )
+        text_path = root / "data/empirical_text" / (record["case_id"] + ".json")
+        saved = json.loads(text_path.read_text())
+        with pymupdf.open(pdf_path) as doc:
+            require(len(doc) == len(saved) == source["n_pages"], "Empirical page count changed")
+            for n, (row, page) in enumerate(zip(saved, doc), 1):
+                actual = page.get_text("text", sort=False)
+                require(
+                    row["page"] == n
+                    and row["text"] == actual
+                    and row["n_chars"] == len(actual)
+                    and row["likely_scanned"] == (len("".join(actual.split())) < 80),
+                    "Empirical native text no longer reproduces",
+                )
+                pages_checked += 1
+    return pages_checked
+
+
+def check(root=ROOT, *, full=False, legacy=False):
+    root = Path(root).resolve()
     payload = overview_payload(root)  # Validates catalog and historical numeric provenance too.
     empirical = validate_ledger(root / "data/research/empirical_ledger_v0.1.3.json", root=root)
     result = dict(
@@ -121,41 +166,12 @@ def check(root=ROOT, *, full=False):
             checks=len(factor["sensitivity"]),
             r_validation=artifacts["r_validation"],
         )
-    if full:
-        import pymupdf
-        from .manifest import read_manifest
+    if legacy:
         from scripts.audit_project import audit
 
         result["m1_m8"] = audit()
-        catalog = {s["source_id"]: s for s in payload["sources"]}
-        pages_checked = 0
-        for record in read_manifest(root / "data/empirical_manifest.csv"):
-            source = catalog[record["case_id"]]
-            require(
-                record["sha256"] == source["pdf_sha256"]
-                and int(record["n_pages"]) == source["n_pages"]
-                and Path(record["file_path"]).resolve() == (root / source["pdf_path"]).resolve()
-                and all(
-                    record[key] == source[key]
-                    for key in ("state", "docket", "source_url", "download_date")
-                ),
-                "Empirical manifest differs from catalog",
-            )
-            text_path = root / "data/empirical_text" / (record["case_id"] + ".json")
-            saved = json.loads(text_path.read_text())
-            with pymupdf.open(record["file_path"]) as doc:
-                require(len(doc) == len(saved) == source["n_pages"], "Empirical page count changed")
-                for n, (row, page) in enumerate(zip(saved, doc), 1):
-                    actual = page.get_text("text", sort=False)
-                    require(
-                        row["page"] == n
-                        and row["text"] == actual
-                        and row["n_chars"] == len(actual)
-                        and row["likely_scanned"] == (len("".join(actual.split())) < 80),
-                        "Empirical native text no longer reproduces",
-                    )
-                    pages_checked += 1
-        result["empirical_native_pages_recomputed"] = pages_checked
+    if full:
+        result["empirical_native_pages_recomputed"] = verify_native_text(root, payload["sources"])
     return result
 
 
@@ -176,7 +192,12 @@ def main(argv=None):
     verify.add_argument(
         "--full",
         action="store_true",
-        help="Also reproduce saved M1–M8 work and every newly extracted page",
+        help="Also reproduce every registered empirical PDF page from restored sources",
+    )
+    verify.add_argument(
+        "--legacy",
+        action="store_true",
+        help="Also audit the original development workspace, archive and locked environment",
     )
     sub.add_parser("overview", help="Rebuild the local evidence explorer from verified records")
     sub.add_parser(
@@ -250,7 +271,7 @@ def main(argv=None):
         elif args.command == "status":
             result = status()
         elif args.command == "check":
-            result = check(full=args.full)
+            result = check(full=args.full, legacy=args.legacy)
         elif args.command == "overview":
             result = build_overview()
         elif args.command == "sample":

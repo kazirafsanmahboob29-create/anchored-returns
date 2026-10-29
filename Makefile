@@ -1,4 +1,4 @@
-.PHONY: test serve national factors verify-evidence
+.PHONY: test serve national factors prediction verify-evidence
 
 test:
 	python -m scripts.check_calculations
@@ -16,3 +16,8 @@ factors:
 
 verify-evidence:
 	python -m src.research check --full
+
+prediction:
+	python -m src.prediction_audit
+	Rscript analysis/prediction_audit.R reports/prediction-audit
+	python -m src.prediction_audit --verify-r
