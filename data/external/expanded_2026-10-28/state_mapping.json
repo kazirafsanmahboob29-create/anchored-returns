@@ -1,0 +1,345 @@
+[
+  {
+    "state": "Alaska",
+    "postal": "AK",
+    "fips": "02",
+    "region": "West",
+    "series_id": "AKUR"
+  },
+  {
+    "state": "Arizona",
+    "postal": "AZ",
+    "fips": "04",
+    "region": "West",
+    "series_id": "AZUR"
+  },
+  {
+    "state": "Arkansas",
+    "postal": "AR",
+    "fips": "05",
+    "region": "South",
+    "series_id": "ARUR"
+  },
+  {
+    "state": "California",
+    "postal": "CA",
+    "fips": "06",
+    "region": "West",
+    "series_id": "CAUR"
+  },
+  {
+    "state": "Colorado",
+    "postal": "CO",
+    "fips": "08",
+    "region": "West",
+    "series_id": "COUR"
+  },
+  {
+    "state": "Connecticut",
+    "postal": "CT",
+    "fips": "09",
+    "region": "Northeast",
+    "series_id": "CTUR"
+  },
+  {
+    "state": "Delaware",
+    "postal": "DE",
+    "fips": "10",
+    "region": "South",
+    "series_id": "DEUR"
+  },
+  {
+    "state": "District of Columbia",
+    "postal": "DC",
+    "fips": "11",
+    "region": "South",
+    "series_id": "DCUR"
+  },
+  {
+    "state": "Florida",
+    "postal": "FL",
+    "fips": "12",
+    "region": "South",
+    "series_id": "FLUR"
+  },
+  {
+    "state": "Georgia",
+    "postal": "GA",
+    "fips": "13",
+    "region": "South",
+    "series_id": "GAUR"
+  },
+  {
+    "state": "Hawaii",
+    "postal": "HI",
+    "fips": "15",
+    "region": "West",
+    "series_id": "HIUR"
+  },
+  {
+    "state": "Idaho",
+    "postal": "ID",
+    "fips": "16",
+    "region": "West",
+    "series_id": "IDUR"
+  },
+  {
+    "state": "Illinois",
+    "postal": "IL",
+    "fips": "17",
+    "region": "Midwest",
+    "series_id": "ILUR"
+  },
+  {
+    "state": "Indiana",
+    "postal": "IN",
+    "fips": "18",
+    "region": "Midwest",
+    "series_id": "INUR"
+  },
+  {
+    "state": "Iowa",
+    "postal": "IA",
+    "fips": "19",
+    "region": "Midwest",
+    "series_id": "IAUR"
+  },
+  {
+    "state": "Kansas",
+    "postal": "KS",
+    "fips": "20",
+    "region": "Midwest",
+    "series_id": "KSUR"
+  },
+  {
+    "state": "Kentucky",
+    "postal": "KY",
+    "fips": "21",
+    "region": "South",
+    "series_id": "KYUR"
+  },
+  {
+    "state": "Louisiana",
+    "postal": "LA",
+    "fips": "22",
+    "region": "South",
+    "series_id": "LAUR"
+  },
+  {
+    "state": "Maine",
+    "postal": "ME",
+    "fips": "23",
+    "region": "Northeast",
+    "series_id": "MEUR"
+  },
+  {
+    "state": "Maryland",
+    "postal": "MD",
+    "fips": "24",
+    "region": "South",
+    "series_id": "MDUR"
+  },
+  {
+    "state": "Massachusetts",
+    "postal": "MA",
+    "fips": "25",
+    "region": "Northeast",
+    "series_id": "MAUR"
+  },
+  {
+    "state": "Michigan",
+    "postal": "MI",
+    "fips": "26",
+    "region": "Midwest",
+    "series_id": "MIUR"
+  },
+  {
+    "state": "Minnesota",
+    "postal": "MN",
+    "fips": "27",
+    "region": "Midwest",
+    "series_id": "MNUR"
+  },
+  {
+    "state": "Mississippi",
+    "postal": "MS",
+    "fips": "28",
+    "region": "South",
+    "series_id": "MSUR"
+  },
+  {
+    "state": "Missouri",
+    "postal": "MO",
+    "fips": "29",
+    "region": "Midwest",
+    "series_id": "MOUR"
+  },
+  {
+    "state": "Montana",
+    "postal": "MT",
+    "fips": "30",
+    "region": "West",
+    "series_id": "MTUR"
+  },
+  {
+    "state": "Nevada",
+    "postal": "NV",
+    "fips": "32",
+    "region": "West",
+    "series_id": "NVUR"
+  },
+  {
+    "state": "New Hampshire",
+    "postal": "NH",
+    "fips": "33",
+    "region": "Northeast",
+    "series_id": "NHUR"
+  },
+  {
+    "state": "New Jersey",
+    "postal": "NJ",
+    "fips": "34",
+    "region": "Northeast",
+    "series_id": "NJUR"
+  },
+  {
+    "state": "New Mexico",
+    "postal": "NM",
+    "fips": "35",
+    "region": "West",
+    "series_id": "NMUR"
+  },
+  {
+    "state": "New York",
+    "postal": "NY",
+    "fips": "36",
+    "region": "Northeast",
+    "series_id": "NYUR"
+  },
+  {
+    "state": "North Carolina",
+    "postal": "NC",
+    "fips": "37",
+    "region": "South",
+    "series_id": "NCUR"
+  },
+  {
+    "state": "North Dakota",
+    "postal": "ND",
+    "fips": "38",
+    "region": "Midwest",
+    "series_id": "NDUR"
+  },
+  {
+    "state": "Ohio",
+    "postal": "OH",
+    "fips": "39",
+    "region": "Midwest",
+    "series_id": "OHUR"
+  },
+  {
+    "state": "Oklahoma",
+    "postal": "OK",
+    "fips": "40",
+    "region": "South",
+    "series_id": "OKUR"
+  },
+  {
+    "state": "Oregon",
+    "postal": "OR",
+    "fips": "41",
+    "region": "West",
+    "series_id": "ORUR"
+  },
+  {
+    "state": "Pennsylvania",
+    "postal": "PA",
+    "fips": "42",
+    "region": "Northeast",
+    "series_id": "PAUR"
+  },
+  {
+    "state": "Rhode Island",
+    "postal": "RI",
+    "fips": "44",
+    "region": "Northeast",
+    "series_id": "RIUR"
+  },
+  {
+    "state": "South Carolina",
+    "postal": "SC",
+    "fips": "45",
+    "region": "South",
+    "series_id": "SCUR"
+  },
+  {
+    "state": "South Dakota",
+    "postal": "SD",
+    "fips": "46",
+    "region": "Midwest",
+    "series_id": "SDUR"
+  },
+  {
+    "state": "Tennessee",
+    "postal": "TN",
+    "fips": "47",
+    "region": "South",
+    "series_id": "TNUR"
+  },
+  {
+    "state": "Texas",
+    "postal": "TX",
+    "fips": "48",
+    "region": "South",
+    "series_id": "TXUR"
+  },
+  {
+    "state": "Utah",
+    "postal": "UT",
+    "fips": "49",
+    "region": "West",
+    "series_id": "UTUR"
+  },
+  {
+    "state": "Vermont",
+    "postal": "VT",
+    "fips": "50",
+    "region": "Northeast",
+    "series_id": "VTUR"
+  },
+  {
+    "state": "Virginia",
+    "postal": "VA",
+    "fips": "51",
+    "region": "South",
+    "series_id": "VAUR"
+  },
+  {
+    "state": "Washington",
+    "postal": "WA",
+    "fips": "53",
+    "region": "West",
+    "series_id": "WAUR"
+  },
+  {
+    "state": "West Virginia",
+    "postal": "WV",
+    "fips": "54",
+    "region": "South",
+    "series_id": "WVUR"
+  },
+  {
+    "state": "Wisconsin",
+    "postal": "WI",
+    "fips": "55",
+    "region": "Midwest",
+    "series_id": "WIUR"
+  },
+  {
+    "state": "Wyoming",
+    "postal": "WY",
+    "fips": "56",
+    "region": "West",
+    "series_id": "WYUR"
+  }
+]
