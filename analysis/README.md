@@ -12,6 +12,16 @@ python -c "from src.factor_study import package; package()"
 
 Read the [factor methods](../docs/factor_study.md), [results and exports](../reports/README.md) and [reproduction guide](../docs/REPRODUCIBILITY.md) first. These numerical commands use the included inputs and do not need the original commission PDFs.
 
+## Prediction-evaluation extension
+
+```sh
+python -m src.prediction_audit
+Rscript analysis/prediction_audit.R reports/prediction-audit
+python -m src.prediction_audit --verify-r
+```
+
+The extension audits the saved later-case predictions. Base R recomputes 12 loss and uncertainty quantities from the original predictions before drawing a separate annual-error figure. It does not refit the models. See the [method note](../docs/prediction_evaluation.md) and [results](../reports/prediction-audit/README.md).
+
 ## Original-order figures
 
 The separate document export joins the preserved fact ledger with newer entries without creating passage codes. The October 26 release has 22 decisions with numeric evidence, seven company request-award pairs and three completed first-pass sections within the 27-order document cohort. The [release manifest](../reports/analysis/20261026T190144611579Z/manifest.json) records the exact denominators. The original 15-order proposal remains a separate pilot specification.
