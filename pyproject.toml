@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "anchored-returns"
-version = "0.2.2"
+version = "0.3.0"
 description = "Source-linked utility ROE research and analysis tools"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{name = "Kazi Rafsan Mahboob"}]
-dependencies = ["pymupdf>=1.24", "pandas>=2.2", "matplotlib>=3.9", "requests>=2.32", "openpyxl>=3.1", "scikit-learn>=1.5", "scipy>=1.15", "statsmodels>=0.14"]
+dependencies = ["numpy>=1.26", "pymupdf>=1.24", "pandas>=2.2", "matplotlib>=3.9", "requests>=2.32", "openpyxl>=3.1", "scikit-learn>=1.5", "scipy>=1.15", "statsmodels>=0.14"]
 
 [project.optional-dependencies]
 test = ["pytest>=8"]
