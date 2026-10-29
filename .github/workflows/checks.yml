@@ -24,6 +24,7 @@ jobs:
       - run: python -m scripts.check_links
       - run: python -m scripts.check_calculations
       - run: python -m src.prediction_audit --check
+      - run: python -m src.expanded_study --check
 
   r-replication:
     runs-on: ubuntu-latest
@@ -34,3 +35,4 @@ jobs:
           r-version: 'release'
       - run: Rscript analysis/factors.R reports/factor-study
       - run: Rscript analysis/prediction_audit.R reports/prediction-audit
+      - run: Rscript analysis/expanded.R reports/expanded-study
