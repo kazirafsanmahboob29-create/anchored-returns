@@ -1,6 +1,18 @@
 # Reproducing the empirical figures
 
-## National panel and factor models
+## Historical expansion
+
+```sh
+python -m src.expanded_study
+Rscript analysis/expanded.R reports/expanded-study
+python -m src.expanded_study --verify-r
+```
+
+The current extension uses 759 complete observations from 1995–2024. Base R reconstructs all 15 designs, clustered intervals, alternative covariance checks, regional slopes and rolling predictions. The [methods](../docs/expanded_study.md) and [results](../reports/expanded-study/README.md) give the exact samples. The numerical exports use included inputs and need no original commission PDFs.
+
+`expanded.do` reads the Unicode full-panel DTA and shared specification table. It calculates two-way covariance with three built-in clustered regressions, writes coefficient and prediction checks, and draws an adjustment figure. Run `do analysis/expanded.do reports/expanded-study` in licensed Stata 17 or later. Native Stata execution has not been verified here.
+
+## Original national panel and factor models
 
 The main study uses 533 complete observations from 2010 to 2024. Python constructs the panel and estimates the models. Base R independently recomputes 27 coefficient and clustered-standard-error pairs and produces the two main figures. Prepared Stata syntax provides the same factor specifications; native Stata execution remains unverified.
 
