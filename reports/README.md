@@ -1,6 +1,10 @@
 # Results and releases
 
-## Main numerical study
+## Historical expansion, current release
+
+The [1995–2024 study](expanded-study/README.md) uses 759 complete observations, with a separate 1,141-observation longer-window specification and 717 award-change observations. It adds state unemployment, regional interactions, state-omission diagnostics and 634 expanding-window predictions. Its [manifest](expanded-study/manifest.json) separates these outputs from earlier releases. The [tool guide](../docs/expanded_study.md) includes region and period exploration commands.
+
+## Original 2010–2024 numerical study
 
 [Factor-study methods](../docs/factor_study.md) explain the 533-observation estimation panel, specifications and later-case evaluation.
 
