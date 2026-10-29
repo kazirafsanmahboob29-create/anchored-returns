@@ -15,7 +15,20 @@ Open http://127.0.0.1:8765/presentation/index.html. `--snapshot` serves the fing
 
 On Windows, activate with `.venv\Scripts\activate`. Run Python commands from the repository root. `requirements-lock.txt` records the original development environment; `pyproject.toml` declares the runtime dependencies.
 
-## Rebuild the numerical study
+## Rebuild the historical expansion
+
+```sh
+python -m src.expanded_study
+Rscript analysis/expanded.R reports/expanded-study
+python -m src.expanded_study --verify-r
+python -m src.expanded_study --check
+```
+
+This is the current 759-observation extension. It also exports the separately defined 717-observation change panel, 1,141-observation longer-window sample, expanding-window predictions and region diagnostics. The [methods and explorer commands](expanded_study.md) describe sample definitions and interactive selections. All numerical inputs are included. The [source guide](expanded_sources.md) explains how to preserve another retrieval vintage without changing published inputs.
+
+The local browser and WordPress bundle still present the original 2010–2024 study. The current extension is available through the repository reports and command-line explorer.
+
+## Rebuild the original numerical study
 
 ```sh
 python -m src.research national

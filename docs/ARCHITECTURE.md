@@ -24,8 +24,13 @@ A live economic refresh creates a separate calculation with its own source dates
 
 ## Main numerical analysis
 
+The current historical extension is separate from the frozen 2010–2024 study. `economic_history.py` owns source validation and indexed joins. `panel_models.py` owns least squares, covariance and contrasts. `panel_diagnostics.py` enumerates state omissions. `expanded_study.py` builds the samples, runs the specification table and provides the region/period explorer. These layers are tested separately. [Expanded methods](expanded_study.md) document their inputs and timing rules.
+
 | Entry point | Responsibility |
 |---|---|
+| [src/expanded_study.py](../src/expanded_study.py) | Historical extension, rolling evaluation, exports and exploratory selections |
+| [analysis/expanded.R](../analysis/expanded.R) | Independent reconstruction of extended models, diagnostics and predictions |
+| [analysis/expanded.do](../analysis/expanded.do) | Built-in Stata replication using shared model specifications |
 | [src/factor_study.py](../src/factor_study.py) | Panel construction, dated predictors, regressions, uncertainty and later-case evaluation |
 | [src/prediction_audit.py](../src/prediction_audit.py) | Paired errors, uncertainty, annual stability and weighting checks for the saved predictions |
 | [src/national_study.py](../src/national_study.py) | National period comparisons |
