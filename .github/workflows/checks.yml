@@ -19,3 +19,14 @@ jobs:
       - run: python -m pip install -e '.[test]'
       - run: python -m scripts.check_links
       - run: python -m scripts.check_calculations
+      - run: python -m src.prediction_audit --check
+
+  r-replication:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'release'
+      - run: Rscript analysis/factors.R reports/factor-study
+      - run: Rscript analysis/prediction_audit.R reports/prediction-audit
