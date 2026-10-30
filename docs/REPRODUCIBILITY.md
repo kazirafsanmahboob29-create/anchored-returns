@@ -1,5 +1,9 @@
 # Reproducing Anchored Returns
 
+## Current request-and-decision study
+
+Run `python -m src.filing_study --check` to verify fingerprints and recompute the results. To rebuild, run `python -m src.filing_study`, `Rscript analysis/filing.R reports/filing-study`, then `python -m src.filing_study --verify-r`. `make filing` performs the same sequence. The [methods](filing_study.md) explain sample construction and the case explorer at `http://127.0.0.1:8765/presentation/filing.html` after starting the snapshot server. Inputs are included and require no API key. `python -m scripts.fetch_filing_sources` verifies the supplemental Alabama archive or retrieves it if absent.
+
 ## Start with the included release
 
 Python 3.11 or later and Node.js 24 are the supported setup. The calculation tests do not need an API key or original order PDFs.

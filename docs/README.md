@@ -2,6 +2,9 @@
 
 ## Start here
 
+- [Requests and decisions](filing_study.md): the current stage decomposition, filing chronology and case explorer.
+- [Filing-stage analysis plan](filing_analysis_plan_2026-10-30.md): initial specifications and later diagnostic decisions.
+- [Version 0.4.0 audit](filing_audit_2026-10-30.md): numerical checks and browser verification.
 - [Historical expansion](expanded_study.md): the current 759-observation study, reusable NumPy tools and region explorer.
 - [Expanded sources](expanded_sources.md): longer financial histories, state unemployment and Census geography.
 - [Version 0.3.0 validation](expanded_audit_2026-10-28.md): source, numerical and replication checks for the extension.

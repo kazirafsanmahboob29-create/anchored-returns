@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 · October 30, 2026
+
+- Compare 1,785 recorded request-and-award pairs and estimate stage models on 1,266 complete cases.
+- Separate the prior-award association across requests and decisions on an identical 1,135-observation sample, with checked coefficient identities.
+- Evaluate six rules on 568 later cases using strictly earlier training decisions and filing-stage prior awards.
+- Add weighted inference, state omissions, independent R replication, prepared Stata syntax and source-linked exports.
+- Add a cream-and-black case explorer with period, region and text filters, annual figures and CSV downloads.
+- Preserve earlier studies, record request-vintage limitations and retain unavailable evaluation blocks.
+
 ## 0.3.0 · October 28, 2026
 
 - Extended the primary estimation window to 1995–2024, increasing complete observations from 533 to 759. Added a separately defined 1,141-observation longer-window sample and 717 matched award changes.

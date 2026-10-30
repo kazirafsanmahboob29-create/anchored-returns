@@ -1,4 +1,4 @@
-.PHONY: test serve national factors prediction expanded verify-evidence
+.PHONY: test serve national factors prediction expanded filing verify-evidence
 
 test:
 	python -m scripts.check_calculations
@@ -26,3 +26,8 @@ expanded:
 	python -m src.expanded_study
 	Rscript analysis/expanded.R reports/expanded-study
 	python -m src.expanded_study --verify-r
+
+filing:
+	python -m src.filing_study
+	Rscript analysis/filing.R reports/filing-study
+	python -m src.filing_study --verify-r

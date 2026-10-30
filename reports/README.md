@@ -1,6 +1,10 @@
 # Results and releases
 
-## Historical expansion, current release
+## Requests and decisions, current release
+
+The [request-and-decision study](filing-study/README.md) compares 1,785 recorded pairs, estimates stage models on 1,266 complete observations and separates the prior-award association across recorded stages. It evaluates six rules on 568 later cases, with source rows, native R checks and an interactive case explorer. The [methods](../docs/filing_study.md) distinguish the descriptive, regression and prediction samples.
+
+## Historical expansion
 
 The [1995–2024 study](expanded-study/README.md) uses 759 complete observations, with a separate 1,141-observation longer-window specification and 717 award-change observations. It adds state unemployment, regional interactions, state-omission diagnostics and 634 expanding-window predictions. Its [manifest](expanded-study/manifest.json) separates these outputs from earlier releases. The [tool guide](../docs/expanded_study.md) includes region and period exploration commands.
 

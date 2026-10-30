@@ -16,6 +16,7 @@ PYTHON_TESTS = (
     "test_economic_history.py",
     "test_panel_models.py",
     "test_expanded_study.py",
+    "test_filing_study.py",
     "test_research_checks.py",
     "test_wordpress.py",
     "test_research_reliability.py",
@@ -45,7 +46,13 @@ def main():
                 for p in sorted((ROOT / "tests" / name).glob("*.test.mjs"))
             ],
         ],
-        [node, "--test", "web/tests/market.test.mjs", "web/tests/factors.test.mjs"],
+        [
+            node,
+            "--test",
+            "web/tests/market.test.mjs",
+            "web/tests/factors.test.mjs",
+            "tests/filing.test.mjs",
+        ],
     ]
     for command in commands:
         print("Running:", " ".join(command), flush=True)

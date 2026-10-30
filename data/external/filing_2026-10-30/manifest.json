@@ -1,0 +1,18 @@
+{
+  "schema": "anchored-returns-filing-sources/1",
+  "series_id": "ALUR",
+  "state": "Alabama",
+  "postal": "AL",
+  "region": "South",
+  "producing_source": "U.S. Bureau of Labor Statistics, Local Area Unemployment Statistics",
+  "distributor": "FRED",
+  "definition_url": "https://fred.stlouisfed.org/series/ALUR",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ALUR&cosd=1980-01-01&coed=2024-12-31",
+  "retrieved_at_utc": "2026-10-30T07:03:38.681088+00:00",
+  "http_status": 200,
+  "sha256": "abf2e2a3484af9843392cfb29ac1457ad11b36d8895954f586762054a42236ec",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}
