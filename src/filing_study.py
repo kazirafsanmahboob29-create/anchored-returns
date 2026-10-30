@@ -258,6 +258,24 @@ def metrics(predictions):
     ]
 
 
+def prediction_diagnostics(predictions):
+    different = predictions[
+        ~np.isclose(predictions.request, predictions.actual, rtol=0, atol=1e-10)
+    ]
+    sensitivity = [
+        {"selection": name, **loss_comparison(part, "with_request", "prior")}
+        for name, part in (("all", predictions), ("nonzero_request_award_gap", different))
+    ]
+    omission = [
+        {
+            "omitted_state": state,
+            **loss_comparison(predictions[predictions.state != state], "with_request", "prior"),
+        }
+        for state in sorted(predictions.state.unique())
+    ]
+    return sensitivity, omission
+
+
 def rolling_evaluation(frame):
     frame = frame[frame.forecast_eligible]
     records, blocks = [], []
@@ -365,6 +383,7 @@ def calculate(root=ROOT):
     frame = make_panel(enrich(raw, []), FilingHistory(root))
     coefficients, specs, models, decomposition = estimate(frame)
     predictions, blocks, comparisons = rolling_evaluation(frame)
+    sensitivity, prediction_omission = prediction_diagnostics(predictions)
     omission = []
     sample = frame[frame.prior_eligible]
     for state in sorted(sample.state.unique()):
@@ -416,6 +435,8 @@ def calculate(root=ROOT):
         "prediction_blocks": blocks,
         "prediction_metrics": metrics(predictions),
         "prediction_comparisons": comparisons,
+        "prediction_sensitivity": sensitivity,
+        "prediction_state_omission": prediction_omission,
         "interpretation": "Recorded requests and decisions; association and accounting decomposition, not causal mediation. Revised predictors; completed-case retrospective evaluation.",
         "request_vintage": "EEI records a request and filing date but no amendment history. The recorded request is not verified as the value available on that exact filing date.",
     }
@@ -550,6 +571,8 @@ def build(root=ROOT, output=None):
                 "annual",
                 "regional",
                 "state_omission",
+                "prediction_sensitivity",
+                "prediction_state_omission",
             )
         },
     }
@@ -595,7 +618,13 @@ def build(root=ROOT, output=None):
         )
         + "\n"
     )
-    for name in ("r-coefficients.csv", "r-predictions.csv", "r-decomposition.csv"):
+    for name in (
+        "r-coefficients.csv",
+        "r-predictions.csv",
+        "r-decomposition.csv",
+        "r-prediction-sensitivity.csv",
+        "r-prediction-omission.csv",
+    ):
         (output / name).unlink(missing_ok=True)
     figures(frame, summary, output)
     write_manifest(root, output)
@@ -638,6 +667,18 @@ def verify(root=ROOT, output=None, verify_r=False):
                 "r-decomposition",
                 ["specification", "term"],
                 ["request", "decision_gap", "award"],
+            ),
+            (
+                "prediction_sensitivity",
+                "r-prediction-sensitivity",
+                ["selection"],
+                ["estimate", "se", "low", "high"],
+            ),
+            (
+                "prediction_state_omission",
+                "r-prediction-omission",
+                ["omitted_state"],
+                ["estimate", "se", "low", "high"],
             ),
         ):
             a, b = (
