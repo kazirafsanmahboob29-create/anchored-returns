@@ -1,5 +1,15 @@
 # Reproducing the empirical figures
 
+## Requests and decisions
+
+```sh
+python -m src.filing_study
+Rscript analysis/filing.R reports/filing-study
+python -m src.filing_study --verify-r
+```
+
+The [current study](../reports/filing-study/README.md) has 1,785 paired observations, 1,266 stage-model cases and 568 retrospective prediction comparisons. Base R independently reconstructs all 12 stage models, three covariance choices, 35 coefficient identities and six prediction rules. `filing.do` prepares built-in Stata estimation and a figure; native execution remains unverified. The [methods](../docs/filing_study.md) explain the design.
+
 ## Historical expansion
 
 ```sh
