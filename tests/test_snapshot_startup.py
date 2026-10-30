@@ -32,6 +32,10 @@ def test_packaged_release_serves_models_without_original_pdfs():
             "/presentation/models.html",
             "/presentation/factors/compute.mjs",
             "/reports/factor-study/study.json",
+            "/presentation/filing.html",
+            "/presentation/filing/view.mjs",
+            "/reports/filing-study/cases.json",
+            "/reports/filing-study/README.md",
         ):
             with urllib.request.urlopen(base + path, timeout=10) as response:
                 assert response.status == 200
