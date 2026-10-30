@@ -1,0 +1,16 @@
+model,sample,target,features,effects
+market_case,main,roe,treasury90;curve90;inflation;stress;duration;distribution,none
+with_prior,main,roe,treasury90;curve90;inflation;stress;duration;distribution;prior,none
+local,main,roe,treasury90;curve90;inflation;stress;duration;distribution;prior;unemployment,none
+local_state_year,main,roe,treasury90;curve90;inflation;stress;duration;distribution;prior;unemployment,state_year
+local_entity_year,main,roe,treasury90;curve90;inflation;stress;duration;distribution;prior;unemployment,entity_year
+bridge_prior,bridge,roe,treasury90;curve90;inflation;stress;duration;distribution;prior,none
+bridge_state_year,bridge,roe,treasury90;curve90;inflation;stress;duration;distribution;prior,state_year
+main_no_stress,main,roe,treasury90;curve90;inflation;duration;distribution;prior;unemployment,none
+main_no_stress_state_year,main,roe,treasury90;curve90;inflation;duration;distribution;prior;unemployment,state_year
+long_no_stress,long,roe,treasury90;curve90;inflation;duration;distribution;prior;unemployment,none
+long_state_year,long,roe,treasury90;curve90;inflation;duration;distribution;prior;unemployment,state_year
+change,change,delta_roe,delta_treasury90;delta_curve90;delta_inflation;delta_stress;delta_unemployment;gap_years;distribution,none
+change_state_year,change,delta_roe,delta_treasury90;delta_curve90;delta_inflation;delta_stress;delta_unemployment;gap_years;distribution,state_year
+asymmetric,change,delta_roe,delta_curve90;delta_inflation;delta_stress;delta_unemployment;gap_years;distribution;rate_rise;rate_fall,state_year
+regional_slopes,change,delta_roe,delta_treasury90;delta_curve90;delta_inflation;delta_stress;delta_unemployment;gap_years;distribution;rate_midwest;rate_south;rate_west,state_year

@@ -1,124 +1,126 @@
 # Anchored Returns
 
-**Interest rates, prior awards and authorized utility returns**
+**Historical persistence and regional adjustment in authorized utility returns**
 
 Kazi Rafsan Mahboob · Dartmouth College · 2026
 
-[Research article](https://kazirafsanmahboob.host.dartmouth.edu/research/anchored-returns/) · [Interactive workbench](https://kazirafsanmahboob.host.dartmouth.edu/tools/anchored-returns/) · [Methods](docs/factor_study.md) · [Reproduce](docs/REPRODUCIBILITY.md)
+[Current findings](reports/expanded-study/README.md) · [Methods](docs/expanded_study.md) · [Data sources](docs/expanded_sources.md) · [Reproduce](docs/REPRODUCIBILITY.md)
 
 [![Research checks](https://github.com/kazirafsanmahboob29-create/anchored-returns/actions/workflows/checks.yml/badge.svg)](https://github.com/kazirafsanmahboob29-create/anchored-returns/actions/workflows/checks.yml)
 
 ## Research question
 
-When interest rates change, how much do utility regulators adjust the return on equity they allow? How closely does a new award follow the same utility's earlier award?
+How much do financial conditions explain changes in the return on equity that utility regulators allow? How much information does the previous award provide?
 
-I examine these questions using **533 complete electric utility observations from 2010 to 2024**, covering 47 jurisdictions and 131 utility-state groups. I combine an EEI rate-case table with Treasury yields, inflation, financial stress and case characteristics. A separate collection of original orders supports document review.
+I study **759 complete electric utility observations from 1995 to 2024**, covering 48 jurisdictions and 147 utility-state labels. I combine EEI rate-case records with Treasury yields, inflation, financial stress, state unemployment and case characteristics. A separate **1,141-observation** specification extends back to 1985 without the financial-stress variable, whose history starts later.
 
-An authorized return is the return on equity a commission allows a utility to earn through its rates. It is not a realized investor return. Throughout the analysis, **100 basis points equal one percentage point**.
+The original 533-observation study remains available. The extension preserves every original case ID in its common-period sample and increases the primary sample by **42.4%**. The [analysis plan](docs/expanded_analysis_plan_2026-10-28.md) records the specifications and identifies diagnostics added after the first estimates.
 
-## Main findings
+## Findings
 
-**1. Earlier awards contain substantial information about new awards.** Current and previous awards have a correlation of **0.793**. After state and year controls, a one-percentage-point higher previous award is associated with a **26.7-basis-point** higher current award. Its 95% interval is 7.2 to 46.3 basis points.
+**1. Earlier awards remain informative after utility and year controls.** A one-percentage-point higher prior award is associated with a **21.6-basis-point** higher current award, with an approximate 95% interval of **7.1 to 36.2**. The longer sample supports a positive within-utility association that was imprecise in the original window. Removing each jurisdiction in turn from the state/year model preserves a positive prior-award association.
 
-**2. The interest-rate relationship changes with the specification.** In the pooled market-and-case model, a one-percentage-point higher Treasury yield is associated with a 15.8-basis-point higher allowed return. With state and year controls, that estimate is **-0.3 basis points**, with a 95% interval of -4.8 to 4.2. Year controls absorb much of the common movement in national rates. The pooled association therefore cannot be read as a stable rate-response estimate.
+**2. The estimated interest-rate relationship depends on the historical window.** With matched predictors and state/year effects, the Treasury coefficient is **-2.3 basis points** in 1995–2024 and **13.3 basis points** in 1985–2024 per one-percentage-point yield difference. This variation makes a single rate-response estimate difficult to generalize.
 
-**3. A previous-award rule is a strong prediction baseline.** The model with a prior award predicts later cases much better than the market-and-case model. It improves only slightly on simply carrying forward the previous award: **23.3 versus 24.2 basis points** of mean absolute error. A new paired evaluation puts that 0.91-basis-point gain in an approximate 95% interval of **-1.89 to 3.71**, conditional on the fitted models.
+**3. Regional differences are suggestive, with less stable uncertainty.** The full-sample joint test of equal Treasury-change slopes rejects equality under state-only, quarter-only and two-way covariance. Individual region estimates remain imprecise, and some state-omission checks are less conclusive. The [regional results](reports/expanded-study/README.md#regional-differences-warrant-a-closer-investigation) report all intervals, denominators and omission checks, including one unavailable two-way joint test.
 
-![Current and previous authorized returns in the estimation sample](reports/factor-study/persistence.png)
+**4. A simple prediction rule is a demanding baseline.** Across **634 later-case predictions**, carrying forward the prior award gives **31.2 basis points** of mean absolute error, compared with **34.9** for the fuller model. The fuller model improves on the market-and-case model, but its extra complexity does not consistently improve on the previous award alone.
 
-These results establish persistence in the recorded awards. Possible explanations include stable utility risk, commission policy, formula design and reliance on precedent. The numerical models do not distinguish those explanations. With utility-state and year controls, the prior-award interval includes zero. The [full analysis](docs/factor_study.md) reports that specification and the sensitivity checks.
+![Prediction errors across expanding training windows](reports/expanded-study/rolling-errors.png)
 
-## Prediction comparison
+These are associations and retrospective prediction results. Authorized ROE is an allowed earnings opportunity, rather than a realized investor return. The study does not identify a causal effect of precedent. **One percentage point equals 100 basis points.**
 
-I fit the models on 345 observations from 2010 to 2019 and evaluate them on 188 observations from 2020 to 2024. Mean absolute error is the average size of a prediction error, regardless of direction. Lower values indicate closer predictions.
+## What the tools do
 
-| Prediction rule | Mean absolute error |
-|---|---:|
-| Training-period mean | 42.2 bp |
-| Previous award | 24.2 bp |
-| Market and case variables | 53.1 bp |
-| Model including previous award | 23.3 bp |
+- **Build a source-linked panel.** Preserve workbook rows, actual prior-decision IDs, dated economic joins and inclusion flags.
+- **Estimate comparable models.** Fit pooled, state/year, utility-state/year, award-change and regional specifications with clustered uncertainty.
+- **Evaluate prediction across time.** Fit only earlier years and report every planned evaluation block, including blocks with insufficient history.
+- **Inspect a region or period.** Recalculate a selected state/year model and export its real source rows without changing the published findings.
+- **Check the calculations.** Compare NumPy with statsmodels and native R, verify input fingerprints and round-trip Stata datasets.
 
-The model improves on the previous-award rule by **0.91 basis points**, with substantial uncertainty. Adding prior awards to the market-and-case model reduces error by **56.1%**, but the augmented model is worse than the previous-award rule in 2022. The [paired evaluation](reports/prediction-audit/README.md) reports annual results, clustered intervals and weighting checks. This is retrospective evaluation with revised historical inputs, not a forecast issued in 2019.
+The indexed NumPy join matched direct calculations across all 759 cases within 1e-10. A [local benchmark](reports/expanded-study/join-benchmark.json) records its timing and scope.
 
-![Annual prediction errors and uncertainty in the incremental gain](reports/prediction-audit/prediction-evaluation.png)
+## Run the analysis
 
-## How the analysis works
-
-1. **Build the panel.** Apply the case, year and completeness rules to the preserved EEI table.
-2. **Construct dated variables.** Match strictly earlier awards and lagged economic observations without using same-day decisions as prior awards.
-3. **Compare specifications.** Estimate pooled models, then add state/year and utility-state/year controls. Calculate uncertainty with clustering by state and authorization quarter.
-4. **Evaluate and cross-check.** Compare later-case errors with simple baselines. Recompute selected estimates in R and check browser calculations against Python.
-
-The [analysis plan](docs/factor_analysis_plan_v0.1.0.md), [data dictionary](docs/DATA_DICTIONARY.md) and [source guide](docs/data_sources.md) document the decisions behind these steps.
-
-## Project hierarchy
-
-```text
-anchored-returns/
-├── src/                    Python analysis, validation and command-line tools
-│   ├── factor_study.py     Main panel, regressions and prediction checks
-│   ├── prediction_audit.py Paired errors, uncertainty and stability checks
-│   ├── national_study.py   National period comparisons
-│   └── research_*.py       Original-order evidence, selection and coding tools
-├── analysis/               R and Stata replication scripts
-├── data/                   Preserved inputs and research records
-│   ├── external/           EEI workbook, economic histories and source metadata
-│   └── research/           Cohort, facts, coding records and dated protocols
-├── reports/                Calculated results and figures
-│   ├── factor-study/       Main estimation tables, R checks and figures
-│   ├── prediction-audit/   Paired evaluation, diagnostics and R checks
-│   └── analysis/           Dated original-order analysis releases
-├── presentation/           Local browser interface
-├── tests/                  Statistical, source, connector and interface checks
-├── docs/                   Methods, definitions and reproduction guides
-├── scripts/                Build, source-restoration and link-check utilities
-├── codebook/, project_docs/ Original coding definitions and workbook templates
-├── wordpress/              Portable browser application
-├── web/                    Optional service adapter and preserved export
-└── portfolio/              Earlier publication fragments
-```
-
-Start with [src/factor_study.py](src/factor_study.py) for the main analysis, [analysis/factors.R](analysis/factors.R) for the R cross-check, and the [results index](reports/README.md) for saved outputs. The [architecture guide](docs/ARCHITECTURE.md) explains how the components connect. The current WordPress theme is maintained outside this repository.
-
-## Run locally
-
-Use Python 3.11 or later and Node.js 24.
+Use Python 3.11 or later. Node.js 24 is needed for the browser test suite, and R is needed for native replication.
 
 ```sh
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -e '.[test]'
-python -m src.research serve --snapshot --port 8765
+python -m src.expanded_study --check
 ```
 
-Open **http://127.0.0.1:8765/presentation/index.html**. The included snapshot runs without API keys or original order PDFs. It supports model specifications, period comparisons, selections and calculation exports. Original PDF viewing and full document validation require [source restoration](docs/REPRODUCIBILITY.md#restore-the-original-documents).
-
-On Windows, activate with `.venv\Scripts\activate` before running the same Python commands.
-
-## Reproduce and check
+To rebuild the extension and independently check it in R:
 
 ```sh
-python -m src.research national
-python -m src.research factors
-Rscript analysis/factors.R reports/factor-study
-python -m src.prediction_audit --check
+python -m src.expanded_study
+Rscript analysis/expanded.R reports/expanded-study
+python -m src.expanded_study --verify-r
+```
+
+To investigate a selected region and period:
+
+```sh
+python -m src.expanded_study --explore levels --region Midwest --start 2010 --end 2024
+python -m src.expanded_study --explore changes --region Northeast --start 2005 --end 2024 --export /tmp/northeast-changes.csv
+```
+
+Selections are labelled exploratory and return a specific reason when a model cannot be estimated. Exports retain the original source and prior-award IDs. See the [tool guide](docs/expanded_study.md#explore-a-region-or-period) for the definitions and controls.
+
+The preserved numerical inputs are included and require no API key. A [separate retrieval command](docs/expanded_sources.md#retrieval-and-revisions) can download another economic vintage without replacing the published one.
+
+## Project hierarchy
+
+```text
+anchored-returns/
+├── src/
+│   ├── economic_history.py    Indexed economic histories and dated joins
+│   ├── panel_models.py        NumPy OLS, clustered covariance and contrasts
+│   ├── panel_diagnostics.py   State omission checks
+│   ├── expanded_study.py      Historical expansion, evaluation and explorer
+│   ├── factor_study.py        Original 2010–2024 numerical study
+│   ├── prediction_audit.py    Original fixed-prediction evaluation
+│   └── research_*.py          Original-order evidence and coding tools
+├── analysis/                  R and Stata replication scripts
+├── data/external/             Preserved workbook and economic histories
+├── data/research/             Order cohort, verified facts and coding records
+├── reports/expanded-study/    Current tables, figures and manifests
+├── reports/factor-study/      Original numerical release
+├── presentation/              Local browser interface
+├── wordpress/                 Portable browser application
+├── tests/                     Numerical, source and application checks
+├── docs/                      Methods, source definitions and reproduction
+└── scripts/                   Acquisition, builds, benchmarks and checks
+```
+
+Start with [expanded_study.py](src/expanded_study.py), [expanded.R](analysis/expanded.R) and [expanded.do](analysis/expanded.do). The [architecture guide](docs/ARCHITECTURE.md) describes the other interfaces and publication components.
+
+## Data coverage and validation
+
+| Component | Coverage |
+|---|---|
+| Primary candidate table, 1995–2024 | 1,195 publisher observations; 899 observed awards |
+| Main complete sample | 759 observations; 48 jurisdictions; 147 utility-state labels |
+| Matched award-change analysis | 717 observations |
+| Longer model without stress, 1985–2024 | 1,141 observations |
+| Expanding-window prediction evaluation | 634 unique predictions in four available blocks |
+| Economic inputs | 53 series, including unemployment histories for 49 jurisdictions |
+| Original document cohort | 27 orders; 68 verified numeric facts |
+
+The [methods](docs/expanded_study.md) explain missing values, timing rules and why these samples differ. Original document coding is separate from the numerical models. Independent coding agreement remains unmeasured, and five strict historical benchmark periods remain unresolved. Synthetic fixtures are confined to software tests.
+
+Native R reconstructs the model designs and rolling predictions. Stata scripts and Unicode DTA datasets are supplied, with numeric round-trip checks; native Stata execution remains unverified. GitHub Actions checks documentation, Python, JavaScript and native R on pull requests and main-branch updates. The [validation record](docs/expanded_audit_2026-10-28.md) reports the checks completed for this release.
+
+```sh
 python -m scripts.check_links
 python -m scripts.check_calculations
 ```
 
-R independently checks 27 coefficient and clustered-standard-error pairs and 12 prediction-evaluation quantities. Prepared Stata scripts are included; native Stata execution remains unverified. GitHub Actions runs the documentation, Python/JavaScript checks and native R replication. See the [reproduction guide](docs/REPRODUCIBILITY.md) for complete evidence validation and the [release audit](docs/audit_2026-10-28.md) for the latest results.
+The [reproduction guide](docs/REPRODUCIBILITY.md) covers full source restoration, original PDF validation and the preserved browser interface. The [results index](reports/README.md) distinguishes the current extension from earlier releases. Input hashes, coding provenance and historical results remain available for inspection.
 
-## Data coverage
+## Earlier article and browser workbench
 
-| Component | Coverage | Purpose |
-|---|---|---|
-| EEI source table | 2,589 rows; 2,230 completed base-rate observations after exclusions | Starting table and national comparisons |
-| Main estimation panel | 533 complete observations, 2010 to 2024 | Regressions and later-case evaluation |
-| Regional numerical panel | 57 completed observations; 46 reported awards | New England comparisons |
-| Original-document cohort | 27 orders; 68 verified numeric facts | Source review and close reading |
-| Complete first coding passes | Three orders; 67 units | Initial passage analysis |
+The [published article](https://kazirafsanmahboob.host.dartmouth.edu/research/anchored-returns/) and [browser workbench](https://kazirafsanmahboob.host.dartmouth.edu/tools/anchored-returns/) present the original 2010–2024 study. The current historical extension and region explorer are available in this repository. Updating GitHub does not automatically update WordPress.
 
-The main results use the numerical panel, not the passage codes. Independent coding agreement remains unmeasured, and five strict historical benchmark periods remain unresolved. No values or ratings are invented to fill those fields. Synthetic fixtures are confined to software tests.
-
-The workbench can retrieve Treasury and BLS inputs for a separate calculation. Published findings retain their dated inputs. Original coding provenance, source hashes and historical releases remain available for inspection. See the [documentation index](docs/README.md), [source rights](docs/DATA_RIGHTS.md) and [citation record](CITATION.cff).
+Run the preserved local browser application with `python -m src.research serve --snapshot`, then open http://127.0.0.1:8765/presentation/index.html. Original PDF viewing requires [source restoration](docs/REPRODUCIBILITY.md#restore-the-original-documents).

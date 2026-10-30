@@ -1,0 +1,16 @@
+{
+  "series_id": "TNUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TNUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/TNUR",
+  "retrieved_at_utc": "2026-10-29T02:05:39.492076+00:00",
+  "sha256": "98d4e7dfe67a2798081177d79510063a56cad968d077a098b4625db14513be14",
+  "bytes": 8163,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

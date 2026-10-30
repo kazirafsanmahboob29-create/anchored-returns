@@ -2,6 +2,9 @@
 
 ## Start here
 
+- [Historical expansion](expanded_study.md): the current 759-observation study, reusable NumPy tools and region explorer.
+- [Expanded sources](expanded_sources.md): longer financial histories, state unemployment and Census geography.
+- [Version 0.3.0 validation](expanded_audit_2026-10-28.md): source, numerical and replication checks for the extension.
 - [Reproduction](REPRODUCIBILITY.md): installation, the included snapshot, numerical rebuilds and source restoration.
 - [Factor study](factor_study.md): the main panel, estimates, prediction comparison and limits of interpretation.
 - [Prediction evaluation](prediction_evaluation.md): paired errors, uncertainty, annual stability and baseline comparisons.
@@ -10,10 +13,11 @@
 - [Source inventory](data_sources.md): data providers, original records and access status.
 - [Using the workbench](USAGE.md): selections, models, evidence and exports.
 - [Published files](../reports/README.md): results and dated release manifests.
-- [October 28 audit](audit_2026-10-28.md): validation results, portability fixes and unresolved research checks.
+- [Version 0.2.2 audit](audit_2026-10-28.md): earlier validation results and portability fixes.
 
 ## Research methods
 
+- [Historical expansion plan](expanded_analysis_plan_2026-10-28.md)
 - [Analysis specification](factor_analysis_plan_v0.1.0.md)
 - [National electric study](national_study.md)
 - [Regional expansion](regional_expansion.md)

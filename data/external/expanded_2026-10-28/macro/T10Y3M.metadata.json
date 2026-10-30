@@ -1,0 +1,16 @@
+{
+  "series_id": "T10Y3M",
+  "provider": "Federal Reserve Bank of St. Louis",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y3M&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/T10Y3M",
+  "retrieved_at_utc": "2026-10-29T02:05:34.235961+00:00",
+  "sha256": "70bacaf24535a37fe33ec4f6664985a776466e03adab35485abaecc26986d20a",
+  "bytes": 178779,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 11217,
+  "numeric_rows": 10752,
+  "first_date": "1982-01-04",
+  "last_date": "2024-12-31"
+}

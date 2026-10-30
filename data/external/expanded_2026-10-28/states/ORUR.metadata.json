@@ -1,0 +1,16 @@
+{
+  "series_id": "ORUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ORUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/ORUR",
+  "retrieved_at_utc": "2026-10-29T02:05:38.984586+00:00",
+  "sha256": "1930f50b4d6434646f9015cd23786a021a7316dce67218e2252ce6c3ee83b5c5",
+  "bytes": 8174,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

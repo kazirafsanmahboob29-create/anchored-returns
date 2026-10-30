@@ -1,0 +1,16 @@
+{
+  "series_id": "MAUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MAUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/MAUR",
+  "retrieved_at_utc": "2026-10-29T02:05:36.949963+00:00",
+  "sha256": "2cfed9a956ca16d67ddeb79b82162f58c2eac27ddded9d8e07833d83ec36a1fc",
+  "bytes": 8127,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

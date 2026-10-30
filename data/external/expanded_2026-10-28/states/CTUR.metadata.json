@@ -1,0 +1,16 @@
+{
+  "series_id": "CTUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CTUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/CTUR",
+  "retrieved_at_utc": "2026-10-29T02:05:34.529991+00:00",
+  "sha256": "18697da982374e9aeaf148931b5333b0bf28be7aefc3c2bcc9fc45eac6066ba3",
+  "bytes": 8125,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0 · October 28, 2026
+
+- Extended the primary estimation window to 1995–2024, increasing complete observations from 533 to 759. Added a separately defined 1,141-observation longer-window sample and 717 matched award changes.
+- Preserved 53 economic series, including BLS unemployment rates for 49 jurisdictions, with source identities, retrieval dates and fingerprints.
+- Added reusable NumPy date indexes, OLS, two-way clustered covariance, contrasts and state-omission diagnostics, tested against direct calculations and statsmodels.
+- Added 15 comparable specifications, regional rate-change interactions and four available expanding-window evaluations with 634 predictions. Kept the insufficient-history block visible.
+- Added a region/period command-line explorer, source-preserving CSV exports, Unicode Stata datasets and native R reconstruction of models and predictions.
+- Added native Stata replication syntax without claiming licensed execution. Preserved the original study, prediction audit, source records and coding provenance.
+
 ## 0.2.2 · October 28, 2026
 
 - Added a paired evaluation of the fixed 2020-2024 predictions, including clustered uncertainty, annual and case-type comparisons, weighting and influence checks.
