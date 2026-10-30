@@ -1,0 +1,13 @@
+model,n,groups,states,quarters,entities,parameters,df
+paired_request,1266,1266,49,160,177,96,48
+paired_award,1266,1266,49,160,177,96,48
+paired_decision_gap,1266,1266,49,160,177,96,48
+known_prior_request,1135,1135,49,157,164,97,48
+known_prior_award,1135,1135,49,157,164,97,48
+known_prior_decision_gap,1135,1135,49,157,164,97,48
+utility_controls_request,1135,1135,49,157,164,212,48
+utility_controls_award,1135,1135,49,157,164,212,48
+utility_controls_decision_gap,1135,1135,49,157,164,212,48
+decision_day_weight_request,1135,1135,49,157,164,97,48
+decision_day_weight_award,1135,1135,49,157,164,97,48
+decision_day_weight_decision_gap,1135,1135,49,157,164,97,48
