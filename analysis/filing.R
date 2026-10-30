@@ -67,4 +67,32 @@ saved <- read.csv(file.path(folder,'predictions.csv'),stringsAsFactors=FALSE)
 stopifnot(identical(predictions$id,saved$id))
 for(key in setdiff(names(predictions),'id')) stopifnot(all(abs(predictions[[key]]-saved[[key]])<1e-8))
 write.csv(predictions,file.path(folder,'r-predictions.csv'),row.names=FALSE)
+
+# Fixed-prediction diagnostics use the same case-level errors as Python.
+paired_check <- function(s) {
+  gain <- 100*(abs(s$prior-s$actual)-abs(s$with_request-s$actual))
+  n <- nrow(s); estimate <- mean(gain); residual <- gain-estimate
+  cluster <- function(group) {
+    scores <- rowsum(matrix(residual,ncol=1),group,reorder=FALSE)
+    g <- nrow(scores); g/(g-1)*sum(scores^2)/n^2
+  }
+  variance <- cluster(s$state)+cluster(s$quarter)-cluster(paste(s$state,s$quarter,sep='|'))
+  se <- if(variance>=0) sqrt(variance) else NA_real_
+  critical <- qt(.975,min(length(unique(s$state)),length(unique(s$quarter)))-1)
+  data.frame(estimate=estimate,se=se,low=estimate-critical*se,high=estimate+critical*se)
+}
+checks <- list(data.frame(selection='all',paired_check(saved)),
+  data.frame(selection='nonzero_request_award_gap',paired_check(saved[abs(saved$request-saved$actual)>1e-10,])))
+write.csv(do.call(rbind,checks),file.path(folder,'r-prediction-sensitivity.csv'),row.names=FALSE,na='')
+omitted <- lapply(sort(unique(saved$state)),function(state)
+  data.frame(omitted_state=state,paired_check(saved[saved$state!=state,])))
+write.csv(do.call(rbind,omitted),file.path(folder,'r-prediction-omission.csv'),row.names=FALSE,na='')
+for(pair in list(c('prediction_sensitivity.csv','r-prediction-sensitivity.csv'),
+                 c('prediction_state_omission.csv','r-prediction-omission.csv'))) {
+  reference <- read.csv(file.path(folder,pair[1]),stringsAsFactors=FALSE)
+  actual <- read.csv(file.path(folder,pair[2]),stringsAsFactors=FALSE)
+  stopifnot(identical(reference[[1]],actual[[1]]))
+  for(key in c('estimate','se','low','high')) stopifnot(
+    identical(is.na(actual[[key]]),is.na(reference[[key]])),all(abs(actual[[key]]-reference[[key]])<1e-8,na.rm=TRUE))
+}
 cat(sprintf('R filing study passed: %d coefficient/covariance rows, %d decomposition terms and %d predictions under six rules.\n',nrow(checked),nrow(decomposed),nrow(predictions)))
