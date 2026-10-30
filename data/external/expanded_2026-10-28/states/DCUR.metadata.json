@@ -1,0 +1,16 @@
+{
+  "series_id": "DCUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/DCUR",
+  "retrieved_at_utc": "2026-10-29T02:05:34.683377+00:00",
+  "sha256": "e271bd4f36259e6edf24be7e0a02bb0bb797c942abbc2e96d41551fb457db6bd",
+  "bytes": 8160,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

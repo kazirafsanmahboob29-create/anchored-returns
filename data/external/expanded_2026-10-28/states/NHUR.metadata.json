@@ -1,0 +1,16 @@
+{
+  "series_id": "NHUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NHUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/NHUR",
+  "retrieved_at_utc": "2026-10-29T02:05:38.000089+00:00",
+  "sha256": "a3577be476fefab1ae75ff341ac88bfe3689be609166051a33cd022b82719f43",
+  "bytes": 8124,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}
