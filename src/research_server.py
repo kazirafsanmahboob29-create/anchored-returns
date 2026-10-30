@@ -200,6 +200,18 @@ class ResearchApp:
             if p.suffix in (".json", ".csv", ".dta", ".png", ".zip")
         )
         files.add("presentation/models.html")
+        files.add("presentation/filing.html")
+        files.update(
+            str(p.relative_to(self.root))
+            for p in (self.root / "presentation/filing").glob("*")
+            if p.suffix in (".mjs", ".css")
+        )
+        files.update(
+            str(p.relative_to(self.root))
+            for folder in ("filing-study", "expanded-study")
+            for p in (self.root / "reports" / folder).glob("*")
+            if p.suffix in (".json", ".csv", ".dta", ".png", ".md")
+        )
         files.update(
             str(p.relative_to(self.root))
             for p in (self.root / "presentation/factors").glob("*")
