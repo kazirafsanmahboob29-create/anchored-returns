@@ -1,5 +1,7 @@
 # Project structure
 
+The current request-and-decision extension is implemented in `src/filing_study.py`. It reuses the economic date indexes and cluster-covariance module, then exports source rows, stage identities, weighted estimates and filing-year prediction blocks into `reports/filing-study/`. Independent R reconstruction reads those source rows and model definitions. `presentation/filing.html` and `presentation/filing/` provide a separate case explorer; descriptive filters do not alter the published model estimates. The snapshot server explicitly allows those public assets and reports. See the [methods](filing_study.md).
+
 The national numerical study and original-order study share source-handling tools but answer different questions. The national panel measures associations and prediction errors. The document tools retain the passages and numeric evidence needed to study commissions' stated reasoning.
 
 ## Data flow
