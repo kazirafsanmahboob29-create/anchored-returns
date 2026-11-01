@@ -2,7 +2,7 @@
 
 Kazi Rafsan Mahboob · October 30, 2026
 
-The previous study established persistence in authorized returns. I now separate the utility's recorded request from the final award. The question is whether the earlier award is already associated with the request, and whether the request adds predictive information beyond the earlier award.
+The previous study documented an association between successive authorized returns. This study separates the utility's recorded request from the final award. The question is whether the earlier award is already associated with the request, and whether the request adds predictive information beyond the earlier award.
 
 ## Data and sample construction
 
@@ -32,9 +32,9 @@ authorized return = requested return + (authorized return - requested return)
 
 I fit each of those three outcomes on the same observations and design matrix. Predictors are filing Treasury, inflation and unemployment; their changes through authorization; duration; and distribution status. The full paired sample uses state/year effects. The common prior sample adds the known prior, then replaces state effects with utility-state effects as a separate specification.
 
-Linearity requires each award coefficient to equal the corresponding request coefficient plus the award-minus-request coefficient. The build asserts this identity for every parameter, including the fixed effects, to within 1e-9. The exported decomposition reports the model features. It allocates a conditional association between recorded stages; it does not identify a causal mediation effect. Requested returns are endogenous to a utility's information, objectives and expectations.
+Linearity requires each award coefficient to equal the corresponding request coefficient plus the award-minus-request coefficient. This is an algebraic property of a common linear design, not a separate empirical validation. The exported decomposition reports the model features. It allocates a conditional association between recorded stages; it does not identify a causal mediation effect. Requested returns are endogenous to a utility's information, objectives and expectations.
 
-The utility-state specification combines fixed effects and a lagged outcome in irregular, short company histories. Dynamic-panel bias remains possible. Neither that coefficient nor a request coefficient should be interpreted as a structural adjustment speed or bargaining parameter.
+The utility-state specification combines fixed effects and a lagged outcome in irregular, short company histories. In a standard short dynamic panel, this produces downward bias in the persistence coefficient (Nickell, 1981). Its magnitude is unknown for these irregular case histories. Neither that coefficient nor a request coefficient should be interpreted as a structural adjustment speed or bargaining parameter.
 
 ## Uncertainty and weighting
 
@@ -74,6 +74,8 @@ python -m src.filing_study --check
 python -m src.research serve --snapshot
 ```
 
-Open `http://127.0.0.1:8765/presentation/filing.html`. The cream-and-black explorer filters real pairs by region, authorization year, utility, state and docket. It recalculates paired means, gaps and annual plots, and exports every selected row. It does not fit regressions in the browser or silently change the published findings. Empty selections remain empty. Source values are inserted as text, and CSV exports quote strings and neutralize spreadsheet formulas.
+Open `http://127.0.0.1:8765/presentation/filing.html`. The local explorer filters real pairs by region, authorization year, utility, state and docket. It recalculates paired means, gaps and annual plots, and exports every selected row. It does not fit regressions in the browser or silently change the published findings. Empty selections remain empty. Source values are inserted as text, and CSV exports quote strings and neutralize spreadsheet formulas.
 
 The R script independently rebuilds all 12 stage models, three covariance choices, 35 coefficient identities and six prediction rules. Prepared Stata syntax and Unicode datasets are included. Numeric DTA round trips are checked; native Stata execution remains unverified. The [analysis plan](filing_analysis_plan_2026-10-30.md) distinguishes initial decisions from the diagnostic changes after the first calculation. The [results](../reports/filing-study/README.md) contain the estimates and all supporting exports.
+
+Year effects absorb annual national variation. The Treasury coefficients use variation in case timing within years and cannot establish the national peer-anchoring hypothesis. The [peer follow-up](research_review_2026-10-30.md) addresses that question directly. [Nickell (1981)](https://www.jstor.org/stable/1911408) discusses the fixed-effects bias.

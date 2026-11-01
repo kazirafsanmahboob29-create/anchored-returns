@@ -1,37 +1,22 @@
-# Results and releases
+# Results and supporting evidence
 
-## Requests and decisions, current release
+The [working paper](../paper/manuscript.md) develops the argument. These folders contain the tables, figures and source records behind it.
 
-The [request-and-decision study](filing-study/README.md) compares 1,785 recorded pairs, estimates stage models on 1,266 complete observations and separates the prior-award association across recorded stages. It evaluates six rules on 568 later cases, with source rows, native R checks and an interactive case explorer. The [methods](../docs/filing_study.md) distinguish the descriptive, regression and prediction samples.
+## Current results
 
-## Historical expansion
+| Analysis | Main result | Supporting files |
+|---|---|---|
+| [Requests and awards](filing-study/README.md) | The recorded request improves average prediction; the prior-only rule performs best in the recent filing group | Stage estimates and 568 later-case comparisons |
+| [Other-state peers](peer-study/README.md) | Peer awards share substantial information with the utility's own history | Time-control comparisons and forecast evaluation |
+| [Treasury comparison](treasury-comparison/README.md) | The historical period explains much of the difference between earlier Treasury estimates | Matched samples and eight model specifications |
+| [Original-order pilot](comparability/README.md) | Performance adjustments and capital structure change how headline returns should be compared | Fifteen proceedings, financial facts and sensitivity calculations |
 
-The [1995–2024 study](expanded-study/README.md) uses 759 complete observations, with a separate 1,141-observation longer-window specification and 717 award-change observations. It adds state unemployment, regional interactions, state-omission diagnostics and 634 expanding-window predictions. Its [manifest](expanded-study/manifest.json) separates these outputs from earlier releases. The [tool guide](../docs/expanded_study.md) includes region and period exploration commands.
+The [largest-error case notes](../paper/case_notes.md) document the fixed reading queue and the verified Maine explanation.
 
-## Original 2010–2024 numerical study
+Aggregate tables and figures are included. EEI case tables and local explorer records are generated after obtaining the source workbook. The original-order pilot calculations use the included fact records. See [reproduction](../docs/REPRODUCIBILITY.md).
 
-[Factor-study methods](../docs/factor_study.md) explain the 533-observation estimation panel, specifications and later-case evaluation.
+## Research history
 
-| File | Contents |
-|---|---|
-| [study.json](factor-study/study.json) | Model results, coverage and calculation metadata |
-| [estimation.csv](factor-study/estimation.csv) | Complete-case estimation observations |
-| [coefficients.csv](factor-study/coefficients.csv) | Estimates, uncertainty and specifications |
-| [correlations.csv](factor-study/correlations.csv) | Pairwise association calculations |
-| [holdout.csv](factor-study/holdout.csv) | Later-case prediction comparisons |
-| [r-crosscheck.csv](factor-study/r-crosscheck.csv) | Native R coefficient and standard-error checks |
-| [persistence.png](factor-study/persistence.png) | Current versus previous authorized return |
-| [coefficients.png](factor-study/coefficients.png) | Estimates under alternative specifications |
-| [artifact-manifest.json](factor-study/artifact-manifest.json) | Output fingerprints and packaging record |
+The [historical expansion](expanded-study/README.md), [prediction audit](prediction-audit/README.md) and [factor-study methods](../docs/factor_study.md) document earlier stages of the investigation. Their different samples reflect different questions and timing rules. The current paper draws the relevant comparisons together.
 
-## Prediction evaluation
-
-The [paired evaluation](prediction-audit/README.md) extends the fixed 2020-2024 predictions with clustered uncertainty, annual and case-type results, equal-utility weighting and leave-one-state-out checks. Its [manifest](prediction-audit/manifest.json) records separate inputs and outputs. It leaves the October 26 numerical study unchanged.
-
-## Original-order analysis
-
-[analysis/latest.json](analysis/latest.json) points to the current document-analysis manifest. Its tables and figures have their own denominators. The document cohort and completed passage codes are not the national estimation panel.
-
-The [October 4 sample and benchmark review](sample_and_benchmarks_2026-10-04.md) and [acquisition record](benchmark_acquisition_2026-10-04.json) are dated research records. Their sample counts describe that stage of work. Use the root [README](../README.md) and current manifests for present coverage.
-
-Files under dated release directories are preserved calculation outputs. Reproduction writes a new release; presentation edits do not rewrite those records. See [reproduction instructions](../docs/REPRODUCIBILITY.md) for the distinction between source-independent checks and full document validation.
+Dated plans, source records and earlier output manifests remain available. The [documentation index](../docs/README.md) distinguishes current methods from historical records.

@@ -1,79 +1,56 @@
-# Project structure
+# How the project fits together
 
-The current request-and-decision extension is implemented in `src/filing_study.py`. It reuses the economic date indexes and cluster-covariance module, then exports source rows, stage identities, weighted estimates and filing-year prediction blocks into `reports/filing-study/`. Independent R reconstruction reads those source rows and model definitions. `presentation/filing.html` and `presentation/filing/` provide a separate case explorer; descriptive filters do not alter the published model estimates. The snapshot server explicitly allows those public assets and reports. See the [methods](filing_study.md).
+Anchored Returns has two connected parts. The national analysis compares requests, awards and financing conditions across time. The original-order study examines the decisions behind selected percentages and calculates their financial implications.
 
-The national numerical study and original-order study share source-handling tools but answer different questions. The national panel measures associations and prediction errors. The document tools retain the passages and numeric evidence needed to study commissions' stated reasoning.
-
-## Data flow
+## Research workflow
 
 ```mermaid
-flowchart TD
-    A[Preserved inputs] --> B[Python validation and analysis]
-    B --> C[Estimation tables and model outputs]
-    C --> D[R replication and numerical checks]
-    C --> H[Fixed-prediction evaluation]
-    H --> D
-    C --> E[Browser calculation checks]
-    D --> F[Checked tables, figures and manifests]
+flowchart LR
+    A[EEI rate cases and economic histories] --> B[National models and later-case predictions]
+    C[Original commission decisions] --> D[Sourced financial facts]
+    D --> E[Performance and capital comparisons]
+    B --> F[Tables and figures]
     E --> F
-    F --> G[Local interface and published workbench]
+    F --> G[Working paper]
 ```
 
-Preserved inputs include the EEI case table, dated economic histories and original-order records. Prepared Stata scripts provide a separate replication route; native execution remains unverified.
+The [paper](../paper/manuscript.md) is the main narrative. The [results index](../reports/README.md) identifies the current outputs, and the [reproduction guide](REPRODUCIBILITY.md) supplies the commands.
 
+## Current analysis code
 
-A live economic refresh creates a separate calculation with its own source dates. It does not replace the published input vintage or change the case table.
+| Entry point | Responsibility | Outputs |
+|---|---|---|
+| [scripts/reproduce_filing.py](../scripts/reproduce_filing.py) | Rebuild source-dependent analyses in dependency order | National and historical inputs, filing and peer results |
+| [src/filing_study.py](../src/filing_study.py) | Request and award models, known priors and later-case predictions | `reports/filing-study/` |
+| [src/peer_study.py](../src/peer_study.py) | Other-state award windows and their additional information | `reports/peer-study/` |
+| [scripts/compare_treasury_models.py](../scripts/compare_treasury_models.py) | Compare periods and timing designs on matched samples | `reports/treasury-comparison/` |
+| [src/rate_case_comparisons.py](../src/rate_case_comparisons.py) | Resolve original-order facts and calculate equity allowances | Used by the pilot build |
+| [scripts/analyze_comparability.py](../scripts/analyze_comparability.py) | Build the financial pilot tables and figures | `reports/comparability/` |
+| [paper/build.py](../paper/build.py) | Typeset the maintained manuscript | `paper/output/` |
 
-## Main numerical analysis
+`economic_history.py` handles dated economic joins. `panel_models.py` implements estimation and uncertainty calculations. R scripts in [analysis](../analysis/README.md) check selected models and financial calculations from the same prepared inputs. Stata specifications provide an additional replication route.
 
-The current historical extension is separate from the frozen 2010–2024 study. `economic_history.py` owns source validation and indexed joins. `panel_models.py` owns least squares, covariance and contrasts. `panel_diagnostics.py` enumerates state omissions. `expanded_study.py` builds the samples, runs the specification table and provides the region/period explorer. These layers are tested separately. [Expanded methods](expanded_study.md) document their inputs and timing rules.
+## Data organization
 
-| Entry point | Responsibility |
+| Location | Contents |
 |---|---|
-| [src/expanded_study.py](../src/expanded_study.py) | Historical extension, rolling evaluation, exports and exploratory selections |
-| [analysis/expanded.R](../analysis/expanded.R) | Independent reconstruction of extended models, diagnostics and predictions |
-| [analysis/expanded.do](../analysis/expanded.do) | Built-in Stata replication using shared model specifications |
-| [src/factor_study.py](../src/factor_study.py) | Panel construction, dated predictors, regressions, uncertainty and later-case evaluation |
-| [src/prediction_audit.py](../src/prediction_audit.py) | Paired errors, uncertainty, annual stability and weighting checks for the saved predictions |
-| [src/national_study.py](../src/national_study.py) | National period comparisons |
-| [src/eei_benchmarks.py](../src/eei_benchmarks.py) | EEI normalization and half-year reconstruction |
-| [analysis/factors.R](../analysis/factors.R) | Independent coefficient and covariance calculations; main figures |
-| [analysis/prediction_audit.R](../analysis/prediction_audit.R) | Independent loss, covariance and prediction-figure calculations |
-| [analysis/factors.do](../analysis/factors.do) | Prepared Stata implementation |
-| [reports/factor-study](../reports/factor-study/) | Published numerical outputs and fingerprints |
-| [reports/prediction-audit](../reports/prediction-audit/) | Separate evaluation tables, figures and fingerprints |
+| `data/external/` | Economic histories and provider metadata; acquired EEI inputs are local |
+| `data/research/comparability-v1/` | Fixed pilot selection and source-linked Phase 2 facts |
+| `data/research/` | Earlier cohort, source and passage-coding records |
+| `reports/` | Aggregate estimates, figures and results metadata |
 
-The [methods](factor_study.md) explain the estimation sample and specification choices. The [results index](../reports/README.md) identifies the saved tables.
+Each original-order fact retains its proceeding, value role, units and source location. Related utility schedules remain linked to their shared proceeding. The main models require strictly earlier awards for the filing-stage prior. The [field dictionary](comparability_fields.md) and [filing methods](filing_study.md) explain these choices.
 
-## Original-order research
+## Explorer and earlier components
 
-`research_ledger.py` validates exact source text and numeric roles. `research_sample.py` retains the original quota design. `research_cohort.py` checks the expanded cohort against the screening records. `cohort_facts.py` checks additional numeric entries without rewriting the frozen coding pass.
+The current case explorer is [presentation/filing.html](../presentation/filing.html). After the national rebuild, its filters summarize local cases and export selections. Its modules are in `presentation/filing/`.
 
-`research_overview.py` assembles the interface payload. `research_insights.py` calculates document-level comparisons. `research_analysis.py` exports CSV and Stata datasets and produces available Python/R figures. Each run writes a new dated directory; `reports/analysis/latest.json` points to the current release.
+Earlier analyses remain in `src/factor_study.py`, `src/expanded_study.py`, `src/national_study.py` and `src/prediction_audit.py`. Their result folders are indexed under [research history](../reports/README.md#research-history). They supply earlier specifications and intermediate inputs used by the national reproduction command.
 
-Source records retain their actual coder and verification identities. Those fields distinguish a first pass from independent ratings and are part of the research evidence.
+The original document tools in `src/research_*.py` support source extraction, evidence validation, cohort records and passage coding. `codebook/` retains the coding definitions. These records stay separate from independently collected ratings.
 
-## Browser and publication components
-
-| Directory | Role |
-|---|---|
-| [presentation](../presentation/) | Local interface and numerical browser modules |
-| [wordpress](../wordpress/) | Portable browser application for WordPress |
-| [web](../web/README.md) | Optional Worker service, source delivery and stored market retrievals |
-| [portfolio](../portfolio/) | Earlier publication fragments and builder inputs |
-
-Browser calculations are separated from interface code where possible. For example, `presentation/workspace/analysis.mjs` implements selection, summaries, validation and CSV export without a DOM or network dependency. Imported selections are recalculated from known source rows; imported results are not accepted as authoritative.
-
-The optional Worker service validates allowed source paths and fingerprints. It writes a complete market retrieval before advancing the latest pointer. A failed request leaves the previous complete retrieval available. Hosting credentials are configured separately and are not committed.
-
-The frozen `web/research-release/` export is retained for reproducibility. It contains historical copies of documents and is not the maintained documentation directory. The current WordPress theme is maintained outside this repository. See the [publication guide](dartmouth_portfolio.md).
+`web/`, `wordpress/` and `portfolio/` contain optional service and earlier publication components. They are retained at their existing paths because earlier commands and tests refer to them. The withdrawn `web/research-release/` bundle is excluded from the current source package. The WordPress portfolio theme is maintained separately.
 
 ## Checks
 
-- `python -m scripts.check_links` checks maintained documentation paths and anchors.
-- `python -m scripts.check_calculations` runs the source-independent Python and JavaScript checks.
-- `python -m src.prediction_audit --check` verifies and recomputes the saved prediction evaluation.
-- R checks selected numerical estimates against Python using the same preserved inputs.
-- Full document checks require restored original PDFs and review files.
-
-These checks validate different parts of the project. Passing a software test does not supply an independent rating or establish a causal interpretation.
+`python -m scripts.check_public_release` runs the public source and fixture checks. `python -m scripts.check_links` checks maintained documentation links. Source-dependent research checks follow local acquisition and reproduction. The pilot's financial calculations also have a small native R check, `analysis/comparability_check.R`.

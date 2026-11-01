@@ -1,12 +1,28 @@
 # Changelog
 
+## 0.5.1 · October 31, 2026
+
+- Organize the repository around one working paper and its supporting results.
+- Revise the paper and research summaries to explain findings before the concluding limitations.
+- Add original-order financial records for the 15-proceeding comparison pilot, with performance and capital-structure exhibits.
+- Include reproducible equity-allowance calculations and native R arithmetic checks.
+- Separate the data-center research outline from this repository's study scope.
+- Simplify the methods index, code map and replication instructions while retaining earlier analyses and dated records.
+
+## 0.5.0 · October 30, 2026
+
+- Add the other-state peer comparison and matched Treasury-model analysis.
+- Combine the national findings and original-order example in a working paper.
+- Record research assistance and source-redistribution decisions.
+- Exclude the EEI workbook and case extracts from the prepared source package; retain acquisition and reproduction instructions.
+
 ## 0.4.0 · October 30, 2026
 
 - Compare 1,785 recorded request-and-award pairs and estimate stage models on 1,266 complete cases.
-- Separate the prior-award association across requests and decisions on an identical 1,135-observation sample, with checked coefficient identities.
+- Compare the prior-award association across requests and decisions on an identical 1,135-observation sample.
 - Evaluate six rules on 568 later cases using strictly earlier training decisions and filing-stage prior awards.
 - Add weighted inference, state omissions, independent R replication, prepared Stata syntax and source-linked exports.
-- Add a cream-and-black case explorer with period, region and text filters, annual figures and CSV downloads.
+- Add a case explorer with period, region and text filters, annual figures and CSV downloads.
 - Preserve earlier studies, record request-vintage limitations and retain unavailable evaluation blocks.
 
 ## 0.3.0 · October 28, 2026
@@ -16,7 +32,7 @@
 - Added reusable NumPy date indexes, OLS, two-way clustered covariance, contrasts and state-omission diagnostics, tested against direct calculations and statsmodels.
 - Added 15 comparable specifications, regional rate-change interactions and four available expanding-window evaluations with 634 predictions. Kept the insufficient-history block visible.
 - Added a region/period command-line explorer, source-preserving CSV exports, Unicode Stata datasets and native R reconstruction of models and predictions.
-- Added native Stata replication syntax without claiming licensed execution. Preserved the original study, prediction audit, source records and coding provenance.
+- Added Stata replication syntax. Preserved the original study, prediction audit, source records and coding provenance.
 
 ## 0.2.2 · October 28, 2026
 

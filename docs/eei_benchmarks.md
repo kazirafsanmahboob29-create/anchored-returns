@@ -18,4 +18,4 @@ These observations provide retrospective electric context. I have not establishe
 
 The October 20, 2026 checks of both EEI finance-page routes found 2025 Q3 to be the newest linked Rate Review workbook. Newer assets for other financial subjects do not establish a newer rate-case table.
 
-[Publisher finance page](https://www.eei.org/issues-and-policy/finance-and-tax) · [Preserved source metadata](../data/external/eei/source.json) · [Normalized observations](../data/external/eei/electric_observations.csv) · [Calculation records](../data/external/eei/reconstruction.json)
+[Publisher finance page](https://www.eei.org/issues-and-policy/finance-and-tax) · [Preserved source metadata](../data/external/eei/source.json) · `../data/external/eei/electric_observations.csv` · `../data/external/eei/reconstruction.json`

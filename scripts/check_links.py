@@ -46,7 +46,8 @@ def audit(root=ROOT, *, include_export=False):
     links = documents = 0
     for source in sorted(root.rglob("*.md")):
         if any(
-            part in {".git", ".venv", "node_modules"} for part in source.relative_to(root).parts
+            part in {".git", ".venv", "node_modules", "__pycache__", ".pytest_cache", ".ruff_cache"}
+            for part in source.relative_to(root).parts
         ):
             continue
         # The frozen service export has its own file manifest and runtime routes.

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-30",
+  "status": "post hoc model comparison",
+  "input_sha256": {
+    "reports/filing-study/panel.csv": "993c3de7a112e6a7b011e75694928bd517e1f7d1867079dd0df79eeb981b9557",
+    "reports/factor-study/estimation.csv": "ff40155ba5e8e3b3b0e8e4ec25ca72e98b1e13300fae0b8ed0b0cef49cfcd0ad"
+  },
+  "plan_sha256": "1f28c5cafbcae1b5a74aa0f1f903262d74246e9d7eda5bd174e81d0367bcc1f6",
+  "sample_counts": {
+    "full": 1135,
+    "recent": 533,
+    "common": 529,
+    "original": 533
+  },
+  "inference": "State and decision-quarter two-way clustering; t intervals with min(cluster counts)-1 df",
+  "interpretation": "Sequential conditional comparisons; not a unique or causal decomposition",
+  "code_sha256": {
+    "scripts/compare_treasury_models.py": "2b82682ca4125a687fa01b4047b39577869182ad6398a3338ac6c75238459b5f",
+    "analysis/treasury_comparison.R": "cdfe5679b251f4c33b98d31dddc60cf84ec32af1c93c88d2dfcb49a9a91b8476",
+    "src/panel_models.py": "d7e2facd3048d49442376b1af77c127bc67ad43f7a9ac48688ff5fabacf7741f"
+  },
+  "r_check": {
+    "models": 8,
+    "coefficient_rows": 62,
+    "absolute_tolerance": 1e-07,
+    "status": "passed",
+    "prepared_inputs": "same as Python"
+  }
+}

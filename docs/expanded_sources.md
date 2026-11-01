@@ -6,7 +6,7 @@ The new [source manifest](../data/external/expanded_2026-10-28/manifest.json) re
 
 ## Case table
 
-[EEI's finance page](https://www.eei.org/issues-and-policy/finance-and-tax) currently links its 2025 Q3 rate-review workbook as the newest public case file. The original [workbook](../data/external/eei/eei_rate_review_2025_q3.xlsx) remains unchanged. Its parser verifies the file hash, sheet identities, reporting cutoff and published quarterly checks before using the records. The expansion uses additional historical rows from this file. It does not infer new cases from press-release averages.
+[EEI's finance page](https://www.eei.org/issues-and-policy/finance-and-tax) currently links its 2025 Q3 rate-review workbook as the newest public case file. The original `../data/external/eei/eei_rate_review_2025_q3.xlsx` remains unchanged. Its parser verifies the file hash, sheet identities, reporting cutoff and published quarterly checks before using the records. The expansion uses additional historical rows from this file. It does not infer new cases from press-release averages.
 
 ## Financial and labor-market histories
 

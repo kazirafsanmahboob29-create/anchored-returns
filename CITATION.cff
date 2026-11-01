@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite the cohort version and input fingerprints when using these research tools or data."
+message: "Please cite Anchored Returns and the version used in your analysis."
 title: "Anchored Returns: Market Conditions and Persistence in Authorized Utility Returns"
 authors:
   - family-names: Mahboob
     given-names: Kazi Rafsan
-version: 0.4.0
-date-released: 2026-10-30
+version: 0.5.1
+date-released: 2026-10-31
 url: "https://github.com/kazirafsanmahboob29-create/anchored-returns"
 type: software

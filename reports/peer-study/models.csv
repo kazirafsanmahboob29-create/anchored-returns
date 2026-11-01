@@ -1,0 +1,10 @@
+model,n,states,parameters,r_squared,condition_number,features,effects
+baseline_state,1109,49,54,0.9130464625830446,2457.765065171279,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution,state
+peer12_state,1109,49,55,0.9218486301284092,3116.121439550151,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12,state
+baseline_state_trend,1109,49,55,0.9130792966988427,4462.77729337947,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution,state_trend
+peer12_state_trend,1109,49,56,0.922763551419007,4768.866599135068,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12,state_trend
+baseline_state_year,1109,49,93,0.9404404084597097,2509.2053854153505,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution,state_year
+peer12_state_year,1109,49,94,0.9406880858406482,3612.416427923168,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12,state_year
+peer12_row_state,1109,49,55,0.9215576948281119,3117.029713083481,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12_row,state
+peer12_six_common,1001,49,55,0.9274930991840856,4180.730468784257,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12,state
+peer6_six_common,1001,49,55,0.9288578351190468,4172.23890299894,known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer6,state

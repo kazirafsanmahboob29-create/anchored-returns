@@ -1,5 +1,7 @@
 # National electric rate-case study
 
+Earlier analysis. The [current working paper](../paper/manuscript.md) consolidates the question and findings. Source-dependent tables named below are generated locally after obtaining the EEI workbook; they are excluded from the current public package.
+
 Kazi Rafsan Mahboob | October 21, 2026
 
 I compare reported allowed ROEs in EEI's public rate-case workbook with Treasury yields on the authorization dates. The main comparison covers 2020–2021 and 2023–2024. It describes the source records; it does not identify a causal response to interest rates.

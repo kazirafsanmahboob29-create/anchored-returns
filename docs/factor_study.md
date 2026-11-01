@@ -1,5 +1,7 @@
 # Market conditions and persistence in authorized utility returns
 
+Earlier analysis. The [current working paper](../paper/manuscript.md) consolidates the question and findings. Source-dependent tables named below are generated locally after obtaining the EEI workbook; they are excluded from the current public package.
+
 Kazi Rafsan Mahboob. October 26, 2026.
 
 I examine whether national financial conditions and a utility's previous recorded award help explain variation in authorized electric utility returns. The contribution is a dated, source-linked panel with explicit timing rules, competing specifications and a retrospective temporal prediction check. The design estimates conditional associations. It does not identify a causal effect of interest rates or regulatory precedent.

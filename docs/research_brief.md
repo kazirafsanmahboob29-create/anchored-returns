@@ -1,5 +1,7 @@
 # Anchored Returns
 
+Earlier analysis. The [current working paper](../paper/manuscript.md) consolidates the question and findings. Source-dependent tables named below are generated locally after obtaining the EEI workbook; they are excluded from the current public package.
+
 Kazi Rafsan Mahboob
 
 ## National extension

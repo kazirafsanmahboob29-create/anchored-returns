@@ -1,8 +1,10 @@
 # Requests, decisions and persistence: analysis plan
 
+Editorial revision October 30, 2026, after the results: presentation instructions and unsupported first-person authorship claims were removed. The empirical rules and recorded post-estimation changes are retained. Original fingerprints are listed in `editorial_changes.json`.
+
 Kazi Rafsan Mahboob · October 30, 2026
 
-I wrote this plan after inspecting source coverage and before estimating the new models. It is a dated research record, not an external preregistration. The earlier numerical studies remain unchanged.
+This specification was recorded after source-coverage inspection and before estimation of the extension. It is a dated, AI-assisted project record, not an external preregistration or a claim of unaided authorship.
 
 ## Questions
 
@@ -36,9 +38,9 @@ Prediction regressors are filing Treasury, inflation, unemployment, distribution
 
 ## Reporting and validation
 
-Keep all specified models and available prediction blocks, including weak or contradictory results. Do not choose the preferred sample after comparing p-values. Native R must reconstruct the designs and predictions independently. Prepare Stata replication without claiming it ran if no installation is available. Add tests for strict filing chronology, exact decomposition, group weighting and training/test separation.
+Keep all specified models and available prediction blocks, including weak or contradictory results. Do not choose the preferred sample after comparing p-values. Native R must reconstruct the designs and predictions independently. Stata syntax is supplied as an unexecuted specification; native execution is unverified. Add tests for strict filing chronology, exact decomposition, group weighting and training/test separation.
 
-Present findings in a short technical case study with a source-linked case explorer. Filters describe the selected rows; they do not silently re-estimate or replace the published models. Use restrained typography and a cream-and-black layout. Keep the original document-coding work separate.
+Present findings in a short technical case study with a source-linked case explorer. Filters describe the selected rows; they do not silently re-estimate or replace the published models. Keep the original document-coding work separate.
 
 ## Source decisions
 

@@ -1,107 +1,98 @@
 # Reproducing Anchored Returns
 
-## Current request-and-decision study
+The current source package contains code, economic histories, aggregate results and original-order records. It excludes EEI's workbook, case-level extracts and compiled bundles. The [rights review](DATA_RIGHTS.md) explains the change. Earlier saved manifests describe the full local exports, not a claim that every input remains bundled in Git.
 
-Run `python -m src.filing_study --check` to verify fingerprints and recompute the results. To rebuild, run `python -m src.filing_study`, `Rscript analysis/filing.R reports/filing-study`, then `python -m src.filing_study --verify-r`. `make filing` performs the same sequence. The [methods](filing_study.md) explain sample construction and the case explorer at `http://127.0.0.1:8765/presentation/filing.html` after starting the snapshot server. Inputs are included and require no API key. `python -m scripts.fetch_filing_sources` verifies the supplemental Alabama archive or retrieves it if absent.
+## Install and check the public source
 
-## Start with the included release
-
-Python 3.11 or later and Node.js 24 are the supported setup. The calculation tests do not need an API key or original order PDFs.
+Python 3.11 or later and Node.js 24 are supported.
 
 ```sh
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -e '.[test]'
-python -m src.research serve --snapshot --port 8765
+python -m scripts.check_public_release
+python -m scripts.check_links
 ```
 
-Open http://127.0.0.1:8765/presentation/index.html. `--snapshot` serves the fingerprint-checked compiled release without rebuilding the document evidence. Tables, models and local comparison tools are available. A missing original PDF cannot be opened until it is restored. The portfolio also provides the published browser workbench at https://kazirafsanmahboob.host.dartmouth.edu/tools/anchored-returns/.
+On Windows, activate with `.venv\Scripts\activate`. Public CI runs these source and software checks. Synthetic fixtures test calculations and timing rules; they never enter empirical results. This CI job does not independently reproduce the research estimates without the source data.
 
-On Windows, activate with `.venv\Scripts\activate`. Run Python commands from the repository root. `requirements-lock.txt` records the original development environment; `pyproject.toml` declares the runtime dependencies.
+## Obtain the case data
 
-## Rebuild the historical expansion
+Get the 2025 Q3 Rate Review workbook directly from [EEI](https://www.eei.org/issues-and-policy/finance-and-tax), subject to the provider's terms. The exact source URL and SHA-256 fingerprint are retained in [source.json](../data/external/eei/source.json). Import a user-obtained copy:
 
 ```sh
-python -m src.expanded_study
-Rscript analysis/expanded.R reports/expanded-study
-python -m src.expanded_study --verify-r
-python -m src.expanded_study --check
+python -m scripts.import_eei /path/to/2025_Q3_Rate_Review_XLSX.xlsx
 ```
 
-This is the current 759-observation extension. It also exports the separately defined 717-observation change panel, 1,141-observation longer-window sample, expanding-window predictions and region diagnostics. The [methods and explorer commands](expanded_study.md) describe sample definitions and interactive selections. All numerical inputs are included. The [source guide](expanded_sources.md) explains how to preserve another retrieval vintage without changing published inputs.
+The script rejects a different version before writing the local source. No API key is needed for the public economic histories, but public availability does not establish permission to redistribute a provider's workbook. A different source vintage requires a separate analysis, not replacement under the recorded fingerprint.
 
-The local browser and WordPress bundle still present the original 2010–2024 study. The current extension is available through the repository reports and command-line explorer.
+For a use permitted by EEI's terms, `python -m scripts.import_eei --download` retrieves the recorded provider URL and performs the same fingerprint check. It does not grant redistribution rights.
 
-## Rebuild the original numerical study
+## Rebuild the current studies
+
+The original-order financial pilot can be rebuilt from the included fact records:
 
 ```sh
-python -m src.research national
-python -m src.research factors
-Rscript analysis/factors.R reports/factor-study
-python -c "from src.factor_study import package; package()"
+python -m scripts.analyze_comparability
+Rscript analysis/comparability_check.R
 ```
 
-The first command reads the included EEI workbook and dated Treasury observations. The second constructs the economic panel and estimates the models. Base R independently recomputes 27 coefficient and clustered-standard-error pairs and draws the figures. The package command compares those values before recording artifact fingerprints. The same inputs should reproduce the reported counts and estimates, subject to normal floating-point differences.
+This produces the pilot's two figures, financial table and sensitivity calculations without acquiring the EEI workbook. The [pilot report](../reports/comparability/README.md) gives coverage and source locations.
 
-Keep the fixed input vintage when reproducing the paper. A new API retrieval is a different run and should be saved separately. These historical series contain later revisions; observation-date lags do not reconstruct the information available to a commission in real time.
-
-## Evaluate the saved predictions
+For the national analyses, obtain the workbook as described above, then run:
 
 ```sh
-python -m src.prediction_audit
-Rscript analysis/prediction_audit.R reports/prediction-audit
-python -m src.prediction_audit --verify-r
-python -m src.prediction_audit --check
+python -m scripts.reproduce_filing --with-r
 ```
 
-This separate extension checks the fixed later-case predictions without refitting models. It preserves the original study and writes paired errors, clustered intervals, annual and case-type tables, influence checks and figures under `reports/prediction-audit/`. The [method note](prediction_evaluation.md) describes the post hoc design and the 12 native R checks. `make prediction` runs the first three commands.
+This rebuilds the national tables, earlier estimation inputs, historical panel, filing study and peer study in dependency order. Base R independently compares the current stage models and peer models with Python. The intermediate tables are generated locally and ignored by Git. The macroeconomic vintages remain fixed to the preserved histories. A new API retrieval is a separate input vintage.
 
-## Calculation and application checks
+For later reruns after the intermediate inputs exist:
+
+```sh
+python -m src.filing_study
+Rscript analysis/filing.R reports/filing-study
+python -m src.filing_study --verify-r
+python -m src.peer_study
+Rscript analysis/peer.R reports/peer-study
+python -m scripts.compare_treasury_models
+Rscript analysis/treasury_comparison.R
+```
+
+Native Stata has not been run. The earlier Stata scripts remain specifications for a licensed installation; their presence is not evidence of native replication. The peer extension has Python and native R comparisons.
+
+## Build the paper
+
+```sh
+python -m pip install -e '.[paper]'
+python paper/build.py
+```
+
+The maintained text is `paper/manuscript.md`; the build writes the editable Word document to `paper/output/`. Export it to PDF and inspect the pages. The distributed PDF and Word document use the same manuscript. Figures can be regenerated with `python paper/figures.py` after the national tables have been rebuilt.
+
+## Use the local case explorer
+
+After reproducing the data:
+
+```sh
+python -m http.server 8765 --bind 127.0.0.1
+```
+
+Open http://127.0.0.1:8765/presentation/filing.html. Filters select local cases and recalculate descriptive summaries; they do not refit the published models. A fresh checkout displays a source-acquisition message until the local tables are built. The earlier WordPress and service bundles are superseded build products and are excluded from the new package.
+
+## Source-dependent and document checks
+
+The older full application checks remain available for a restored research workspace:
 
 ```sh
 python -m scripts.check_calculations
-```
-
-This is the CI command. It runs the Python and JavaScript tests that do not require the original order PDFs, including statistical timing rules, source-independent case calculations, frozen-rating validation, HTTP access boundaries and import/export behavior. Synthetic test fixtures are software inputs only and never enter the empirical tables.
-
-Native Stata syntax and Unicode DTA exports are included. Native Stata execution has not been verified. See [analysis/README.md](../analysis/README.md) and [factor_study.md](factor_study.md) for the cross-software checks.
-
-## Restore the original documents
-
-```sh
 python scripts/fetch_sources.py --check
 python scripts/fetch_sources.py --download
-```
-
-The source manifest lists recorded URLs and SHA-256 hashes. A download is accepted only when its bytes match the preserved source. Changed URLs, changed documents and blocked endpoints are reported as missing rather than silently substituted. Some review images have no public endpoint and can only be restored from the separate evidence archive.
-
-If the separately preserved archive is available:
-
-```sh
-python scripts/fetch_sources.py --archive /path/to/anchored-returns-sources.zip
-python -m src.research check
 python -m src.research check --full
-python -m pytest -q
 ```
 
-The full suite checks PDF fingerprints, excerpts, rendered-evidence records and historical artifacts, so it is intentionally more demanding than CI. Original PDFs and review images are not part of the Git upload. Source restoration does not create independent ratings or resolve missing benchmark periods.
+The original PDF manifest contains source URLs and fingerprints. A changed or unavailable source is reported, not silently substituted. Full historical application checks also need generated legacy bundles and exports. They are not the public CI contract. Independent ratings cannot be created by restoring files, and missing benchmark reports remain missing.
 
-`check --full` also extracts every page in the empirical manifest again and compares its text with the saved extraction. Paths are resolved from the repository, so the check works from other working directories after installation. The older `check --legacy` option is reserved for the original development workspace. It requires the parent `Energy Research Project.zip`, early milestone reports and their locked environment; those are separate from the public source archive.
+## Paper
 
-After restoring evidence, omit `--snapshot` to rebuild the document explorer when starting the local server.
-
-## Optional browser service build
-
-The `web/` directory contains the optional Worker adapter and a preserved release export. From that directory:
-
-```sh
-node scripts/build.mjs
-node --test tests/*.test.mjs
-node scripts/preview.mjs
-```
-
-The client and server build does not need hosting-account metadata. The host supplies its storage binding and deployment configuration. Original-source validation in `validate-release.mjs` requires the restored PDF files. Regenerating the release export requires the full document evidence and a checked analysis state.
-
-## Publication source
-
-`wordpress/` holds the portable research application bundle. `portfolio/` retains the previous publication fragments. The current Dartmouth WordPress theme is maintained outside this repository. Updating GitHub does not automatically publish changes to WordPress. See the [publication guide](dartmouth_portfolio.md).
+The [manuscript](../paper/manuscript.md) is the canonical narrative. Earlier findings are indexed in [reports](../reports/README.md). The paper includes the peer extension, recent-block timing review, two verified original-order examples and an assistance acknowledgment. The earlier 533-case estimates are retained in an appendix. A [Treasury comparison](../reports/treasury-comparison/README.md) compares the earlier and filing-date designs over a common recent period and on matched cases. Independent passage-coding agreement remains unmeasured.

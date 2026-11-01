@@ -1,0 +1,703 @@
+{
+  "schema": "anchored-returns-peer-study/1",
+  "date": "2026-10-30",
+  "status": "post-review extension",
+  "coverage": {
+    "eligible_prior": 1135,
+    "peer12_common": 1109,
+    "peer6_common": 1001,
+    "predictions": 568
+  },
+  "prior_peer_correlation": 0.9176798666100852,
+  "prediction_mae_bp": {
+    "prior": 31.82335680751174,
+    "market_prior": 33.090003230742596,
+    "with_request": 25.94204815863853,
+    "market_peer": 32.091805306326314
+  },
+  "coefficients": [
+    {
+      "model": "baseline_state",
+      "term": "known_prior",
+      "estimate": 0.25774716426220684,
+      "se": 0.03565291666606893,
+      "low": 0.1860621708027284,
+      "high": 0.32943215772168527,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state",
+      "term": "filing_treasury90",
+      "estimate": 0.3394593888625716,
+      "se": 0.027070306557099806,
+      "low": 0.2850308895993236,
+      "high": 0.3938878881258196,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state",
+      "term": "filing_inflation",
+      "estimate": -0.026797573971618943,
+      "se": 0.012315617312088956,
+      "low": -0.051559782200903716,
+      "high": -0.0020353657423341706,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state",
+      "term": "filing_unemployment",
+      "estimate": 0.034210729131760265,
+      "se": 0.01022813426621041,
+      "low": 0.013645686870470197,
+      "high": 0.05477577139305033,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state",
+      "term": "distribution",
+      "estimate": -0.25144970967153557,
+      "se": 0.09607680116316089,
+      "low": -0.4446250654915391,
+      "high": -0.05827435385153207,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state",
+      "term": "known_prior",
+      "estimate": 0.13897285559537004,
+      "se": 0.044345601498462714,
+      "low": 0.04981004787480768,
+      "high": 0.22813566331593238,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state",
+      "term": "filing_treasury90",
+      "estimate": 0.209193211222376,
+      "se": 0.03131702978655145,
+      "low": 0.14622610262798227,
+      "high": 0.2721603198167697,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state",
+      "term": "filing_inflation",
+      "estimate": -0.007577226646779442,
+      "se": 0.009159014042680725,
+      "low": -0.02599265862656174,
+      "high": 0.010838205333002855,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state",
+      "term": "filing_unemployment",
+      "estimate": 0.006876016559780762,
+      "se": 0.010328186285648022,
+      "low": -0.013890193769361063,
+      "high": 0.027642226888922587,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state",
+      "term": "distribution",
+      "estimate": -0.28690898541203746,
+      "se": 0.10960462607309004,
+      "low": -0.5072838561909994,
+      "high": -0.06653411463307551,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state",
+      "term": "peer12",
+      "estimate": 0.3534973362314928,
+      "se": 0.062220486418765535,
+      "low": 0.22839466360163638,
+      "high": 0.47860000886134924,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_trend",
+      "term": "known_prior",
+      "estimate": 0.263106602069234,
+      "se": 0.03533217549544035,
+      "low": 0.19206650195562244,
+      "high": 0.3341467021828455,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_trend",
+      "term": "filing_treasury90",
+      "estimate": 0.34539588404847776,
+      "se": 0.04492901693848742,
+      "low": 0.2550600409660671,
+      "high": 0.4357317271308884,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_trend",
+      "term": "filing_inflation",
+      "estimate": -0.028701499111099385,
+      "se": 0.014678859805223777,
+      "low": -0.05821532483777557,
+      "high": 0.0008123266155768034,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_trend",
+      "term": "filing_unemployment",
+      "estimate": 0.035202321275015436,
+      "se": 0.011571545057066104,
+      "low": 0.01193617058386345,
+      "high": 0.05846847196616742,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_trend",
+      "term": "distribution",
+      "estimate": -0.2582496325192287,
+      "se": 0.09387833896850116,
+      "low": -0.4470046838373265,
+      "high": -0.06949458120113092,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_trend",
+      "term": "known_prior",
+      "estimate": 0.15826992368494938,
+      "se": 0.042781075561652976,
+      "low": 0.0722528061921413,
+      "high": 0.24428704117775746,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_trend",
+      "term": "filing_treasury90",
+      "estimate": 0.23067642451960518,
+      "se": 0.03940500743775233,
+      "low": 0.15144734694081896,
+      "high": 0.3099055020983914,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_trend",
+      "term": "filing_inflation",
+      "estimate": -0.016353087099994376,
+      "se": 0.011042378221422325,
+      "low": -0.03855527655881895,
+      "high": 0.005849102358830197,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_trend",
+      "term": "filing_unemployment",
+      "estimate": 0.009998276634591963,
+      "se": 0.010479863741471297,
+      "low": -0.011072901659176154,
+      "high": 0.03106945492836008,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_trend",
+      "term": "distribution",
+      "estimate": -0.32695548826572873,
+      "se": 0.10430521121008268,
+      "low": -0.5366751713260576,
+      "high": -0.11723580520539983,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_trend",
+      "term": "peer12",
+      "estimate": 0.3830499336655162,
+      "se": 0.06878218324418549,
+      "low": 0.24475408532947782,
+      "high": 0.5213457820015546,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_year",
+      "term": "known_prior",
+      "estimate": 0.18067564474560707,
+      "se": 0.035853756913581884,
+      "low": 0.10858683490374924,
+      "high": 0.2527644545874649,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_year",
+      "term": "filing_treasury90",
+      "estimate": 0.12615207837434284,
+      "se": 0.0464584944523045,
+      "low": 0.03274101464164686,
+      "high": 0.2195631421070388,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_year",
+      "term": "filing_inflation",
+      "estimate": -0.018148300613047064,
+      "se": 0.014324295912979353,
+      "low": -0.04694922785417808,
+      "high": 0.010652626628083951,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_year",
+      "term": "filing_unemployment",
+      "estimate": -0.014315919799499977,
+      "se": 0.011527094514788798,
+      "low": -0.03749269668535396,
+      "high": 0.00886085708635401,
+      "variance_status": "available"
+    },
+    {
+      "model": "baseline_state_year",
+      "term": "distribution",
+      "estimate": -0.4322449385086422,
+      "se": 0.1156598246056258,
+      "low": -0.6647946019214358,
+      "high": -0.1996952750958486,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_year",
+      "term": "known_prior",
+      "estimate": 0.17812022151086038,
+      "se": 0.03618824777528389,
+      "low": 0.1053588727163568,
+      "high": 0.25088157030536395,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_year",
+      "term": "filing_treasury90",
+      "estimate": 0.11472254283551309,
+      "se": 0.04415323214883441,
+      "low": 0.025946519615614977,
+      "high": 0.2034985660554112,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_year",
+      "term": "filing_inflation",
+      "estimate": -0.01609646063673742,
+      "se": 0.01450831984288448,
+      "low": -0.04526739278757029,
+      "high": 0.013074471514095451,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_year",
+      "term": "filing_unemployment",
+      "estimate": -0.01612414554124797,
+      "se": 0.01200514694478552,
+      "low": -0.040262111258820094,
+      "high": 0.008013820176324151,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_year",
+      "term": "distribution",
+      "estimate": -0.43105021669589005,
+      "se": 0.11537948093334893,
+      "low": -0.6630362113771238,
+      "high": -0.19906422201465634,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_state_year",
+      "term": "peer12",
+      "estimate": 0.15410467493574043,
+      "se": 0.10517900995205269,
+      "low": -0.05737189824636171,
+      "high": 0.36558124811784254,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_row_state",
+      "term": "known_prior",
+      "estimate": 0.14133812763884784,
+      "se": 0.04408419411659021,
+      "low": 0.052700914686177894,
+      "high": 0.2299753405915178,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_row_state",
+      "term": "filing_treasury90",
+      "estimate": 0.2113425617828779,
+      "se": 0.03163351138573336,
+      "low": 0.14773912428502056,
+      "high": 0.27494599928073526,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_row_state",
+      "term": "filing_inflation",
+      "estimate": -0.009696950432599494,
+      "se": 0.009301416488867483,
+      "low": -0.0283987017202556,
+      "high": 0.009004800855056613,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_row_state",
+      "term": "filing_unemployment",
+      "estimate": 0.007006742907825603,
+      "se": 0.010371281532359075,
+      "low": -0.013846116222241859,
+      "high": 0.027859602037893064,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_row_state",
+      "term": "distribution",
+      "estimate": -0.2883459753437962,
+      "se": 0.10909260265704025,
+      "low": -0.507691354045731,
+      "high": -0.06900059664186142,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_row_state",
+      "term": "peer12_row",
+      "estimate": 0.34734658942896157,
+      "se": 0.061928728394187366,
+      "low": 0.2228305356241378,
+      "high": 0.47186264323378535,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_six_common",
+      "term": "known_prior",
+      "estimate": 0.14096587291393275,
+      "se": 0.04359786677083705,
+      "low": 0.053306486626217245,
+      "high": 0.22862525920164828,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_six_common",
+      "term": "filing_treasury90",
+      "estimate": 0.2160137997599731,
+      "se": 0.03329778978196911,
+      "low": 0.149064106272281,
+      "high": 0.2829634932476652,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_six_common",
+      "term": "filing_inflation",
+      "estimate": -0.008637862598591464,
+      "se": 0.009990129887337211,
+      "low": -0.02872436498325231,
+      "high": 0.011448639786069383,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_six_common",
+      "term": "filing_unemployment",
+      "estimate": 0.00830780859208935,
+      "se": 0.01061238214729349,
+      "low": -0.01302981581444982,
+      "high": 0.02964543299862852,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_six_common",
+      "term": "distribution",
+      "estimate": -0.25581592061912606,
+      "se": 0.12058597163710275,
+      "low": -0.4982702664745746,
+      "high": -0.013361574763677497,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer12_six_common",
+      "term": "peer12",
+      "estimate": 0.34592315706568266,
+      "se": 0.062063610484535334,
+      "low": 0.22113590464182423,
+      "high": 0.4707104094895411,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer6_six_common",
+      "term": "known_prior",
+      "estimate": 0.1467590371842722,
+      "se": 0.04380702875440818,
+      "low": 0.05867910254241494,
+      "high": 0.23483897182612945,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer6_six_common",
+      "term": "filing_treasury90",
+      "estimate": 0.19230711533489986,
+      "se": 0.03234140340683151,
+      "low": 0.12728036553477767,
+      "high": 0.25733386513502204,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer6_six_common",
+      "term": "filing_inflation",
+      "estimate": -0.008369818858673328,
+      "se": 0.009434589130865733,
+      "low": -0.027339331689095765,
+      "high": 0.010599693971749109,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer6_six_common",
+      "term": "filing_unemployment",
+      "estimate": 0.005504972646072082,
+      "se": 0.010036846111225338,
+      "low": -0.01467545900208319,
+      "high": 0.025685404294227353,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer6_six_common",
+      "term": "distribution",
+      "estimate": -0.2664938697921227,
+      "se": 0.11834615310217181,
+      "low": -0.5044447586504681,
+      "high": -0.028542980933777246,
+      "variance_status": "available"
+    },
+    {
+      "model": "peer6_six_common",
+      "term": "peer6",
+      "estimate": 0.38480616069774065,
+      "se": 0.06517392220809218,
+      "low": 0.2537652074154527,
+      "high": 0.5158471139800286,
+      "variance_status": "available"
+    }
+  ],
+  "models": [
+    {
+      "model": "baseline_state",
+      "n": 1109,
+      "states": 49,
+      "parameters": 54,
+      "r_squared": 0.9130464625830446,
+      "condition_number": 2457.765065171279,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution",
+      "effects": "state"
+    },
+    {
+      "model": "peer12_state",
+      "n": 1109,
+      "states": 49,
+      "parameters": 55,
+      "r_squared": 0.9218486301284092,
+      "condition_number": 3116.121439550151,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12",
+      "effects": "state"
+    },
+    {
+      "model": "baseline_state_trend",
+      "n": 1109,
+      "states": 49,
+      "parameters": 55,
+      "r_squared": 0.9130792966988427,
+      "condition_number": 4462.77729337947,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution",
+      "effects": "state_trend"
+    },
+    {
+      "model": "peer12_state_trend",
+      "n": 1109,
+      "states": 49,
+      "parameters": 56,
+      "r_squared": 0.922763551419007,
+      "condition_number": 4768.866599135068,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12",
+      "effects": "state_trend"
+    },
+    {
+      "model": "baseline_state_year",
+      "n": 1109,
+      "states": 49,
+      "parameters": 93,
+      "r_squared": 0.9404404084597097,
+      "condition_number": 2509.2053854153505,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution",
+      "effects": "state_year"
+    },
+    {
+      "model": "peer12_state_year",
+      "n": 1109,
+      "states": 49,
+      "parameters": 94,
+      "r_squared": 0.9406880858406482,
+      "condition_number": 3612.416427923168,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12",
+      "effects": "state_year"
+    },
+    {
+      "model": "peer12_row_state",
+      "n": 1109,
+      "states": 49,
+      "parameters": 55,
+      "r_squared": 0.9215576948281119,
+      "condition_number": 3117.029713083481,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12_row",
+      "effects": "state"
+    },
+    {
+      "model": "peer12_six_common",
+      "n": 1001,
+      "states": 49,
+      "parameters": 55,
+      "r_squared": 0.9274930991840856,
+      "condition_number": 4180.730468784257,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer12",
+      "effects": "state"
+    },
+    {
+      "model": "peer6_six_common",
+      "n": 1001,
+      "states": 49,
+      "parameters": 55,
+      "r_squared": 0.9288578351190468,
+      "condition_number": 4172.23890299894,
+      "features": "known_prior;filing_treasury90;filing_inflation;filing_unemployment;distribution;peer6",
+      "effects": "state"
+    }
+  ],
+  "prediction_blocks": [
+    {
+      "block": "2000-2004",
+      "training_n": 383,
+      "n": 58,
+      "status": "unavailable_training_design",
+      "reason": "Predictors must be finite and vary in the selected sample"
+    },
+    {
+      "block": "2005-2009",
+      "training_n": 427,
+      "n": 122,
+      "status": "available",
+      "mae": {
+        "prior": 41.16393442622951,
+        "market_prior": 33.60894068752215,
+        "with_request": 33.6769933588326,
+        "market_peer": 35.974414617179754
+      }
+    },
+    {
+      "block": "2010-2014",
+      "training_n": 530,
+      "n": 169,
+      "status": "available",
+      "mae": {
+        "prior": 35.376725838264306,
+        "market_prior": 33.82040415324207,
+        "with_request": 26.54186633459293,
+        "market_peer": 30.907169937501834
+      }
+    },
+    {
+      "block": "2015-2019",
+      "training_n": 721,
+      "n": 175,
+      "status": "available",
+      "mae": {
+        "prior": 27.645714285714284,
+        "market_prior": 29.18112742631673,
+        "with_request": 20.95086110728018,
+        "market_peer": 28.889811687709418
+      }
+    },
+    {
+      "block": "2020-2022",
+      "training_n": 876,
+      "n": 102,
+      "status": "available",
+      "mae": {
+        "prior": 21.931372549019606,
+        "market_prior": 37.965543820399546,
+        "with_request": 24.259941764792867,
+        "market_peer": 34.90429476382801
+      }
+    }
+  ],
+  "prediction_comparisons": [
+    {
+      "candidate": "market_peer",
+      "baseline": "prior",
+      "n": 568,
+      "term": "const",
+      "estimate": -0.26844849881457816,
+      "se": 3.0148734333118785,
+      "low": -6.337073964027168,
+      "high": 5.800176966398011,
+      "variance_status": "available"
+    },
+    {
+      "candidate": "market_peer",
+      "baseline": "market_prior",
+      "n": 568,
+      "term": "const",
+      "estimate": 0.998197924416279,
+      "se": 0.7022952718029183,
+      "low": -0.41544913733773947,
+      "high": 2.4118449861702973,
+      "variance_status": "available"
+    }
+  ],
+  "recent_filing_block": [
+    {
+      "selection": "all_2020_2022_filings",
+      "n": 102,
+      "decision_start": "2020-08-27",
+      "decision_end": "2024-04-18",
+      "mean_treasury_update_pp": 0.8357098498501067,
+      "mean_award_change_bp": -6.892156862745099,
+      "prior_mae_bp": 21.931372549019606,
+      "market_prior_mae_bp": 37.45466745714327,
+      "with_request_mae_bp": 24.43441455971917
+    },
+    {
+      "selection": "decided_before_2022_03_16",
+      "n": 43,
+      "decision_start": "2020-08-27",
+      "decision_end": "2022-02-23",
+      "mean_treasury_update_pp": 0.20534304289688524,
+      "mean_award_change_bp": -21.534883720930235,
+      "prior_mae_bp": 25.209302325581394,
+      "market_prior_mae_bp": 38.414340961335874,
+      "with_request_mae_bp": 27.12587655610091
+    },
+    {
+      "selection": "decided_on_or_after_2022_03_16",
+      "n": 59,
+      "decision_start": "2022-03-16",
+      "decision_end": "2024-04-18",
+      "mean_treasury_update_pp": 1.2951297261041497,
+      "mean_award_change_bp": 3.779661016949153,
+      "prior_mae_bp": 19.542372881355927,
+      "market_prior_mae_bp": 36.75524439476561,
+      "with_request_mae_bp": 22.472840562356197
+    }
+  ],
+  "recent_decision_years": {
+    "2020": 11,
+    "2021": 29,
+    "2022": 33,
+    "2023": 25,
+    "2024": 4
+  },
+  "inputs": {
+    "docs/research_review_2026-10-30.md": "2c70d695238d27397930a480df6741e9637bf7bb706c4dfe77458c2a89d6529a",
+    "src/peer_study.py": "2efc4025fc57e088611e763eff4372f82de6e28b7290ee03cdb8d697359f06f2",
+    "analysis/peer.R": "9cfa90b98a4a11263f265cf9b4741a102b8fe48debab050be5804d4268aff964",
+    "src/panel_models.py": "d7e2facd3048d49442376b1af77c127bc67ad43f7a9ac48688ff5fabacf7741f",
+    "src/filing_study.py": "c8631d09d07ec6435232d7fc27b12b8229f926487a916cf3e9ab77db38cc0e97",
+    "reports/filing-study/panel.csv": "993c3de7a112e6a7b011e75694928bd517e1f7d1867079dd0df79eeb981b9557",
+    "reports/filing-study/predictions.csv": "b2cae471e49a577b37b654b974e3048a84ea74b8a5c8924eecc3ef23e20560b5"
+  }
+}

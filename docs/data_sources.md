@@ -21,7 +21,7 @@ The EEI workbook's bytes were rechecked on October 26 against its recorded SHA-2
 
 The current document cohort contains 27 orders. The [cohort protocol](cohort_protocol_v0.1.5.md), [screening records](../data/research/sample_screening_v0.1.5.json) and [source catalog](../data/research/source_catalog.json) distinguish eligible orders, excluded records and supporting material. The cohort is a public-document study, not a completed census of all eligible six-state decisions.
 
-The source library includes original commission PDFs, public docket attachments and publisher reports. The [restoration manifest](../data/source_files.json) records each source file's URL, relative path and SHA-256 fingerprint. Large original PDFs and review images are restored separately; they are not required to run the included browser snapshot. See [source restoration](REPRODUCIBILITY.md#restore-the-original-documents).
+The source library includes original commission PDFs, public docket attachments and publisher reports. The [restoration manifest](../data/source_files.json) records each source file's URL, relative path and SHA-256 fingerprint. Large original PDFs and review images are restored separately; they are not required to run the included browser snapshot. See [source restoration](REPRODUCIBILITY.md#source-dependent-and-document-checks).
 
 Applications, draft minutes and municipal debt-coverage decisions are not reclassified as final equity-return orders. Numeric facts retain their document, page, role and units. The three completed first coding passes are separate from the numerical panel; independent coding agreement remains unmeasured.
 

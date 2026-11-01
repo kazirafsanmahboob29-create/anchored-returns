@@ -1,5 +1,7 @@
 # Market conditions and persistence in authorized utility returns
 
+Editorial revision October 30, 2026, after the results: presentation instructions and unsupported first-person authorship claims were removed. The empirical rules and recorded post-estimation changes are retained. Original fingerprints are listed in `editorial_changes.json`.
+
 Analysis specification recorded October 26, 2026, before estimating this extension. The earlier period comparisons were already known. This is an analysis plan, not a preregistration.
 
 ## Questions
@@ -36,7 +38,7 @@ Report Pearson and Spearman correlations with pairwise sample counts, and the ma
 * Add requested ROE in a separate complete-pair analysis, comparing models on the same restricted sample. The request is jointly determined with the proceeding; its coefficient is not a structural effect.
 * Difference successive observations within exact utility-state groups in the estimation window, with gaps no greater than ten years; report both pooled and year-adjusted change regressions.
 * Fit pooled market-and-case and prior-award-augmented models using 2010–2019 only. Evaluate on complete 2020–2024 rows against the training mean and last-observed-award baselines. Report MAE and RMSE in basis points, including negative improvements. This is a single temporal holdout, with no hyperparameter search.
-* Recalculate core coefficients and correlations in native R from the exported panel and compare numerically with Python. Supply native Stata syntax without claiming Stata execution.
+* Recalculate core coefficients and correlations in native R from the exported panel and compare numerically with Python. Native Stata execution is unverified; the syntax is a replication specification.
 
 ## Data refresh and publication
 
