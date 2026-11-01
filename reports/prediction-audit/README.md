@@ -1,5 +1,7 @@
 # Prediction evaluation
 
+Earlier analysis. The [current working paper](../../paper/manuscript.md) consolidates the question and findings. Source-dependent tables named below are generated locally after obtaining the EEI workbook; they are excluded from the current public package.
+
 Kazi Rafsan Mahboob · October 28, 2026
 
 I evaluate the 188 saved predictions for decisions in 2020-2024. The models were fitted on 2010-2019 data. This extension measures error, uncertainty and stability without refitting the models or choosing a favorable evaluation sample.
@@ -46,7 +48,7 @@ The evaluation is retrospective and uses revised economic histories. The study c
 ## Files and reproduction
 
 - [summary.json](summary.json): coverage, metrics, paired intervals and weighting checks.
-- [paired_predictions.csv](paired_predictions.csv): the same 188 source-linked observations, predictions and losses.
+- `paired_predictions.csv`: the same 188 source-linked observations, predictions and losses.
 - [annual.csv](annual.csv) and [case_types.csv](case_types.csv): all four prediction rules with their denominators.
 - [leave_one_state_out.csv](leave_one_state_out.csv): the complete influence check.
 - [python_checks.csv](python_checks.csv) and [r-crosscheck.csv](r-crosscheck.csv): 12 numerical comparisons.

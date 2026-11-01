@@ -1,39 +1,37 @@
-# Documentation
+# Methods and research records
 
-## Start here
+Start with the [paper](../paper/manuscript.md) for the argument and the [results index](../reports/README.md) for its supporting exhibits.
 
-- [Requests and decisions](filing_study.md): the current stage decomposition, filing chronology and case explorer.
-- [Filing-stage analysis plan](filing_analysis_plan_2026-10-30.md): initial specifications and later diagnostic decisions.
-- [Version 0.4.0 audit](filing_audit_2026-10-30.md): numerical checks and browser verification.
-- [Historical expansion](expanded_study.md): the current 759-observation study, reusable NumPy tools and region explorer.
-- [Expanded sources](expanded_sources.md): longer financial histories, state unemployment and Census geography.
-- [Version 0.3.0 validation](expanded_audit_2026-10-28.md): source, numerical and replication checks for the extension.
-- [Reproduction](REPRODUCIBILITY.md): installation, the included snapshot, numerical rebuilds and source restoration.
-- [Factor study](factor_study.md): the main panel, estimates, prediction comparison and limits of interpretation.
-- [Prediction evaluation](prediction_evaluation.md): paired errors, uncertainty, annual stability and baseline comparisons.
-- [Project hierarchy](ARCHITECTURE.md): the input, analysis, output and interface layers.
-- [Data dictionary](DATA_DICTIONARY.md): variables, units and missing-value rules.
-- [Source inventory](data_sources.md): data providers, original records and access status.
-- [Using the workbench](USAGE.md): selections, models, evidence and exports.
-- [Published files](../reports/README.md): results and dated release manifests.
-- [Version 0.2.2 audit](audit_2026-10-28.md): earlier validation results and portability fixes.
+## Current methods
 
-## Research methods
+| Guide | Purpose |
+|---|---|
+| [Reproduction](REPRODUCIBILITY.md) | Installation, data acquisition and the main build commands |
+| [Project structure](ARCHITECTURE.md) | The code and data paths behind the current analyses |
+| [Filing-stage methods](filing_study.md) | Requests, decisions, information timing and prediction |
+| [Model guide](model_guide.md) | Plain-language explanations of controls, uncertainty and prediction error |
+| [Comparison fields](comparability_fields.md) | Original-order measures, units, scope and evidence requirements |
+| [Data dictionary](DATA_DICTIONARY.md) | Variables used across the project |
+| [Source inventory](data_sources.md) | Data providers and access routes |
+| [Source rights](DATA_RIGHTS.md) | Redistribution decisions and source acquisition |
 
-- [Historical expansion plan](expanded_analysis_plan_2026-10-28.md)
-- [Analysis specification](factor_analysis_plan_v0.1.0.md)
-- [National electric study](national_study.md)
-- [Regional expansion](regional_expansion.md)
-- [Benchmark reconstruction](benchmark_reconstruction.md)
-- [Reliability workflow](reliability_workflow.md)
-- [Source rights](DATA_RIGHTS.md)
+## Dated analysis records
 
-## Dated records
+- [Filing-stage analysis plan](filing_analysis_plan_2026-10-30.md)
+- [Research review and peer-extension plan](research_review_2026-10-30.md)
+- [Treasury comparison plan](treasury_comparison_plan_2026-10-30.md)
+- [Original-order comparison design](comparability_plan_2026-10-31.md)
 
-The empirical and cohort protocols describe decisions made at earlier stages of the project. They retain the original sample targets, coding provenance and date cutoffs. A historical target should not be read as the size or completion status of the current study. Use the root README and the corresponding report manifest for current coverage.
+These records preserve when questions, selection rules and follow-up analyses were specified. The October 31 pilot includes cases already examined during earlier work.
 
-The [publication guide](dartmouth_portfolio.md) distinguishes the current Dartmouth portfolio from earlier Journeys page fragments. The portfolio theme is maintained outside this research repository. Some original documents still use their recorded Journeys media URLs.
+## Earlier methods and tools
 
-## Check documentation links
+[Historical expansion](expanded_study.md) · [Factor models](factor_study.md) · [Prediction audit](prediction_evaluation.md) · [National study](national_study.md) · [Regional collection](regional_expansion.md) · [Benchmark reconstruction](benchmark_reconstruction.md) · [Passage reliability](reliability_workflow.md)
 
-Run `python -m scripts.check_links` from the repository root. It checks relative Markdown links, images and heading fragments in the maintained documentation. CI runs this check on pull requests and main-branch updates. Network checks are explicit: `python -m scripts.check_links --external --output /tmp/anchored-returns-links.json`. A blocked request is reported separately from a missing page. API examples and local server addresses are not public-page health checks. `--include-export` also inspects the copied documentation in the frozen service export; its historical paths are outside the maintained documentation check.
+The [workbench guide](USAGE.md) covers earlier evidence tools. The [publication guide](dartmouth_portfolio.md) records the optional website components. Historical sample targets and publication versions retain their original dates and definitions.
+
+## Validation records
+
+[Version 0.4.0](filing_audit_2026-10-30.md) · [Version 0.3.0](expanded_audit_2026-10-28.md) · [Version 0.2.2](audit_2026-10-28.md)
+
+Run `python -m scripts.check_links` to check maintained Markdown paths and anchors. Add `--external` to request public links; restricted portals and missing pages are reported separately. The current source package is checked with `python -m scripts.check_public_release`.

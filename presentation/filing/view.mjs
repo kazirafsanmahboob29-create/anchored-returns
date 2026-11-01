@@ -48,10 +48,16 @@ function populateTable(rows) {
   $('table-note').textContent=`Showing the latest ${Math.min(rows.length,50)} of ${rows.length.toLocaleString()} selected cases. The CSV includes every selected row and the docket.`;
 }
 
+for(const id of ['start','end','region','query']) $(id).disabled=true;
 try {
   const responses=await Promise.all(['cases.json','study.json'].map(name=>fetch('../reports/filing-study/'+name)));
-  if(responses.some(r=>!r.ok)) throw new Error('The published data files could not be loaded. Start the local research server and reload this page.');
-  const [data,study]=await Promise.all(responses.map(r=>r.json()));
+  if(!responses[1].ok) throw new Error('The saved study summary could not be loaded. Serve this folder over local HTTP.');
+  const study=await responses[1].json();
+  const model=study.prediction_metrics.find(r=>r.rule==='with_request');
+  const prior=study.prediction_metrics.find(r=>r.rule==='prior');
+  $('result').textContent=`In ${model.n} filing-stage comparisons, the model using the request has an average absolute error of ${number(model.mae_bp)} basis points. Carrying forward the known prior award gives ${number(prior.mae_bp)}. The detailed study reports the uncertainty and results for every evaluation block.`;
+  if(!responses[0].ok) throw new Error('Local case data are not installed. Obtain the EEI workbook and follow the data and reproduction guide, then reload this page.');
+  const data=await responses[0].json();
   if(data.schema!=='anchored-returns-filing-study/1' || !Array.isArray(data.cases)) throw new Error('Unrecognized research export.');
   for(const row of data.cases) if(!Number.isFinite(row.request_bp)||!Number.isFinite(row.award_bp)) throw new Error('Incomplete numeric case in the published export.');
   for(const id of ['start','end']) for(let year=1980;year<=2024;year++) {
@@ -59,9 +65,7 @@ try {
     $(id).append(option);
   }
   $('start').value='1980'; $('end').value='2024';
-  const model=study.prediction_metrics.find(r=>r.rule==='with_request');
-  const prior=study.prediction_metrics.find(r=>r.rule==='prior');
-  $('result').textContent=`In ${model.n} filing-stage comparisons, the model using the request has an average absolute error of ${number(model.mae_bp)} basis points. Carrying forward the known prior award gives ${number(prior.mae_bp)}. The detailed study reports the uncertainty and results for every evaluation block.`;
+  for(const id of ['start','end','region','query']) $(id).disabled=false;
   let selected=[];
   function update() {
     try {

@@ -1,5 +1,7 @@
 # Historical expansion: methods and tools
 
+Earlier analysis. The [current working paper](../paper/manuscript.md) consolidates the question and findings. Source-dependent tables named below are generated locally after obtaining the EEI workbook; they are excluded from the current public package.
+
 Kazi Rafsan Mahboob · October 28, 2026
 
 The extension examines 1995–2024 using a longer history of EEI cases and economic conditions. I retain the original 2010–2024 study as a separate release and verify that its 533 case IDs remain in the common-period sample. The new primary sample contains 759 complete observations across 48 jurisdictions and 147 utility-state labels. The [analysis plan](expanded_analysis_plan_2026-10-28.md) distinguishes the initial specifications from diagnostics added after the first estimates.

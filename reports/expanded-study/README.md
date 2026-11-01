@@ -1,5 +1,7 @@
 # Historical Persistence and Regional Adjustment in Authorized Utility Returns
 
+Earlier analysis. The [current working paper](../../paper/manuscript.md) consolidates the question and findings. Source-dependent tables named below are generated locally after obtaining the EEI workbook; they are excluded from the current public package.
+
 Kazi Rafsan Mahboob · October 28, 2026
 
 I extend the numerical study to 1995–2024 and ask whether persistence in utility returns survives a longer history, local economic controls and repeated prediction tests. The main sample increases from 533 to **759 complete observations**, a **42.4% increase**. It covers 48 jurisdictions, 147 utility-state labels and 117 authorization quarters. A separate 1985–2024 specification uses **1,141 observations** without financial stress, whose source history starts later.
@@ -82,11 +84,11 @@ Authorized ROE is an allowed earnings opportunity, not a realized investor retur
 ## Data, code and checks
 
 - [Study JSON](study.json), [coefficients](coefficients.csv) and [model coverage](model_coverage.csv).
-- [Complete panel and inclusion flags](panel.csv), [main estimation CSV](estimation.csv), [change panel](changes.csv) and [longer-window panel](long.csv).
-- [Stata main dataset](estimation.dta), [change dataset](changes.dta), [longer dataset](long.dta) and [full panel](panel.dta).
-- [Predictions](predictions.csv), [region counts](regions.csv), [annual counts](annual.csv) and [specifications](model_specs.csv).
+- `panel.csv`, `estimation.csv`, `changes.csv` and `long.csv`.
+- `estimation.dta`, `changes.dta`, `long.dta` and `panel.dta`.
+- `predictions.csv`, [region counts](regions.csv), [annual counts](annual.csv) and [specifications](model_specs.csv).
 - [Covariance sensitivity](covariance_sensitivity.csv), [joint tests](joint_test_sensitivity.csv), [regional slopes](regional_slopes.csv) and [state omissions](state_influence.csv).
-- [R coefficient check](r-crosscheck.csv), [R prediction check](r-predictions.csv), [R covariance check](r-covariance.csv), [R joint tests](r-joint-tests.csv), [R slopes](r-regional-slopes.csv) and [R figure](r-history.png).
+- [R coefficient check](r-crosscheck.csv), `r-predictions.csv`, [R covariance check](r-covariance.csv), [R joint tests](r-joint-tests.csv), [R slopes](r-regional-slopes.csv) and [R figure](r-history.png).
 - [Join benchmark](join-benchmark.json) and [artifact fingerprints](manifest.json).
 
 Base R independently reconstructs all 15 model designs and the rolling predictions. NumPy coefficients and covariance are also tested against statsmodels. The Stata datasets preserve their source IDs and numeric values on round-trip checks; native Stata execution remains unverified.

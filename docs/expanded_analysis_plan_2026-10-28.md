@@ -1,8 +1,10 @@
 # Historical expansion and award adjustment
 
+Editorial revision October 30, 2026, after the results: presentation instructions and unsupported first-person authorship claims were removed. The empirical rules and recorded post-estimation changes are retained. Original fingerprints are listed in `editorial_changes.json`.
+
 Kazi Rafsan Mahboob · October 28, 2026
 
-I set out this extension before estimating its new models. The October 26 study and October 28 prediction audit remain fixed. This extension uses additional historical cases from the same EEI workbook, longer economic histories and a new state-level variable. It is a planned extension of an existing investigation, not a preregistered study.
+This AI-assisted extension specification was recorded before estimating its models. The October 26 study and October 28 prediction audit remain fixed. This extension uses additional historical cases from the same EEI workbook, longer economic histories and a new state-level variable. It is a planned extension of an existing investigation, not a preregistered study.
 
 ## Questions
 
@@ -32,7 +34,7 @@ Estimate the original market-and-case and prior-award specifications on a common
 
 For award changes, regress current minus prior ROE on changes in Treasury yields, the yield curve, inflation, financial stress and state unemployment, with the interval between awards and the distribution-case indicator. Report pooled and state/year versions. Replace the Treasury change with its positive and negative parts for an asymmetry specification and test equality of their slopes. Report a four-region interaction model and its joint test, without selecting regions according to their results.
 
-Use ordinary least squares, check design rank and numerical conditioning, and calculate state plus authorization-quarter cluster covariance minus the intersection covariance. Apply finite-sample corrections and t intervals using the smaller cluster count minus one. These remain approximate observational intervals. Report unavailable negative-variance intervals explicitly. Cross-check coefficients and covariance in statsmodels and base R. Provide Stata syntax and round-trip checked DTA files without claiming native Stata execution.
+Use ordinary least squares, check design rank and numerical conditioning, and calculate state plus authorization-quarter cluster covariance minus the intersection covariance. Apply finite-sample corrections and t intervals using the smaller cluster count minus one. These remain approximate observational intervals. Report unavailable negative-variance intervals explicitly. Cross-check coefficients and covariance in statsmodels and base R. Stata syntax and locally generated DTA files support replication; native Stata execution is unverified.
 
 ## Prediction and sensitivity
 

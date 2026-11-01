@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {parseSeries,retrieveFactors,saveFactors,readFactors} from '../worker/factors.js';
-const base=new URL('../research-release/public/data/external/factor_research_2026-10-26/',import.meta.url);
+const base=new URL('../../data/external/factor_research_2026-10-26/',import.meta.url);
 const raws=Object.fromEntries(['DGS10','T10Y3M','CPIAUCNS','STLFSI4'].map(name=>[name,fs.readFileSync(new URL(name+'_2008_present.csv',base),'utf8')]));
 test('validated real source histories retain missing months and reject changed identities or order',()=>{for(const [name,raw]of Object.entries(raws))assert.ok(parseSeries(raw,name).length>190);assert.equal(parseSeries(raws.CPIAUCNS,'CPIAUCNS').find(r=>r.date==='2025-10-01').value,null);assert.throws(()=>parseSeries(raws.DGS10,'T10Y3M'),/identity/);assert.throws(()=>parseSeries(raws.DGS10.replace('2008-01-03','2008-01-02'),'DGS10'),/date/);assert.throws(()=>parseSeries('<html>maintenance</html>','DGS10'),/identity/);});
 function transport(mismatch=false){return async(url,options)=>{if(url.startsWith('https://fred.'))return new Response(raws[new URL(url).searchParams.get('id')]);const query=JSON.parse(options.body),cpi=parseSeries(raws.CPIAUCNS,'CPIAUCNS').filter(r=>r.date.slice(0,4)>=query.startyear&&r.date.slice(0,4)<=query.endyear);return Response.json({status:'REQUEST_SUCCEEDED',Results:{series:[{seriesID:'CUUR0000SA0',data:cpi.map((r,i)=>({year:r.date.slice(0,4),period:'M'+r.date.slice(5,7),value:r.value===null?'-':String(r.value+(mismatch&&i===0?1:0))}))}]}});};}

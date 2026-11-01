@@ -488,7 +488,7 @@ def figures(frame, summary, output):
     fig, ax = plt.subplots(figsize=(10, 4.2))
     styles = (
         ("prior", "Known prior", "#aaaaaa"),
-        ("request_adjusted", "Request + historical gap", "#5e7a6a"),
+        ("market_prior", "Market and prior model", "#5e7a6a"),
         ("with_request", "Model with request", "#222222"),
     )
     positions = np.arange(len(blocks))

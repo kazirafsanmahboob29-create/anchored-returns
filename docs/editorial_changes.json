@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-30",
+  "revisions": [
+    {
+      "path": "docs/filing_analysis_plan_2026-10-30.md",
+      "prior_sha256": "74cff298936efb0c17df1650c0af50235ccb89b34f1800f0e0d214e96e5ff103",
+      "prior_commit": "46c250dcc70848de18c84d87c067a0529bbcd481",
+      "changes": "Editorial clarification of assistance, authorship and execution status; removal of layout instructions; no numerical rules changed"
+    },
+    {
+      "path": "docs/expanded_analysis_plan_2026-10-28.md",
+      "prior_sha256": "ddfaddf12a82c8342c965f70e8d445a4a1c1e6912e06118fbd972d45c7695587",
+      "prior_commit": "46c250dcc70848de18c84d87c067a0529bbcd481",
+      "changes": "Editorial clarification of assistance, authorship and execution status; removal of layout instructions; no numerical rules changed"
+    },
+    {
+      "path": "docs/factor_analysis_plan_v0.1.0.md",
+      "prior_sha256": "e853fa12b1aeb9b6f1cf4611311f0f11872c33f9dfde12c73f0cab9c1642e05a",
+      "prior_commit": "46c250dcc70848de18c84d87c067a0529bbcd481",
+      "changes": "Editorial clarification of assistance, authorship and execution status; removal of layout instructions; no numerical rules changed"
+    }
+  ]
+}

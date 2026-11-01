@@ -1,5 +1,7 @@
 # Portfolio case study
 
+Earlier analysis. The [current working paper](../paper/manuscript.md) consolidates the question and findings. Source-dependent tables named below are generated locally after obtaining the EEI workbook; they are excluded from the current public package.
+
 Title: Market Conditions and Persistence in Authorized Utility Returns
 
 I investigate how authorized utility returns relate to financial conditions and earlier awards. The complete panel contains 533 observations in 2010–2024. The workbench recalculates correlations and panel regressions, accepts verified economic refreshes, and exports a reproducible calculation record.
