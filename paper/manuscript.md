@@ -237,4 +237,4 @@ Rode, David C., and Paul S. Fischbeck. 2019. Regulated equity returns: A puzzle.
 
 Python produces the estimates, and R scripts reproduce the numerical comparisons using the same prepared inputs. Code and source information: https://github.com/kazirafsanmahboob29-create/anchored-returns. The accompanying reproduction package links to the EEI source and excludes the publisher's workbook and case-level extracts pending redistribution permission.
 
-My interest in grid investment and my initial expectation about market conditions set the question for this project. I used OpenAI's Codex for study-design suggestions, source acquisition and processing, programming, numerical checks, and substantial drafting and editing assistance.
+My interest in grid investment and my initial expectation about market conditions set the question for this project. I used OpenAI's Codex for study-design, source acquisition and processing, programming, numerical checks, and editing assistance.
