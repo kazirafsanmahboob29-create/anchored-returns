@@ -1,11 +1,15 @@
 """The prediction comparison must preserve rows, units and source identity."""
 
 
+import json
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import pytest
 
-from src.prediction_audit import build, joined_predictions
+from src.factor_study import package
+from src.prediction_audit import build, comparison, joined_predictions, load_inputs
 
 
 def example():
@@ -67,3 +71,31 @@ def test_nonfinite_predictions_and_nonempty_destinations_are_refused(tmp_path):
     (tmp_path / "original.txt").write_text("Keep this file")
     with pytest.raises(ValueError, match="empty output"):
         build(output=tmp_path)
+
+
+def test_real_saved_prediction_comparison(tmp_path):
+    root = Path(__file__).resolve().parents[1]
+    factor = Path("reports/factor-study")
+    generated = ("study.json", "holdout.csv", "estimation.csv", "coefficients.csv")
+    if not all((root / factor / name).is_file() for name in generated):
+        pytest.skip("Run python -m scripts.reproduce_filing with the local EEI workbook first")
+
+    # Fingerprint this rebuild in isolation. The tracked archive keeps its original hashes.
+    study = json.loads((root / factor / "study.json").read_text())
+    inputs = [Path(name) for name in study["input_sha256"]]
+    inputs.extend(factor / name for name in (*generated, "r-crosscheck.csv"))
+    for path in inputs:
+        target = tmp_path / path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.symlink_to(root / path)
+    package(tmp_path)
+    frame = load_inputs(tmp_path)
+    result = comparison(frame)
+    assert (result["n"], result["states"], result["quarters"]) == (188, 42, 20)
+    assert result["improvement_bp"] == pytest.approx(0.908849383674961, abs=1e-10)
+    assert result["se_bp"] == pytest.approx(1.4286351725369446, abs=1e-10)
+    assert result["low_bp"] < 0 < result["high_bp"]
+    assert (result["candidate_wins"], result["reference_wins"], result["ties"]) == (86, 102, 0)
+    frame["state"] = "One group"
+    with pytest.raises(ValueError, match="two states"):
+        comparison(frame)
