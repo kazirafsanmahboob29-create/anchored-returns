@@ -163,7 +163,7 @@ def main():
     parser.add_argument(
         "--include-export",
         action="store_true",
-        help="Also inspect copied documentation in the frozen service export",
+        help="Include web/research-release documentation if present",
     )
     parser.add_argument("--output", type=Path, help="Save the complete JSON report")
     args = parser.parse_args()

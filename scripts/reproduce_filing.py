@@ -1,4 +1,4 @@
-"""Rebuild local EEI-derived inputs before the current filing and peer studies."""
+"""Rebuild the local factor, historical, filing and peer tables from the EEI workbook."""
 
 import argparse
 import subprocess
@@ -9,7 +9,7 @@ from src.filing_study import ROOT
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--with-r", action="store_true", help="Also run native R comparisons")
+    parser.add_argument("--with-r", action="store_true", help="Also run the filing and peer comparisons with Rscript")
     args = parser.parse_args()
     source = ROOT / "data/external/eei/eei_rate_review_2025_q3.xlsx"
     if not source.is_file():

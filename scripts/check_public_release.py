@@ -1,4 +1,4 @@
-"""Check the distributable source tree and run tests that need no EEI rows."""
+"""Check the distributable source tree and run pytest. Local-only tests skip when their inputs are absent."""
 
 import json
 import subprocess
