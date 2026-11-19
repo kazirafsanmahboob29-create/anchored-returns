@@ -1,0 +1,191 @@
+{
+  "version": "0.1.2",
+  "template_sha256": "95c7da49994fc09d16791e38b2956aca28efd38394ca4c921008ef8160e85cc0",
+  "case_headers": [
+    "case_id",
+    "sample_status",
+    "state",
+    "commission",
+    "docket",
+    "utility",
+    "service",
+    "segment",
+    "decision_type",
+    "open_meeting_date",
+    "order_date",
+    "order_url",
+    "roe_section_pages",
+    "requested_roe_initial",
+    "requested_roe",
+    "utility_witness_low",
+    "utility_witness_high",
+    "staff_rec",
+    "advocate_rec",
+    "other_intervenor_rec",
+    "alj_rec",
+    "commission_range_low",
+    "commission_range_high",
+    "awarded_roe",
+    "perf_adjustment_bp",
+    "prior_authorized_roe",
+    "prior_order_date",
+    "ust10_at_prior_order",
+    "nat_avg_cited_in_order",
+    "nat_avg_value_cited",
+    "nat_avg_benchmark",
+    "ust10_at_order",
+    "equity_ratio_awarded",
+    "statutory_peer_mandate",
+    "decisive_rationale",
+    "conclusory_flag",
+    "commissioner_selection",
+    "coder",
+    "date_coded",
+    "minutes_spent",
+    "sources_notes",
+    "record_midpoint",
+    "split_position",
+    "dist_to_midpoint",
+    "dist_to_nat_avg",
+    "closer_to",
+    "change_vs_prior",
+    "premium_over_ust10",
+    "awarded_roe_final",
+    "position_in_range",
+    "dist_to_prior",
+    "dist_to_alj",
+    "nearest_reference",
+    "months_since_prior",
+    "delta_ust10_since_prior",
+    "request_revision",
+    "rate_regime"
+  ],
+  "passage_headers": [
+    "passage_id",
+    "case_id",
+    "page_para",
+    "section",
+    "excerpt",
+    "MKT",
+    "method",
+    "PEER",
+    "OWN",
+    "GRAD",
+    "LAW",
+    "CAP",
+    "RISK",
+    "AFF",
+    "PERF",
+    "DEF",
+    "CONC",
+    "primary_code",
+    "stance",
+    "coder",
+    "notes"
+  ],
+  "reliability_headers": [
+    "passage_id",
+    "code",
+    "coding_A",
+    "coding_B"
+  ],
+  "lists": {
+    "State": [
+      "CT",
+      "MA",
+      "ME",
+      "NH",
+      "RI",
+      "VT"
+    ],
+    "Service": [
+      "Electric",
+      "Gas",
+      "Combined"
+    ],
+    "Segment": [
+      "Distribution",
+      "Vertically integrated",
+      "Transmission",
+      "Gas LDC"
+    ],
+    "Decision": [
+      "Fully litigated",
+      "Partial settlement",
+      "Full settlement"
+    ],
+    "YN": [
+      "Y",
+      "N"
+    ],
+    "Selection": [
+      "Appointed",
+      "Elected"
+    ],
+    "Section": [
+      "Positions of parties",
+      "ALJ recommendation",
+      "Commission analysis",
+      "Other"
+    ],
+    "Stance": [
+      "Relied on",
+      "Considered",
+      "Rejected",
+      "Summarized only"
+    ],
+    "Method": [
+      "DCF",
+      "CAPM/ECAPM",
+      "Risk premium",
+      "Expected earnings",
+      "Multiple",
+      "Unspecified",
+      "n.a."
+    ],
+    "Code": [
+      "MKT",
+      "PEER",
+      "OWN",
+      "GRAD",
+      "LAW",
+      "CAP",
+      "RISK",
+      "AFF",
+      "PERF",
+      "DEF",
+      "CONC"
+    ],
+    "Binary": [
+      0,
+      1
+    ],
+    "SampleStatus": [
+      "Sample",
+      "Included by design",
+      "Substitute (settled)"
+    ]
+  },
+  "example_signatures": {
+    "Cases": "a03c6065a6152bac6445a2777d386194a27718fdc36e2e9154371bfc20086450",
+    "Passages": "6a295df21ff00a7c6def30ec7fe0a35e7468a1a162186463c93ad8963ca7d3ad"
+  },
+  "case_formulas": {
+    "AP2": "=IF(COUNT(O2,R2:T2)=0,\"\",AVERAGE(O2,R2:T2))",
+    "AQ2": "=IF(OR(X2=\"\",O2=\"\",S2=\"\",O2=S2),\"\",(X2-S2)/(O2-S2))",
+    "AR2": "=IF(OR(X2=\"\",AP2=\"\"),\"\",ABS(X2-AP2))",
+    "AS2": "=IF(OR(X2=\"\",AE2=\"\"),\"\",ABS(X2-AE2))",
+    "AT2": "=IF(OR(AR2=\"\",AS2=\"\"),\"\",IF(AS2<AR2,\"National avg\",IF(AR2<AS2,\"Record midpoint\",\"Tie\")))",
+    "AU2": "=IF(OR(X2=\"\",Z2=\"\"),\"\",X2-Z2)",
+    "AV2": "=IF(OR(X2=\"\",AF2=\"\"),\"\",X2-AF2)",
+    "AW2": "=IF(X2=\"\",\"\",X2+IF(Y2=\"\",0,Y2)/10000)",
+    "AX2": "=IF(OR(X2=\"\",V2=\"\",W2=\"\",W2=V2),\"\",(X2-V2)/(W2-V2))",
+    "AY2": "=IF(OR(X2=\"\",Z2=\"\"),\"\",ABS(X2-Z2))",
+    "AZ2": "=IF(OR(X2=\"\",U2=\"\"),\"\",ABS(X2-U2))",
+    "BA2": "=IF(COUNT(AR2,AS2,AY2,AZ2)<2,\"\",IF(AR2=MIN(AR2,AS2,AY2,AZ2),\"Record midpoint\",IF(AS2=MIN(AR2,AS2,AY2,AZ2),\"National avg\",IF(AY2=MIN(AR2,AS2,AY2,AZ2),\"Prior award\",\"ALJ\"))))",
+    "BB2": "=IF(OR(K2=\"\",AA2=\"\"),\"\",(K2-AA2)/30.4375)",
+    "BC2": "=IF(OR(AF2=\"\",AB2=\"\"),\"\",AF2-AB2)",
+    "BD2": "=IF(OR(O2=\"\",N2=\"\"),\"\",O2-N2)",
+    "BE2": "=IF(K2=\"\",\"\",IF(K2<DATE(2022,1,1),\"Pre (2019-21)\",IF(K2<DATE(2023,1,1),\"Transition (2022)\",\"Post (2023-)\")))"
+  }
+}
