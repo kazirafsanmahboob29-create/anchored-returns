@@ -65,8 +65,8 @@ Earlier analyses and optional publication components are indexed in the [project
 
 ## Interpretation
 
-The estimates describe historical associations and retrospective prediction. Revised economic histories and incomplete request-amendment dates affect comparisons with information available in real time. The paper explains these issues, model uncertainty and the scope of the original-order sample in its concluding limitations section. R checks have been run; Stata specifications are supplied for replication. Independent human passage agreement remains a separate unfinished task.
+The estimates describe historical associations and retrospective prediction. Revised economic histories and incomplete request-amendment dates affect comparisons with information available in real time. The paper explains these issues, model uncertainty and the scope of the original-order sample in its concluding limitations section. R checks have been run; Stata specifications are supplied for replication.
 
 ## Research assistance
 
-I used OpenAI's Codex for substantial help with research-design suggestions, source processing, programming, numerical checks and drafting. My interest in grid investment and initial expectation about market conditions motivated the question. The [paper](paper/manuscript.md#research-materials-and-assistance) records that assistance; the repository preserves the sources, analytical choices and coding provenance.
+I used OpenAI's Codex for source processing, programming, numerical checks and drafting. My interest in grid investment and initial expectation about market conditions motivated the question. The [paper](paper/manuscript.md#research-materials-and-assistance) records that assistance; the repository preserves the sources, analytical choices and coding provenance.
