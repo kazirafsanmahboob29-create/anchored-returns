@@ -1,0 +1,389 @@
+{
+  "schema": "anchored-returns-comparability-pilot/1",
+  "date": "2026-10-31",
+  "status": "phase1_design_fixed",
+  "protocol": "docs/comparability_plan_2026-10-31.md",
+  "decision_window": {
+    "from": "2015-01-01",
+    "through": "2024-12-31"
+  },
+  "states": [
+    "CT",
+    "MA",
+    "ME",
+    "NH",
+    "NY",
+    "PA"
+  ],
+  "selection": "Purposive development pilot; all selected cases retained for coverage, including unavailable or undisclosed fields.",
+  "frame_complete": false,
+  "new_estimates_calculated": false,
+  "members": [
+    {
+      "proceeding_id": "CT-16-06-04",
+      "decision_group_id": "CT-16-06-04",
+      "state": "CT",
+      "dockets": [
+        "16-06-04"
+      ],
+      "utilities_to_match": [
+        "The United Illuminating Company"
+      ],
+      "decision_date": "2016-12-14",
+      "decision_date_basis": "locating_record_pending_original",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Earlier case for the same utility as CT 22-08-08; permits a repeat-utility comparison.",
+      "source_ids": [
+        "LOCATOR-CT-16-06-04"
+      ],
+      "source_status": "official_crossreference_order_not_obtained",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Identity and disposition information inspected during Phase 1 search; possible overlap with historical publisher data. Development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "CT-22-08-08",
+      "decision_group_id": "CT-22-08-08",
+      "state": "CT",
+      "dockets": [
+        "22-08-08"
+      ],
+      "utilities_to_match": [
+        "The United Illuminating Company"
+      ],
+      "decision_date": "2023-08-25",
+      "decision_date_basis": "original_order_identity_page",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Repeat-utility comparison with its earlier rate case; previously examined performance adjustment.",
+      "source_ids": [
+        "CAND-CT-22-08-08"
+      ],
+      "source_status": "original_identity_confirmed",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Original order and some outcomes examined before Phase 1; development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "MA-17-05",
+      "decision_group_id": "MA-17-05",
+      "state": "MA",
+      "dockets": [
+        "17-05"
+      ],
+      "utilities_to_match": [
+        "NSTAR Electric Company",
+        "Western Massachusetts Electric Company"
+      ],
+      "decision_date": "2017-11-30",
+      "decision_date_basis": "original_order_identity_page",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Earlier electric distribution case; preserves the joint determination and its two legal utilities.",
+      "source_ids": [
+        "PRACTICE-MA-17-05"
+      ],
+      "source_status": "original_identity_confirmed",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Original order and some outcomes examined before Phase 1; development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "MA-22-22",
+      "decision_group_id": "MA-22-22",
+      "state": "MA",
+      "dockets": [
+        "22-22"
+      ],
+      "utilities_to_match": [
+        "NSTAR Electric Company"
+      ],
+      "decision_date": "2022-11-30",
+      "decision_date_basis": "original_order_identity_page",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Later NSTAR distribution case with a multi-year plan; supports a same-utility comparison.",
+      "source_ids": [
+        "CAND-MA-22-22"
+      ],
+      "source_status": "original_identity_confirmed",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Original order and some outcomes examined before Phase 1; development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "MA-23-150",
+      "decision_group_id": "MA-23-150",
+      "state": "MA",
+      "dockets": [
+        "23-150"
+      ],
+      "utilities_to_match": [
+        "Massachusetts Electric Company",
+        "Nantucket Electric Company"
+      ],
+      "decision_date": "2024-09-30",
+      "decision_date_basis": "original_order_identity_page",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Second Massachusetts utility group and a joint electric distribution determination.",
+      "source_ids": [
+        "CAND-MA-23-150"
+      ],
+      "source_status": "original_identity_confirmed",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Original order and some outcomes examined before Phase 1; development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "ME-2018-00194",
+      "decision_group_id": "ME-2018-00194",
+      "state": "ME",
+      "dockets": [
+        "2018-00194"
+      ],
+      "utilities_to_match": [
+        "Central Maine Power Company"
+      ],
+      "decision_date": "2020-02-19",
+      "decision_date_basis": "original_order_identity_page",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Known performance-adjustment example; retained as exposed development material.",
+      "source_ids": [
+        "CAND-ME-2018-00194"
+      ],
+      "source_status": "original_identity_confirmed",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Original order and some outcomes examined before Phase 1; development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "ME-2020-00316",
+      "decision_group_id": "ME-2020-00316",
+      "state": "ME",
+      "dockets": [
+        "2020-00316"
+      ],
+      "utilities_to_match": [
+        "Versant Power"
+      ],
+      "decision_date": "2021-10-18",
+      "decision_date_basis": "original_order_identity_page",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "A second Maine utility and a two-part distribution determination; related documents remain one proceeding.",
+      "source_ids": [
+        "CAND-ME-2020-00316-Part-I",
+        "CAND-ME-2020-00316-Part-II"
+      ],
+      "source_status": "original_identity_confirmed",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Original order and some outcomes examined before Phase 1; development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "NH-19-064",
+      "decision_group_id": "NH-19-064",
+      "state": "NH",
+      "dockets": [
+        "DE 19-064"
+      ],
+      "utilities_to_match": [
+        "Liberty Utilities (Granite State Electric) Corp."
+      ],
+      "decision_date": "2020-06-30",
+      "decision_date_basis": "locating_record_pending_original",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "A second New Hampshire utility; compare its distribution determination with PSNH without selecting by return.",
+      "source_ids": [
+        "LOCATOR-NH-19-064"
+      ],
+      "source_status": "issuer_summary_order_not_obtained",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Identity and disposition information inspected during Phase 1 search; possible overlap with historical publisher data. Development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "NH-19-057",
+      "decision_group_id": "NH-19-057",
+      "state": "NH",
+      "dockets": [
+        "DE 19-057"
+      ],
+      "utilities_to_match": [
+        "Public Service Company of New Hampshire"
+      ],
+      "decision_date": "2020-12-15",
+      "decision_date_basis": "locating_record_pending_original",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "New Hampshire distribution case for a larger utility; commission approval of settlement and permanent rates.",
+      "source_ids": [
+        "LOCATOR-NH-19-057"
+      ],
+      "source_status": "indexed_order_not_obtained",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Identity and disposition information inspected during Phase 1 search; possible overlap with historical publisher data. Development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "NY-20-E-0380",
+      "decision_group_id": "NY-20-E-0380",
+      "state": "NY",
+      "dockets": [
+        "20-E-0380",
+        "20-G-0381"
+      ],
+      "utilities_to_match": [
+        "Niagara Mohawk Power Corporation"
+      ],
+      "decision_date": "2022-01-20",
+      "decision_date_basis": "locating_record_pending_original",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Extends distribution comparisons into upstate New York; electric portion of a joint rate plan.",
+      "source_ids": [
+        "LOCATOR-NY-20-E-0380"
+      ],
+      "source_status": "official_announcement_order_not_obtained",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Identity and disposition information inspected during Phase 1 search; possible overlap with historical publisher data. Development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "NY-21-E-0074",
+      "decision_group_id": "NY-21-E-0074",
+      "state": "NY",
+      "dockets": [
+        "21-E-0074",
+        "21-G-0073"
+      ],
+      "utilities_to_match": [
+        "Orange and Rockland Utilities, Inc."
+      ],
+      "decision_date": "2022-04-14",
+      "decision_date_basis": "original_order_identity_page",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "A further New York distribution utility; separately identifiable electric portion of a joint plan.",
+      "source_ids": [
+        "LOCATOR-NY-21-E-0074"
+      ],
+      "source_status": "original_identity_confirmed",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Identity and disposition information inspected during Phase 1 search; possible overlap with historical publisher data. Development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "NY-22-E-0064",
+      "decision_group_id": "NY-22-E-0064",
+      "state": "NY",
+      "dockets": [
+        "22-E-0064",
+        "22-G-0065"
+      ],
+      "utilities_to_match": [
+        "Consolidated Edison Company of New York, Inc."
+      ],
+      "decision_date": "2023-07-20",
+      "decision_date_basis": "locating_record_pending_original",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "A metropolitan New York utility; another electric portion of a joint rate-plan proceeding.",
+      "source_ids": [
+        "LOCATOR-NY-22-E-0064"
+      ],
+      "source_status": "official_filing_record_order_not_obtained",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Identity and disposition information inspected during Phase 1 search; possible overlap with historical publisher data. Development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "PA-R-2015-2469275",
+      "decision_group_id": "PA-R-2015-2469275",
+      "state": "PA",
+      "dockets": [
+        "R-2015-2469275"
+      ],
+      "utilities_to_match": [
+        "PPL Electric Utilities Corporation"
+      ],
+      "decision_date": "2015-11-19",
+      "decision_date_basis": "locating_record_pending_original",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Earlier Pennsylvania distribution settlement; preserves coverage even if the return is not disclosed.",
+      "source_ids": [
+        "LOCATOR-PA-R-2015-2469275"
+      ],
+      "source_status": "official_announcement_order_not_obtained",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Identity and disposition information inspected during Phase 1 search; possible overlap with historical publisher data. Development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "PA-R-2021-3024601",
+      "decision_group_id": "PA-R-2021-3024601",
+      "state": "PA",
+      "dockets": [
+        "R-2021-3024601"
+      ],
+      "utilities_to_match": [
+        "PECO Energy Company"
+      ],
+      "decision_date": "2021-11-18",
+      "decision_date_basis": "locating_record_pending_original",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "Pennsylvania distribution settlement with issuer disclosure about missing capital terms; retain for coverage audit.",
+      "source_ids": [
+        "LOCATOR-PA-R-2021-3024601"
+      ],
+      "source_status": "issuer_filing_order_not_obtained",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Source search disclosed issuer statement that settlement did not stipulate ROE, equity ratio or rate base. No adopted value entered.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    },
+    {
+      "proceeding_id": "PA-R-2021-3024750",
+      "decision_group_id": "PA-R-2021-3024750",
+      "state": "PA",
+      "dockets": [
+        "R-2021-3024750"
+      ],
+      "utilities_to_match": [
+        "Duquesne Light Company"
+      ],
+      "decision_date": "2021-12-16",
+      "decision_date_basis": "locating_record_pending_original",
+      "scope": "electric_distribution_base_rates",
+      "selection_reason": "A second 2021 Pennsylvania distribution utility, with an approved settlement documented by the issuer.",
+      "source_ids": [
+        "LOCATOR-PA-R-2021-3024750"
+      ],
+      "source_status": "issuer_announcement_order_not_obtained",
+      "selection_status": "fixed_pilot",
+      "prior_exposure": "Identity and disposition information inspected during Phase 1 search; possible overlap with historical publisher data. Development case.",
+      "untouched_test_case": false,
+      "field_extraction_status": "pending_new_dictionary",
+      "legal_status_as_of": null
+    }
+  ]
+}

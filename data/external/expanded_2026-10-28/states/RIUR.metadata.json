@@ -1,0 +1,16 @@
+{
+  "series_id": "RIUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=RIUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/RIUR",
+  "retrieved_at_utc": "2026-10-29T02:05:39.041441+00:00",
+  "sha256": "8e897457b460f28dc3c1d24109d31b533d1324ca77f59c5537429ef1328c4595",
+  "bytes": 8180,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

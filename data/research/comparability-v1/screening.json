@@ -1,0 +1,848 @@
+{
+  "schema": "anchored-returns-comparability-screening/1",
+  "date": "2026-10-31",
+  "scope": "Complete bounded consideration list: 32 existing screened candidates, one existing practice case, nine new named proceedings. Not a state census.",
+  "state_frame_complete": false,
+  "candidates": [
+    {
+      "candidate_id": "CAND-MA-23-150",
+      "state": "MA",
+      "dockets": [
+        "23-150"
+      ],
+      "decision_date": "2024-09-30",
+      "utility": "Massachusetts Electric and Nantucket Electric",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "selected",
+      "reason": "Named development pilot; see selection reason in pilot roster.",
+      "proceeding_id": "MA-23-150",
+      "source_ids": [
+        "CAND-MA-23-150"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-CT-22-08-08",
+      "state": "CT",
+      "dockets": [
+        "22-08-08"
+      ],
+      "decision_date": "2023-08-25",
+      "utility": "United Illuminating",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "selected",
+      "reason": "Named development pilot; see selection reason in pilot roster.",
+      "proceeding_id": "CT-22-08-08",
+      "source_ids": [
+        "CAND-CT-22-08-08"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-RI-4770-4780",
+      "state": "RI",
+      "dockets": [
+        "4770/4780"
+      ],
+      "decision_date": "2020-05-05",
+      "utility": "Narragansett Electric and Narragansett Gas",
+      "services": [
+        "Electric",
+        "Gas"
+      ],
+      "prior_screening_status": "conditional_settled_substitute",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-RI-4770-4780"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-MA-19-120",
+      "state": "MA",
+      "dockets": [
+        "19-120"
+      ],
+      "decision_date": "2020-10-30",
+      "utility": "NSTAR Gas",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_service_scope",
+      "reason": "Gas-only proceeding.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-MA-19-120",
+        "SUPP-MA-19-120-A"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-MA-20-120",
+      "state": "MA",
+      "dockets": [
+        "20-120"
+      ],
+      "decision_date": "2021-09-30",
+      "utility": "Boston Gas",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_service_scope",
+      "reason": "Gas-only proceeding.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-MA-20-120"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-NH-24-070",
+      "state": "NH",
+      "dockets": [
+        "DE 24-070"
+      ],
+      "decision_date": "2025-07-25",
+      "utility": "Public Service Company of New Hampshire",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_included_by_design",
+      "phase1_classification": "outside_decision_window",
+      "reason": "Original final disposition falls outside 2015-2024.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-NH-24-070",
+        "SUPP-NH-24-070-28201"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "SUPP-VT-22-5085-ORDER",
+      "state": "VT",
+      "dockets": [
+        "22-5085-PET"
+      ],
+      "decision_date": "2023-08-18",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_formula_setting",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "SUPP-VT-22-5085-ORDER"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-CT-23-11-02-CNG",
+      "state": "CT",
+      "dockets": [
+        "23-11-02"
+      ],
+      "decision_date": "2024-11-18",
+      "utility": "Connecticut Natural Gas",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_service_scope",
+      "reason": "Gas-only proceeding.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-CT-23-11-02-CNG"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-CT-23-11-02-SCG",
+      "state": "CT",
+      "dockets": [
+        "23-11-02"
+      ],
+      "decision_date": "2024-11-18",
+      "utility": "Southern Connecticut Gas",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_service_scope",
+      "reason": "Gas-only proceeding.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-CT-23-11-02-SCG"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-CT-24-10-04",
+      "state": "CT",
+      "dockets": [
+        "24-10-04"
+      ],
+      "decision_date": "2025-10-28",
+      "utility": "United Illuminating",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_decision_window",
+      "reason": "Original final disposition falls outside 2015-2024.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-CT-24-10-04"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-CT-24-12-01",
+      "state": "CT",
+      "dockets": [
+        "24-12-01"
+      ],
+      "decision_date": "2025-11-05",
+      "utility": "Yankee Gas",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_decision_window",
+      "reason": "Original final disposition falls outside 2015-2024.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-CT-24-12-01"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-MA-23-80-81",
+      "state": "MA",
+      "dockets": [
+        "23-80 / 23-81"
+      ],
+      "decision_date": "2024-06-28",
+      "utility": "Fitchburg Gas and Electric Light",
+      "services": [
+        "Electric",
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "considered_not_selected",
+      "reason": "Outside named 15-proceeding feasibility pilot; retain as an expansion candidate without inferring completed extraction.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-MA-23-80-81"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-ME-2019-00092-issuer-copy",
+      "state": "ME",
+      "dockets": [
+        "2019-00092"
+      ],
+      "decision_date": "2020-03-26",
+      "utility": "Northern Utilities",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_service_scope",
+      "reason": "Gas-only proceeding.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-ME-2019-00092-issuer-copy"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-ME-2020-00316-Part-I",
+      "state": "ME",
+      "dockets": [
+        "2020-00316"
+      ],
+      "decision_date": "2021-10-18",
+      "utility": "Versant Power",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_uncontested_roe_on_record",
+      "phase1_classification": "selected",
+      "reason": "Named development pilot; see selection reason in pilot roster.",
+      "proceeding_id": "ME-2020-00316",
+      "source_ids": [
+        "CAND-ME-2020-00316-Part-I",
+        "CAND-ME-2020-00316-Part-II"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-ME-2023-00336",
+      "state": "ME",
+      "dockets": [
+        "2023-00336"
+      ],
+      "decision_date": "2025-03-13",
+      "utility": "Versant Power",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_decision_window",
+      "reason": "Original final disposition falls outside 2015-2024.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-ME-2023-00336"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-18-1633",
+      "state": "VT",
+      "dockets": [
+        "18-1633-PET"
+      ],
+      "decision_date": "2019-05-24",
+      "utility": "Green Mountain Power",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_formula_setting",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-18-1633",
+        "CAND-VT-18-1633-correction"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-19-1932",
+      "state": "VT",
+      "dockets": [
+        "19-1932-TF"
+      ],
+      "decision_date": "2019-08-29",
+      "utility": "Green Mountain Power",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "excluded_formula_implementation",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-19-1932"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-19-2932",
+      "state": "VT",
+      "dockets": [
+        "19-2932-PET"
+      ],
+      "decision_date": "2019-08-15",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "excluded_no_roe_determination",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-19-2932"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-19-3529",
+      "state": "VT",
+      "dockets": [
+        "19-3529-PET"
+      ],
+      "decision_date": "2021-08-11",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "excluded_no_roe_determination",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-19-3529"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-21-3707-2022-08-31",
+      "state": "VT",
+      "dockets": [
+        "21-3707-PET / 22-0175-TF"
+      ],
+      "decision_date": "2022-08-31",
+      "utility": "Green Mountain Power",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_uncontested_roe_on_record",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-21-3707-2022-08-31"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-23-0561",
+      "state": "VT",
+      "dockets": [
+        "23-0561-TF"
+      ],
+      "decision_date": "2023-10-23",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_uncontested_roe_on_record",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-23-0561"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-26-0096",
+      "state": "VT",
+      "dockets": [
+        "25-1955-PET / 26-0096-TF"
+      ],
+      "decision_date": "2026-08-28",
+      "utility": "Green Mountain Power",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-26-0096",
+        "SUPPORT-VT-26-0096-compliance-2026-09-30"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-MA-22-22",
+      "state": "MA",
+      "dockets": [
+        "22-22"
+      ],
+      "decision_date": "2022-11-30",
+      "utility": "NSTAR Electric",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "selected",
+      "reason": "Named development pilot; see selection reason in pilot roster.",
+      "proceeding_id": "MA-22-22",
+      "source_ids": [
+        "CAND-MA-22-22"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-ME-2018-00194",
+      "state": "ME",
+      "dockets": [
+        "2018-00194"
+      ],
+      "decision_date": "2020-02-19",
+      "utility": "Central Maine Power",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "eligible_contested_roe",
+      "phase1_classification": "selected",
+      "reason": "Named development pilot; see selection reason in pilot roster.",
+      "proceeding_id": "ME-2018-00194",
+      "source_ids": [
+        "CAND-ME-2018-00194"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-RI-4975",
+      "state": "RI",
+      "dockets": [
+        "4975"
+      ],
+      "decision_date": "2020-08-04",
+      "utility": "Block Island Utility District",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "excluded_no_roe_determination",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-RI-4975"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-RI-24-14-EL",
+      "state": "RI",
+      "dockets": [
+        "24-14-EL"
+      ],
+      "decision_date": "2025-01-06",
+      "utility": "Pascoag Utility District",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "excluded_no_roe_determination",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-RI-24-14-EL"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-RI-5134",
+      "state": "RI",
+      "dockets": [
+        "5134"
+      ],
+      "decision_date": "2022-01-21",
+      "utility": "Pascoag Utility District",
+      "services": [
+        "Electric"
+      ],
+      "prior_screening_status": "excluded_no_roe_determination",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-RI-5134"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-21-0898",
+      "state": "VT",
+      "dockets": [
+        "21-0898-TF"
+      ],
+      "decision_date": "2021-10-15",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_uncontested_roe_on_record",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-21-0898"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-20-0431",
+      "state": "VT",
+      "dockets": [
+        "20-0431-TF"
+      ],
+      "decision_date": "2020-09-03",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "eligible_uncontested_roe_on_record",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-20-0431"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-24-2137",
+      "state": "VT",
+      "dockets": [
+        "24-2137-TF"
+      ],
+      "decision_date": "2024-08-12",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "excluded_formula_implementation",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-24-2137"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-25-1261",
+      "state": "VT",
+      "dockets": [
+        "25-1261-TF"
+      ],
+      "decision_date": "2025-08-26",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "excluded_formula_implementation",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-25-1261"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "CAND-VT-26-1298",
+      "state": "VT",
+      "dockets": [
+        "26-1298-TF"
+      ],
+      "decision_date": "2026-08-07",
+      "utility": "Vermont Gas Systems",
+      "services": [
+        "Gas"
+      ],
+      "prior_screening_status": "excluded_formula_implementation",
+      "phase1_classification": "outside_selected_jurisdictions",
+      "reason": "Retained in original archive; outside this six-state pilot.",
+      "proceeding_id": null,
+      "source_ids": [
+        "CAND-VT-26-1298"
+      ],
+      "metadata_origin": "data/research/sample_screening_v0.1.5.json"
+    },
+    {
+      "candidate_id": "PRACTICE-MA-17-05",
+      "state": "MA",
+      "dockets": [
+        "17-05"
+      ],
+      "decision_date": "2017-11-30",
+      "utility": "NSTAR Electric and Western Massachusetts Electric",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "Earlier distribution case within the new window; already exposed practice material.",
+      "proceeding_id": "MA-17-05",
+      "source_ids": [
+        "PRACTICE-MA-17-05"
+      ],
+      "metadata_origin": "data/research/source_catalog.json"
+    },
+    {
+      "candidate_id": "NEW-CT-16-06-04",
+      "state": "CT",
+      "dockets": [
+        "16-06-04"
+      ],
+      "decision_date": "2016-12-14",
+      "utility": "The United Illuminating Company",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "Earlier case for the same utility as CT 22-08-08; permits a repeat-utility comparison.",
+      "proceeding_id": "CT-16-06-04",
+      "source_ids": [
+        "LOCATOR-CT-16-06-04"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    },
+    {
+      "candidate_id": "NEW-NH-19-057",
+      "state": "NH",
+      "dockets": [
+        "DE 19-057"
+      ],
+      "decision_date": "2020-12-15",
+      "utility": "Public Service Company of New Hampshire",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "New Hampshire distribution case for a larger utility; commission approval of settlement and permanent rates.",
+      "proceeding_id": "NH-19-057",
+      "source_ids": [
+        "LOCATOR-NH-19-057"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    },
+    {
+      "candidate_id": "NEW-NH-19-064",
+      "state": "NH",
+      "dockets": [
+        "DE 19-064"
+      ],
+      "decision_date": "2020-06-30",
+      "utility": "Liberty Utilities (Granite State Electric) Corp.",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "A second New Hampshire utility; compare its distribution determination with PSNH without selecting by return.",
+      "proceeding_id": "NH-19-064",
+      "source_ids": [
+        "LOCATOR-NH-19-064"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    },
+    {
+      "candidate_id": "NEW-NY-20-E-0380",
+      "state": "NY",
+      "dockets": [
+        "20-E-0380",
+        "20-G-0381"
+      ],
+      "decision_date": "2022-01-20",
+      "utility": "Niagara Mohawk Power Corporation",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "Extends distribution comparisons into upstate New York; electric portion of a joint rate plan.",
+      "proceeding_id": "NY-20-E-0380",
+      "source_ids": [
+        "LOCATOR-NY-20-E-0380"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    },
+    {
+      "candidate_id": "NEW-NY-21-E-0074",
+      "state": "NY",
+      "dockets": [
+        "21-E-0074",
+        "21-G-0073"
+      ],
+      "decision_date": "2022-04-14",
+      "utility": "Orange and Rockland Utilities, Inc.",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "A further New York distribution utility; separately identifiable electric portion of a joint plan.",
+      "proceeding_id": "NY-21-E-0074",
+      "source_ids": [
+        "LOCATOR-NY-21-E-0074"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    },
+    {
+      "candidate_id": "NEW-NY-22-E-0064",
+      "state": "NY",
+      "dockets": [
+        "22-E-0064",
+        "22-G-0065"
+      ],
+      "decision_date": "2023-07-20",
+      "utility": "Consolidated Edison Company of New York, Inc.",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "A metropolitan New York utility; another electric portion of a joint rate-plan proceeding.",
+      "proceeding_id": "NY-22-E-0064",
+      "source_ids": [
+        "LOCATOR-NY-22-E-0064"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    },
+    {
+      "candidate_id": "NEW-PA-R-2015-2469275",
+      "state": "PA",
+      "dockets": [
+        "R-2015-2469275"
+      ],
+      "decision_date": "2015-11-19",
+      "utility": "PPL Electric Utilities Corporation",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "Earlier Pennsylvania distribution settlement; preserves coverage even if the return is not disclosed.",
+      "proceeding_id": "PA-R-2015-2469275",
+      "source_ids": [
+        "LOCATOR-PA-R-2015-2469275"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    },
+    {
+      "candidate_id": "NEW-PA-R-2021-3024601",
+      "state": "PA",
+      "dockets": [
+        "R-2021-3024601"
+      ],
+      "decision_date": "2021-11-18",
+      "utility": "PECO Energy Company",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "Pennsylvania distribution settlement with issuer disclosure about missing capital terms; retain for coverage audit.",
+      "proceeding_id": "PA-R-2021-3024601",
+      "source_ids": [
+        "LOCATOR-PA-R-2021-3024601"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    },
+    {
+      "candidate_id": "NEW-PA-R-2021-3024750",
+      "state": "PA",
+      "dockets": [
+        "R-2021-3024750"
+      ],
+      "decision_date": "2021-12-16",
+      "utility": "Duquesne Light Company",
+      "services": [
+        "Electric"
+      ],
+      "phase1_classification": "selected",
+      "reason": "A second 2021 Pennsylvania distribution utility, with an approved settlement documented by the issuer.",
+      "proceeding_id": "PA-R-2021-3024750",
+      "source_ids": [
+        "LOCATOR-PA-R-2021-3024750"
+      ],
+      "metadata_origin": "Phase 1 primary-source search, October 31, 2026"
+    }
+  ]
+}

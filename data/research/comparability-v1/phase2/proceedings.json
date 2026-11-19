@@ -1,0 +1,298 @@
+{
+  "schema": "anchored-returns-comparability-proceedings/1",
+  "date": "2026-10-31",
+  "proceedings": [
+    {
+      "proceeding_id": "CT-16-06-04",
+      "decision_group_id": "CT-16-06-04",
+      "state": "CT",
+      "dockets": [
+        "16-06-04"
+      ],
+      "utilities": [
+        "The United Illuminating Company"
+      ],
+      "decision_date": "2016-12-14",
+      "filing_date_fact": "F0119",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "litigated",
+      "source_ids": [
+        "ORDER-CT-16-06-04"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "CT-22-08-08",
+      "decision_group_id": "CT-22-08-08",
+      "state": "CT",
+      "dockets": [
+        "22-08-08"
+      ],
+      "utilities": [
+        "The United Illuminating Company"
+      ],
+      "decision_date": "2023-08-25",
+      "filing_date_fact": "F0121",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "litigated",
+      "source_ids": [
+        "CAND-CT-22-08-08"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "MA-17-05",
+      "decision_group_id": "MA-17-05",
+      "state": "MA",
+      "dockets": [
+        "17-05"
+      ],
+      "utilities": [
+        "NSTAR Electric Company",
+        "Western Massachusetts Electric Company"
+      ],
+      "decision_date": "2017-11-30",
+      "filing_date_fact": "F0123",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "litigated",
+      "source_ids": [
+        "PRACTICE-MA-17-05"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "MA-22-22",
+      "decision_group_id": "MA-22-22",
+      "state": "MA",
+      "dockets": [
+        "22-22"
+      ],
+      "utilities": [
+        "NSTAR Electric Company"
+      ],
+      "decision_date": "2022-11-30",
+      "filing_date_fact": "F0125",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "litigated",
+      "source_ids": [
+        "CAND-MA-22-22"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "MA-23-150",
+      "decision_group_id": "MA-23-150",
+      "state": "MA",
+      "dockets": [
+        "23-150"
+      ],
+      "utilities": [
+        "Massachusetts Electric Company",
+        "Nantucket Electric Company"
+      ],
+      "decision_date": "2024-09-30",
+      "filing_date_fact": "F0127",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "litigated",
+      "source_ids": [
+        "CAND-MA-23-150"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "ME-2018-00194",
+      "decision_group_id": "ME-2018-00194",
+      "state": "ME",
+      "dockets": [
+        "2018-00194"
+      ],
+      "utilities": [
+        "Central Maine Power Company"
+      ],
+      "decision_date": "2020-02-19",
+      "filing_date_fact": "F0129",
+      "proceeding_origin": "commission_investigation",
+      "disposition_class": "litigated",
+      "source_ids": [
+        "CAND-ME-2018-00194"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "ME-2020-00316",
+      "decision_group_id": "ME-2020-00316",
+      "state": "ME",
+      "dockets": [
+        "2020-00316"
+      ],
+      "utilities": [
+        "Versant Power"
+      ],
+      "decision_date": "2021-10-18",
+      "filing_date_fact": "F0131",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "mixed",
+      "source_ids": [
+        "CAND-ME-2020-00316-Part-I",
+        "CAND-ME-2020-00316-Part-II"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "NH-19-064",
+      "decision_group_id": "NH-19-064",
+      "state": "NH",
+      "dockets": [
+        "DE 19-064"
+      ],
+      "utilities": [
+        "Liberty Utilities (Granite State Electric) Corp."
+      ],
+      "decision_date": "2020-06-30",
+      "filing_date_fact": "F0133",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "approved_settlement",
+      "source_ids": [
+        "ORDER-NH-19-064"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "NH-19-057",
+      "decision_group_id": "NH-19-057",
+      "state": "NH",
+      "dockets": [
+        "DE 19-057"
+      ],
+      "utilities": [
+        "Public Service Company of New Hampshire"
+      ],
+      "decision_date": "2020-12-15",
+      "filing_date_fact": "F0135",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "approved_settlement",
+      "source_ids": [
+        "ORDER-NH-19-057"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "NY-20-E-0380",
+      "decision_group_id": "NY-20-E-0380",
+      "state": "NY",
+      "dockets": [
+        "20-E-0380",
+        "20-G-0381"
+      ],
+      "utilities": [
+        "Niagara Mohawk Power Corporation"
+      ],
+      "decision_date": "2022-01-20",
+      "filing_date_fact": "F0137",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "approved_settlement",
+      "source_ids": [
+        "ORDER-NY-20-E-0380"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "NY-21-E-0074",
+      "decision_group_id": "NY-21-E-0074",
+      "state": "NY",
+      "dockets": [
+        "21-E-0074",
+        "21-G-0073"
+      ],
+      "utilities": [
+        "Orange and Rockland Utilities, Inc."
+      ],
+      "decision_date": "2022-04-14",
+      "filing_date_fact": "F0139",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "approved_settlement",
+      "source_ids": [
+        "LOCATOR-NY-21-E-0074"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "NY-22-E-0064",
+      "decision_group_id": "NY-22-E-0064",
+      "state": "NY",
+      "dockets": [
+        "22-E-0064",
+        "22-G-0065"
+      ],
+      "utilities": [
+        "Consolidated Edison Company of New York, Inc."
+      ],
+      "decision_date": "2023-07-20",
+      "filing_date_fact": "F0141",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "approved_settlement",
+      "source_ids": [
+        "ORDER-NY-22-E-0064"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "PA-R-2015-2469275",
+      "decision_group_id": "PA-R-2015-2469275",
+      "state": "PA",
+      "dockets": [
+        "R-2015-2469275"
+      ],
+      "utilities": [
+        "PPL Electric Utilities Corporation"
+      ],
+      "decision_date": "2015-11-19",
+      "filing_date_fact": "F0143",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "approved_settlement",
+      "source_ids": [
+        "ORDER-PA-R-2015-2469275"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "PA-R-2021-3024601",
+      "decision_group_id": "PA-R-2021-3024601",
+      "state": "PA",
+      "dockets": [
+        "R-2021-3024601"
+      ],
+      "utilities": [
+        "PECO Energy Company"
+      ],
+      "decision_date": "2021-11-18",
+      "filing_date_fact": "F0145",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "approved_settlement",
+      "source_ids": [
+        "ORDER-PA-R-2021-3024601",
+        "ADOPTED-RD-PA-R-2021-3024601"
+      ],
+      "previously_exposed": true
+    },
+    {
+      "proceeding_id": "PA-R-2021-3024750",
+      "decision_group_id": "PA-R-2021-3024750",
+      "state": "PA",
+      "dockets": [
+        "R-2021-3024750"
+      ],
+      "utilities": [
+        "Duquesne Light Company"
+      ],
+      "decision_date": "2021-12-16",
+      "filing_date_fact": "F0147",
+      "proceeding_origin": "utility_application",
+      "disposition_class": "approved_settlement",
+      "source_ids": [
+        "ORDER-PA-R-2021-3024750"
+      ],
+      "previously_exposed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "series_id": "STLFSI4",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=STLFSI4&cosd=2008-01-01",
+  "retrieved_at_utc": "2026-10-26T18:40:26.851694+00:00",
+  "http_status": 200,
+  "content_type": "application/csv",
+  "bytes": 18348,
+  "sha256": "afcce8f5a71cd3dcf9285b8088bac135eb3b107aa437efcb100099ef4688ece2",
+  "headers": {
+    "Date": "Mon, 26 Oct 2026 18:40:27 GMT",
+    "Last-Modified": "Thu, 22 Oct 2026 13:55:34 GMT"
+  },
+  "schema": [
+    "observation_date",
+    "STLFSI4"
+  ],
+  "rows": 981,
+  "validated_csv": true,
+  "first_row": {
+    "observation_date": "2008-01-04",
+    "STLFSI4": "1.6510"
+  },
+  "last_row": {
+    "observation_date": "2026-10-16",
+    "STLFSI4": "-0.6328"
+  },
+  "nonmissing_rows": 981,
+  "blank_rows": 0
+}

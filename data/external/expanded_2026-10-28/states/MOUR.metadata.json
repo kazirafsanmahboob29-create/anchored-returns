@@ -1,0 +1,16 @@
+{
+  "series_id": "MOUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MOUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/MOUR",
+  "retrieved_at_utc": "2026-10-29T02:05:37.555948+00:00",
+  "sha256": "ae45b6746e4adc355fa7e46076bd76c381289a42d23eb17bb6cd36c7a7697088",
+  "bytes": 8132,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

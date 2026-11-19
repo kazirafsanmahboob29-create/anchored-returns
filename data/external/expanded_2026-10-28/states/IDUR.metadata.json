@@ -1,0 +1,16 @@
+{
+  "series_id": "IDUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IDUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/IDUR",
+  "retrieved_at_utc": "2026-10-29T02:05:35.663923+00:00",
+  "sha256": "6a16e1716a1c9db335c2d6c337b2ac7423b0b791cb6f945f1fc44280601cf84e",
+  "bytes": 8130,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

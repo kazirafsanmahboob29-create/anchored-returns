@@ -1,0 +1,16 @@
+{
+  "series_id": "KYUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=KYUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/KYUR",
+  "retrieved_at_utc": "2026-10-29T02:05:36.278194+00:00",
+  "sha256": "0e5d4aec6c64ff575146698a973f177f0cfd46ac61cbb877e228b5ec697cb4d4",
+  "bytes": 8167,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

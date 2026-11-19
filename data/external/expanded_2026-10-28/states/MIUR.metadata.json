@@ -1,0 +1,16 @@
+{
+  "series_id": "MIUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MIUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/MIUR",
+  "retrieved_at_utc": "2026-10-29T02:05:36.919026+00:00",
+  "sha256": "05e7b241e9940bee965f1492a03e0bf7a2d5aa5f4301b34ce01d66d6e24908c4",
+  "bytes": 8228,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

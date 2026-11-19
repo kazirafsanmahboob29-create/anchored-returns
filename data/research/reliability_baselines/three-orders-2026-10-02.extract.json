@@ -1,0 +1,1685 @@
+[
+  {
+    "unit_id": "CAND-NH-24-070:U001",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      10,
+      11
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U002",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      11
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U003",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      40,
+      41
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 1,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U004",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      40
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U005",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      41,
+      42
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 1,
+      "LAW": 1,
+      "CAP": 1,
+      "RISK": 0,
+      "AFF": 1,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U006",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      42
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 1,
+      "OWN": 1,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U007",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      42,
+      43
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 1,
+      "RISK": 0,
+      "AFF": 1,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U008",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      43
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 1,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U009",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      43
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U010",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      2
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U001",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      28
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U002",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      28
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 1,
+      "GRAD": 1,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 1,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U003",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      28
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U004",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      29
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U005",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      29
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U006",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      29
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U007",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      29
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U008",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      30
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 1,
+      "OWN": 0,
+      "GRAD": 1,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 1,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-ME-2023-00336:U009",
+    "order_id": "CAND-ME-2023-00336",
+    "citation": "ME, docket 2023-00336, order dated 2025-03-13. https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=128298&CaseNumber=2023-00336",
+    "page_references": [
+      30
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-01"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U001",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      12
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U002",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      12
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U003",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      12
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 1,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U004",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      12
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 1,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 1,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U005",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      12,
+      13
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 1,
+      "LAW": 0,
+      "CAP": 1,
+      "RISK": 1,
+      "AFF": 1,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U006",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      12
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U007",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      13
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U008",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      52
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U009",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      52
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 1,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U010",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      52
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 1,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U011",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      52
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 1,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U012",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      52
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U013",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      52,
+      53
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U014",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      53
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U015",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      53
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U016",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      53
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 1,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U017",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      53
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 1,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U018",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      53
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U019",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      53
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U020",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U021",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U022",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 1,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U023",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U024",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U025",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54,
+      55
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 1,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U026",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      55
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 1,
+      "AFF": 1,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U027",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      55,
+      56
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 1,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U028",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      56
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 1,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U029",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      56
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 1,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U030",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      56
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 1,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U031",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      56
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 1,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 1,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U032",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      57
+    ],
+    "recorded_codes": {
+      "MKT": 1,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 1,
+      "RISK": 1,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U033",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      57
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U034",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      57
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U035",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      57
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U036",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U037",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U038",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U039",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U040",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      54
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 1,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U041",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      55
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U042",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      55
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U043",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      55
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U044",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      55
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U045",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      55
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-VT-26-0096:U046",
+    "order_id": "CAND-VT-26-0096",
+    "citation": "VT, docket 25-1955-PET / 26-0096-TF, order dated 2026-08-28. https://epuc.vermont.gov?q=downloadfile/821761/209089",
+    "page_references": [
+      3
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U011",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      18
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  },
+  {
+    "unit_id": "CAND-NH-24-070:U012",
+    "order_id": "CAND-NH-24-070",
+    "citation": "NH, docket DE 24-070, order dated 2025-07-25. https://www.puc.nh.gov/VirtualFileRoom/ShowDocument.aspx?DocumentId=43715306-c1d7-4563-b749-5c75efa46815",
+    "page_references": [
+      18
+    ],
+    "recorded_codes": {
+      "MKT": 0,
+      "PEER": 0,
+      "OWN": 0,
+      "GRAD": 0,
+      "LAW": 0,
+      "CAP": 0,
+      "RISK": 0,
+      "AFF": 0,
+      "PERF": 0,
+      "DEF": 0,
+      "CONC": 0
+    },
+    "coder": "Codex assistant",
+    "codebook_version": "0.1.2 + empirical protocol 0.1.3",
+    "protocol_version": "v0.1.3",
+    "coding_date": "2026-10-02"
+  }
+]

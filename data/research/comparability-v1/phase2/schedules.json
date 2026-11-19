@@ -1,0 +1,301 @@
+{
+  "schema": "anchored-returns-comparability-schedules/1",
+  "date": "2026-10-31",
+  "selection_unit": "proceeding",
+  "schedules": [
+    {
+      "schedule_id": "CT-16-06-04-ELECTRIC",
+      "proceeding_id": "CT-16-06-04",
+      "decision_group_id": "CT-16-06-04",
+      "label": "UI 2016",
+      "service": "electric_distribution",
+      "rate_year": "2017",
+      "scope_note": "2017 first-rate-year distribution rate base, stated in rounded millions in the decision summary.",
+      "facts": {
+        "applied_roe": "F0001",
+        "approved_equity_share": "F0002",
+        "base_roe": "F0003",
+        "adjustment_roe": "F0004",
+        "approved_rate_base_usd": "F0005",
+        "approved_debt_share": "F0006",
+        "approved_debt_cost": "F0007",
+        "approved_total_return": "F0008"
+      }
+    },
+    {
+      "schedule_id": "CT-22-08-08-ELECTRIC",
+      "proceeding_id": "CT-22-08-08",
+      "decision_group_id": "CT-22-08-08",
+      "label": "UI 2023",
+      "service": "electric_distribution",
+      "rate_year": "2023-09-01 to 2024-08-31",
+      "scope_note": "Approved pro forma 2023/2024 average distribution rate base, table stated in thousands of dollars.",
+      "facts": {
+        "applied_roe": "F0009",
+        "approved_equity_share": "F0010",
+        "base_roe": "F0011",
+        "adjustment_roe": "F0012",
+        "approved_rate_base_usd": "F0013",
+        "approved_debt_share": "F0014",
+        "approved_debt_cost": "F0015",
+        "approved_total_return": "F0016"
+      }
+    },
+    {
+      "schedule_id": "MA-17-05-EAST",
+      "proceeding_id": "MA-17-05",
+      "decision_group_id": "MA-17-05",
+      "label": "NSTAR 2017",
+      "service": "electric_distribution",
+      "rate_year": "Rates effective 2018-01-01",
+      "scope_note": "NSTAR Electric distribution schedule in the joint 2017 determination; dollars per order.",
+      "facts": {
+        "applied_roe": "F0017",
+        "approved_equity_share": "F0018",
+        "base_roe": "F0019",
+        "adjustment_roe": "F0020",
+        "approved_rate_base_usd": "F0021",
+        "approved_debt_share": "F0022",
+        "approved_debt_cost": "F0023",
+        "approved_preferred_share": "F0024",
+        "approved_preferred_cost": "F0025",
+        "approved_total_return": "F0026"
+      }
+    },
+    {
+      "schedule_id": "MA-17-05-WEST",
+      "proceeding_id": "MA-17-05",
+      "decision_group_id": "MA-17-05",
+      "label": "WMECo",
+      "service": "electric_distribution",
+      "rate_year": "Rates effective 2018-01-01",
+      "scope_note": "Western Massachusetts Electric distribution schedule in the same joint determination; separate approved capital mix.",
+      "facts": {
+        "applied_roe": "F0027",
+        "approved_equity_share": "F0028",
+        "base_roe": "F0029",
+        "adjustment_roe": "F0030",
+        "approved_rate_base_usd": "F0031",
+        "approved_debt_share": "F0032",
+        "approved_debt_cost": "F0033",
+        "approved_preferred_share": "F0034",
+        "approved_preferred_cost": "F0035",
+        "approved_total_return": "F0036"
+      }
+    },
+    {
+      "schedule_id": "MA-22-22-ELECTRIC",
+      "proceeding_id": "MA-22-22",
+      "decision_group_id": "MA-22-22",
+      "label": "NSTAR 2022",
+      "service": "electric_distribution",
+      "rate_year": "Rates effective 2023-01-01",
+      "scope_note": "NSTAR Electric distribution rate base, final per-order schedule, dollars.",
+      "facts": {
+        "applied_roe": "F0037",
+        "approved_equity_share": "F0038",
+        "base_roe": "F0039",
+        "adjustment_roe": "F0040",
+        "approved_rate_base_usd": "F0041",
+        "approved_debt_share": "F0042",
+        "approved_debt_cost": "F0043",
+        "approved_preferred_share": "F0044",
+        "approved_preferred_cost": "F0045",
+        "approved_total_return": "F0046"
+      }
+    },
+    {
+      "schedule_id": "MA-23-150-ELECTRIC",
+      "proceeding_id": "MA-23-150",
+      "decision_group_id": "MA-23-150",
+      "label": "National Grid MA 2024",
+      "service": "electric_distribution",
+      "rate_year": "Rates effective 2024-10-01",
+      "scope_note": "Combined Massachusetts Electric and Nantucket Electric distribution schedule; one shared capital structure and approved rate base, dollars.",
+      "facts": {
+        "applied_roe": "F0047",
+        "approved_equity_share": "F0048",
+        "base_roe": "F0049",
+        "adjustment_roe": "F0050",
+        "approved_rate_base_usd": "F0051",
+        "approved_debt_share": "F0052",
+        "approved_debt_cost": "F0053",
+        "approved_preferred_share": "F0054",
+        "approved_preferred_cost": "F0055",
+        "approved_total_return": "F0056"
+      }
+    },
+    {
+      "schedule_id": "ME-2018-00194-ELECTRIC",
+      "proceeding_id": "ME-2018-00194",
+      "decision_group_id": "ME-2018-00194",
+      "label": "CMP 2020",
+      "service": "electric_distribution",
+      "rate_year": "Rates effective 2020-03-01",
+      "scope_note": "No consolidated approved rate-base total entered from the reviewed order sections; financial calculations use other complete schedules.",
+      "facts": {
+        "applied_roe": "F0057",
+        "approved_equity_share": "F0058",
+        "base_roe": "F0059",
+        "adjustment_roe": "F0060",
+        "approved_rate_base_usd": "F0061",
+        "approved_debt_share": "F0062",
+        "approved_debt_cost": "F0063",
+        "approved_preferred_share": "F0064",
+        "approved_preferred_cost": "F0065"
+      }
+    },
+    {
+      "schedule_id": "ME-2020-00316-ELECTRIC",
+      "proceeding_id": "ME-2020-00316",
+      "decision_group_id": "ME-2020-00316",
+      "label": "Versant 2021",
+      "service": "electric_distribution",
+      "rate_year": "Rates effective 2021-11-01",
+      "scope_note": "Two operating districts share the adopted return; final consolidated rate-base total requires the directed compliance schedule.",
+      "facts": {
+        "applied_roe": "F0066",
+        "approved_equity_share": "F0067",
+        "base_roe": "F0068",
+        "adjustment_roe": "F0069",
+        "approved_rate_base_usd": "F0070",
+        "approved_debt_share": "F0071",
+        "approved_debt_cost": "F0072",
+        "approved_preferred_share": "F0073",
+        "approved_preferred_cost": "F0074"
+      }
+    },
+    {
+      "schedule_id": "NH-19-057-ELECTRIC",
+      "proceeding_id": "NH-19-057",
+      "decision_group_id": "NH-19-057",
+      "label": "PSNH 2020",
+      "service": "electric_distribution",
+      "rate_year": "Permanent rates 2021-01-01, reconciliation to 2019-07-01",
+      "scope_note": "Permanent-rate settlement; approved ROE and capital shares stated in final order. Detailed rate-base and debt-cost schedules are in the settlement attachments.",
+      "facts": {
+        "applied_roe": "F0075",
+        "approved_equity_share": "F0076",
+        "base_roe": "F0077",
+        "adjustment_roe": "F0078",
+        "approved_rate_base_usd": "F0079"
+      }
+    },
+    {
+      "schedule_id": "NH-19-064-ELECTRIC",
+      "proceeding_id": "NH-19-064",
+      "decision_group_id": "NH-19-064",
+      "label": "Liberty NH 2020",
+      "service": "electric_distribution",
+      "rate_year": "Rates effective 2020-07-01",
+      "scope_note": "Permanent-rate settlement; approved ROE and capital shares stated in final order. Detailed rate-base and debt-cost schedules are in the settlement attachments.",
+      "facts": {
+        "applied_roe": "F0080",
+        "approved_equity_share": "F0081",
+        "base_roe": "F0082",
+        "adjustment_roe": "F0083",
+        "approved_rate_base_usd": "F0084"
+      }
+    },
+    {
+      "schedule_id": "NY-20-E-0380-ELECTRIC",
+      "proceeding_id": "NY-20-E-0380",
+      "decision_group_id": "NY-20-E-0380",
+      "label": "Niagara Mohawk 2022",
+      "service": "electric_distribution",
+      "rate_year": "2021-07-01 to 2022-06-30",
+      "scope_note": "First electric rate-year ending 2022-06-30, after earnings-base adjustment; source table in thousands. Original order issued 2022-01-20.",
+      "facts": {
+        "applied_roe": "F0085",
+        "approved_equity_share": "F0086",
+        "base_roe": "F0087",
+        "adjustment_roe": "F0088",
+        "approved_rate_base_usd": "F0089"
+      }
+    },
+    {
+      "schedule_id": "NY-21-E-0074-ELECTRIC",
+      "proceeding_id": "NY-21-E-0074",
+      "decision_group_id": "NY-21-E-0074",
+      "label": "O&R 2022",
+      "service": "electric_distribution",
+      "rate_year": "2022",
+      "scope_note": "First electric rate-year 2022 total average rate base after earnings-base and Isaias adjustments, source in thousands.",
+      "facts": {
+        "applied_roe": "F0090",
+        "approved_equity_share": "F0091",
+        "base_roe": "F0092",
+        "adjustment_roe": "F0093",
+        "approved_rate_base_usd": "F0094",
+        "approved_debt_share": "F0095",
+        "approved_debt_cost": "F0096"
+      }
+    },
+    {
+      "schedule_id": "NY-22-E-0064-ELECTRIC",
+      "proceeding_id": "NY-22-E-0064",
+      "decision_group_id": "NY-22-E-0064",
+      "label": "Con Edison 2023",
+      "service": "electric_distribution",
+      "rate_year": "2023",
+      "scope_note": "First electric rate-year 2023 total average rate base after the listed earnings-base and other adjustments, source in thousands.",
+      "facts": {
+        "applied_roe": "F0097",
+        "approved_equity_share": "F0098",
+        "base_roe": "F0099",
+        "adjustment_roe": "F0100",
+        "approved_rate_base_usd": "F0101",
+        "approved_debt_share": "F0102",
+        "approved_debt_cost": "F0103"
+      }
+    },
+    {
+      "schedule_id": "PA-R-2015-2469275-ELECTRIC",
+      "proceeding_id": "PA-R-2015-2469275",
+      "decision_group_id": "PA-R-2015-2469275",
+      "label": "PPL 2015",
+      "service": "electric_distribution",
+      "rate_year": "2016",
+      "scope_note": "Adopted negotiated revenue package without individually specified base-rate return components.",
+      "facts": {
+        "applied_roe": "F0104",
+        "approved_equity_share": "F0105",
+        "base_roe": "F0106",
+        "adjustment_roe": "F0107",
+        "approved_rate_base_usd": "F0108"
+      }
+    },
+    {
+      "schedule_id": "PA-R-2021-3024601-ELECTRIC",
+      "proceeding_id": "PA-R-2021-3024601",
+      "decision_group_id": "PA-R-2021-3024601",
+      "label": "PECO 2021",
+      "service": "electric_distribution",
+      "rate_year": "2022",
+      "scope_note": "Adopted negotiated revenue package without individually specified base-rate return components.",
+      "facts": {
+        "applied_roe": "F0109",
+        "approved_equity_share": "F0110",
+        "base_roe": "F0111",
+        "adjustment_roe": "F0112",
+        "approved_rate_base_usd": "F0113"
+      }
+    },
+    {
+      "schedule_id": "PA-R-2021-3024750-ELECTRIC",
+      "proceeding_id": "PA-R-2021-3024750",
+      "decision_group_id": "PA-R-2021-3024750",
+      "label": "Duquesne 2021",
+      "service": "electric_distribution",
+      "rate_year": "2022",
+      "scope_note": "Adopted negotiated revenue package without individually specified base-rate return components.",
+      "facts": {
+        "applied_roe": "F0114",
+        "approved_equity_share": "F0115",
+        "base_roe": "F0116",
+        "adjustment_roe": "F0117",
+        "approved_rate_base_usd": "F0118"
+      }
+    }
+  ]
+}

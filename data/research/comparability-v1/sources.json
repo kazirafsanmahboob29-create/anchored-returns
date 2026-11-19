@@ -1,0 +1,249 @@
+{
+  "schema": "anchored-returns-comparability-sources/1",
+  "date": "2026-10-31",
+  "sources": [
+    {
+      "source_id": "CAND-CT-22-08-08",
+      "proceeding_id": "CT-22-08-08",
+      "role": "original_order",
+      "source_kind": "official",
+      "source_url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/dd7c1a0c81056b1485258a16004f1d22/$FILE/220808-082523.pdf",
+      "landing_url": "https://www.dpuc.state.ct.us/dockcurr.nsf/8e6fc37a54110e3e852576190052b64d/dd7c1a0c81056b1485258a16004f1d22?OpenDocument",
+      "local_path": "data/raw_orders/CT/22-08-08_2023-08-25_decision.pdf",
+      "sha256": "3de32c1f96c301964548b45608f765d743cf89a8e412fc813d940c229965043f",
+      "n_pages": 296,
+      "retrieved_date": "2026-09-29",
+      "identity_checked_date": "2026-10-31",
+      "identity_location": {
+        "pdf_page": 1
+      },
+      "verification": "identity_confirmed_from_original",
+      "access_note": "Preserved local source rechecked; no new live-link health claim.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "PRACTICE-MA-17-05",
+      "proceeding_id": "MA-17-05",
+      "role": "original_order",
+      "source_kind": "official",
+      "source_url": "https://www.mass.gov/files/documents/2018/01/26/17-05_Final_Order_Revenue_Requirement_11-30-17.pdf",
+      "landing_url": "https://www.mass.gov/files/documents/2018/01/26/17-05_Final_Order_Revenue_Requirement_11-30-17.pdf",
+      "local_path": "data/practice_orders/MA/17-05_2017-11-30_final_order.pdf",
+      "sha256": "263ddfe8e49bc0bfcfa82684136a3aff9029aff0d572fd510fcbdeb271383d91",
+      "n_pages": 814,
+      "retrieved_date": "2026-09-29",
+      "identity_checked_date": "2026-10-31",
+      "identity_location": {
+        "pdf_page": 1
+      },
+      "verification": "identity_confirmed_from_original",
+      "access_note": "Preserved local source rechecked; no new live-link health claim.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "CAND-MA-22-22",
+      "proceeding_id": "MA-22-22",
+      "role": "original_order",
+      "source_kind": "official",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/giabjige?TKztaIebchd2AFGMIUFzSMEmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt",
+      "landing_url": "https://www.mass.gov/info-details/rate-cases-electric-companies",
+      "local_path": "data/research/acquisition_2026-10-02/CAND-MA-22-22.pdf",
+      "sha256": "c943ecaa8d06e61bedf6de940d95d41cafa79d328e24e48338ba20f95104fd5d",
+      "n_pages": 568,
+      "retrieved_date": "2026-10-02",
+      "identity_checked_date": "2026-10-31",
+      "identity_location": {
+        "pdf_page": 1
+      },
+      "verification": "identity_confirmed_from_original",
+      "access_note": "Preserved local source rechecked; no new live-link health claim.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "CAND-MA-23-150",
+      "proceeding_id": "MA-23-150",
+      "role": "original_order",
+      "source_kind": "official",
+      "source_url": "https://fileservice.eea.comacloud.net/V3.1.0/FileService.Api/file/ihdfjeee?SZId0hz8UQX6SFF8vCANjMEmiDhMBXK0ednWT8WFP5Ok9v9pxUxyG6LkaCeWBSjqbmMlNqhcSkxPf0qUr1gASPKrYE1qejvebf677PtCVStUdHoHpEGELGLGjR%2BZpYgt",
+      "landing_url": "https://www.mass.gov/info-details/dpu-23-150-national-grid-electric-base-distribution-rate-case",
+      "local_path": "data/raw_orders/MA/23-150_2024-09-30_final_order.pdf",
+      "sha256": "a7aa7c77c23955d76c0bffe5952822b4d2991a0151112c026efdec8912711f27",
+      "n_pages": 674,
+      "retrieved_date": "2026-09-29",
+      "identity_checked_date": "2026-10-31",
+      "identity_location": {
+        "pdf_page": 1
+      },
+      "verification": "identity_confirmed_from_original",
+      "access_note": "Preserved local source rechecked; no new live-link health claim.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "CAND-ME-2018-00194",
+      "proceeding_id": "ME-2018-00194",
+      "role": "original_order",
+      "source_kind": "official",
+      "source_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=105431&CaseNumber=2018-00194",
+      "landing_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/Common/CaseMaster.aspx?CaseNumber=2018-00194&FRM=0",
+      "local_path": "data/research/acquisition_2026-10-02/ME-2018-00194.pdf",
+      "sha256": "b4772e96242db02a0984c5c8bc9ab76ab92a3ae8c2997454d225ddfe276d7ea1",
+      "n_pages": 144,
+      "retrieved_date": "2026-10-02",
+      "identity_checked_date": "2026-10-31",
+      "identity_location": {
+        "pdf_page": 1
+      },
+      "verification": "identity_confirmed_from_original",
+      "access_note": "Preserved local source rechecked; no new live-link health claim.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "CAND-ME-2020-00316-Part-I",
+      "proceeding_id": "ME-2020-00316",
+      "role": "original_order",
+      "source_kind": "official",
+      "source_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=112424&CaseNumber=2020-00316",
+      "landing_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=112424&CaseNumber=2020-00316",
+      "local_path": "data/research/acquisition_2026-10-01/ME-2020-00316-Part-I.pdf",
+      "sha256": "1a032ff8362e7bf659afc0f81ba8001d7659f9539505ea626e154844badc6897",
+      "n_pages": 52,
+      "retrieved_date": "2026-10-01",
+      "identity_checked_date": "2026-10-31",
+      "identity_location": {
+        "pdf_page": 1
+      },
+      "verification": "identity_confirmed_from_original",
+      "access_note": "Preserved local source rechecked; no new live-link health claim.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "CAND-ME-2020-00316-Part-II",
+      "proceeding_id": "ME-2020-00316",
+      "role": "related_order_part",
+      "source_kind": "official",
+      "source_url": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/MatterManagement/MatterFilingItem.aspx?FilingSeq=112568&CaseNumber=2020-00316",
+      "local_path": "data/research/acquisition_2026-10-01/ME-2020-00316-Part-II.pdf",
+      "sha256": "c4208f5dc16be02959718f35dd118642a146127c2022ade3f8412390ed2198c6",
+      "n_pages": 100,
+      "retrieved_date": "2026-10-01",
+      "verification": "preserved_source_fingerprint_confirmed",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "LOCATOR-CT-16-06-04",
+      "proceeding_id": "CT-16-06-04",
+      "role": "locating_record",
+      "source_kind": "official_crossreference",
+      "source_url": "https://portal.ct.gov/-/media/PURA/electric/Final-Decision--PURA-Issues-Ruling-on-Utilities-Preparation-for-Response-to-Tropical-Storm-Isaias.pdf",
+      "identity_location": "Section G, UI 2016 Rate Case, printed page 24 cites the December 14, 2016 decision and docket.",
+      "checked_date": "2026-10-31",
+      "verification": "locator_only",
+      "access_note": "Issuer-hosted final-order lead returned 404 on October 31, 2026. Crossreference identifies the proceeding; original still required.",
+      "numerical_extraction_status": "not_started_for_new_field_set",
+      "order_lead": "https://s24.q4cdn.com/489945429/files/doc_downloads/avangrid2019/final_decision/FINAL-DECISION-4.pdf"
+    },
+    {
+      "source_id": "LOCATOR-NH-19-057",
+      "proceeding_id": "NH-19-057",
+      "role": "locating_record",
+      "source_kind": "official_order_search_index",
+      "source_url": "https://www.puc.nh.gov/Regulatory/Docketbk/2019/19-057/ORDERS/19-057_2020-12-15_ORDER_26433.PDF",
+      "identity_location": "Indexed order identity: Order No. 26,433, December 15, 2020, DE 19-057.",
+      "checked_date": "2026-10-31",
+      "verification": "locator_only",
+      "access_note": "Official order was indexed in web search; direct retrieval returned 403. No original-page check claimed.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "LOCATOR-NH-19-064",
+      "proceeding_id": "NH-19-064",
+      "role": "locating_record",
+      "source_kind": "utility_case_summary",
+      "source_url": "https://new-hampshire.libertyutilities.com/bath/residential/rates-and-tariffs/granite-state-rate-case-2020.html",
+      "identity_location": "Understanding the Rate Change, first two paragraphs identify utility, docket and approval date.",
+      "checked_date": "2026-10-31",
+      "verification": "locator_only",
+      "access_note": "Issuer summary read successfully. Commission docket retrieval returned 403; original order remains required.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "LOCATOR-NY-20-E-0380",
+      "proceeding_id": "NY-20-E-0380",
+      "role": "locating_record",
+      "source_kind": "official_decision_announcement",
+      "source_url": "https://apps.cio.ny.gov/apps/mediacontact/public/view.cfm?backButton=&parm=B49B0552-0F50-2797-0457D7090EE99E1C",
+      "identity_location": "Release 22003, January 20, 2022; identifies the adopted joint proposal and electric/gas dockets.",
+      "checked_date": "2026-10-31",
+      "verification": "locator_only",
+      "access_note": "Official announcement read through web search. Docket HTML obtained, but final-order attachment not yet identified.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "LOCATOR-NY-21-E-0074",
+      "proceeding_id": "NY-21-E-0074",
+      "role": "original_order",
+      "source_kind": "issuer_hosted_commission_order",
+      "source_url": "https://investor.conedison.com/static-files/3ec7a551-ed6c-432c-8dfa-ff28050d88fb",
+      "identity_location": "PDF page 1 identifies both dockets, legal utility, order title and issued/effective date.",
+      "checked_date": "2026-10-31",
+      "verification": "identity_confirmed_from_original",
+      "access_note": "Issuer-hosted commission PDF downloaded, fingerprinted and identity page visually checked.",
+      "numerical_extraction_status": "not_started_for_new_field_set",
+      "local_path": "data/research/comparability-v1/orders/NY-21-E-0074.pdf",
+      "sha256": "f398808c38a02b7a0f4e5f0a61ddfbadb9ae183803056bce5872313634f6d42a",
+      "n_pages": 490,
+      "retrieved_date": "2026-10-31"
+    },
+    {
+      "source_id": "LOCATOR-NY-22-E-0064",
+      "proceeding_id": "NY-22-E-0064",
+      "role": "locating_record",
+      "source_kind": "official_filing_record",
+      "source_url": "https://documents.dps.ny.gov/public/MatterManagement/MatterFilingItem.aspx?FilingSeq=310213&MatterSeq=67366",
+      "identity_location": "Filing No. 219, filed July 20, 2023, Public Service Commission order adopting joint proposal.",
+      "checked_date": "2026-10-31",
+      "verification": "locator_only",
+      "access_note": "Official filing metadata inspected. Download control exposed an image link rather than the PDF; attachment remains to be retrieved.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "LOCATOR-PA-R-2015-2469275",
+      "proceeding_id": "PA-R-2015-2469275",
+      "role": "locating_record",
+      "source_kind": "official_decision_announcement",
+      "source_url": "https://www.puc.beta.pa.gov/press-release/2015/puc-approves-lower-rate-increase-than-requested-by-ppl-electric-utilities-corporation",
+      "identity_location": "Commission release dated November 19, 2015 identifies the settlement and docket.",
+      "checked_date": "2026-10-31",
+      "verification": "locator_only",
+      "access_note": "Official announcement indexed in web search. No final order obtained. A guessed document-file lead was not accepted as evidence.",
+      "numerical_extraction_status": "not_started_for_new_field_set"
+    },
+    {
+      "source_id": "LOCATOR-PA-R-2021-3024601",
+      "proceeding_id": "PA-R-2021-3024601",
+      "role": "locating_record",
+      "source_kind": "issuer_filed_sec_exhibit",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935722000010/exc-20220110992.htm",
+      "identity_location": "Slide 67, PECO Electric Distribution Rate Case Filing, identifies docket and commission approval date.",
+      "checked_date": "2026-10-31",
+      "verification": "locator_only",
+      "access_note": "Issuer SEC exhibit located in web search. Commission order URL is cited by a filing in SC docket 2022-158-E; retrieval failed, original not reviewed.",
+      "numerical_extraction_status": "not_started_for_new_field_set",
+      "order_lead": "https://www.puc.pa.gov/pcdocs/1725544.docx"
+    },
+    {
+      "source_id": "LOCATOR-PA-R-2021-3024750",
+      "proceeding_id": "PA-R-2021-3024750",
+      "role": "locating_record",
+      "source_kind": "utility_decision_announcement",
+      "source_url": "https://newsroom.duquesnelight.com/duquesne-light-companys-proposed-rate-increase-approved-by-puc",
+      "identity_location": "December 16, 2021 announcement identifies approval; issuer tariff Supplement 41 identifies docket R-2021-3024750.",
+      "checked_date": "2026-10-31",
+      "verification": "locator_only",
+      "access_note": "Issuer announcement and tariff indexed in web search. Commission order URL also cited in SC docket 2022-158-E; unsupported DOCX fetch and TLS-chain failure prevented original review.",
+      "numerical_extraction_status": "not_started_for_new_field_set",
+      "order_lead": "https://www.puc.pa.gov/pcdocs/1727976.docx",
+      "support_url": "https://www.duquesnelight.com/docs/default-source/default-document-library/supplement-no-41-to-tariff-no-25-rider-no-16-service-to-non-utility-generating-facilities---clarity-and-housekeeping-revisions-effective-04302022.pdf?sfvrsn=a99da942_0"
+    }
+  ]
+}

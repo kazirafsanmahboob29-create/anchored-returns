@@ -1,0 +1,16 @@
+{
+  "series_id": "IAUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IAUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/IAUR",
+  "retrieved_at_utc": "2026-10-29T02:05:35.741630+00:00",
+  "sha256": "c3e345f1529e8e294a129bc0148f149690b271bf80a19afb1e0cb16c5c5b52f8",
+  "bytes": 8123,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

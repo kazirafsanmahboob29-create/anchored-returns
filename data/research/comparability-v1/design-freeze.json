@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "stage": "phase1",
+  "kind": "dated_post_hoc_extension",
+  "new_outcome_extraction_started": false,
+  "new_estimation_started": false,
+  "known_prior_work": [
+    "Historical national study and forecasts",
+    "Prior peer and Treasury comparisons",
+    "Previously inspected order archive",
+    "Known Maine performance adjustment"
+  ],
+  "files": {
+    "docs/comparability_plan_2026-10-31.md": "7f03016c2cfd769ce9fef6bc2cf12a73d0f48ecc151c15f6b35a9f1fa89984f9",
+    "docs/comparability_fields.md": "2f3adcd263116abf8cb66fead109d39867c89c2aa51d671c32fb375900c06ff7",
+    "data/research/comparability-v1/pilot.json": "42aceb59c2b5af65c535ba1dc834b41bdaa725338553bc1e5d32c52639d0b2af",
+    "data/research/comparability-v1/screening.json": "3d21e80e5c1213ff851a37b4cec08e5ae387982a0440216c6bf64d60069d6cd4",
+    "data/research/comparability-v1/sources.json": "7f1a62091e6ada6d114695c9029a415f9e4c65196f6b11c02110d0df0921181a"
+  }
+}

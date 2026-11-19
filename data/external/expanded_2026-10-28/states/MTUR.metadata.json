@@ -1,0 +1,16 @@
+{
+  "series_id": "MTUR",
+  "provider": "U.S. Bureau of Labor Statistics",
+  "distributor": "FRED",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MTUR&cosd=1980-01-01&coed=2024-12-31",
+  "definition_url": "https://fred.stlouisfed.org/series/MTUR",
+  "retrieved_at_utc": "2026-10-29T02:05:37.707381+00:00",
+  "sha256": "cbabaa9b960549eb67fd0f4ea46afb8fa949df911884b57d25f15124298462ed",
+  "bytes": 8123,
+  "http_status": 200,
+  "content_type": "application/csv",
+  "rows": 540,
+  "numeric_rows": 540,
+  "first_date": "1980-01-01",
+  "last_date": "2024-12-01"
+}

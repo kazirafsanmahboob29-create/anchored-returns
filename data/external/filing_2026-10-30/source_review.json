@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-30T11:44:25.387157+00:00",
+  "landing_page": "https://www.eei.org/issues-and-policy/finance-and-tax",
+  "workbook_url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues-and-Policy/Finance-And-Tax/Quarterly-Financial-Updates/2025_Q3_Rate_Review_XLSX.xlsx?hash=7A0B11A1D991CF195A7A921A218DF9D7BB130275&la=en",
+  "http_status": 200,
+  "sha256": "b901b35640b222ae8ab6df8aca7c5b04d51c38d961b72354704ec8ecc5753895",
+  "matches_preserved_input": true,
+  "newest_public_rate_workbook_identified": "2025 Q3",
+  "definition_checks": [
+    "https://www.federalreserve.gov/releases/h15/",
+    "https://www.bls.gov/lau/laumthd.htm",
+    "https://fred.stlouisfed.org/series/ALUR"
+  ],
+  "excluded_source": {
+    "series": "BAA10Y",
+    "definition_url": "https://fred.stlouisfed.org/series/BAA10Y",
+    "reason": "Redistribution restriction in the FRED series notes; no values added."
+  }
+}
