@@ -1,0 +1,13 @@
+check,value
+training_mean.mae_bp,42.21312056737592
+training_mean.rmse_bp,59.86260539304014
+previous_award.mae_bp,24.23936170212766
+previous_award.rmse_bp,35.79990193734341
+market_case.mae_bp,53.11215503087376
+market_case.rmse_bp,69.85754350862337
+with_prior.mae_bp,23.330512318452698
+with_prior.rmse_bp,32.29934818938393
+previous_award.improvement_bp,0.9088493836749608
+previous_award.se_bp,1.4286351725369444
+market_case.improvement_bp,29.78164271242107
+market_case.se_bp,3.9382543040407514

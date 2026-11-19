@@ -1,0 +1,3 @@
+selection,candidate,baseline,n,term,estimate,se,low,high,variance_status
+all,with_request,prior,568,const,5.034429095817081,2.1941870068175957,0.6177597265877468,9.451098465046414,available
+nonzero_request_award_gap,with_request,prior,491,const,7.076056103837161,2.4681160107846236,2.1079962481062147,12.044115959568108,available

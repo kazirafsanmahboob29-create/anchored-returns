@@ -1,0 +1,9 @@
+model,sample,n,start,end,features,treasury_term,states,quarters,effects,df
+filing_full,full,1135,1985,2024,filing_treasury90;filing_inflation;filing_unemployment;update_treasury90;update_inflation;update_unemployment;duration;distribution;known_prior,filing_treasury90,49,157,state_year,48
+filing_recent,recent,533,2010,2024,filing_treasury90;filing_inflation;filing_unemployment;update_treasury90;update_inflation;update_unemployment;duration;distribution;known_prior,filing_treasury90,47,60,state_year,46
+filing_common,common,529,2010,2024,filing_treasury90;filing_inflation;filing_unemployment;update_treasury90;update_inflation;update_unemployment;duration;distribution;known_prior,filing_treasury90,47,60,state_year,46
+omit_treasury_update,common,529,2010,2024,filing_treasury90;filing_inflation;filing_unemployment;update_inflation;update_unemployment;duration;distribution;known_prior,filing_treasury90,47,60,state_year,46
+decision_conditions,common,529,2010,2024,decision_treasury90;decision_inflation;decision_unemployment;duration;distribution;known_prior,decision_treasury90,47,60,state_year,46
+original_controls_filing_prior,common,529,2010,2024,old_treasury90;old_curve90;old_inflation;old_stress;duration;distribution;known_prior,old_treasury90,47,60,state_year,46
+original_controls_decision_prior,common,529,2010,2024,old_treasury90;old_curve90;old_inflation;old_stress;duration;distribution;old_prior,old_treasury90,47,60,state_year,46
+original_full,original,533,2010,2024,old_treasury90;old_curve90;old_inflation;old_stress;duration;distribution;old_prior,old_treasury90,47,60,state_year,46

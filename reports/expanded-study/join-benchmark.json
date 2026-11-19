@@ -1,0 +1,14 @@
+{
+  "cases": 759,
+  "compared_variables": [
+    "treasury90",
+    "curve90",
+    "inflation",
+    "stress"
+  ],
+  "maximum_absolute_difference": 7.274181257344026e-13,
+  "direct_seconds": 0.5888878750847653,
+  "indexed_seconds": 0.0038257919950410724,
+  "observed_speed_ratio": 153.9257429175637,
+  "timing_scope": "One local run; parsing excluded. Indexed path also joins state unemployment."
+}

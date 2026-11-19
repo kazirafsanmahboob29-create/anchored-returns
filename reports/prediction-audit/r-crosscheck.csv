@@ -1,0 +1,13 @@
+"check","value"
+"training_mean.mae_bp",42.2131205673759
+"training_mean.rmse_bp",59.8626053930401
+"previous_award.mae_bp",24.2393617021277
+"previous_award.rmse_bp",35.7999019373434
+"market_case.mae_bp",53.1121550308738
+"market_case.rmse_bp",69.8575435086234
+"with_prior.mae_bp",23.3305123184527
+"with_prior.rmse_bp",32.2993481893839
+"previous_award.improvement_bp",0.908849383674959
+"previous_award.se_bp",1.42863517253694
+"market_case.improvement_bp",29.7816427124211
+"market_case.se_bp",3.93825430404075

@@ -1,0 +1,7 @@
+test,covariance,statistic,df,denominator_df,p,status
+equal_rise_fall_slopes,two_way,0.352239830712621,1,47,0.5556935635275718,approximate_cluster_F
+equal_rise_fall_slopes,state,0.4843589714636203,1,47,0.4898818576195161,approximate_cluster_F
+equal_rise_fall_slopes,quarter,0.2995609632393118,1,47,0.58674750151954,approximate_cluster_F
+equal_regional_rate_slopes,two_way,22.350902141894807,3,47,3.8715376183990624e-09,approximate_cluster_F
+equal_regional_rate_slopes,state,6.0362033831280675,3,47,0.0014527090371415138,approximate_cluster_F
+equal_regional_rate_slopes,quarter,3.317634730424085,3,47,0.027721076733051218,approximate_cluster_F

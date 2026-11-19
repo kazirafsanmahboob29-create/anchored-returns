@@ -1,0 +1,7 @@
+"test","covariance","statistic","p"
+"equal_rise_fall_slopes","two_way",0.352239830712628,0.555693563527568
+"equal_rise_fall_slopes","state",0.48435897146363,0.489881857619512
+"equal_rise_fall_slopes","quarter",0.29956096323932,0.586747501519535
+"equal_regional_rate_slopes","two_way",22.3509021418936,3.87153761840196e-09
+"equal_regional_rate_slopes","state",6.03620338312821,0.0014527090371413
+"equal_regional_rate_slopes","quarter",3.31763473042415,0.0277210767330491

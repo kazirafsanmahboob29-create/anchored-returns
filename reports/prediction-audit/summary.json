@@ -1,0 +1,87 @@
+{
+  "schema": "anchored-returns-prediction-audit/1",
+  "analysis_date": "2026-10-28",
+  "evaluation": "Post hoc audit of fixed predictions; no refitting",
+  "train_years": [
+    2010,
+    2019
+  ],
+  "test_years": [
+    2020,
+    2024
+  ],
+  "observations": 188,
+  "entities": 105,
+  "metrics": [
+    {
+      "model": "training_mean",
+      "n": 188,
+      "mae_bp": 42.21312056737592,
+      "rmse_bp": 59.86260539304014,
+      "bias_bp": 27.016450817144676,
+      "median_absolute_error_bp": 33.489855072463826
+    },
+    {
+      "model": "previous_award",
+      "n": 188,
+      "mae_bp": 24.23936170212766,
+      "rmse_bp": 35.79990193734341,
+      "bias_bp": 4.015957446808512,
+      "median_absolute_error_bp": 16.999999999999993
+    },
+    {
+      "model": "market_case",
+      "n": 188,
+      "mae_bp": 53.11215503087376,
+      "rmse_bp": 69.85754350862337,
+      "bias_bp": 10.380141316271848,
+      "median_absolute_error_bp": 39.02228123833913
+    },
+    {
+      "model": "with_prior",
+      "n": 188,
+      "mae_bp": 23.330512318452698,
+      "rmse_bp": 32.29934818938393,
+      "bias_bp": -3.4449824625078307,
+      "median_absolute_error_bp": 17.572602743433308
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "previous_award",
+      "candidate": "with_prior",
+      "n": 188,
+      "states": 42,
+      "quarters": 20,
+      "improvement_bp": 0.9088493836749608,
+      "se_bp": 1.4286351725369444,
+      "low_bp": -1.8912241015446165,
+      "high_bp": 3.708922868894538,
+      "variance_status": "positive",
+      "candidate_wins": 86,
+      "reference_wins": 102,
+      "ties": 0
+    },
+    {
+      "reference": "market_case",
+      "candidate": "with_prior",
+      "n": 188,
+      "states": 42,
+      "quarters": 20,
+      "improvement_bp": 29.78164271242107,
+      "se_bp": 3.9382543040407514,
+      "low_bp": 22.062806114541342,
+      "high_bp": 37.5004793103008,
+      "variance_status": "positive",
+      "candidate_wins": 156,
+      "reference_wins": 32,
+      "ties": 0
+    }
+  ],
+  "equal_entity_improvement_bp": 1.5846696879664144,
+  "leave_one_state_out_range_bp": [
+    0.41835051631614967,
+    1.62745182792726
+  ],
+  "uncertainty": "Finite-sample-corrected state plus quarter minus intersection covariance; 95% normal Wald interval; fitted models held fixed"
+}
