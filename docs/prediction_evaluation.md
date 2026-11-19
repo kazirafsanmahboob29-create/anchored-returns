@@ -33,16 +33,17 @@ These checks use the saved sequential retrospective predictions. A test-period r
 
 ## Reproduce
 
-From the repository root, after installing the normal Python dependencies:
+In a disposable checkout, [obtain the workbook and rebuild the local tables](REPRODUCIBILITY.md#rebuild-the-current-studies). Then regenerate the factor manifest and run the audit:
 
 ```sh
+python -c 'from src.factor_study import package; package()'
 python -m src.prediction_audit
 Rscript analysis/prediction_audit.R reports/prediction-audit
 python -m src.prediction_audit --verify-r
 python -m src.prediction_audit --check
 ```
 
-The first command checks the preserved factor-study fingerprints and writes new evaluation outputs. It leaves the original study unchanged. The R command independently recomputes four MAEs, four RMSEs, two paired improvements and two clustered standard errors. `--verify-r` compares those 12 values and records the artifact hashes. `--check` verifies the saved fingerprints and recomputes the numerical comparisons without writing files. CI checks the saved evaluation and runs the native R checks separately.
+The first command checks the rebuilt factor coefficients and standard errors against the saved R cross-check and records the local file fingerprints. The Python audit verifies those fingerprints and writes evaluation outputs. The R command independently recomputes four MAEs, four RMSEs, two paired improvements and two clustered standard errors. `--verify-r` compares those 12 values and records the artifact hashes. `--check` verifies the saved fingerprints and recomputes the numerical comparisons without writing files.
 
 Use `--output /path/to/empty-folder` for another output location. The program refuses to overwrite a nonempty folder that is not an existing prediction-audit export. Rebuilding invalidates any earlier R check until R has been rerun.
 

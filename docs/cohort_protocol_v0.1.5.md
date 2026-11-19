@@ -1,5 +1,7 @@
 # Original-order cohort, version 0.1.5
 
+> Note added November 2026: this public repository includes summary results and a coding extract, not the full case archive or ledger, which are held privately. See [DATA_RIGHTS.md](DATA_RIGHTS.md) and [CHANGES_FROM_ORIGINAL.md](CHANGES_FROM_ORIGINAL.md). The text below is unchanged from its dated version.
+
 Kazi Rafsan Mahboob | October 21, 2026
 
 I retain the 22 primary decisions and one approved-settlement supplement in version 0.1.4. I add a separate supplement containing all four formula-implementation orders in the screened library. The resulting archive contains 27 written decisions, not 27 independently determined cost-of-equity awards. The primary cohort and its eligibility rules are unchanged.

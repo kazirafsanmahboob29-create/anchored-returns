@@ -1,5 +1,7 @@
 # Requests, decisions and persistence: analysis plan
 
+> Note added November 2026: this public repository includes summary results and a coding extract, not the full case archive or ledger, which are held privately. See [DATA_RIGHTS.md](DATA_RIGHTS.md) and [CHANGES_FROM_ORIGINAL.md](CHANGES_FROM_ORIGINAL.md). The text below is unchanged from its dated version.
+
 Editorial revision October 30, 2026, after the results: presentation instructions and unsupported first-person authorship claims were removed. The empirical rules and recorded post-estimation changes are retained. Original fingerprints are listed in `editorial_changes.json`.
 
 Kazi Rafsan Mahboob · October 30, 2026

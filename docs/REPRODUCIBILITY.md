@@ -4,7 +4,7 @@ The current source package contains code, economic histories, aggregate results 
 
 ## Install and check the public source
 
-Install Python 3.11 or later and [Node.js 24](https://nodejs.org/en/download). Both `python3` and `node` must be available in the terminal. The editable install includes PyMuPDF for the `pymupdf` and `fitz` imports. Base R is needed only for the `Rscript` commands.
+Install Python 3.11 or later. The editable install includes PyMuPDF for the `pymupdf` and `fitz` imports. Base R is needed only for the `Rscript` commands.
 
 ```sh
 python3 -m venv .venv
@@ -14,7 +14,7 @@ python -m scripts.check_public_release
 python -m scripts.check_links
 ```
 
-On Windows, activate with `.venv\Scripts\activate`. Public CI runs these source and software checks. Synthetic fixtures test calculations and timing rules; they never enter empirical results. This CI job does not independently reproduce the research estimates without the source data.
+On Windows, activate with `.venv\Scripts\activate`. Synthetic fixtures test calculations and timing rules. They never enter empirical results. Workbook-dependent tests skip when their required local files are absent.
 
 ## Obtain the case data
 
@@ -34,10 +34,9 @@ The original-order financial pilot can be rebuilt from the included fact records
 
 ```sh
 python -m scripts.analyze_comparability
-Rscript analysis/comparability_check.R
 ```
 
-This rewrites the pilot's figures, financial table and sensitivity calculations without acquiring the EEI workbook. To keep existing reports unchanged, run it in a disposable copy using the procedure below. The [pilot report](../reports/comparability/README.md) gives coverage and source locations.
+This rewrites the pilot's figures, financial table and sensitivity calculations without acquiring the EEI workbook. To keep existing reports unchanged, run it in a disposable copy as described under [Source-dependent checks](#source-dependent-checks). The [pilot report](../reports/comparability/README.md) gives coverage and source locations.
 
 For the national analyses, obtain the workbook as described above, then run:
 
@@ -45,7 +44,7 @@ For the national analyses, obtain the workbook as described above, then run:
 python -m scripts.reproduce_filing --with-r
 ```
 
-This rebuilds the national tables, earlier estimation inputs, historical panel, filing study and peer study in dependency order. Base R independently compares the current stage models and peer models with Python. The intermediate tables are generated locally and ignored by Git. The macroeconomic vintages remain fixed to the preserved histories. A new API retrieval is a separate input vintage.
+This rebuilds the earlier factor estimation inputs, historical panel, filing study and peer study in dependency order. With `--with-r`, base R independently compares the filing and peer models with Python. The intermediate tables are generated locally and ignored by Git. The macroeconomic vintages remain fixed to the preserved histories. A new API retrieval is a separate input vintage.
 
 For later reruns after the intermediate inputs exist:
 
@@ -68,62 +67,17 @@ python -m pip install -e '.[paper]'
 python paper/build.py
 ```
 
-The maintained text is `paper/manuscript.md`; the build writes the editable Word document to `paper/output/`. Export it to PDF and inspect the pages. The distributed PDF and Word document use the same manuscript. Figures can be regenerated with `python paper/figures.py` after the national tables have been rebuilt.
+The maintained text is `paper/manuscript.md`; the build writes the editable Word document to `paper/output/`. Export it to PDF and inspect the pages. The distributed PDF and Word document use the same manuscript. Figures can be regenerated with `python paper/figures.py` after the filing study has been rebuilt.
 
-## Use the local case explorer
+## Source-dependent checks
 
-After reproducing the data:
-
-```sh
-python -m http.server 8765 --bind 127.0.0.1
-```
-
-Open http://127.0.0.1:8765/presentation/filing.html. Filters select local cases and recalculate descriptive summaries; they do not refit the published models. A fresh checkout displays a source-acquisition message until the local tables are built. The earlier WordPress and service bundles are superseded build products and are excluded from the new package.
-
-## Source-dependent and document checks
-
-Run the full checks in a disposable copy because existing tests can rebuild publication files. From the repository root, with Node.js available:
+Use a disposable checkout if you want to preserve the saved outputs. In that checkout, install the test dependencies, import your workbook as above, run the local rebuild, and then run:
 
 ```sh
-(
-    check_dir="$(mktemp -d)"
-    trap 'rm -rf "$check_dir"' EXIT
-    cp -R . "$check_dir/repo"
-    cd "$check_dir/repo" || exit
-    python3 -m venv "$check_dir/venv" || exit
-    . "$check_dir/venv/bin/activate"
-    python -m pip install -e '.[test]' || exit
-    python -m scripts.check_calculations
-    python -m pytest -q
-)
+python -m pytest -q
 ```
 
-To rebuild the financial pilot without changing existing reports, replace the two check commands with `python -m scripts.analyze_comparability`. The temporary copy and its environment are deleted when the subshell exits.
-
-Additional document checks require the original sources:
-
-```sh
-python scripts/fetch_sources.py --check
-python scripts/fetch_sources.py --download
-python -m src.research check --full
-```
-
-### Limitations
-
-I checked a clean clone with the declared Python dependencies and Node.js installed. `python -m scripts.check_public_release` and `python -m scripts.analyze_comparability` passed in a disposable copy. Both broader checks still failed on missing source inputs or generated files:
-
-| Required material | Checks affected |
-|---|---|
-| Local EEI workbook and generated EEI exports | EEI and national-study tests in both checks |
-| Generated factor, prediction, expanded-study and filing-study case tables | Saved-result tests in both checks |
-| Legacy presentation entry page and compiled research files | Application, download and WordPress tests in both checks |
-| Original order PDFs and the RRA source PDF | Additional document and reconstruction tests in the full pytest suite |
-
-Node.js and PyMuPDF alone do not supply these files. The calculation command stops at its failed Python stage, so its later JavaScript stages were not verified. This clone has no source-dependent pytest skip mechanism; the missing-input tests fail rather than skip. Passing checks after restoring those materials remain NOT VERIFIED.
-
-The existing EEI import command copies a workbook into the repository, and the national reproduction and filing-study calculation functions read that fixed location. I did not run them or copy the workbook. They need a separate path-handling decision before reproduction under an external-workbook-only rule.
-
-The original PDF manifest contains source URLs and fingerprints. Restored documents must match those records. Independent ratings cannot be created by restoring files, and missing benchmark reports remain missing.
+The rebuild generates the local case tables needed by the saved-result tests. The decade test reads the local workbook. The [prediction evaluation](prediction_evaluation.md#reproduce) describes how to refresh the factor manifest for a local audit.
 
 ## Paper
 

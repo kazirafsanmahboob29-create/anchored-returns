@@ -6,13 +6,13 @@ The previous study documented an association between successive authorized retur
 
 ## Data and sample construction
 
-The case source is the preserved [EEI 2025 Q3 workbook](../data/external/eei/source.json). Its [finance page](https://www.eei.org/issues-and-policy/finance-and-tax) was checked again on October 30. That page still links 2025 Q3 as the newest public rate-review workbook. `read_workbook` checks its fingerprint, sheet identities and published quarterly controls. The status `Settled` is a completion field here; it does not identify a negotiated settlement rather than a litigated decision.
+The case source is the separately obtained EEI 2025 Q3 workbook. The [source metadata](../data/external/eei/source.json) records the workbook fingerprint. At the October 30 check, [EEI’s finance page](https://www.eei.org/issues-and-policy/finance-and-tax) listed 2025 Q3 as its newest rate-review workbook. `read_workbook` checks its fingerprint, sheet identities and published quarterly controls. The status `Settled` is a completion field here; it does not identify a negotiated settlement rather than a litigated decision.
 
 Of 2,198 completed base-rate observations in 1980–2024, 1,785 have both requested and authorized ROE and valid filing dates. The paired table covers 50 jurisdictions and 1,694 distinct state/decision dates. It is a publisher-table dataset, not 1,785 independently coded original orders.
 
 The 1985–2024 stage model uses 1,266 pairs with complete predictors. Adding an award known before filing leaves 1,135. The earlier 759-observation panel and this stage panel overlap on 753 IDs. Six earlier cases lack a recorded request. Different questions and inclusion rules produce different samples; these denominators are not interchangeable.
 
-`panel.csv` keeps every candidate, inclusion flag, source row, docket, exact utility-state label, request, award and prior-decision IDs. No fuzzy utility-name matches or missing-value imputation are used. The existing 53-series economic archive is retained. An additional [Alabama unemployment history](../data/external/filing_2026-10-30/manifest.json) covers a state present in the pre-1985 descriptive table. It does not add a state to the primary regression sample.
+The local rebuild generates `panel.csv` with every candidate, inclusion flag, source row, docket, exact utility-state label, request, award and prior-decision IDs. No fuzzy utility-name matches or missing-value imputation are used. The existing 53-series economic archive is retained. An additional [Alabama unemployment history](../data/external/filing_2026-10-30/manifest.json) covers a state present in the pre-1985 descriptive table. It does not add a state to the primary regression sample.
 
 ## Chronology
 
@@ -71,11 +71,8 @@ python -m src.filing_study
 Rscript analysis/filing.R reports/filing-study
 python -m src.filing_study --verify-r
 python -m src.filing_study --check
-python -m src.research serve --snapshot
 ```
 
-Open `http://127.0.0.1:8765/presentation/filing.html`. The local explorer filters real pairs by region, authorization year, utility, state and docket. It recalculates paired means, gaps and annual plots, and exports every selected row. It does not fit regressions in the browser or silently change the published findings. Empty selections remain empty. Source values are inserted as text, and CSV exports quote strings and neutralize spreadsheet formulas.
-
-The R script independently rebuilds all 12 stage models, three covariance choices, 35 coefficient identities and six prediction rules. Prepared Stata syntax and Unicode datasets are included. Numeric DTA round trips are checked; native Stata execution remains unverified. The [analysis plan](filing_analysis_plan_2026-10-30.md) distinguishes initial decisions from the diagnostic changes after the first calculation. The [results](../reports/filing-study/README.md) contain the estimates and all supporting exports.
+The R script independently rebuilds all 12 stage models, three covariance choices, 35 coefficient identities and six prediction rules. The repository includes Stata syntax, and the local rebuild generates DTA datasets. Native Stata execution remains unverified. The [analysis plan](filing_analysis_plan_2026-10-30.md) distinguishes initial decisions from the diagnostic changes after the first calculation. The [results](../reports/filing-study/README.md) contain the aggregate estimates and figures.
 
 Year effects absorb annual national variation. The Treasury coefficients use variation in case timing within years and cannot establish the national peer-anchoring hypothesis. The peer follow-up addresses that question directly. [Nickell (1981)](https://www.jstor.org/stable/1911408) discusses the fixed-effects bias.

@@ -12,10 +12,10 @@ Obtain a copy from [EEI's finance page](https://www.eei.org/issues-and-policy/fi
 
 ### Earlier public copies
 
-Earlier commits and the archived import-history branch contain source copies. Removing files from the current tree does not remove them from public Git history, forks, caches or earlier website downloads. A private local backup has been prepared. Replacing published history requires a separate, explicit approval and cannot guarantee removal of external copies. Earlier hosted bundles also require a separate publication audit. Neither historical removal nor site removal is claimed complete here.
+The earlier repository was made private and replaced by this one. Earlier public copies may persist in clones, forks and caches. No removal from external copies is claimed.
 
 ## Other sources
 
 Source records retain the originating commissions, agencies and publishers. Federal economic series retain their producer credits and retrieval vintages. Commission documents and third-party reports do not acquire a new license through this project. Moody's series were excluded from the public data inputs because their notes restrict redistribution.
 
-The project does not apply a blanket license to third-party evidence. PDF.js retains its Apache 2.0 license and notices. Original code and research text are distinguished from third-party materials throughout the source records.
+The project does not apply a blanket license to third-party evidence. Original code and research text are distinguished from third-party materials throughout the source records.

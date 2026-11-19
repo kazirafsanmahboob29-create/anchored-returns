@@ -1,5 +1,7 @@
 # Empirical protocol v0.1.3: October 1, 2026
 
+> Note added November 2026: this public repository includes summary results and a coding extract, not the full case archive or ledger, which are held privately. See [DATA_RIGHTS.md](DATA_RIGHTS.md) and [CHANGES_FROM_ORIGINAL.md](CHANGES_FROM_ORIGINAL.md). The text below is unchanged from its dated version.
+
 I adopted this amendment on October 1 to govern sample selection, source-backed numeric entry and passage coding alongside the preserved v0.1.2 codebook. It supersedes the earlier author-only coding restriction. Labels from the current workflow are **assistant-coded**; they are not independent human ratings or a classifier-validation set. I preserve the original documents and disclose coder identity in the ledger.
 
 This is a prospective workflow amendment before pilot passage coding, not a preregistration: the motivating case, candidate documents and 26 previously verified facts were already known. No causal finding is presupposed. The 15-order pilot is descriptive.
